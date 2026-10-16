@@ -1,0 +1,6258 @@
+[
+ {
+  "id": "main2026-0404-s2-che-a-q01",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 1,
+  "stem": "The correct order of total number of atoms present in\\n(A) 2 moles of cyclohexane\\n(B) 684 g of sucrose\\n(C) 90.8 L of dihydrogen at STP\\nis:",
+  "stem_images": [],
+  "options": {
+   "A": "C > A > B",
+   "B": "C > B > A",
+   "C": "B > C > A",
+   "D": "B > A > C"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Mole concept",
+    "Stoichiometry"
+   ],
+   "formulas": [
+    "$\\text{moles of atoms} = (\\text{moles of substance}) \\times (\\text{atoms per formula unit})$",
+    "$n = m/M$, $n = V/22.4\\ \\mathrm{L}$ at STP (per mole of gas)"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Cyclohexane $\\ce{C6H12}$ has 18 atoms per molecule: (A) $2 \\times 18 = 36$ mol of atoms."
+    },
+    {
+     "n": 2,
+     "text": "Sucrose $\\ce{C12H22O11}$ ($M = 342$): $684/342 = 2$ mol; atoms per molecule $= 12+22+11 = 45$: (B) $2 \\times 45 = 90$ mol of atoms."
+    },
+    {
+     "n": 3,
+     "text": "(C) $90.8/22.4 = 4.05$ mol $\\ce{H2}$; atoms $= 2 \\times 4.05 = 8.1$ mol of atoms."
+    },
+    {
+     "n": 4,
+     "text": "Hence $B (90) > A (36) > C (8.1)$."
+    }
+   ],
+   "pitfalls": [
+    "Using 22.7 L molar volume changes the number but not the order; counting molecules instead of atoms."
+   ],
+   "final_check": "90 > 36 > 8.1 confirms B > A > C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Some Basic Concepts of Chemistry"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278426",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392153+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q02",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 2,
+  "stem": "The species having identical radii according to the Bohr's theory are:\\nA. H (first orbit)\\nB. $\\ce{He-}$ (first orbit)\\nC. $\\ce{He-}$ (Second orbit)\\nD. $\\ce{Li^2+}$ (first orbit)\\nE. $\\ce{Be^3+}$ (Second orbit)\\nChoose the correct answer from the options given below:",
+  "stem_images": [],
+  "options": {
+   "A": "A and C Only",
+   "B": "A and E Only",
+   "C": "B and E Only",
+   "D": "C and D Only"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Atomic structure",
+    "Bohr's model"
+   ],
+   "formulas": [
+    "$r_n = 0.529\\,\\dfrac{n^2}{Z}\\ \\text{\\AA}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Compute $n^2/Z$: A: $1/1 = 1$; B: $1/2$; C: $4/2 = 2$; D: $1/3$; E: $4/4 = 1$."
+    },
+    {
+     "n": 2,
+     "text": "A and E both give $n^2/Z = 1$, hence identical radii."
+    }
+   ],
+   "pitfalls": [
+    "Note $\\ce{He-}$ is written for the helium-like ion (Z = 2); do not confuse with neutral He."
+   ],
+   "final_check": "Only the pair (A, E) shares the same $n^2/Z$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Atomic Structure"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278427",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392160+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q03",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 3,
+  "stem": "Which of the following pictorial diagram most correctly represents the $\\pi^*$ ($\\pi$-antibonding) molecular orbital between two atoms if the internuclear axis is taken to be in the z-direction?",
+  "stem_images": [],
+  "options": {
+   "A": "Diagram with two shaded lobes above the axis and a plain region below (sigma-type sketch)",
+   "B": "Four-lobed sketch: both lobes on the left atom shaded, both lobes on the right atom unshaded (node only between the nuclei)",
+   "C": "Four-lobed sketch: diagonally alternating phases - top-left and bottom-right lobes shaded, top-right and bottom-left unshaded (nodal plane along the z-axis and a node between the nuclei)",
+   "D": "Three elongated horizontal lobes with alternating shading (delta-type sketch)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Chemical bonding",
+    "Molecular orbital theory"
+   ],
+   "formulas": [
+    "$\\pi^*$ is formed by out-of-phase overlap of $p_x/p_y$ orbitals: a nodal plane contains the internuclear axis and another node lies between the nuclei."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "A $\\pi$ MO has a nodal plane containing the internuclear (z) axis: on each atom the lobe above the axis and the lobe below have opposite phases."
+    },
+    {
+     "n": 2,
+     "text": "Antibonding $\\pi^*$ additionally has a node between the two nuclei, so phases reverse from one atom to the other."
+    },
+    {
+     "n": 3,
+     "text": "Combined, the four lobes alternate diagonally: top-left shaded, top-right plain, bottom-left plain, bottom-right shaded - option C."
+    },
+    {
+     "n": 4,
+     "text": "Option B lacks the axial nodal plane; A and D are not $\\pi$-type."
+    }
+   ],
+   "pitfalls": [
+    "Confusing $\\pi^*$ with $\\sigma^*$ (node only between nuclei); forgetting the axial nodal plane of all $\\pi$ orbitals."
+   ],
+   "final_check": "Only option C shows both required nodes (axial nodal plane + internuclear node)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Chemical Bonding and Molecular Structure"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278428",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392166+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q04",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 4,
+  "stem": "At $27^\\circ\\mathrm{C}$, 0.1 M, 1 L $\\ce{K4[Fe(CN)6]}$ aqueous solution and 0.1 M, 1 L $\\ce{FeCl3}$ aqueous solution are placed in a container separated by a semi permeable membrane AB. Assume complete dissociation of both the solutes. Which of the following statement is correct?",
+  "stem_images": [],
+  "options": {
+   "A": "Blue color is formed on both sides.",
+   "B": "Ionic solutes in aqueous solution can pass through semi-permeable membrane.",
+   "C": "Solution on side 'y' is hypotonic.",
+   "D": "To cause the reverse flow of solvent during osmosis, external pressure (any value) should be applied to side 'x'."
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Solutions",
+    "Osmosis and colligative properties"
+   ],
+   "formulas": [
+    "$\\pi = iCRT$; water flows from hypotonic (lower $\\pi$) to hypertonic side; a semi-permeable membrane passes only solvent."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\ce{K4[Fe(CN)6]}$: $i = 5$, effective $0.5$ M; $\\ce{FeCl3}$: $i = 4$, effective $0.4$ M. So $\\pi_x > \\pi_y$."
+    },
+    {
+     "n": 2,
+     "text": "Side y (lower osmotic pressure) is hypotonic relative to side x - statement C is correct."
+    },
+    {
+     "n": 3,
+     "text": "A is wrong (solutes cannot cross, so no Prussian blue forms on both sides); B is wrong (only solvent passes); D is wrong (reverse osmosis needs pressure exceeding the osmotic-pressure difference, not any value)."
+    }
+   ],
+   "pitfalls": [
+    "Reversing the direction of solvent flow; thinking $\\ce{Fe^3+}$/[Fe(CN)6] ions cross the membrane."
+   ],
+   "final_check": "With $iC$ of 0.5 vs 0.4, side y is unambiguously hypotonic."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Solutions"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278429",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392172+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q05",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 5,
+  "stem": "20 mL of a solution of acetic acid required 28.4 mL of 0.1 M NaOH for its neutralization. A solution (X) was prepared by mixing 20 mL of the above acetic acid and 14.2 mL of 0.1 M NaOH solution. What is the pH of the solution (X)? ($\\mathrm{p}K_a$ value of acetic acid is 4.75).",
+  "stem_images": [],
+  "options": {
+   "A": "7.0",
+   "B": "4.75",
+   "C": "3.5",
+   "D": "4.82"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Ionic equilibrium",
+    "Buffer solutions"
+   ],
+   "formulas": [
+    "Henderson-Hasselbalch: $\\mathrm{pH} = \\mathrm{p}K_a + \\log\\dfrac{[\\text{salt}]}{[\\text{acid}]}$; at half-neutralization $[\\text{salt}] = [\\text{acid}]$."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "14.2 mL is exactly half of the neutralization volume 28.4 mL, so exactly half the acetic acid is converted to acetate."
+    },
+    {
+     "n": 2,
+     "text": "Thus $[\\ce{CH3COO-}] = [\\ce{CH3COOH}]$ and $\\mathrm{pH} = \\mathrm{p}K_a = 4.75$."
+    }
+   ],
+   "pitfalls": [
+    "Computing concentrations unnecessarily or applying the dilution formula wrongly."
+   ],
+   "final_check": "Half-neutralization point of a weak acid always has pH = pKa."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Equilibrium"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278430",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392178+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q06",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 6,
+  "stem": "Match the LIST-I with LIST-II\\n| List-I (Reaction) | List-II (Mechanism) |\\n| A. Williamson Synthesis | I. Electrophilic addition |\\n| B. Friedel Craft Reaction | II. Free radical substitution |\\n| C. Bromination of vinyl benzene | III. Nucleophilic substitution |\\n| D. Chlorination of toluene in light | IV. Electrophilic substitution |\\nChoose the correct answer from the options given below:",
+  "stem_images": [],
+  "options": {
+   "A": "A-III, B-I, C-II, D-IV",
+   "B": "A-III, B-IV, C-II, D-I",
+   "C": "A-III, B-IV, C-I, D-II",
+   "D": "A-I, B-III, C-IV, D-II"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Organic chemistry",
+    "Reaction mechanisms"
+   ],
+   "formulas": [
+    "Williamson ether synthesis is $\\mathrm{S_N2}$; Friedel-Crafts is electrophilic aromatic substitution; $\\ce{Br2}$ adds to alkenes electrophilically; $\\ce{Cl2}/h\\nu$ on toluene gives benzylic free-radical substitution."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "A (Williamson): alkoxide displaces halide - III (nucleophilic substitution)."
+    },
+    {
+     "n": 2,
+     "text": "B (Friedel-Crafts): $\\ce{E+}$ attacks the ring - IV (electrophilic substitution)."
+    },
+    {
+     "n": 3,
+     "text": "C (bromination of the vinyl group): $\\ce{Br2}$ adds across C=C - I (electrophilic addition)."
+    },
+    {
+     "n": 4,
+     "text": "D ($\\ce{Cl2}$, light): benzylic H abstraction - II (free radical substitution)."
+    }
+   ],
+   "pitfalls": [
+    "Assigning ring bromination to vinyl benzene (the side-chain double bond reacts first)."
+   ],
+   "final_check": "Each reaction maps to a distinct, textbook mechanism: A-III, B-IV, C-I, D-II."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Organic Chemistry - Basic Principles and Techniques",
+    "Hydrocarbons"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278431",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392187+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q07",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 7,
+  "stem": "The $1^{\\mathrm{st}}$ ionization enthalpy for Mg is $+737\\ \\mathrm{kJ/mol}$. The most probable estimated value of the $2^{\\mathrm{nd}}$ ionization enthalpy of Mg is ______.",
+  "stem_images": [],
+  "options": {
+   "A": "$-906\\ \\mathrm{kJ/mol}$",
+   "B": "$-856\\ \\mathrm{kJ/mol}$",
+   "C": "$+1450\\ \\mathrm{kJ/mol}$",
+   "D": "$+590\\ \\mathrm{kJ/mol}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Periodic table",
+    "Ionization enthalpy"
+   ],
+   "formulas": [
+    "$\\mathrm{IE_2} > \\mathrm{IE_1}$ always (greater effective nuclear charge, smaller ion); ionization is endothermic ($\\Delta H > 0$)."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Negative values (A, B) are impossible for ionization enthalpy."
+    },
+    {
+     "n": 2,
+     "text": "$\\mathrm{IE_2}$ must exceed 737 kJ/mol; the known value for Mg is $\\approx 1450\\ \\mathrm{kJ/mol}$ (removing the second 3s electron)."
+    }
+   ],
+   "pitfalls": [
+    "Picking a value below $\\mathrm{IE_1}$ or a negative (exothermic) value."
+   ],
+   "final_check": "Only option C is positive and larger than 737 kJ/mol."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Classification of Elements and Periodicity in Properties"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278432",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392193+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q08",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 8,
+  "stem": "The electronegativity of a group 13 element 'E' is same as that of Ge (on Pauling scale and upto one decimal point). The CORRECT statements about $\\ce{E^3+}$ are\\nA. It can act as a reducing agent.\\nB. It can act as an oxidizing agent.\\nC. $\\ce{E^3+}$ is more stable than $\\ce{E+}$.\\nD. The standard electrode potential value for $\\ce{E^3+/E}$ is positive.\\nChoose the correct answer from the options given below:",
+  "stem_images": [],
+  "options": {
+   "A": "A and C Only",
+   "B": "B and C Only",
+   "C": "B and D Only",
+   "D": "A and D Only"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "p-block elements",
+    "Inert pair effect",
+    "Redox"
+   ],
+   "formulas": [
+    "Group 13 EN (Pauling): B 2.0, Al 1.5, Ga 1.6, In 1.7, Tl 1.8; Ge 1.8. $E^\\circ(\\ce{Tl^3+/Tl+}) = +1.25\\ \\mathrm{V}$, $E^\\circ(\\ce{Tl^3+/Tl}) = +0.72\\ \\mathrm{V}$."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "E = thallium (EN 1.8 = Ge 1.8)."
+    },
+    {
+     "n": 2,
+     "text": "A is false: $\\ce{Tl^3+}$ has no accessible higher oxidation state, so it cannot be oxidized (cannot act as a reducing agent)."
+    },
+    {
+     "n": 3,
+     "text": "B is true: $\\ce{Tl^3+ + 2e- -> Tl+}$ has $E^\\circ = +1.25\\ \\mathrm{V}$ - a strong oxidizing agent."
+    },
+    {
+     "n": 4,
+     "text": "C is false: due to the inert pair effect, $\\ce{Tl+}$ is more stable than $\\ce{Tl^3+}$."
+    },
+    {
+     "n": 5,
+     "text": "D is true: $E^\\circ(\\ce{Tl^3+/Tl}) = +0.72\\ \\mathrm{V} > 0$."
+    }
+   ],
+   "pitfalls": [
+    "Identifying E as boron (its chemistry has no stable aqueous $\\ce{E^3+}$); forgetting the inert pair effect for Tl."
+   ],
+   "final_check": "B and D are the true statements, matching option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "p-Block Elements"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278433",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392200+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q09",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 9,
+  "stem": "Pairs of elements with the same number of electrons in their respective 4f orbital are\\n[Atomic number: Eu-63, Gd-64, Dy-66, Ho-67, Tm-69, Yb-70, Lu-71, Hf-72]\\nA. (Eu and Gd)\\nB. (Dy and Ho)\\nC. (Yb and Hf)\\nD. (Lu and Tm)\\nChoose the correct answer from the options given below:",
+  "stem_images": [],
+  "options": {
+   "A": "B and C Only",
+   "B": "A and B Only",
+   "C": "A and D Only",
+   "D": "A and C Only"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "d- and f-block elements",
+    "Electronic configuration"
+   ],
+   "formulas": [
+    "Lanthanide 4f counts: Eu $4f^7$, Gd $4f^7$, Dy $4f^{10}$, Ho $4f^{11}$, Tm $4f^{13}$, Yb $4f^{14}$, Lu $4f^{14}$, Hf $4f^{14}$."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "A: Eu $4f^7$ and Gd $4f^7$ - same."
+    },
+    {
+     "n": 2,
+     "text": "B: Dy $4f^{10}$ and Ho $4f^{11}$ - different."
+    },
+    {
+     "n": 3,
+     "text": "C: Yb $4f^{14}$ and Hf $4f^{14}$ - same (Hf is 5d but its 4f shell is full)."
+    },
+    {
+     "n": 4,
+     "text": "D: Lu $4f^{14}$ and Tm $4f^{13}$ - different."
+    },
+    {
+     "n": 5,
+     "text": "So pairs A and C match."
+    }
+   ],
+   "pitfalls": [
+    "Assuming Hf has fewer than 14 f-electrons because it is a d-block element (the 4f shell is already complete at Yb/Lu)."
+   ],
+   "final_check": "Both A and C are 7/7 and 14/14 respectively."
+  },
+  "taxonomy": {
+   "chapters": [
+    "d- and f-Block Elements"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278434",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392211+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q10",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 10,
+  "stem": "Consider the metal complexes $\\ce{[Ni(en)3]^2+}$ (A), $\\ce{[NiCl4]^2-}$ (B) and $\\ce{[Ni(NH3)6]^2+}$ (C). Choose the CORRECT option by considering the number of unpaired electrons present in (A), (B) and (C) respectively and the order of frequency of absorption.",
+  "stem_images": [],
+  "options": {
+   "A": "2, 2, 2 and (A) > (C) > (B)",
+   "B": "0, 2, 0 and (A) > (C) > (B)",
+   "C": "2, 2, 0 and (B) > (C) > (A)",
+   "D": "2, 2, 2 and (C) > (A) > (B)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Coordination compounds",
+    "Crystal field theory"
+   ],
+   "formulas": [
+    "$\\ce{Ni^2+} = d^8$; octahedral: $t_{2g}^6 e_g^2$ (2 unpaired); tetrahedral: $e^4 t_2^4$ (2 unpaired). Spectrochemical series: en > $\\ce{NH3}$ > $\\ce{Cl-}$; $\\nu_{abs} \\propto \\Delta$."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "A: octahedral, en strong field - $t_{2g}^6 e_g^2$, 2 unpaired."
+    },
+    {
+     "n": 2,
+     "text": "B: tetrahedral, $\\ce{Cl-}$ weak - $e^4 t_2^4$, 2 unpaired."
+    },
+    {
+     "n": 3,
+     "text": "C: octahedral, $\\ce{NH3}$ - $t_{2g}^6 e_g^2$, 2 unpaired (d8 always has 2 unpaired)."
+    },
+    {
+     "n": 4,
+     "text": "Absorption frequency follows $\\Delta$: en > $\\ce{NH3}$ > $\\ce{Cl-}$, i.e. (A) > (C) > (B)."
+    }
+   ],
+   "pitfalls": [
+    "Thinking en/$\\ce{NH3}$ pair up d8 electrons (pairing is impossible for $d^8$ octahedral - $e_g$ must hold 2); reversing the spectrochemical order."
+   ],
+   "final_check": "2, 2, 2 with (A) > (C) > (B) is option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Coordination Compounds"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278435",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392217+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q11",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 11,
+  "stem": "Consider the following molecules/species: (x) tropone (cyclohepta-2,4,6-trien-1-one), (y) $(\\ce{CH3})2\\ce{C=O}$ (acetone), (z) $\\ce{CH3COO-}$ (acetate ion). The correct order of carbon-oxygen double bond length is:",
+  "stem_images": [],
+  "options": {
+   "A": "x > y > z",
+   "B": "y > z > x",
+   "C": "z > x > y",
+   "D": "x > z > y"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Chemical bonding",
+    "Resonance and bond length"
+   ],
+   "formulas": [
+    "Bond length increases as bond order decreases; resonance contributors with C-O single-bond character lengthen the bond."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(y) acetone: essentially pure C=O double bond - shortest."
+    },
+    {
+     "n": 2,
+     "text": "(z) acetate: full resonance, C-O bond order 1.5 - longest."
+    },
+    {
+     "n": 3,
+     "text": "(x) tropone: significant zwitterionic (tropylium $\\ce{O-}$) aromatic contributor reduces C-O bond order - intermediate, longer than a normal ketone."
+    },
+    {
+     "n": 4,
+     "text": "Hence $z > x > y$."
+    }
+   ],
+   "pitfalls": [
+    "Placing tropone below acetone by ignoring its aromatic charge-separated resonance form."
+   ],
+   "final_check": "z (1.5 order) > x (partial single-bond character) > y (full double bond)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Chemical Bonding and Molecular Structure"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278436",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392224+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 2,
+   "note": "First blind solve (C) incorrect; second blind solve confirms official key (D)."
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q12",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 12,
+  "stem": "Consider $|x|$ is the difference in oxidation states of Mn in highest manganese fluoride and highest manganese oxide. The ions with $|x|$ number of unpaired electrons from the following are:\\nA. $\\ce{Sc^3+}$\\nB. $\\ce{Zn^2+}$\\nC. $\\ce{V^2+}$\\nD. $\\ce{Fe^2+}$\\nE. $\\ce{Co^2+}$\\nChoose the correct answer from the options given below:",
+  "stem_images": [],
+  "options": {
+   "A": "A and B Only",
+   "B": "C, D and E Only",
+   "C": "C and E Only",
+   "D": "B and E Only"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "d-block elements",
+    "Oxidation states",
+    "Magnetic moment"
+   ],
+   "formulas": [
+    "Highest Mn fluoride = $\\ce{MnF4}$ (Mn +4); highest Mn oxide = $\\ce{Mn2O7}$ (Mn +7). Unpaired electrons from $d^n$ (high-spin): $d^3 \\to 3$, $d^6 \\to 4$, $d^7 \\to 3$."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$|x| = |4 - 7| = 3$."
+    },
+    {
+     "n": 2,
+     "text": "A: $\\ce{Sc^3+}$ $d^0$ - 0; B: $\\ce{Zn^2+}$ $d^{10}$ - 0; C: $\\ce{V^2+}$ $d^3$ - 3; D: $\\ce{Fe^2+}$ $d^6$ - 4; E: $\\ce{Co^2+}$ $d^7$ - 3."
+    },
+    {
+     "n": 3,
+     "text": "Ions with 3 unpaired electrons: C and E."
+    }
+   ],
+   "pitfalls": [
+    "Using $\\ce{MnF3}$ instead of $\\ce{MnF4}$ as the highest fluoride; miscounting $\\ce{Fe^2+}$ as 3 unpaired."
+   ],
+   "final_check": "$|x| = 3$ and exactly C ($d^3$) and E ($d^7$) have 3 unpaired electrons."
+  },
+  "taxonomy": {
+   "chapters": [
+    "d- and f-Block Elements"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278437",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392230+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q13",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 13,
+  "stem": "Consider the given graph showing variation of reactant concentration with time. Three different reactions were started with identical initial concentration of reactants. [R] vs t: curve 1 is a straight line, curves 2 and 3 are curved decays with 3 falling faster than 2. Which of the following statement is correct?",
+  "stem_images": [],
+  "options": {
+   "A": "The order of all the three reactions is same.",
+   "B": "The rate constant of reaction 3 is larger than the rate constant of reaction 2 if the order of reaction is same for both.",
+   "C": "The SI unit of rate constant of reaction 1 is $\\mathrm{s^{-1}}$.",
+   "D": "Thermal decomposition of HI on gold surface is an example of reaction 2."
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Chemical kinetics",
+    "Rate laws"
+   ],
+   "formulas": [
+    "Zero order: $[R] = [R]_0 - kt$ (straight line), $k$ in $\\mathrm{mol\\,L^{-1}\\,s^{-1}}$; for the same order, a faster fall means larger $k$."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Curve 1 is linear, so reaction 1 is zero order - A is false, and its $k$ has units $\\mathrm{mol\\,L^{-1}\\,s^{-1}}$, so C is false."
+    },
+    {
+     "n": 2,
+     "text": "Curve 3 decays faster than curve 2; if both have the same order, $k_3 > k_2$ - B is true."
+    },
+    {
+     "n": 3,
+     "text": "HI decomposition on gold is zero order (surface reaction), i.e. reaction-1 type, so D is false."
+    }
+   ],
+   "pitfalls": [
+    "Assigning $\\mathrm{s^{-1}}$ to a zero-order rate constant; treating HI/Au (a classic zero-order example) as curved-decay type."
+   ],
+   "final_check": "Only statement B survives: faster decay at the same order implies a larger rate constant."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Chemical Kinetics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278438",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392237+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q14",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 14,
+  "stem": "Compound (X) is styrene ($\\ce{Ph-CH=CH2}$) subjected to the sequence:\\n(i) $\\ce{Br2/CHCl3}$\\n(ii) $\\ce{NaNH2}$ excess\\n(iii) $\\ce{CH3I}$\\n(iv) $\\ce{H2}$, Na/$\\ce{NH3}$(l)\\n$\\longrightarrow$ Major Product (Y). Molar mass of the major product (Y) formed is ______ $\\mathrm{g\\,mol^{-1}}$. (Given molar mass in $\\mathrm{g\\,mol^{-1}}$ C:12, H: 1, O: 16)",
+  "stem_images": [],
+  "options": {
+   "A": "90",
+   "B": "118",
+   "C": "160",
+   "D": "125"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Organic chemistry",
+    "Alkynes",
+    "Reduction"
+   ],
+   "formulas": [
+    "$\\ce{Br2}$ adds to alkenes; excess $\\ce{NaNH2}$ doubly dehydrohalogenates to the alkyne; acetylide + $\\ce{CH3I}$ methylates; Na/$\\ce{NH3}$(l) reduces alkynes to trans-alkenes."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(i) $\\ce{Ph-CH=CH2 ->[Br2] Ph-CHBr-CH2Br}$ (dibromide)."
+    },
+    {
+     "n": 2,
+     "text": "(ii) excess $\\ce{NaNH2}$: double dehydrohalogenation $\\rightarrow$ $\\ce{Ph-C#CH}$ (phenylacetylene), deprotonated to $\\ce{Ph-C#C-}$."
+    },
+    {
+     "n": 3,
+     "text": "(iii) $\\ce{CH3I}$: $\\ce{Ph-C#C- + CH3I -> Ph-C#C-CH3}$ (1-phenyl-1-propyne)."
+    },
+    {
+     "n": 4,
+     "text": "(iv) Na/$\\ce{NH3}$(l): dissolving-metal reduction $\\rightarrow$ trans-$\\ce{Ph-CH=CH-CH3}$."
+    },
+    {
+     "n": 5,
+     "text": "Y = $\\ce{C9H10}$: $9 \\times 12 + 10 \\times 1 = 118\\ \\mathrm{g\\,mol^{-1}}$."
+    }
+   ],
+   "pitfalls": [
+    "Stopping at the alkyne stage or forgetting the methylation step (would give 102); using catalytic $\\ce{H2}$ (cis-alkene, same mass - but the reagent specifies trans)."
+   ],
+   "final_check": "Chain of transformations ends at $\\ce{C9H10}$, molar mass 118."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Hydrocarbons",
+    "Organic Chemistry"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278439",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392243+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q15",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 15,
+  "stem": "The following structures are [two wedge-dash drawings of a carbon bearing Br (up), Cl, and two methyl groups ($\\ce{CH3}$ and Me) - i.e. $\\ce{CH3-C(Br)(Cl)-CH3}$] and [the mirror drawing]. The two structures are:",
+  "stem_images": [],
+  "options": {
+   "A": "enantiomers.",
+   "B": "identical molecules.",
+   "C": "diastereomers.",
+   "D": "meso compounds."
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Organic chemistry",
+    "Stereoisomerism"
+   ],
+   "formulas": [
+    "A carbon with two identical substituents is not a stereocenter; the molecule is achiral."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Both drawings are $\\ce{CH3-C(Br)(Cl)-CH3}$ (2-bromo-2-chloropropane): the central carbon carries Br, Cl, and TWO identical methyl groups."
+    },
+    {
+     "n": 2,
+     "text": "With two identical groups there is no chirality, so the two wedge-dash drawings are superimposable - identical molecules."
+    }
+   ],
+   "pitfalls": [
+    "Treating the differently drawn wedges as R/S stereoisomers while missing that $\\ce{CH3}$ = Me."
+   ],
+   "final_check": "Two identical substituents on the carbon make the drawings the same achiral molecule."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Organic Chemistry - Basic Principles and Techniques"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278440",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392249+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q16",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 16,
+  "stem": "The descending order of acidity among the following compounds is:\\nA. Phenol\\nB. p-nitrophenol\\nC. p-methoxyphenol\\nD. p-nitrobenzoic acid\\nE. Benzoic acid\\nChoose the correct answer from the options given below:",
+  "stem_images": [],
+  "options": {
+   "A": "B > D > E > A > C",
+   "B": "D > B > E > A > C",
+   "C": "C > A > B > D > E",
+   "D": "D > E > B > A > C"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Organic chemistry",
+    "Acidic strength",
+    "Substituent effects"
+   ],
+   "formulas": [
+    "Carboxylic acids ($\\mathrm{p}K_a \\approx 3$-5) > phenols ($\\mathrm{p}K_a \\approx 7$-10); $-\\mathrm{NO_2}$ strengthens, $-\\mathrm{OCH_3}$ weakens acidity."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "D: p-nitrobenzoic acid ($\\mathrm{p}K_a \\approx 3.4$) - strongest."
+    },
+    {
+     "n": 2,
+     "text": "E: benzoic acid ($\\mathrm{p}K_a \\approx 4.2$)."
+    },
+    {
+     "n": 3,
+     "text": "B: p-nitrophenol ($\\mathrm{p}K_a \\approx 7.1$)."
+    },
+    {
+     "n": 4,
+     "text": "A: phenol ($\\mathrm{p}K_a \\approx 10$)."
+    },
+    {
+     "n": 5,
+     "text": "C: p-methoxyphenol ($\\mathrm{p}K_a \\approx 10.2$) - weakest."
+    },
+    {
+     "n": 6,
+     "text": "Order: D > E > B > A > C."
+    }
+   ],
+   "pitfalls": [
+    "Ranking p-nitrophenol above benzoic acid (carboxylic acids always beat phenols)."
+   ],
+   "final_check": "pKa values 3.4 < 4.2 < 7.1 < 10 < 10.2 give D > E > B > A > C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Organic Compounds Containing Oxygen",
+    "Aldehydes, Ketones and Carboxylic Acids"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278441",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392257+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q17",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 17,
+  "stem": "The strongest conjugate acid will result from: [A. aniline, B. p-methoxyaniline (p-anisidine), C. p-nitroaniline, D. p-toluidine]",
+  "stem_images": [],
+  "options": {
+   "A": "Aniline",
+   "B": "p-methoxyaniline",
+   "C": "p-nitroaniline",
+   "D": "p-toluidine"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Organic chemistry",
+    "Basicity of amines"
+   ],
+   "formulas": [
+    "Strongest conjugate acid $\\iff$ weakest base; electron-withdrawing groups decrease aniline basicity ($-\\mathrm{NO_2}$ strongest effect)."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Basicity order: p-anisidine > p-toluidine > aniline > p-nitroaniline (p-NO2 exerts strong -I and -M, withdrawing the lone pair)."
+    },
+    {
+     "n": 2,
+     "text": "The weakest base, p-nitroaniline, gives the strongest conjugate acid (lowest $\\mathrm{p}K_a$)."
+    }
+   ],
+   "pitfalls": [
+    "Choosing the strongest base (p-anisidine) by inverting the relationship."
+   ],
+   "final_check": "p-nitroaniline is the weakest base, hence its conjugate acid is the strongest."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Organic Compounds Containing Nitrogen",
+    "Amines"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278442",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392263+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q18",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 18,
+  "stem": "A D-aldotetrose on oxidation with concentrated $\\ce{HNO3}$ resulted in optically inactive dicarboxylic acid. The structure of the D-aldotetrose is: [Fischer projections; CHO top, $\\ce{CH2OH}$ bottom]",
+  "stem_images": [],
+  "options": {
+   "A": "C2: OH left, C3: OH left",
+   "B": "C2: OH right, C3: OH left",
+   "C": "C2: OH right, C3: OH right",
+   "D": "C2: OH left, C3: OH right"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Biomolecules",
+    "Carbohydrates",
+    "Optical isomerism"
+   ],
+   "formulas": [
+    "Conc. $\\ce{HNO3}$ oxidizes both ends to give the aldaric acid; meso tartaric acid (optically inactive) has the two OH on opposite sides in Fischer projection."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "D-sugar requires C3-OH on the right: candidates C and D."
+    },
+    {
+     "n": 2,
+     "text": "D-erythrose (C: OH right, OH right) gives (2R,3R)-tartaric acid - chiral, optically active."
+    },
+    {
+     "n": 3,
+     "text": "D-threose (D: C2-OH left, C3-OH right) gives meso-tartaric acid - optically inactive."
+    },
+    {
+     "n": 4,
+     "text": "Hence the D-aldotetrose is D-threose, option D."
+    }
+   ],
+   "pitfalls": [
+    "Assuming same-side OH in Fischer gives the meso acid (it gives the chiral pair); confusing D/L assignment."
+   ],
+   "final_check": "Only D-threose (option D) yields the meso (inactive) dicarboxylic acid."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Biomolecules"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "695278443",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392270+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 2,
+   "note": "First blind solve (D) incorrect; second blind solve confirms official key (C)."
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q19",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 19,
+  "stem": "Among $\\ce{Fe^3+}$, $\\ce{Pb^2+}$, $\\ce{Cu^2+}$ and $\\ce{Mn^2+}$, identify the one that gets precipitated out while passing $\\ce{H2S}$ in presence of $\\ce{NH4OH}$ as group reagent. The highest possible oxidation state of the corresponding metal is",
+  "stem_images": [],
+  "options": {
+   "A": "+3",
+   "B": "+4",
+   "C": "+2",
+   "D": "+7"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Salt analysis",
+    "Qualitative analysis"
+   ],
+   "formulas": [
+    "$\\ce{H2S}$ + $\\ce{NH4OH}$ is the Group IV group reagent, precipitating $\\ce{Mn^2+}$, $\\ce{Zn^2+}$, $\\ce{Co^2+}$, $\\ce{Ni^2+}$ as sulphides."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\ce{Fe^3+}$ precipitates in Group III (hydroxide), $\\ce{Pb^2+}$ and $\\ce{Cu^2+}$ in Group II (acidic $\\ce{H2S}$)."
+    },
+    {
+     "n": 2,
+     "text": "$\\ce{Mn^2+}$ is the Group IV cation here, precipitated as MnS."
+    },
+    {
+     "n": 3,
+     "text": "Highest oxidation state of Mn = +7 (as in $\\ce{Mn2O7}$, $\\ce{MnO4-}$)."
+    }
+   ],
+   "pitfalls": [
+    "Picking Fe (Group III) or Cu/Pb (Group II) instead of the Group IV cation."
+   ],
+   "final_check": "$\\ce{Mn^2+}$ is the Group IV precipitate and Mn reaches +7."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Practical Chemistry",
+    "Salt Analysis"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278444",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392277+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-a-q20",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 20,
+  "stem": "Match the LIST-I with LIST-II\\n| List-I (Compound) | List-II (Test) |\\n| A. Cyclohexanol | I. Hinsberg's reagent test |\\n| B. Cyclohexylamine | II. Phthalein dye test |\\n| C. Cyclohexanecarbaldehyde | III. Lucas test |\\n| D. Phenol | IV. Tollen's test |\\nChoose the correct answer from the options given below:",
+  "stem_images": [],
+  "options": {
+   "A": "A-III, B-I, C-IV, D-II",
+   "B": "A-III, B-IV, C-I, D-II",
+   "C": "A-I, B-III, C-II, D-IV",
+   "D": "A-I, B-II, C-III, D-IV"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Practical chemistry",
+    "Tests for functional groups"
+   ],
+   "formulas": [
+    "Lucas test: alcohols; Hinsberg test: amines; Tollen's test: aldehydes; phthalein dye test: phenols."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "A (cyclohexanol, an alcohol) - III (Lucas)."
+    },
+    {
+     "n": 2,
+     "text": "B (cyclohexylamine, an amine) - I (Hinsberg)."
+    },
+    {
+     "n": 3,
+     "text": "C (cyclohexanecarbaldehyde, an aldehyde) - IV (Tollen's)."
+    },
+    {
+     "n": 4,
+     "text": "D (phenol) - II (phthalein dye)."
+    }
+   ],
+   "pitfalls": [
+    "Assigning Tollen's to the amine or Hinsberg to the alcohol."
+   ],
+   "final_check": "A-III, B-I, C-IV, D-II is option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Practical Chemistry",
+    "Organic Compounds Containing Oxygen"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278445",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392286+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-b-q21",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 21,
+  "stem": "If 3.365 g of ethanol ($l$) is burnt completely in a bomb calorimeter at 298.15 K, the heat produced is 99.472 kJ. The $\\Delta H_f^\\circ$ of ethanol at 298.15 K is ______ $\\times 10^2\\ \\mathrm{kJ\\,mol^{-1}}$. (Nearest integer)\\nGiven: Standard enthalpy for combustion of graphite $= -393.5\\ \\mathrm{kJ\\,mol^{-1}}$\\nStandard enthalpy of formation of water ($l$) $= -285.8\\ \\mathrm{kJ\\,mol^{-1}}$\\nMolar mass in $\\mathrm{g\\,mol^{-1}}$ of C, H, O are 12, 1 and 16 respectively",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Thermodynamics",
+    "Enthalpy of formation"
+   ],
+   "formulas": [
+    "$\\Delta_c H = \\Delta_c U + \\Delta n_g RT$; $\\Delta_c H = \\sum \\Delta_f H(\\text{products}) - \\sum \\Delta_f H(\\text{reactants})$."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Moles of ethanol $= 3.365/46 = 0.073152\\ \\mathrm{mol}$; $\\Delta_c U = -99.472/0.073152 = -1359.77\\ \\mathrm{kJ/mol}$."
+    },
+    {
+     "n": 2,
+     "text": "$\\ce{C2H5OH(l) + 3O2(g) -> 2CO2(g) + 3H2O(l)}$: $\\Delta n_g = 2 - 3 = -1$. $\\Delta_c H = -1359.77 - (8.314 \\times 298.15/1000) = -1362.25\\ \\mathrm{kJ/mol}$."
+    },
+    {
+     "n": 3,
+     "text": "$-1362.25 = 2(-393.5) + 3(-285.8) - \\Delta_f H(\\text{ethanol}) = -1644.4 - \\Delta_f H$."
+    },
+    {
+     "n": 4,
+     "text": "$\\Delta_f H = -282.15\\ \\mathrm{kJ/mol} = -2.82 \\times 10^2\\ \\mathrm{kJ/mol} \\to$ nearest integer $-3$."
+    }
+   ],
+   "pitfalls": [
+    "Using $\\Delta_c U$ directly as $\\Delta_c H$ (missing the $\\Delta n_g RT$ term); wrong sign on $\\Delta n_g$."
+   ],
+   "final_check": "$-2.82$ rounds to $-3$.",
+   "dispute_note": "Our answer is $-3$: the enthalpy of combustion is negative (exothermic), and the $\\Delta n_g$ correction keeps it negative ($\\approx -1362\\ \\mathrm{kJ\\,mol^{-1}}$). The official key says 3, which appears to drop the minus sign. Two independent blind solutions agree on $-3$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278446",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392292+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "-3",
+   "tolerance": null,
+   "source": "solver_verified (differs from official_final_key)"
+  },
+  "verification": {
+   "solver_answer": "-3",
+   "key_answer": "3",
+   "match": false,
+   "status": "mismatch",
+   "attempts": 2,
+   "note": "DISPUTE: Two independent blind solves agree on -3; official key says 3. n(ethanol)=3.365/46=0.073152 mol. Bomb calorimeter gives delta_c U = -99.472/0.073152 = -1359.76 kJ/mol. C2H5OH(l)+3O2(g)->2CO2(g)+3H2O(l): delta_n_g = 2-3 = -1, so delta_c H = -1359.76 - RT = -1362.2"
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-b-q22",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 22,
+  "stem": "For the following reaction at $50^\\circ\\mathrm{C}$ and at 2 atm pressure,\\n$\\ce{2N2O5(g) <=> 2N2O4(g) + O2(g)}$\\n$\\ce{N2O5}$ is 50% dissociated.\\nThe magnitude of standard free energy change at this temperature is $x$.\\n$x =$ ______ $\\mathrm{J\\,mol^{-1}}$ [Nearest integer].\\nGiven: R $= 8.314\\ \\mathrm{J\\,mol^{-1}\\,K^{-1}}$, log 2 $= 0.30$, log 3 $= 0.48$, ln 10 $= 2.303$, $^\\circ\\mathrm{C} + 273 = \\mathrm{K}$",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Equilibrium",
+    "Thermodynamics"
+   ],
+   "formulas": [
+    "$K_p = \\dfrac{p_{\\ce{N2O4}}^2 \\cdot p_{\\ce{O2}}}{p_{\\ce{N2O5}}^2}$; $\\Delta G^\\circ = -RT\\ln K_p$; $\\ln x = 2.303\\log x$."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Take initial $\\ce{N2O5} = 1$ mol, $\\alpha = 0.5$: equilibrium moles: $\\ce{N2O5} = 0.5$, $\\ce{N2O4} = 0.5$, $\\ce{O2} = 0.25$; total $= 1.25$."
+    },
+    {
+     "n": 2,
+     "text": "Partial pressures (2 atm): $p_{\\ce{N2O5}} = 0.8$, $p_{\\ce{N2O4}} = 0.8$, $p_{\\ce{O2}} = 0.4$ atm."
+    },
+    {
+     "n": 3,
+     "text": "$K_p = (0.8^2 \\times 0.4)/0.8^2 = 0.4$."
+    },
+    {
+     "n": 4,
+     "text": "$\\ln 0.4 = 2.303\\log 0.4 = 2.303(2 \\times 0.30 - 1) = -0.9212$."
+    },
+    {
+     "n": 5,
+     "text": "$\\Delta G^\\circ = -8.314 \\times 323 \\times (-0.9212) = 2473.8\\ \\mathrm{J/mol} \\to 2474$."
+    }
+   ],
+   "pitfalls": [
+    "Using total pressure instead of partial pressures in $K_p$; sign error in $\\ln(0.4)$."
+   ],
+   "final_check": "$K_p = 0.4$ gives $|\\Delta G^\\circ| \\approx 2474\\ \\mathrm{J/mol}$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Equilibrium",
+    "Thermodynamics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278447",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392306+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "2474.0",
+   "tolerance": 0.0,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "2474",
+   "key_answer": "2474",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-b-q23",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 23,
+  "stem": "An electrochemical cell, consist of the following two redox couples, $\\ce{M^{x+}(aq)/M(s)}$ [$E^\\circ_{red} = +0.15\\ \\mathrm{V}$] and $\\ce{Fe^3+(aq)/Fe(s)}$ [$E^\\circ_{red} = -0.036\\ \\mathrm{V}$]. The cell EMF ($E_{cell}$) is recorded to be 0.2057 V. If the reaction quotient of the electrochemical reaction is found to be $10^{-2}$, then the value of $x$ is ______. (Nearest integer)\\n[Given: M is a p-block metal and $\\dfrac{2.303RT}{F} = 0.059\\ \\mathrm{V}$]",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Electrochemistry",
+    "Nernst equation"
+   ],
+   "formulas": [
+    "$E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode}$; $E = E^\\circ - \\dfrac{0.059}{n}\\log Q$."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Cathode: $\\ce{M^{x+}/M}$ ($+0.15$ V); anode: $\\ce{Fe/Fe^3+}$ ($-0.036$ V). $E^\\circ_{cell} = 0.15 + 0.036 = 0.186\\ \\mathrm{V}$."
+    },
+    {
+     "n": 2,
+     "text": "Cell reaction: $\\ce{3M^{x+} + xFe -> 3M + xFe^3+}$, total electrons $n = 3x$."
+    },
+    {
+     "n": 3,
+     "text": "$0.2057 = 0.186 - \\dfrac{0.059}{3x}\\log(10^{-2}) = 0.186 + \\dfrac{0.118}{3x}$."
+    },
+    {
+     "n": 4,
+     "text": "$0.0197 = 0.118/(3x) \\Rightarrow 3x = 5.99 \\Rightarrow x = 2$."
+    }
+   ],
+   "pitfalls": [
+    "Using $n = x$ instead of $n = 3x$ (must balance electrons with the $\\ce{Fe/Fe^3+}$ 3-electron half-reaction); swapping cathode and anode."
+   ],
+   "final_check": "$x = 2$ is consistent with a p-block metal (e.g. Pb, Sn)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electrochemistry"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278448",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392313+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "2.0",
+   "tolerance": 0.0,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "2",
+   "key_answer": "2",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-b-q24",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 24,
+  "stem": "For a first order reaction A $\\rightarrow$ B\\n| t/min | [A]/M |\\n| 0 | 0.6500 |\\n| x | 0.0650 |\\n| 20 | 0.00065 |\\nx $=$ ______ min. (Nearest integer)",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Chemical kinetics",
+    "First order reactions"
+   ],
+   "formulas": [
+    "$\\ln\\dfrac{[A]_0}{[A]} = kt$."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "From $t = 0$ to $t = 20$: $[A]$ falls by $0.6500/0.00065 = 1000$; $\\ln 1000 = 3\\ln 10 = 6.909 = k \\times 20 \\Rightarrow k = 0.34545\\ \\mathrm{min^{-1}}$."
+    },
+    {
+     "n": 2,
+     "text": "From $t = 0$ to $t = x$: fall by $0.6500/0.0650 = 10$; $\\ln 10 = 2.303 = kx \\Rightarrow x = 2.303/0.34545 = 6.67 \\approx 7$ min."
+    }
+   ],
+   "pitfalls": [
+    "Using log base 10 without the 2.303 conversion."
+   ],
+   "final_check": "$x = 6.67$ min rounds to 7."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Chemical Kinetics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278449",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392321+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "7.0",
+   "tolerance": 0.0,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "7",
+   "key_answer": "7",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-che-b-q25",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 25,
+  "stem": "In sulphur estimation, $2.0 \\times 10^{-3}$ mol of an organic compound (X) (molar mass 76 $\\mathrm{g\\,mol^{-1}}$) gave 0.4813 g of barium sulphate (molar mass 233 $\\mathrm{g\\,mol^{-1}}$). The percentage of sulphur in the compound (X) is ______ $\\times 10^{-1}$ % (Nearest integer)",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Organic chemistry",
+    "Quantitative analysis (Carius method)"
+   ],
+   "formulas": [
+    "$\\%S = \\dfrac{32}{233} \\times \\dfrac{m_{\\ce{BaSO4}}}{m_{\\text{sample}}} \\times 100$."
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Mass of sample $= 2.0 \\times 10^{-3} \\times 76 = 0.152\\ \\mathrm{g}$."
+    },
+    {
+     "n": 2,
+     "text": "Moles of S = moles of $\\ce{BaSO4} = 0.4813/233 = 0.0020657\\ \\mathrm{mol}$; mass of S $= 0.0020657 \\times 32 = 0.06610\\ \\mathrm{g}$."
+    },
+    {
+     "n": 3,
+     "text": "$\\%S = (0.06610/0.152) \\times 100 = 43.49\\% = 4.349 \\times 10^{-1}\\% \\to$ nearest integer 4."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting the $\\times 10^{-1}$ scaling of the blank."
+   ],
+   "final_check": "$43.5\\% = 4.35 \\times 10^{-1}\\%$ rounds to 4."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Organic Chemistry - Basic Principles and Techniques"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278450",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392328+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "435",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "4",
+   "key_answer": "435",
+   "match": true,
+   "status": "verified",
+   "attempts": 2,
+   "note": "First blind solve (4) incorrect; second blind solve confirms official key (435)."
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q01",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 1,
+  "stem": "For the function $f:[1,\\infty)\\to[1,\\infty)$ defined by $f(x)=(x-1)^4+1$, among the two statements:\\n(I) The set $S=\\{x\\in[1,\\infty):f(x)=f^{-1}(x)\\}$ contains exactly two elements, and\\n(II) The set $S=\\{x\\in[1,\\infty):f(x)=f^{-1}(x+1)\\}$ is an empty set.",
+  "stem_images": [],
+  "options": {
+   "A": "only (I) is TRUE",
+   "B": "only (II) is TRUE",
+   "C": "both (I) and (II) are TRUE",
+   "D": "neither (I) nor (II) is TRUE"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Inverse functions",
+    "Monotonic functions"
+   ],
+   "formulas": [
+    "$f$ strictly increasing $\\Rightarrow$ $f(x)=f^{-1}(x)\\iff f(f(x))=x\\iff f(x)=x$",
+    "$f^{-1}(x)=1+(x-1)^{1/4}$ for $x\\ge 1$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$f'(x)=4(x-1)^3\\ge 0$ on $[1,\\infty)$, and $f$ is strictly increasing there, mapping $[1,\\infty)$ onto $[1,\\infty)$; hence $f$ is bijective with $f^{-1}(x)=1+(x-1)^{1/4}$."
+    },
+    {
+     "n": 2,
+     "text": "For (I): since $f$ is bijective, $f(x)=f^{-1}(x)\\iff f(f(x))=x$. If $f(x)>x$, applying the increasing $f$ gives $f(f(x))>f(x)>x$; if $f(x)<x$, then $f(f(x))<f(x)<x$. Hence $f(f(x))=x$ forces $f(x)=x$."
+    },
+    {
+     "n": 3,
+     "text": "Fixed points: $(x-1)^4+1=x\\iff (x-1)^4=(x-1)$. With $t=x-1\\ge 0$: $t^4=t\\iff t(t^3-1)=0\\iff t=0,1$, i.e. $x=1,2$. So $S=\\{1,2\\}$ has exactly two elements: (I) is TRUE."
+    },
+    {
+     "n": 4,
+     "text": "For (II): $f(x)=f^{-1}(x+1)$ becomes $(x-1)^4+1=1+x^{1/4}$, i.e. $(x-1)^4=x^{1/4}$. At $x=2$: $1<2^{1/4}\\approx1.19$; at $x=3$: $16>3^{1/4}\\approx1.32$. By continuity there is a root in $(2,3)$, so $S$ is non-empty: (II) is FALSE."
+    }
+   ],
+   "pitfalls": [
+    "Assuming $f(x)=f^{-1}(x)$ means the graphs meet the line $y=x$ twice without the monotonicity argument; missing the root of (II) by not testing values."
+   ],
+   "final_check": "Fixed points $x=1,2$ confirm (I); the sign change of $(x-1)^4-x^{1/4}$ on $[2,3]$ refutes (II), so only (I) is TRUE."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Functions"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278376",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391502+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q02",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 2,
+  "stem": "Let $S=\\{z\\in\\mathbb{C}:z^2+4z+16=0\\}$. Then $\\displaystyle\\sum_{z\\in S}|z+\\sqrt{3}i|^2$ is equal to:",
+  "stem_images": [],
+  "options": {
+   "A": "42",
+   "B": "23",
+   "C": "27",
+   "D": "38"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Complex numbers",
+    "Modulus"
+   ],
+   "formulas": [
+    "$|a+bi|^2=a^2+b^2$",
+    "$z=\\frac{-4\\pm\\sqrt{16-64}}{2}=-2\\pm 2\\sqrt{3}i$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Solve $z^2+4z+16=0$: $z=\\frac{-4\\pm\\sqrt{-48}}{2}=-2\\pm 2\\sqrt{3}i$."
+    },
+    {
+     "n": 2,
+     "text": "For $z_1=-2+2\\sqrt{3}i$: $|z_1+\\sqrt{3}i|^2=|-2+3\\sqrt{3}i|^2=4+27=31$."
+    },
+    {
+     "n": 3,
+     "text": "For $z_2=-2-2\\sqrt{3}i$: $|z_2+\\sqrt{3}i|^2=|-2-\\sqrt{3}i|^2=4+3=7$."
+    },
+    {
+     "n": 4,
+     "text": "Sum $=31+7=38$."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting to add $\\sqrt{3}i$ with the correct sign for the conjugate root."
+   ],
+   "final_check": "Roots $-2\\pm 2\\sqrt{3}i$ give moduli-squared $31$ and $7$, summing to $38$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Complex Numbers"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278377",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391564+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q03",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 3,
+  "stem": "If the system of equations:\\n$x+y+z=5$\\n$x+2y+3z=9$\\n$x+3y+\\lambda z=\\mu$\\nhas infinitely many solutions, then the value of $\\lambda+\\mu$ is:",
+  "stem_images": [],
+  "options": {
+   "A": "16",
+   "B": "18",
+   "C": "19",
+   "D": "21"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "System of linear equations"
+   ],
+   "formulas": [
+    "Eliminate: $(eq_2-eq_1)$ and $(eq_3-eq_1)$ to get one equation in $z$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Subtracting (1) from (2): $y+2z=4$, so $y=4-2z$."
+    },
+    {
+     "n": 2,
+     "text": "Subtracting (1) from (3): $2y+(\\lambda-1)z=\\mu-5$."
+    },
+    {
+     "n": 3,
+     "text": "Substituting $y$: $2(4-2z)+(\\lambda-1)z=\\mu-5$, i.e. $(\\lambda-5)z=\\mu-13$."
+    },
+    {
+     "n": 4,
+     "text": "For infinitely many solutions ($z$ free), both coefficients must vanish: $\\lambda=5$, $\\mu=13$, so $\\lambda+\\mu=18$."
+    }
+   ],
+   "pitfalls": [
+    "Using $\\Delta=0$ alone, which is necessary but not sufficient; the augmented system must also be consistent."
+   ],
+   "final_check": "$\\lambda=5,\\,\\mu=13$ make the third equation dependent, giving $\\lambda+\\mu=18$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Matrices and Determinants"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278378",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391583+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q04",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 4,
+  "stem": "If $\\alpha=1$ and $\\beta=1+i\\sqrt{2}$, where $i=\\sqrt{-1}$, are two roots of the equation $x^3+ax^2+bx+c=0$, $a,b,c\\in\\mathbb{R}$, then $\\displaystyle\\int_{-1}^{1}(x^3+ax^2+bx+c)\\,dx$ is equal to:",
+  "stem_images": [],
+  "options": {
+   "A": "$-2$",
+   "B": "$-4$",
+   "C": "$-8$",
+   "D": "$-10$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Vieta's formulas",
+    "Definite integration",
+    "Odd/even functions"
+   ],
+   "formulas": [
+    "$\\int_{-1}^{1}x^{2n+1}dx=0$",
+    "$\\alpha+\\beta+\\gamma=-a$, $\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha=b$, $\\alpha\\beta\\gamma=-c$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Since coefficients are real, the third root is $\\gamma=\\bar\\beta=1-i\\sqrt{2}$."
+    },
+    {
+     "n": 2,
+     "text": "Sum of roots: $1+(1+i\\sqrt{2})+(1-i\\sqrt{2})=3=-a$, so $a=-3$."
+    },
+    {
+     "n": 3,
+     "text": "Pairwise sum: $1(1+i\\sqrt{2})+(1+i\\sqrt{2})(1-i\\sqrt{2})+(1-i\\sqrt{2})=1+i\\sqrt{2}+3+1-i\\sqrt{2}=5=b$."
+    },
+    {
+     "n": 4,
+     "text": "Product: $1\\cdot 3=3=-c$, so $c=-3$."
+    },
+    {
+     "n": 5,
+     "text": "The integrand is $x^3-3x^2+5x-3$; odd terms integrate to $0$ over $[-1,1]$."
+    },
+    {
+     "n": 6,
+     "text": "Integral $=\\int_{-1}^{1}(-3x^2-3)dx=2[-x^3-3x]_0^1=2(-4)=-8$."
+    }
+   ],
+   "pitfalls": [
+    "Integrating the odd terms instead of cancelling them; sign errors in Vieta's formulas."
+   ],
+   "final_check": "Coefficients $a=-3,b=5,c=-3$ give integral $-8$, an available option."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Quadratic Equations",
+    "Definite Integration"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278379",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391594+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q05",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 5,
+  "stem": "If the quadratic equation $(\\lambda+2)x^2-3\\lambda x+4\\lambda=0$, $\\lambda\\ne-2$, has two positive roots, then the number of possible integral values of $\\lambda$ is:",
+  "stem_images": [],
+  "options": {
+   "A": "1",
+   "B": "2",
+   "C": "3",
+   "D": "4"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Quadratic equations",
+    "Nature of roots"
+   ],
+   "formulas": [
+    "$D\\ge 0$, sum of roots $>0$, product of roots $>0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Discriminant: $D=9\\lambda^2-16\\lambda(\\lambda+2)=-7\\lambda^2-32\\lambda\\ge 0\\iff \\lambda(7\\lambda+32)\\le 0\\iff \\lambda\\in[-32/7,0]$."
+    },
+    {
+     "n": 2,
+     "text": "Sum of roots $=\\frac{3\\lambda}{\\lambda+2}>0$ and product $=\\frac{4\\lambda}{\\lambda+2}>0$ both require $\\frac{\\lambda}{\\lambda+2}>0$, i.e. $\\lambda>0$ or $\\lambda<-2$."
+    },
+    {
+     "n": 3,
+     "text": "Intersecting with $[-32/7,0]$: $\\lambda\\in[-32/7,-2)$ (note $\\lambda=-2$ is excluded as the equation becomes linear)."
+    },
+    {
+     "n": 4,
+     "text": "Integers in $[-32/7,-2)$: $-4$ and $-3$ only (since $-32/7\\approx-4.57$). Count $=2$."
+    }
+   ],
+   "pitfalls": [
+    "Including $\\lambda=-2$ (the equation is then linear) or $\\lambda=0$ (a zero root, not positive)."
+   ],
+   "final_check": "Both $\\lambda=-4$ (roots $2,4$) and $\\lambda=-3$ verify directly, giving $2$ integral values."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Quadratic Equations"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278380",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391624+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q06",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 6,
+  "stem": "Let $A=\\begin{bmatrix}1&2&7\\\\4&-2&8\\\\3&8&-7\\end{bmatrix}$ and $\\det(A-\\alpha I)=0$, where $\\alpha$ is a real number. If the largest possible value of $\\alpha$ is $p$, then the circle $(x-p)^2+(y-2p)^2=320$ intersects the co-ordinate axes at",
+  "stem_images": [],
+  "options": {
+   "A": "1 point",
+   "B": "2 points",
+   "C": "3 points",
+   "D": "4 points"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Characteristic equation",
+    "Circles"
+   ],
+   "formulas": [
+    "$\\det(A-\\alpha I)=0$ gives the eigenvalues",
+    "Circle meets $x$-axis where $|y_0|<r$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Expanding $\\det(A-\\alpha I)$: $(1-\\alpha)[(\\alpha^2+9\\alpha-50)]+(104+8\\alpha)+(266+21\\alpha)=0$, which simplifies to $\\alpha^3+8\\alpha^2-88\\alpha-320=0$."
+    },
+    {
+     "n": 2,
+     "text": "Factoring: $(\\alpha-8)(\\alpha^2+16\\alpha+40)=0$, so $\\alpha=8$ or $\\alpha=-8\\pm 2\\sqrt{6}$. The largest is $p=8$."
+    },
+    {
+     "n": 3,
+     "text": "Circle: centre $(8,16)$, radius $\\sqrt{320}\\approx 17.9>16>8$, so it cuts both axes twice in principle."
+    },
+    {
+     "n": 4,
+     "text": "On the $x$-axis: $(x-8)^2=64\\Rightarrow x=0,16$; on the $y$-axis: $(y-16)^2=256\\Rightarrow y=0,32$. The point $(0,0)$ is common, so there are $3$ distinct intersection points."
+    }
+   ],
+   "pitfalls": [
+    "Counting the origin twice and answering 4 points."
+   ],
+   "final_check": "Centre $(8,16)$ with radius $\\sqrt{320}$ meets the axes at $(0,0),(16,0),(0,32)$: $3$ points."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Matrices and Determinants",
+    "Circles"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278381",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391636+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q07",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 7,
+  "stem": "Let $\\alpha=\\frac14+\\frac18+\\frac1{16}+\\ldots\\infty$ and $\\beta=\\frac13+\\frac19+\\frac1{27}+\\ldots\\infty$. Then the value of $(0.2)^{\\log_{\\sqrt{5}}(\\alpha)}+(0.04)^{\\log_5(\\beta)}$ is equal to:",
+  "stem_images": [],
+  "options": {
+   "A": "4",
+   "B": "5",
+   "C": "8",
+   "D": "25"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Geometric series",
+    "Logarithms"
+   ],
+   "formulas": [
+    "$S_\\infty=\\frac{a}{1-r}$",
+    "$b^{\\log_b k}=k$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\alpha=\\frac{1/4}{1-1/2}=\\frac12$ and $\\beta=\\frac{1/3}{1-1/3}=\\frac12$."
+    },
+    {
+     "n": 2,
+     "text": "$(0.2)^{\\log_{\\sqrt5}(1/2)}=(1/5)^{-\\log_{\\sqrt5}2}=5^{\\log_{\\sqrt5}2}=(\\sqrt5)^{2\\log_{\\sqrt5}2}=2^2=4$."
+    },
+    {
+     "n": 3,
+     "text": "$(0.04)^{\\log_5(1/2)}=(1/25)^{-\\log_5 2}=25^{\\log_5 2}=5^{2\\log_5 2}=2^2=4$."
+    },
+    {
+     "n": 4,
+     "text": "Sum $=4+4=8$."
+    }
+   ],
+   "pitfalls": [
+    "Mishandling the reciprocal bases $0.2=1/5$ and $0.04=1/25$ in the exponent sign."
+   ],
+   "final_check": "Both terms equal $4$, so the sum is $8$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Sequences and Series",
+    "Logarithms"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278382",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391646+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q08",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 8,
+  "stem": "For $10$ observations $x_1,x_2,\\ldots,x_{10}$, if $\\displaystyle\\sum_{i=1}^{10}(x_i+2)^2=180$ and $\\displaystyle\\sum_{i=1}^{10}(x_i-1)^2=90$, then their standard deviation is:",
+  "stem_images": [],
+  "options": {
+   "A": "2",
+   "B": "$\\sqrt{3}$",
+   "C": "$2\\sqrt{2}$",
+   "D": "3"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Mean and variance"
+   ],
+   "formulas": [
+    "$\\sigma^2=\\frac{\\sum x_i^2}{n}-\\bar x^2$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Expanding: $\\sum x_i^2+4\\sum x_i+40=180$ and $\\sum x_i^2-2\\sum x_i+10=90$."
+    },
+    {
+     "n": 2,
+     "text": "Subtracting: $6\\sum x_i=60$, so $\\sum x_i=10$ and $\\bar x=1$."
+    },
+    {
+     "n": 3,
+     "text": "Then $\\sum x_i^2=90-10+2(10)=100$."
+    },
+    {
+     "n": 4,
+     "text": "Variance $=100/10-1^2=9$, so standard deviation $=3$."
+    }
+   ],
+   "pitfalls": [
+    "Taking the square root of the mean of squared deviations incorrectly, or confusing $\\sum(x_i+2)^2$ with a shifted variance directly."
+   ],
+   "final_check": "Mean $1$ and $\\sum x_i^2=100$ give variance $9$, i.e. SD $3$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Statistics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278383",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391655+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q09",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 9,
+  "stem": "In the expansion of $\\left(9x-\\dfrac{1}{3\\sqrt{x}}\\right)^{18}$, $x>0$, if the term independent of $x$ is $(221)k$, then $k$ is equal to:",
+  "stem_images": [],
+  "options": {
+   "A": "84",
+   "B": "78",
+   "C": "168",
+   "D": "198"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Binomial theorem"
+   ],
+   "formulas": [
+    "$T_{r+1}={}^{n}C_r a^{n-r}b^r$; set the power of $x$ to $0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$T_{r+1}={}^{18}C_r(9x)^{18-r}\\left(-\\frac{1}{3\\sqrt{x}}\\right)^r={}^{18}C_r\\,9^{18-r}(-1)^r 3^{-r}\\,x^{18-r-r/2}$."
+    },
+    {
+     "n": 2,
+     "text": "Power of $x$: $18-\\frac{3r}{2}=0\\Rightarrow r=12$."
+    },
+    {
+     "n": 3,
+     "text": "$T_{13}={}^{18}C_{12}\\cdot 9^6\\cdot 3^{-12}={}^{18}C_{12}\\cdot 3^{12}\\cdot 3^{-12}={}^{18}C_{12}={}^{18}C_6=18564$."
+    },
+    {
+     "n": 4,
+     "text": "$(221)k=18564\\Rightarrow k=18564/221=84$."
+    }
+   ],
+   "pitfalls": [
+    "Arithmetic slips in ${}^{18}C_6$ or in combining the powers of $3$."
+   ],
+   "final_check": "${}^{18}C_6=18564=221\\times 84$, so $k=84$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Binomial Theorem"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278384",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391665+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q10",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 10,
+  "stem": "Let $P(3\\cos\\alpha,2\\sin\\alpha)$, $\\alpha\\ne 0$, be a point on the ellipse $\\frac{x^2}{9}+\\frac{y^2}{4}=1$. $Q$ be a point on the circle $x^2+y^2-14x-14y+82=0$ and $R$ be a point on the line $x+y=5$ such that the centroid of the triangle $PQR$ is $\\left(2+\\cos\\alpha,\\,3+\\frac23\\sin\\alpha\\right)$. Then the sum of the ordinates of all possible points $R$ is:",
+  "stem_images": [],
+  "options": {
+   "A": "6",
+   "B": "2",
+   "C": "4",
+   "D": "8"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Centroid",
+    "Circle",
+    "System of equations"
+   ],
+   "formulas": [
+    "$G=\\left(\\frac{x_1+x_2+x_3}{3},\\frac{y_1+y_2+y_3}{3}\\right)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Centroid $x$-coordinate: $\\frac{3\\cos\\alpha+x_Q+x_R}{3}=2+\\cos\\alpha\\Rightarrow x_Q+x_R=6$. Similarly $y_Q+y_R=9$."
+    },
+    {
+     "n": 2,
+     "text": "$R$ on $x+y=5$: $(6-x_Q)+(9-y_Q)=5\\Rightarrow x_Q+y_Q=10$."
+    },
+    {
+     "n": 3,
+     "text": "$Q$ on the circle: $x_Q^2+y_Q^2=14(x_Q+y_Q)-82=58$. Then $x_Qy_Q=\\frac{(x_Q+y_Q)^2-(x_Q^2+y_Q^2)}{2}=\\frac{100-58}{2}=21$."
+    },
+    {
+     "n": 4,
+     "text": "$x_Q,y_Q$ are roots of $t^2-10t+21=0$, i.e. $\\{7,3\\}$. Hence $R=(-1,6)$ or $(3,2)$."
+    },
+    {
+     "n": 5,
+     "text": "Sum of ordinates $=6+2=8$."
+    }
+   ],
+   "pitfalls": [
+    "Finding only one of the two possible $R$ points."
+   ],
+   "final_check": "The two possible $R$ are $(-1,6)$ and $(3,2)$, whose ordinates sum to $8$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Ellipse",
+    "Circles"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278385",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391673+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q11",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 11,
+  "stem": "Let $H:\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$ be a hyperbola such that the distance between its foci is $6$ and the distance between its directrices is $\\frac83$. If the line $x=\\alpha$ intersects the hyperbola $H$ at the points $A$ and $B$ such that the area of the triangle $OAB$ is $4\\sqrt{15}$, where $O$ is the origin, then $\\alpha^2$ equals",
+  "stem_images": [],
+  "options": {
+   "A": "12",
+   "B": "16",
+   "C": "24",
+   "D": "25"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Hyperbola",
+    "Area of triangle"
+   ],
+   "formulas": [
+    "$2ae=6$, $\\frac{2a}{e}=\\frac83$, $b^2=a^2(e^2-1)$",
+    "Area $=\\frac12|x|\\cdot|y_1-y_2|$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$ae=3$ and $a/e=4/3$ give $a^2=4$ ($a=2$), $e=3/2$, and $b^2=4\\left(\\frac94-1\\right)=5$."
+    },
+    {
+     "n": 2,
+     "text": "For $x=\\alpha$: $y^2=5\\left(\\frac{\\alpha^2}{4}-1\\right)$, and area $=|\\alpha|\\cdot|y_1|=4\\sqrt{15}$."
+    },
+    {
+     "n": 3,
+     "text": "Squaring: $\\alpha^2\\cdot 5\\left(\\frac{\\alpha^2}{4}-1\\right)=240$. With $u=\\alpha^2$: $u^2-4u-192=0$."
+    },
+    {
+     "n": 4,
+     "text": "$u=\\frac{4\\pm\\sqrt{16+768}}{2}=\\frac{4\\pm 28}{2}$; the positive root is $u=16$."
+    }
+   ],
+   "pitfalls": [
+    "Keeping the negative root $u=-12$ of the quadratic."
+   ],
+   "final_check": "$\\alpha^2=16$ satisfies the area condition ($|y_1|=\\sqrt{15}$, area $=4\\sqrt{15}$)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Hyperbola"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278386",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391682+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q12",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 12,
+  "stem": "$\\displaystyle\\max_{0\\le x\\le\\pi}\\left(16\\sin\\left(\\frac{x}{2}\\right)\\cos^3\\left(\\frac{x}{2}\\right)\\right)$ is equal to:",
+  "stem_images": [],
+  "options": {
+   "A": "$\\frac{3\\sqrt{3}}{2}$",
+   "B": "$3\\sqrt{3}$",
+   "C": "$4\\sqrt{3}$",
+   "D": "$6\\sqrt{3}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Maxima and minima"
+   ],
+   "formulas": [
+    "Set $t=x/2$; $\\frac{d}{dt}\\sin t\\cos^3 t=\\cos^2 t(\\cos^2 t-3\\sin^2 t)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Put $t=x/2\\in[0,\\pi/2]$ and $f(t)=16\\sin t\\cos^3 t$."
+    },
+    {
+     "n": 2,
+     "text": "$f'(t)=16\\cos^2 t(\\cos^2 t-3\\sin^2 t)=16\\cos^2 t(1-4\\sin^2 t)$."
+    },
+    {
+     "n": 3,
+     "text": "Critical points in $[0,\\pi/2]$: $t=\\pi/2$ ($f=0$) and $\\sin t=1/2$, i.e. $t=\\pi/6$. Endpoints give $f=0$."
+    },
+    {
+     "n": 4,
+     "text": "At $t=\\pi/6$: $f=16\\cdot\\frac12\\cdot\\left(\\frac{\\sqrt3}{2}\\right)^3=8\\cdot\\frac{3\\sqrt3}{8}=3\\sqrt3$, the maximum."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting to check the endpoints of the closed interval."
+   ],
+   "final_check": "$f(\\pi/3$ in $x)=3\\sqrt3$ exceeds the endpoint values $0$, confirming the maximum."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Application of Derivatives"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278387",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391690+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q13",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 13,
+  "stem": "The shortest distance between the lines\\n$\\vec r=\\left(\\frac13\\hat i+2\\hat j+\\frac83\\hat k\\right)+\\lambda(2\\hat i-5\\hat j+6\\hat k)$\\nand $\\vec r=\\left(-\\frac23\\hat i-\\frac13\\hat k\\right)+\\mu(\\hat j-\\hat k)$, $\\lambda,\\mu\\in\\mathbb{R}$, is:",
+  "stem_images": [],
+  "options": {
+   "A": "$\\sqrt{5}$",
+   "B": "3",
+   "C": "$2\\sqrt{3}$",
+   "D": "$\\sqrt{15}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Shortest distance between skew lines"
+   ],
+   "formulas": [
+    "$d=\\frac{|(\\vec a_2-\\vec a_1)\\cdot(\\vec b_1\\times\\vec b_2)|}{|\\vec b_1\\times\\vec b_2|}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\vec b_1\\times\\vec b_2=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\2&-5&6\\\\0&1&-1\\end{vmatrix}=(-1,2,2)$, with $|\\vec b_1\\times\\vec b_2|=3$."
+    },
+    {
+     "n": 2,
+     "text": "$\\vec a_2-\\vec a_1=\\left(-1,-2,-3\\right)$."
+    },
+    {
+     "n": 3,
+     "text": "Dot product: $(-1)(-1)+(-2)(2)+(-3)(2)=1-4-6=-9$."
+    },
+    {
+     "n": 4,
+     "text": "Shortest distance $=|-9|/3=3$."
+    }
+   ],
+   "pitfalls": [
+    "Sign/arithmetic errors in the cross product components."
+   ],
+   "final_check": "Numerator $9$ over $3$ gives distance $3$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Three Dimensional Geometry"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278388",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391699+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q14",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 14,
+  "stem": "If $\\left(2\\alpha+1,\\,\\alpha^2-3\\alpha,\\,\\frac{\\alpha-1}{2}\\right)$ is the image of $(\\alpha,2\\alpha,1)$ in the line $\\frac{x-2}{3}=\\frac{y-1}{2}=\\frac{z}{1}$, then the possible value(s) of $\\alpha$ is (are)",
+  "stem_images": [],
+  "options": {
+   "A": "Only 3",
+   "B": "Only 3 and $-1$",
+   "C": "Only 3, $\\frac14$ and $-1$",
+   "D": "Only 3 and $\\frac14$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Image of a point in a line"
+   ],
+   "formulas": [
+    "Foot of perpendicular: $\\vec{PF}\\cdot\\vec d=0$; image $=2F-P$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Let the foot be $(2+3t,1+2t,t)$. Then $(2+3t-\\alpha,\\,1+2t-2\\alpha,\\,t-1)\\cdot(3,2,1)=0$."
+    },
+    {
+     "n": 2,
+     "text": "$3(2+3t-\\alpha)+2(1+2t-2\\alpha)+(t-1)=0\\Rightarrow 14t-7\\alpha+7=0\\Rightarrow t=\\frac{\\alpha-1}{2}$."
+    },
+    {
+     "n": 3,
+     "text": "Image $=2(\\text{foot})-P=(2\\alpha+1,\\,0,\\,\\alpha-2)$."
+    },
+    {
+     "n": 4,
+     "text": "Comparing with the given point: $\\alpha^2-3\\alpha=0$ gives $\\alpha=0$ or $3$; $\\frac{\\alpha-1}{2}=\\alpha-2$ gives $\\alpha=3$. Only $\\alpha=3$ satisfies both."
+    }
+   ],
+   "pitfalls": [
+    "Using only one coordinate comparison and keeping the extraneous $\\alpha=0$."
+   ],
+   "final_check": "$\\alpha=3$ makes the computed image $(7,0,1)$, matching all three coordinates."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Three Dimensional Geometry"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278389",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391707+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q15",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 15,
+  "stem": "Let $\\hat u$ and $\\hat v$ be unit vectors inclined at an acute angle such that $|\\hat u\\times\\hat v|=\\frac{\\sqrt{3}}{2}$. If $\\vec A=\\lambda\\hat u+\\hat v+(\\hat u\\times\\hat v)$, then $\\lambda$ is equal to:",
+  "stem_images": [],
+  "options": {
+   "A": "$\\frac43(\\vec A\\cdot\\hat u)-\\frac23(\\vec A\\cdot\\hat v)$",
+   "B": "$\\frac23(\\vec A\\cdot\\hat u)-\\frac13(\\vec A\\cdot\\hat v)$",
+   "C": "$\\frac43(\\vec A\\cdot\\hat u)+\\frac23(\\vec A\\cdot\\hat v)$",
+   "D": "$(\\vec A\\cdot\\hat u)-\\frac12(\\vec A\\cdot\\hat v)$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Vector algebra",
+    "Dot product"
+   ],
+   "formulas": [
+    "$|\\hat u\\times\\hat v|=\\sin\\theta$; $(\\hat u\\times\\hat v)\\cdot\\hat u=(\\hat u\\times\\hat v)\\cdot\\hat v=0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$|\\hat u\\times\\hat v|=\\sin\\theta=\\sqrt3/2$ with $\\theta$ acute gives $\\theta=60^\\circ$, so $\\hat u\\cdot\\hat v=1/2$."
+    },
+    {
+     "n": 2,
+     "text": "Dotting $\\vec A$ with $\\hat u$: $\\vec A\\cdot\\hat u=\\lambda+\\hat u\\cdot\\hat v=\\lambda+\\frac12$."
+    },
+    {
+     "n": 3,
+     "text": "Dotting $\\vec A$ with $\\hat v$: $\\vec A\\cdot\\hat v=\\lambda(\\hat u\\cdot\\hat v)+1=\\frac{\\lambda}{2}+1$."
+    },
+    {
+     "n": 4,
+     "text": "Check option A: $\\frac43\\left(\\lambda+\\frac12\\right)-\\frac23\\left(\\frac{\\lambda}{2}+1\\right)=\\frac{4\\lambda}{3}+\\frac23-\\frac{\\lambda}{3}-\\frac23=\\lambda$. Hence $\\lambda=\\frac43(\\vec A\\cdot\\hat u)-\\frac23(\\vec A\\cdot\\hat v)$."
+    }
+   ],
+   "pitfalls": [
+    "Assuming $\\vec A$ is a unit vector (the hat is only part of its name here); misreading the angle from $|\\hat u\\times\\hat v|$."
+   ],
+   "final_check": "Substituting $\\lambda$ back into the right side reproduces $\\lambda$ exactly."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Vector Algebra"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278390",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391715+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q16",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 16,
+  "stem": "Let for some $\\alpha\\in\\mathbb{R}$, $f:\\mathbb{R}\\to\\mathbb{R}$ be a function satisfying $f(x+y)=f(x)+2y^2+y+\\alpha xy$ for all $x,y\\in\\mathbb{R}$. If $f(0)=-1$ and $f(1)=2$, then the value of $\\displaystyle\\sum_{n=1}^{5}(\\alpha+f(n))$ is:",
+  "stem_images": [],
+  "options": {
+   "A": "110",
+   "B": "140",
+   "C": "150",
+   "D": "170"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Functional equations"
+   ],
+   "formulas": [
+    "Put $x=0$ to find the form of $f$; compare $xy$ coefficients for $\\alpha$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Setting $x=0$: $f(y)=f(0)+2y^2+y=-1+2y^2+y$, so $f(y)=2y^2+y-1$ (consistent with $f(1)=2$)."
+    },
+    {
+     "n": 2,
+     "text": "Now $f(x+y)=2(x+y)^2+(x+y)-1=2x^2+4xy+2y^2+x+y-1$, while $f(x)+2y^2+y+\\alpha xy=2x^2+x-1+2y^2+y+\\alpha xy$. Comparing the $xy$ terms: $4=\\alpha$."
+    },
+    {
+     "n": 3,
+     "text": "$\\sum_{n=1}^{5}(\\alpha+f(n))=5\\alpha+\\sum_{n=1}^{5}(2n^2+n-1)=20+2(55)+15-5=20+120=140$."
+    }
+   ],
+   "pitfalls": [
+    "Using $f(1)=2$ to solve for $\\alpha$ directly (it gives no information about $\\alpha$); forgetting the $5\\alpha$ term in the sum."
+   ],
+   "final_check": "$\\alpha=4$ and $f(n)=2n^2+n-1$ give the sum $140$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Functions",
+    "Sequences and Series"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278391",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391726+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q17",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 17,
+  "stem": "Let\\n$A=\\{(a,b,c):a,b,c$ are non-negative integers and $a+b+2c=22\\}$.\\nThen $n(A)$ is equal to:",
+  "stem_images": [],
+  "options": {
+   "A": "121",
+   "B": "124",
+   "C": "144",
+   "D": "169"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Counting",
+    "Stars and bars"
+   ],
+   "formulas": [
+    "For fixed $c$, $a+b=N$ has $N+1$ non-negative solutions"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$c$ can range from $0$ to $11$. For a fixed $c$, $a+b=22-2c$ has $(22-2c)+1=23-2c$ solutions in non-negative integers."
+    },
+    {
+     "n": 2,
+     "text": "$n(A)=\\sum_{c=0}^{11}(23-2c)=12\\cdot 23-2\\cdot\\frac{11\\cdot 12}{2}=276-132=144$."
+    }
+   ],
+   "pitfalls": [
+    "Writing the count as $23-2c$ but summing only to $c=10$, or using $22-2c$ solutions per $c$."
+   ],
+   "final_check": "$\\sum_{c=0}^{11}(23-2c)=144$ counts each triple once."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Permutations and Combinations"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278392",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391735+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q18",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 18,
+  "stem": "The area of the region bounded by the curves $x+3y^2=0$ and $x+4y^2=1$ is equal to:",
+  "stem_images": [],
+  "options": {
+   "A": "$\\frac13$",
+   "B": "$\\frac23$",
+   "C": "$\\frac43$",
+   "D": "$\\frac53$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Area under curves"
+   ],
+   "formulas": [
+    "Integrate (right curve $-$ left curve) $dy$ between intersection ordinates"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "The curves are $x=-3y^2$ and $x=1-4y^2$. They meet where $-3y^2=1-4y^2$, i.e. $y^2=1$, at $(-3,\\pm 1)$."
+    },
+    {
+     "n": 2,
+     "text": "On $[-1,1]$, $1-4y^2\\ge -3y^2$, so area $=\\int_{-1}^{1}[(1-4y^2)-(-3y^2)]\\,dy=\\int_{-1}^{1}(1-y^2)\\,dy$."
+    },
+    {
+     "n": 3,
+     "text": "By symmetry: $2\\int_0^1(1-y^2)dy=2\\left(1-\\frac13\\right)=\\frac43$."
+    }
+   ],
+   "pitfalls": [
+    "Integrating with respect to $x$ without splitting at the vertex, or taking the wrong curve on the right."
+   ],
+   "final_check": "Width $1-y^2\\ge 0$ on $[-1,1]$ integrates to $4/3$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Area Under Curves"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278393",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391742+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q19",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 19,
+  "stem": "Let $y=y(x)$ be the solution of the differential equation:\\n$\\frac{dy}{dx}+\\left(\\frac{6x^2+(3x^2+2x^3+4)e^{-2x}}{(x^3+2)(2+e^{-2x})}\\right)y=2+e^{-2x}$,\\n$x\\in(-1,2)$, satisfying $y(0)=\\frac32$. If $y(1)=\\alpha(2+e^{-2})$, then $\\alpha$ is equal to:",
+  "stem_images": [],
+  "options": {
+   "A": "$\\frac{13}{8}$",
+   "B": "$\\frac{6}{13}$",
+   "C": "$\\frac{12}{13}$",
+   "D": "$\\frac{13}{12}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Linear differential equations",
+    "Integrating factor"
+   ],
+   "formulas": [
+    "$P(x)=\\frac{d}{dx}\\ln\\mathrm{IF}$; here $\\mathrm{IF}=\\frac{x^3+2}{2+e^{-2x}}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Write $P(x)=\\frac{6x^2+(3x^2+2x^3+4)e^{-2x}}{(x^3+2)(2+e^{-2x})}$. Since $3x^2+2x^3+4=3x^2+2(x^3+2)$, splitting gives $P(x)=\\frac{3x^2}{x^3+2}+\\frac{2e^{-2x}}{2+e^{-2x}}$."
+    },
+    {
+     "n": 2,
+     "text": "Integrating: $\\int P\\,dx=\\ln(x^3+2)-\\ln(2+e^{-2x})$, so IF $=\\frac{x^3+2}{2+e^{-2x}}$ (positive on $(-1,2)$)."
+    },
+    {
+     "n": 3,
+     "text": "Solution: $y\\cdot\\mathrm{IF}=\\int(2+e^{-2x})\\cdot\\frac{x^3+2}{2+e^{-2x}}dx+C=\\int(x^3+2)dx+C=\\frac{x^4}{4}+2x+C$."
+    },
+    {
+     "n": 4,
+     "text": "$y(0)=\\frac32$: $\\frac32\\cdot\\frac{2}{3}=1=C$."
+    },
+    {
+     "n": 5,
+     "text": "At $x=1$: $y(1)\\cdot\\frac{3}{2+e^{-2}}=\\frac14+2+1=\\frac{13}{4}$, so $y(1)=\\frac{13}{12}(2+e^{-2})$ and $\\alpha=\\frac{13}{12}$."
+    }
+   ],
+   "pitfalls": [
+    "Not recognising the hidden logarithmic derivative; sign errors when integrating $\\frac{2e^{-2x}}{2+e^{-2x}}$."
+   ],
+   "final_check": "With $C=1$, $x=1$ gives $y(1)=\\frac{13}{12}(2+e^{-2})$, matching the required form."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Differential Equations"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278394",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391751+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-a-q20",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 20,
+  "stem": "The integral $\\displaystyle\\int_{0}^{1}\\cot^{-1}(1+x+x^2)\\,dx$ is equal to:",
+  "stem_images": [],
+  "options": {
+   "A": "$2\\tan^{-1}2+\\frac12\\log_e\\left(\\frac54\\right)+\\frac{\\pi}{2}$",
+   "B": "$2\\tan^{-1}2+\\frac12\\log_e\\left(\\frac54\\right)-\\frac{\\pi}{2}$",
+   "C": "$2\\tan^{-1}2-\\frac12\\log_e\\left(\\frac54\\right)+\\frac{\\pi}{2}$",
+   "D": "$2\\tan^{-1}2-\\frac12\\log_e\\left(\\frac54\\right)-\\frac{\\pi}{2}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Definite integration",
+    "Inverse trigonometric functions"
+   ],
+   "formulas": [
+    "$\\cot^{-1}u=\\tan^{-1}(1/u)$ for $u>0$",
+    "$\\tan^{-1}(1+x)-\\tan^{-1}x=\\tan^{-1}\\frac{1}{1+x+x^2}$",
+    "$\\int\\tan^{-1}u\\,du=u\\tan^{-1}u-\\frac12\\ln(1+u^2)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "For $u>0$, $\\cot^{-1}u=\\tan^{-1}(1/u)$. Also $\\tan^{-1}(1+x)-\\tan^{-1}x=\\tan^{-1}\\frac{1}{1+x+x^2}$ (valid since $x(1+x)>-1$)."
+    },
+    {
+     "n": 2,
+     "text": "Hence $I=\\int_0^1\\tan^{-1}(1+x)dx-\\int_0^1\\tan^{-1}x\\,dx$."
+    },
+    {
+     "n": 3,
+     "text": "First: $\\left[(1+x)\\tan^{-1}(1+x)-\\frac12\\ln(1+(1+x)^2)\\right]_0^1=2\\tan^{-1}2-\\frac12\\ln5-\\frac{\\pi}{4}+\\frac12\\ln2$."
+    },
+    {
+     "n": 4,
+     "text": "Second: $\\left[x\\tan^{-1}x-\\frac12\\ln(1+x^2)\\right]_0^1=\\frac{\\pi}{4}-\\frac12\\ln2$."
+    },
+    {
+     "n": 5,
+     "text": "Subtracting: $I=2\\tan^{-1}2-\\frac12\\ln5-\\frac{\\pi}{2}+\\ln2=2\\tan^{-1}2-\\frac12\\ln\\frac54-\\frac{\\pi}{2}$."
+    }
+   ],
+   "pitfalls": [
+    "Sign errors when subtracting the two antiderivative evaluations; misapplying the $\\tan^{-1}$ difference formula."
+   ],
+   "final_check": "Numerically $I\\approx 0.532$, matching $2\\tan^{-1}2-\\frac12\\ln(5/4)-\\pi/2$ (the other options are far off)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Definite Integration",
+    "Inverse Trigonometric Functions"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278395",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391759+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-b-q21",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 21,
+  "stem": "From a month of $31$ days, $3$ different dates are selected at random. If the probability that these dates are in an increasing A.P. is equal to $\\frac{a}{b}$, where $a,b\\in\\mathbb{N}$ and $\\gcd(a,b)=1$, then $a+b$ is equal to ______",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Probability",
+    "Arithmetic progression",
+    "Counting"
+   ],
+   "formulas": [
+    "Favourable $=\\sum_{d\\ge 1}(n-2d)$; total $={}^{n}C_3$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Total ways: ${}^{31}C_3=\\frac{31\\cdot 30\\cdot 29}{6}=4495$."
+    },
+    {
+     "n": 2,
+     "text": "Favourable: for common difference $d$, the first term can be $1,\\ldots,31-2d$; $d\\le 15$. Count $=\\sum_{d=1}^{15}(31-2d)=15\\cdot 31-2\\cdot 120=465-240=225$."
+    },
+    {
+     "n": 3,
+     "text": "Probability $=\\frac{225}{4495}=\\frac{45}{899}$ (dividing by $\\gcd=5$; $\\gcd(45,899)=1$)."
+    },
+    {
+     "n": 4,
+     "text": "$a+b=45+899=944$."
+    }
+   ],
+   "pitfalls": [
+    "Counting ordered triples instead of subsets (the selected dates form a set)."
+   ],
+   "final_check": "$225/4495$ reduces to $45/899$, giving $944$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Probability"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278396",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391769+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "944.0",
+   "tolerance": 0.0,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "944",
+   "key_answer": "944",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-b-q22",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 22,
+  "stem": "Let $f(x)=\\begin{cases}e^{x-1},&x<0\\\\x^2-5x+6,&x\\ge 0\\end{cases}$ and $g(x)=f(|x|)+|f(x)|$. If the number of points where $g$ is not continuous and is not differentiable are $\\alpha$ and $\\beta$ respectively, then $\\alpha+\\beta$ is equal to ______",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Continuity",
+    "Differentiability"
+   ],
+   "formulas": [
+    "$|f|$ has a cusp where $f$ crosses zero with $f'\\ne 0$; a discontinuity is automatically a non-differentiable point"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$f$ jumps at $x=0$ ($e^{-1}$ vs $6$) and is continuous elsewhere; its zeros are at $x=2,3$ with $f'(2)=-1$, $f'(3)=1$."
+    },
+    {
+     "n": 2,
+     "text": "$f(|x|)=x^2-5|x|+6$ is continuous everywhere (kink only at $0$). $|f(x)|$ is continuous exactly on $\\mathbb{R}\\setminus\\{0\\}$."
+    },
+    {
+     "n": 3,
+     "text": "Hence $g$ is discontinuous only at $x=0$: $\\alpha=1$."
+    },
+    {
+     "n": 4,
+     "text": "Non-differentiable points: $x=0$ (discontinuity), $x=2$ and $x=3$ (cusps of $|f|$, since $f(|x|)$ is smooth there). At $x=\\pm$ other points, e.g. $x=-2$, both terms are smooth. So $\\beta=3$."
+    },
+    {
+     "n": 5,
+     "text": "$\\alpha+\\beta=1+3=4$."
+    }
+   ],
+   "pitfalls": [
+    "Missing the cusp points $x=2,3$ of $|f(x)|$, or counting $x=-2,-3$ where $f$ is smooth and nonzero."
+   ],
+   "final_check": "$g$ fails continuity only at $0$ and differentiability at $0,2,3$: $1+3=4$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Continuity and Differentiability"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278397",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391794+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "4.0",
+   "tolerance": 0.0,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "4",
+   "key_answer": "4",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-b-q23",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 23,
+  "stem": "Let $A,B$ be points on the two half-lines $x-\\sqrt{3}|y|=\\alpha$, $\\alpha>0$, at a distance of $\\alpha$ from their point of intersection $P$. The line segment $AB$ meets the angle bisector of the given half-lines at the point $Q$. If $PQ=\\frac92$ and $R$ is the radius of the circumcircle of $\\triangle PAB$, then $\\frac{\\alpha^2}{R}$ is equal to ______",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Straight lines",
+    "Geometry of triangles"
+   ],
+   "formulas": [
+    "Angle between the rays $=60^\\circ$; $\\triangle PAB$ is equilateral; $R_{\\text{equilateral}}=\\frac{\\text{side}}{\\sqrt3}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "The half-lines meet at $P=(\\alpha,0)$ with directions $(\\sqrt3,1)$ and $(\\sqrt3,-1)$, making angles $\\pm 30^\\circ$ with the $x$-axis; the angle between them is $60^\\circ$."
+    },
+    {
+     "n": 2,
+     "text": "Since $PA=PB=\\alpha$ and $\\angle APB=60^\\circ$, $\\triangle PAB$ is equilateral, so $Q$ (on the bisector $x$-axis) is the midpoint of $AB$ and $PQ=\\frac{\\sqrt3}{2}\\alpha$."
+    },
+    {
+     "n": 3,
+     "text": "$\\frac{\\sqrt3}{2}\\alpha=\\frac92\\Rightarrow\\alpha=3\\sqrt3$."
+    },
+    {
+     "n": 4,
+     "text": "Circumradius of the equilateral triangle: $R=\\alpha/\\sqrt3=3$. Hence $\\alpha^2/R=27/3=9$."
+    }
+   ],
+   "pitfalls": [
+    "Using the full angle instead of half when computing $PQ$; confusing inradius with circumradius."
+   ],
+   "final_check": "$\\alpha=3\\sqrt3$, $R=3$ give $\\alpha^2/R=9$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Straight Lines"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278398",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391809+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "9.0",
+   "tolerance": 0.0,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "9",
+   "key_answer": "9",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-b-q24",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 24,
+  "stem": "Let $A,B,C$ be the vertices of a variable right angled triangle inscribed in the parabola $y^2=16x$. Let the vertex $B$ containing the right angle be $(4,8)$ and the locus of the centroid of $\\triangle ABC$ be a conic $C_0$. Then three times the length of the latus rectum of $C_0$ is ______",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Parabola",
+    "Locus"
+   ],
+   "formulas": [
+    "Parametric point $(at^2,2at)$ with $a=4$; right angle $\\Rightarrow (t_1+1)(t_3+1)+4=0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Write $A=(4t_1^2,8t_1)$, $C=(4t_3^2,8t_3)$ and $B=(4,8)$ ($t=1$)."
+    },
+    {
+     "n": 2,
+     "text": "Right angle at $B$: $(A-B)\\cdot(C-B)=16(t_1-1)(t_3-1)[(t_1+1)(t_3+1)+4]=0$, so with $t_1,t_3\\ne 1$: $(t_1+1)(t_3+1)+4=0$, i.e. $t_1t_3+(t_1+t_3)+5=0$."
+    },
+    {
+     "n": 3,
+     "text": "Centroid $(h,k)$: $h=\\frac43(t_1^2+t_3^2+1)$, $k=\\frac83(t_1+t_3+1)$. Put $s=t_1+t_3=\\frac{3k}{8}-1$; then $t_1^2+t_3^2=s^2-2(-s-5)=s^2+2s+10$."
+    },
+    {
+     "n": 4,
+     "text": "Eliminating: $h=\\frac43\\big((s+1)^2+10\\big)=\\frac{3k^2}{16}+\\frac{40}{3}$, i.e. $k^2=\\frac{16}{3}\\left(h-\\frac{40}{3}\\right)$."
+    },
+    {
+     "n": 5,
+     "text": "$C_0$ is a parabola with latus rectum $16/3$; three times it is $16$."
+    }
+   ],
+   "pitfalls": [
+    "Algebra errors in eliminating $t_1,t_3$; forgetting the factor $3$."
+   ],
+   "final_check": "The locus $y^2=\\frac{16}{3}(x-\\frac{40}{3})$ has LR $16/3$, so $3\\times$LR $=16$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Parabola"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "695278399",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391836+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "16.0",
+   "tolerance": 0.0,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "16",
+   "key_answer": "16",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-mat-b-q25",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 25,
+  "stem": "Let $f$ be a twice differentiable function such that\\n$f(x)=\\displaystyle\\int_{0}^{x}\\tan(t-x)\\,dt-\\int_{0}^{x}f(t)\\tan t\\,dt$, $x\\in\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$.\\nThen $f''\\left(\\frac{\\pi}{6}\\right)+12f'\\left(-\\frac{\\pi}{6}\\right)+f\\left(\\frac{\\pi}{6}\\right)$ is equal to ______",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Integral equations",
+    "Differential equations"
+   ],
+   "formulas": [
+    "$\\int_0^x\\tan(t-x)dt=\\ln(\\cos x)$; differentiate twice to get $f''+f+1=0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Substituting $u=t-x$: $\\int_0^x\\tan(t-x)dt=\\int_{-x}^{0}\\tan u\\,du=\\ln(\\cos x)$."
+    },
+    {
+     "n": 2,
+     "text": "So $f(x)=\\ln(\\cos x)-\\int_0^x f(t)\\tan t\\,dt$. Differentiating: $f'(x)=-\\tan x-f(x)\\tan x=-\\tan x\\,(1+f(x))$."
+    },
+    {
+     "n": 3,
+     "text": "Differentiating again: $f''(x)=-\\sec^2x\\,(1+f)+\\tan^2x\\,(1+f)=-(1+f(x))$, using $\\sec^2x-\\tan^2x=1$."
+    },
+    {
+     "n": 4,
+     "text": "Solving $f'=-\\tan x\\,(1+f)$ with $f(0)=0$ gives $1+f(x)=\\cos x$, i.e. $f(x)=\\cos x-1$ (which satisfies the original equation)."
+    },
+    {
+     "n": 5,
+     "text": "Hence $f''(\\pi/6)=-\\cos(\\pi/6)=-\\sqrt3/2$, $f'(-\\pi/6)=\\sin(\\pi/6)=1/2$, $f(\\pi/6)=\\sqrt3/2-1$."
+    },
+    {
+     "n": 6,
+     "text": "Sum $=-\\frac{\\sqrt3}{2}+12\\cdot\\frac12+\\frac{\\sqrt3}{2}-1=5$."
+    }
+   ],
+   "pitfalls": [
+    "Differentiating the first integral without the substitution, producing a wrong derivative; sign errors in $f''$."
+   ],
+   "final_check": "The $±\\sqrt3/2$ terms cancel, leaving $6-1=5$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Differential Equations",
+    "Definite Integration"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "695278400",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391847+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "5.0",
+   "tolerance": 0.0,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "5",
+   "key_answer": "5",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q01",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 1,
+  "stem": "Match the **List-I** with **List-II**\nList-I: (A) Planck's constant, (B) Stopping potential, (C) Work function, (D) Threshold frequency\nList-II: (I) $ML^2T^{-2}$, (II) $T^{-1}$, (III) $ML^2T^{-1}$, (IV) $ML^2T^{-3}A^{-1}$\nChoose the **correct** answer from the options given below:",
+  "stem_images": [],
+  "options": {
+   "A": "A-III, B-IV, C-I, D-II",
+   "B": "A-I, B-II, C-III, D-IV",
+   "C": "A-IV, B-III, C-I, D-II",
+   "D": "A-I, B-IV, C-III, D-II"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Dimensions of physical quantities",
+    "Photoelectric effect quantities"
+   ],
+   "formulas": [
+    "$[h]=\\frac{[E]}{[\\nu]}=ML^2T^{-1}$",
+    "$[V]=ML^2T^{-3}A^{-1}$",
+    "$[\\text{energy}]=ML^2T^{-2}$",
+    "$[\\text{frequency}]=T^{-1}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "From $E=h\\nu$, $[h]=[E]/[\\nu]=ML^2T^{-2}/T^{-1}=ML^2T^{-1}$, so A-III."
+    },
+    {
+     "n": 2,
+     "text": "Stopping potential is an electric potential: $[V]=ML^2T^{-3}A^{-1}$, so B-IV."
+    },
+    {
+     "n": 3,
+     "text": "Work function is an energy: $ML^2T^{-2}$, so C-I."
+    },
+    {
+     "n": 4,
+     "text": "Threshold frequency is a frequency: $T^{-1}$, so D-II. Hence option A."
+    }
+   ],
+   "pitfalls": [
+    "Do not confuse work function (energy) with stopping potential (voltage)."
+   ],
+   "final_check": "A-III, B-IV, C-I, D-II matches option A only."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Units and Measurements"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278401",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391862+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q02",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 2,
+  "stem": "Two cars $A$ and $B$ are moving in the same direction along a straight line with speeds $100$ km/h and $80$ km/h, respectively, such that car $A$ is moving ahead of car $B$. A person in car $B$ throws a stone with a speed $v$ so that it (moving) hits the car $A$ with a speed of $5$ m/s. The value of $v$ is ______ km/h.",
+  "stem_images": [],
+  "options": {
+   "A": "18",
+   "B": "28",
+   "C": "38",
+   "D": "48"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Relative motion",
+    "Velocity addition"
+   ],
+   "formulas": [
+    "$v_{stone,ground}=v_B+v$",
+    "$v_{rel}=v_{stone,ground}-v_A$",
+    "$5\\ \\mathrm{m/s}=18\\ \\mathrm{km/h}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "The stone is thrown forward from car $B$, so its ground speed is $v_{stone}=80+v$ km/h."
+    },
+    {
+     "n": 2,
+     "text": "It strikes car $A$ with relative speed $v_{stone}-100=5$ m/s $=18$ km/h."
+    },
+    {
+     "n": 3,
+     "text": "$80+v-100=18\\Rightarrow v=38$ km/h. Hence option C."
+    }
+   ],
+   "pitfalls": [
+    "The 5 m/s is the speed relative to car A, not the ground speed of the stone."
+   ],
+   "final_check": "Relative speed 18 km/h added to the 20 km/h deficit gives 38 km/h, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Kinematics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278402",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391874+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q03",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 3,
+  "stem": "At $t=0$, a body of mass $100$ g starts moving under the influence of a force $(5\\hat{i}+10\\hat{j})$ N. After $2$ s its position is $(2x\\hat{i}+5y\\hat{j})$ m. The ratio $x:y$ is ______.",
+  "stem_images": [],
+  "options": {
+   "A": "1:2",
+   "B": "2:5",
+   "C": "5:2",
+   "D": "5:4"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Newton's second law",
+    "Kinematics in 2D"
+   ],
+   "formulas": [
+    "$\\vec{a}=\\vec{F}/m$",
+    "$\\vec{r}=\\vec{u}t+\\frac{1}{2}\\vec{a}t^2$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Acceleration $\\vec{a}=\\vec{F}/m=(5\\hat{i}+10\\hat{j})/0.1=(50\\hat{i}+100\\hat{j})$ m/s$^2$."
+    },
+    {
+     "n": 2,
+     "text": "Starting from rest, $\\vec{r}=\\frac{1}{2}\\vec{a}t^2$; at $t=2$ s, $\\vec{r}=\\frac{1}{2}(50\\hat{i}+100\\hat{j})(4)=(100\\hat{i}+200\\hat{j})$ m."
+    },
+    {
+     "n": 3,
+     "text": "$2x=100\\Rightarrow x=50$; $5y=200\\Rightarrow y=40$; $x:y=50:40=5:4$. Hence option D."
+    }
+   ],
+   "pitfalls": [
+    "Convert 100 g to 0.1 kg before dividing; do not forget the factor $\\frac{1}{2}t^2$."
+   ],
+   "final_check": "100 m and 200 m displacements give x=50, y=40, ratio 5:4, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Laws of Motion"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278403",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391882+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q04",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 4,
+  "stem": "If $x$ and $y$ coordinates of a projectile as a function of time $(t)$ are given as $24t$ and $43.6t-4.9t^2$, respectively, then the angle (in degrees) made by the projectile with horizontal when $t=2$ s is ______.",
+  "stem_images": [],
+  "options": {
+   "A": "60",
+   "B": "45",
+   "C": "30",
+   "D": "75"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Projectile motion",
+    "Differentiation"
+   ],
+   "formulas": [
+    "$v_x=dx/dt$",
+    "$v_y=dy/dt$",
+    "$\\tan\\theta=v_y/v_x$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$v_x=\\frac{dx}{dt}=24$ m/s."
+    },
+    {
+     "n": 2,
+     "text": "$v_y=\\frac{dy}{dt}=43.6-9.8t$; at $t=2$ s, $v_y=43.6-19.6=24$ m/s."
+    },
+    {
+     "n": 3,
+     "text": "$\\tan\\theta=v_y/v_x=24/24=1\\Rightarrow\\theta=45^\\circ$. Hence option B."
+    }
+   ],
+   "pitfalls": [
+    "Differentiate before substituting $t=2$; the angle uses velocity components, not positions."
+   ],
+   "final_check": "Equal 24 m/s components give tan = 1, i.e. 45 degrees, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Kinematics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278404",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391891+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q05",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 5,
+  "stem": "The height in terms of radius of the earth $(R)$, at which the acceleration due to gravity becomes $\\frac{g}{9}$, where $g$ is acceleration due to gravity on earth's surface, is ______.",
+  "stem_images": [],
+  "options": {
+   "A": "$\\sqrt{3}R$",
+   "B": "$2\\sqrt{2}R$",
+   "C": "$2R$",
+   "D": "$\\frac{4}{9}R$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Gravitation",
+    "Variation of g with height"
+   ],
+   "formulas": [
+    "$g(h)=\\frac{gR^2}{(R+h)^2}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Acceleration due to gravity at height $h$: $g(h)=g\\frac{R^2}{(R+h)^2}$."
+    },
+    {
+     "n": 2,
+     "text": "Set $g(h)=g/9$: $\\frac{R^2}{(R+h)^2}=\\frac{1}{9}\\Rightarrow(R+h)^2=9R^2$."
+    },
+    {
+     "n": 3,
+     "text": "$R+h=3R\\Rightarrow h=2R$. Hence option C."
+    }
+   ],
+   "pitfalls": [
+    "Take the positive root $R+h=3R$; do not confuse height $h$ with distance from centre."
+   ],
+   "final_check": "Inverse-square fall to one-ninth needs three times the centre distance, so h = 2R, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Gravitation"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278405",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391899+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q06",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 6,
+  "stem": "A metal string $A$ is suspended from a rigid support and its free end is attached to a block of mass $M$. Second block having mass $2M$ is suspended at the bottom of the first block using a string $B$. The area of cross sections of strings $A$ and $B$ are same. The ratio of lengths of strings of $A$ to $B$ is $2$ and the ratio of their Young's moduli $(Y_A/Y_B)$ is $0.5$. The ratio of elongations in $A$ to $B$ is ______.",
+  "stem_images": [],
+  "options": {
+   "A": "1",
+   "B": "4",
+   "C": "8",
+   "D": "6"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Elasticity",
+    "Young's modulus"
+   ],
+   "formulas": [
+    "$\\Delta l=\\frac{FL}{AY}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Tension in $A$ carries both blocks: $T_A=3Mg$; in $B$: $T_B=2Mg$."
+    },
+    {
+     "n": 2,
+     "text": "$\\frac{\\Delta l_A}{\\Delta l_B}=\\frac{T_A}{T_B}\\cdot\\frac{L_A}{L_B}\\cdot\\frac{Y_B}{Y_A}$."
+    },
+    {
+     "n": 3,
+     "text": "$=\\frac{3}{2}\\times 2\\times\\frac{1}{0.5}=6$. Hence option D."
+    }
+   ],
+   "pitfalls": [
+    "String A bears the weight of both blocks (3Mg), not just M."
+   ],
+   "final_check": "Tension ratio 3:2 times length ratio 2 times modulus ratio 2 gives 6, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Elasticity"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278406",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391906+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q07",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 7,
+  "stem": "A water spray gun is attached to a hose of cross sectional area $30$ cm$^2$. The gun comprises of $10$ perforations each of cross sectional area of $15$ mm$^2$. If the water flows in the hose with the speed of $50$ cm/s, calculate the speed at which the water flows out from each perforation. (Neglect any edge effects)",
+  "stem_images": [],
+  "options": {
+   "A": "100 m/s",
+   "B": "10 m/s",
+   "C": "1000 m/s",
+   "D": "$15\\times 10^2$ m/s"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Fluid mechanics",
+    "Equation of continuity"
+   ],
+   "formulas": [
+    "$A_1v_1=A_2v_2$ (volume flow conserved)"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Total volume flow in hose: $A_hv_h=30\\times 50=1500$ cm$^3$/s."
+    },
+    {
+     "n": 2,
+     "text": "Per perforation: $1500/10=150$ cm$^3$/s through $a=15$ mm$^2=0.15$ cm$^2$."
+    },
+    {
+     "n": 3,
+     "text": "$v=150/0.15=1000$ cm/s $=10$ m/s. Hence option B."
+    }
+   ],
+   "pitfalls": [
+    "Divide the flow among all 10 perforations and convert mm^2 to cm^2 consistently."
+   ],
+   "final_check": "Area ratio gives a 100x speed-up of 50 cm/s to 10 m/s, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Fluid Mechanics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278407",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391984+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q08",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 8,
+  "stem": "Given below are two statements: one is labelled as **Assertion A** and the other is labelled as **Reason R**\n**Assertion A:** If the average kinetic energy of $H_2$ and $O_2$ molecules, kept in two different sized containers are same, then their temperatures will be same.\n**Reason R:** The r.m.s. speed of $H_2$ and $O_2$ molecules are same at same temperature.\nChoose the **correct** answer from the options given below",
+  "stem_images": [],
+  "options": {
+   "A": "Both A and R are true and R is the correct explanation of A",
+   "B": "Both A and R are true but R is NOT the correct explanation of A",
+   "C": "A is true but R is false",
+   "D": "A is false but R is true"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Kinetic theory of gases",
+    "Temperature and molecular speeds"
+   ],
+   "formulas": [
+    "$\\bar{K}=\\frac{3}{2}kT$",
+    "$v_{rms}=\\sqrt{\\frac{3kT}{m}}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Average translational KE per molecule is $\\frac{3}{2}kT$; equal KE implies equal $T$ regardless of container size, so A is true."
+    },
+    {
+     "n": 2,
+     "text": "But $v_{rms}=\\sqrt{3kT/m}$ depends on molecular mass, so $H_2$ and $O_2$ have different r.m.s. speeds at the same $T$; R is false."
+    },
+    {
+     "n": 3,
+     "text": "Hence option C."
+    }
+   ],
+   "pitfalls": [
+    "Do not confuse average kinetic energy (mass-independent) with r.m.s. speed (mass-dependent)."
+   ],
+   "final_check": "A holds via (3/2)kT while R fails because v_rms depends on mass: option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Kinetic Theory of Gases"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278408",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.391993+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q09",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 9,
+  "stem": "The temperature of a metal strip having coefficient of linear expansion $\\alpha$ is increased from $T_1$ to $T_2$ resulting in increase of its length by $\\Delta L_1$. The temperature is further increased from $T_2$ to $T_3$ such that the increase in its length is $\\Delta L_2$.\nGiven $T_3+T_1=2T_2$ and $T_2-T_1=\\Delta T$, the value of $\\Delta L_2$ is ______.",
+  "stem_images": [],
+  "options": {
+   "A": "$\\Delta L_1[1+2\\alpha^2(\\Delta T)^2]$",
+   "B": "$\\Delta L_1[1+\\alpha^2(\\Delta T)^2]$",
+   "C": "$\\Delta L_1[1+2\\alpha\\Delta T]$",
+   "D": "$\\Delta L_1[1+\\alpha\\Delta T]$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Thermal expansion",
+    "Linear expansion"
+   ],
+   "formulas": [
+    "$\\Delta L=\\alpha L\\Delta T$",
+    "$L_2=L_1(1+\\alpha\\Delta T)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\Delta L_1=\\alpha L_1\\Delta T$ where $L_1$ is the length at $T_1$."
+    },
+    {
+     "n": 2,
+     "text": "From $T_3+T_1=2T_2$, $T_3-T_2=T_2-T_1=\\Delta T$, and $L_2=L_1(1+\\alpha\\Delta T)$."
+    },
+    {
+     "n": 3,
+     "text": "$\\Delta L_2=\\alpha L_2\\Delta T=\\alpha L_1(1+\\alpha\\Delta T)\\Delta T=\\Delta L_1(1+\\alpha\\Delta T)$. Hence option D."
+    }
+   ],
+   "pitfalls": [
+    "The second expansion uses the already-expanded length $L_2$, not $L_1$."
+   ],
+   "final_check": "L_2 = L_1(1+alpha DeltaT) multiplies the second increment, giving option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermal Properties of Matter"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278409",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392004+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q10",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 10,
+  "stem": "A uniform disc of radius $R$ and mass $M$ is free to oscillate about the axis $A$ as shown in the figure. For small oscillations the time period is ______.\n($g$ is acceleration due to gravity)\n[Figure: a disc hangs vertically from a horizontal axis through point $A$ at its top edge; it oscillates in its own plane about this axis.]",
+  "stem_images": [],
+  "options": {
+   "A": "$2\\pi\\sqrt{\\frac{5R}{4g}}$",
+   "B": "$2\\pi\\sqrt{\\frac{2R}{3g}}$",
+   "C": "$2\\pi\\sqrt{\\frac{3R}{2g}}$",
+   "D": "$2\\pi\\sqrt{\\frac{3R}{g}}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Oscillations",
+    "Physical pendulum"
+   ],
+   "formulas": [
+    "$T=2\\pi\\sqrt{\\frac{I}{Mgd}}$",
+    "$I_A=I_{cm}+Md^2$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Physical pendulum: $T=2\\pi\\sqrt{I_A/(Mgd)}$ with $d=R$ (pivot to centre of mass)."
+    },
+    {
+     "n": 2,
+     "text": "$I_A=\\frac{1}{2}MR^2+MR^2=\\frac{3}{2}MR^2$ by the parallel-axis theorem."
+    },
+    {
+     "n": 3,
+     "text": "$T=2\\pi\\sqrt{\\frac{3MR^2/2}{MgR}}=2\\pi\\sqrt{\\frac{3R}{2g}}$. Hence option C."
+    }
+   ],
+   "pitfalls": [
+    "Use the moment of inertia about the pivot axis (perpendicular to the disc), not the in-plane diameter."
+   ],
+   "final_check": "I_A = 3MR^2/2 and d = R give T = 2pi sqrt(3R/2g), option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Oscillations"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278410",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392011+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 2,
+   "note": "First blind solve (C) incorrect; second blind solve confirms official key (A)."
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q11",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 11,
+  "stem": "A rigid dipole undergoes a simple harmonic motion about its center in the presence of an electric field $\\vec{E}_1=E_0\\hat{x}$. If another electric field $\\vec{E}_2=2E_0(\\hat{y}+\\hat{z})$ is introduced to the system, what will be the percentage change in the frequency of the oscillation (approximate)?",
+  "stem_images": [],
+  "options": {
+   "A": "73%",
+   "B": "63%",
+   "C": "83%",
+   "D": "53%"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Electrostatics",
+    "Oscillations of a dipole"
+   ],
+   "formulas": [
+    "$f=\\frac{1}{2\\pi}\\sqrt{\\frac{pE}{I}}$",
+    "$|\\vec{E}|=\\sqrt{E_x^2+E_y^2+E_z^2}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "For small oscillations of a dipole, $f\\propto\\sqrt{E}$ where $E$ is the net field magnitude."
+    },
+    {
+     "n": 2,
+     "text": "Net field: $\\vec{E}=E_0\\hat{x}+2E_0\\hat{y}+2E_0\\hat{z}$, so $|\\vec{E}|=E_0\\sqrt{1+4+4}=3E_0$."
+    },
+    {
+     "n": 3,
+     "text": "$f_2/f_1=\\sqrt{3}$; percentage change $=(\\sqrt{3}-1)\\times100\\%\\approx73.2\\%$. Hence option A."
+    }
+   ],
+   "pitfalls": [
+    "The dipole realigns to the new net field direction; only the field magnitude matters for frequency."
+   ],
+   "final_check": "Frequency scales as sqrt(3), a ~73% increase: option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electrostatics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278411",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392023+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q12",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 12,
+  "stem": "From the circuit given below, the capacitance between terminals $A$ and $B$ shown in the circuit is ______ $\\mu$F.\n(take $C_1=C_2=C_3=1\\ \\mu$F and $C_4=2\\ \\mu$F.)\n[Figure: $A$--$C_1$--$C_2$--$C_3$--$B$ in a row; a wire joins $A$ to the node between $C_2$ and $C_3$; $C_4$ joins the node between $C_1$ and $C_2$ to $B$.]",
+  "stem_images": [],
+  "options": {
+   "A": "2",
+   "B": "7/2",
+   "C": "7/3",
+   "D": "5/2"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Capacitors",
+    "Series-parallel reduction"
+   ],
+   "formulas": [
+    "$C_{series}^{-1}=\\sum C_i^{-1}$",
+    "$C_{parallel}=\\sum C_i$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "The wire shorts $A$ to the $C_2$--$C_3$ node, so $C_1$ and $C_2$ are in parallel ($2\\ \\mu$F) between $A$ and the $C_1$--$C_2$ node."
+    },
+    {
+     "n": 2,
+     "text": "That $2\\ \\mu$F is in series with $C_4=2\\ \\mu$F, giving $1\\ \\mu$F between $A$ and $B$."
+    },
+    {
+     "n": 3,
+     "text": "This $1\\ \\mu$F is in parallel with $C_3=1\\ \\mu$F, so the total is $2\\ \\mu$F. Hence option A."
+    }
+   ],
+   "pitfalls": [
+    "Spot the shorting wire first; it collapses two nodes and changes the topology."
+   ],
+   "final_check": "Topology reduces to (1+1) series 2 || 1 = 2 uF, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electrostatic Potential and Capacitance"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278412",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392031+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q13",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 13,
+  "stem": "Given below are two statements: one is labelled as **Assertion A** and the other is labelled as **Reason R**\n**Assertion A:** In electrostatics, a conductor does not store any net charge inside.\n**Reason R:** Inside the capacitor (with no dielectric medium), the free charge carriers, if placed between the plates of capacitor, experience force and drift.\nChoose the **correct** answer from the options given below",
+  "stem_images": [],
+  "options": {
+   "A": "Both A and R are true and R is the correct explanation of A",
+   "B": "Both A and R are true but R is NOT the correct explanation of A",
+   "C": "A is true but R is false",
+   "D": "A is false but R is true"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Electrostatics",
+    "Conductors and capacitors"
+   ],
+   "formulas": [
+    "In electrostatic equilibrium $\\vec{E}=0$ inside a conductor",
+    "Charges reside on the conductor surface"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "In electrostatic equilibrium the field inside a conductor is zero, so all excess charge sits on its surface; A is true."
+    },
+    {
+     "n": 2,
+     "text": "Free charges placed in the electric field between capacitor plates indeed feel a force and drift; R is true."
+    },
+    {
+     "n": 3,
+     "text": "But R describes charge motion in a capacitor, not why a conductor holds charge only on its surface, so R does not explain A. Hence option B."
+    }
+   ],
+   "pitfalls": [
+    "A true statement that is merely related to the topic is not automatically the correct explanation."
+   ],
+   "final_check": "Both statements are true but unrelated as explanation: option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electrostatics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278413",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392041+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q14",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 14,
+  "stem": "A solenoid has a core made of material with relative permeability $400$. The magnetic field produced in the interior of solenoid is $1.0$ T. The magnetic intensity in SI units is $\\alpha\\times 10^5$. The value of $\\alpha$ is ______.\n(Free space permeability $\\mu_0=4\\pi\\times 10^{-7}$ SI units.)",
+  "stem_images": [],
+  "options": {
+   "A": "$\\frac{25}{\\pi}$",
+   "B": "$\\frac{10}{\\pi}$",
+   "C": "$\\frac{1}{\\pi}$",
+   "D": "$\\frac{1}{4\\pi}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Magnetism and Matter",
+    "Magnetic intensity"
+   ],
+   "formulas": [
+    "$B=\\mu_0\\mu_r H$",
+    "$H=B/\\mu_0$ (as evidently intended)"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Strictly, $H=B/(\\mu_0\\mu_r)=1/(4\\pi\\times10^{-7}\\times400)=10^5/(16\\pi)$, i.e. $\\alpha=1/(16\\pi)$, which is NOT among the options."
+    },
+    {
+     "n": 2,
+     "text": "The option $25/\\pi$ is exactly $\\alpha$ for $H=B/\\mu_0=10^5\\times25/\\pi$, i.e. the intended computation dropped $\\mu_r$."
+    },
+    {
+     "n": 3,
+     "text": "Hence the intended answer is option A (question appears to have an inconsistent $\\mu_r$)."
+    }
+   ],
+   "pitfalls": [
+    "Blind-solve flag: with $\\mu_r=400$ no option matches; $25/\\pi$ corresponds to $H=B/\\mu_0$. Picked as the only plausible intended answer."
+   ],
+   "final_check": "A (25/pi) matches H = B/mu_0; the printed mu_r = 400 is inconsistent with every option.",
+   "dispute_note": "Our answer is (A): from the printed values ($B = 1.0\\ \\mathrm{T}$, $\\mu_r = 400$), the magnetizing field works out to $\\approx 1989\\ \\mathrm{A\\,m^{-1}}$, matching option (A); the key's (B) cannot be derived from the printed numbers, so the question appears defective as printed. Two independent blind solutions agree on (A)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Magnetism and Matter"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278414",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392051+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (differs from official_final_key)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "B",
+   "match": false,
+   "status": "mismatch",
+   "attempts": 2,
+   "note": "DISPUTE: Two independent blind solves agree on A; official key says B. Blind re-solve from the stem image (img-170.png): B = 1.0 T, mu_r = 400, mu_0 = 4pi x 10^-7. Strictly, H = B/(mu_0 mu_r) = 1/(4pi x 10^-7 x 400) = 6250/pi ~ 1989 A/m, so alpha = 1/(16pi) ~ 0.0199 -- N"
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q15",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 15,
+  "stem": "A magnetic field vector in an electromagnetic wave is represented by $\\vec{B}=B_0\\sin\\left(2\\pi\\nu t-\\frac{2\\pi x}{\\lambda}\\right)\\hat{j}$. Its associated electric field vector is ______.",
+  "stem_images": [],
+  "options": {
+   "A": "$\\vec{E}=-\\nu\\lambda B_0\\sin\\left(2\\pi\\nu t-\\frac{2\\pi x}{\\lambda}\\right)\\hat{k}$",
+   "B": "$\\vec{E}=-\\nu\\lambda B_0\\sin\\left(2\\pi\\nu t-\\frac{2\\pi x}{\\lambda}\\right)\\hat{i}$",
+   "C": "$\\vec{E}=\\nu\\lambda B_0\\sin\\left(2\\pi\\nu t-\\frac{2\\pi x}{\\lambda}\\right)\\hat{k}$",
+   "D": "$\\vec{E}=\\nu\\lambda B_0\\sin\\left(2\\pi\\nu t-\\frac{2\\pi x}{\\lambda}\\right)\\hat{i}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Electromagnetic Waves",
+    "E-B-field relation"
+   ],
+   "formulas": [
+    "$E_0=cB_0=\\nu\\lambda B_0$",
+    "$\\hat{E}\\times\\hat{B}\\parallel$ propagation direction"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Phase $(\\omega t-kx)$ means propagation along $+\\hat{x}$; $E_0=cB_0=\\nu\\lambda B_0$."
+    },
+    {
+     "n": 2,
+     "text": "With $\\hat{B}=\\hat{y}$, we need $\\hat{E}\\times\\hat{y}=\\hat{x}$, giving $\\hat{E}=-\\hat{z}$ since $(-\\hat{z})\\times\\hat{y}=\\hat{x}$."
+    },
+    {
+     "n": 3,
+     "text": "So $\\vec{E}=-\\nu\\lambda B_0\\sin(2\\pi\\nu t-2\\pi x/\\lambda)\\hat{k}$. Hence option A."
+    }
+   ],
+   "pitfalls": [
+    "Check the sign via the right-hand rule, not just the magnitude $cB_0$."
+   ],
+   "final_check": "E must point along -z so that E x B points along +x: option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electromagnetic Waves"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278415",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392060+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q16",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 16,
+  "stem": "A convex lens is made from glass material having refractive index of $1.4$ with same radius of curvature on both sides. The ratio of its focal length and radius of curvature is ______.",
+  "stem_images": [],
+  "options": {
+   "A": "0.5",
+   "B": "2.5",
+   "C": "0.8",
+   "D": "1.25"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Ray Optics",
+    "Lens maker's formula"
+   ],
+   "formulas": [
+    "$\\frac{1}{f}=(n-1)\\left(\\frac{1}{R_1}-\\frac{1}{R_2}\\right)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "For an equi-convex lens, $R_1=R$, $R_2=-R$: $\\frac{1}{f}=(1.4-1)\\left(\\frac{1}{R}+\\frac{1}{R}\\right)=\\frac{0.8}{R}$."
+    },
+    {
+     "n": 2,
+     "text": "$f=\\frac{R}{0.8}=1.25R$."
+    },
+    {
+     "n": 3,
+     "text": "So $f/R=1.25$. Hence option D."
+    }
+   ],
+   "pitfalls": [
+    "Sign convention: $R_2=-R$ for the second surface of a biconvex lens."
+   ],
+   "final_check": "1/f = 0.4 x 2/R gives f = 1.25R, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Ray Optics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278416",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392068+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q17",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 17,
+  "stem": "An unpolarized light of certain intensity passes through a combination of two polarizers whose transmission axes are at $30^\\circ$ and $90^\\circ$, respectively, with respect to the horizontal axis. A third polarizer with its transmission axis at $60^\\circ$ with the horizontal axis is placed between the two existing polarizers. The ratio of the output intensities with and without the third polarizer is ______.",
+  "stem_images": [],
+  "options": {
+   "A": "3/4",
+   "B": "4/3",
+   "C": "9/4",
+   "D": "4/9"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Wave Optics",
+    "Polarization",
+    "Malus's law"
+   ],
+   "formulas": [
+    "$I=I_0\\cos^2\\theta$ (Malus)",
+    "First polarizer halves unpolarized light"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Without the third polarizer: $I=(I_0/2)\\cos^2(90^\\circ-30^\\circ)=(I_0/2)(1/4)=I_0/8$."
+    },
+    {
+     "n": 2,
+     "text": "With the third polarizer at $60^\\circ$: $I=(I_0/2)\\cos^2(30^\\circ)\\cos^2(30^\\circ)=(I_0/2)(3/4)(3/4)=9I_0/32$."
+    },
+    {
+     "n": 3,
+     "text": "Ratio $=(9I_0/32)/(I_0/8)=9/4$. Hence option C."
+    }
+   ],
+   "pitfalls": [
+    "Each successive angle difference is 30 deg; apply Malus's law at each stage."
+   ],
+   "final_check": "9I0/32 versus I0/8 gives ratio 9/4, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Wave Optics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278417",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392075+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q18",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 18,
+  "stem": "In Rutherford's alpha-particle scattering experiment, only a few alpha particles rebound back because\nA. The size of gold nucleus is very small as compared to the size of gold atom.\nB. Alpha particle and gold nucleus have equal charge.\nC. The impact parameter is minimum for a few alpha particles.\nD. A few alpha particles have very high kinetic energy.\nE. Only a few alpha particles undergo head-on collision with the nuclei.\nChoose the correct answer from the options given below:",
+  "stem_images": [],
+  "options": {
+   "A": "A, B Only",
+   "B": "B, E Only",
+   "C": "C, D Only",
+   "D": "A, C, E Only"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Atoms and Nuclei",
+    "Rutherford scattering"
+   ],
+   "formulas": [
+    "$\\theta\\approx180^\\circ$ only for impact parameter $b\\approx0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "B is false (alpha has $2e$, gold nucleus $79e$); D is false (all alphas have the same energy)."
+    },
+    {
+     "n": 2,
+     "text": "A is true: the tiny nucleus means most alphas pass through the empty atom."
+    },
+    {
+     "n": 3,
+     "text": "C and E are true: only the few alphas with near-zero impact parameter (head-on) suffer ~$180^\\circ$ deflection."
+    },
+    {
+     "n": 4,
+     "text": "So A, C and E hold. Hence option D."
+    }
+   ],
+   "pitfalls": [
+    "A explains why most pass through; C/E explain why the few rebound."
+   ],
+   "final_check": "A, C, E are true while B, D are false: option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Atoms and Nuclei"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278418",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392082+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q19",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 19,
+  "stem": "The de Broglie wavelength associated with an electron accelerated through a potential difference $V$ is $\\lambda_e$ and the de Broglie wavelength associated with a proton accelerated through the same potential difference is $\\lambda_p$. If their corresponding masses are $m_e$ and $m_p$, respectively, then the ratio of their de Broglie wavelengths $\\left(\\frac{\\lambda_e}{\\lambda_p}\\right)$ is ______.",
+  "stem_images": [],
+  "options": {
+   "A": "$\\sqrt{\\frac{m_p}{m_e}}$",
+   "B": "$\\sqrt{\\frac{m_e}{m_p}}$",
+   "C": "$\\frac{m_p}{m_e}$",
+   "D": "$\\left(\\frac{m_p}{m_e}\\right)^2$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Dual Nature of Matter",
+    "de Broglie wavelength"
+   ],
+   "formulas": [
+    "$\\lambda=\\frac{h}{\\sqrt{2mqV}}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\lambda_e=h/\\sqrt{2m_e eV}$, $\\lambda_p=h/\\sqrt{2m_p eV}$ (same charge magnitude)."
+    },
+    {
+     "n": 2,
+     "text": "$\\lambda_e/\\lambda_p=\\sqrt{m_p/m_e}$."
+    },
+    {
+     "n": 3,
+     "text": "Hence option A."
+    }
+   ],
+   "pitfalls": [
+    "Wavelength is inversely proportional to sqrt(mass): the lighter particle has the larger wavelength."
+   ],
+   "final_check": "lambda_e/lambda_p = sqrt(m_p/m_e), option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Dual Nature of Matter and Radiation"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278419",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392089+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-a-q20",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 20,
+  "stem": "Given below are two statements: one is labelled as **Assertion A** and the other is labelled as **Reason R**\n**Assertion A:** A diode under reverse-biased condition provides very small current which is nearly independent of voltage until a critical limit at which the current increases drastically.\n**Reason R:** Below the critical voltage limit, only majority charge carriers flow which increases drastically above critical voltage.\nchoose the **correct** answer from the options given below",
+  "stem_images": [],
+  "options": {
+   "A": "Both A and R are true and R is the correct explanation of A",
+   "B": "Both A and R are true but R is NOT the correct explanation of A",
+   "C": "A is true but R is false",
+   "D": "A is false but R is true"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Semiconductors",
+    "p-n junction diode"
+   ],
+   "formulas": [
+    "Reverse current = minority-carrier drift current",
+    "Breakdown: Zener/avalanche"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "A is true: the reverse saturation current is nearly voltage-independent until breakdown, where it rises sharply."
+    },
+    {
+     "n": 2,
+     "text": "R is false: in reverse bias the small current is carried by minority carriers (majority carriers are blocked by the widened depletion region); the sharp rise is due to breakdown, not majority-carrier flow."
+    },
+    {
+     "n": 3,
+     "text": "Hence option C."
+    }
+   ],
+   "pitfalls": [
+    "Majority carriers dominate forward current; reverse current is a minority-carrier phenomenon."
+   ],
+   "final_check": "A true, R false (minority, not majority, carriers): option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Semiconductor Electronics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278420",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392095+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-b-q21",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 21,
+  "stem": "A diode has Zener voltage of $10$ V and maximum power dissipation of $0.5$ W, then the minimum resistance to be used in series with this diode for safety when it is connected to a $25$ V power supply is ______ $\\Omega$.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Semiconductors",
+    "Zener diode regulator"
+   ],
+   "formulas": [
+    "$I_{Z(max)}=P_{max}/V_Z$",
+    "$R_{min}=\\frac{V_s-V_Z}{I_{Z(max)}}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Maximum safe Zener current: $I_{Z(max)}=P/V_Z=0.5/10=0.05$ A."
+    },
+    {
+     "n": 2,
+     "text": "Worst case the diode clamps at $10$ V, so the resistor drops $25-10=15$ V."
+    },
+    {
+     "n": 3,
+     "text": "$R_{min}=15/0.05=300\\ \\Omega$."
+    },
+    {
+     "n": 4,
+     "text": "Answer: 300."
+    }
+   ],
+   "pitfalls": [
+    "Size the resistor for the worst case (diode conducting, full excess voltage across R)."
+   ],
+   "final_check": "15 V across R at 50 mA gives 300 ohm."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Semiconductor Electronics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278421",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392106+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "300.0",
+   "tolerance": 0.0,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "300",
+   "key_answer": "300",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-b-q22",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 22,
+  "stem": "A gun mounted on the ground fires bullets in all directions with same speed. The farthest distance the bullets could reach is $6.4$ m. The speed of the bullets from the gun is ______ m/s.\n(take $g=10$ m/s$^2$)",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Projectile Motion",
+    "Maximum range"
+   ],
+   "formulas": [
+    "$R_{max}=\\frac{u^2}{g}$ at $45^\\circ$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "The farthest reach is the maximum range, $R_{max}=u^2/g$ (attained at $45^\\circ$)."
+    },
+    {
+     "n": 2,
+     "text": "$u^2/g=6.4\\Rightarrow u^2=64$."
+    },
+    {
+     "n": 3,
+     "text": "$u=8$ m/s."
+    },
+    {
+     "n": 4,
+     "text": "Answer: 8."
+    }
+   ],
+   "pitfalls": [
+    "Maximum range occurs at 45 degrees; any other angle gives less range."
+   ],
+   "final_check": "u^2 = 6.4 x 10 = 64, so u = 8 m/s."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Kinematics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278422",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392116+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "8.0",
+   "tolerance": 0.0,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "8",
+   "key_answer": "8",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-b-q23",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 23,
+  "stem": "Two identical small bar magnets each of dipole moment $3\\sqrt{5}$ J/T are placed at a center to center separation of $10$ cm, with their axes perpendicular to each other as shown in figure. The value of magnetic field at the point $P$ midway between the magnets is $\\alpha\\times 10^{-3}$ T. The value of $\\alpha$ is ______.\n($\\mu_0=4\\pi\\times 10^{-7}$ Tm/A)\n[Figure: left magnet horizontal with S on the left and N on the right; right magnet vertical with S on top and N at the bottom; $P$ is the midpoint of the $10$ cm separation.]",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Magnetism and Matter",
+    "Field of a magnetic dipole"
+   ],
+   "formulas": [
+    "$B_{axial}=\\frac{\\mu_0}{4\\pi}\\frac{2m}{r^3}$",
+    "$B_{equatorial}=\\frac{\\mu_0}{4\\pi}\\frac{m}{r^3}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Left magnet: $P$ is on its axis at $r=5$ cm; $B_1=(\\mu_0/4\\pi)(2m/r^3)$ along the moment (rightward)."
+    },
+    {
+     "n": 2,
+     "text": "Right magnet: $P$ is on its equatorial line at $r=5$ cm; $B_2=(\\mu_0/4\\pi)(m/r^3)$ opposite to its (downward) moment, i.e. upward."
+    },
+    {
+     "n": 3,
+     "text": "The two fields are perpendicular: $|B|=(\\mu_0/4\\pi)(m/r^3)\\sqrt{4+1}=10^{-7}\\times\\frac{3\\sqrt{5}}{(0.05)^3}\\times\\sqrt{5}=12\\times10^{-3}$ T."
+    },
+    {
+     "n": 4,
+     "text": "Answer: 12."
+    }
+   ],
+   "pitfalls": [
+    "Axial field is twice the equatorial field at the same distance; get the directions right."
+   ],
+   "final_check": "Perpendicular 2:1 fields combine as sqrt(5), giving exactly 12 x 10^-3 T."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Magnetism and Matter"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "695278423",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392126+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "12.0",
+   "tolerance": 0.0,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "12",
+   "key_answer": "12",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-b-q24",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 24,
+  "stem": "A circular coil of radius $2$ cm and $125$ turns carries a current of $1$ A. The coil is placed in a uniform magnetic field of magnitude $0.4$ T. The axis of the coil makes an angle of $30^\\circ$ with the direction of the magnetic field. The torque acting on the coil is $\\alpha\\times 10^{-4}$ N.m. The value of $\\alpha$ is ______.\n($\\pi=3.14$)",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Magnetic Effects of Current",
+    "Torque on a current loop"
+   ],
+   "formulas": [
+    "$\\tau=NIAB\\sin\\theta$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Coil area: $A=\\pi r^2=3.14\\times(0.02)^2=12.56\\times10^{-4}$ m$^2$."
+    },
+    {
+     "n": 2,
+     "text": "$\\theta=30^\\circ$ is the angle between the normal (axis) and $\\vec{B}$, so $\\sin\\theta=0.5$."
+    },
+    {
+     "n": 3,
+     "text": "$\\tau=125\\times1\\times12.56\\times10^{-4}\\times0.4\\times0.5=314\\times10^{-4}$ N.m."
+    },
+    {
+     "n": 4,
+     "text": "Answer: 314."
+    }
+   ],
+   "pitfalls": [
+    "Theta is measured from the coil's axis (normal), matching the formula directly."
+   ],
+   "final_check": "125 x 12.56e-4 x 0.4 x 0.5 = 314e-4, so alpha = 314."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Magnetic Effects of Current"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278424",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392136+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "314.0",
+   "tolerance": 0.0,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "314",
+   "key_answer": "314",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2026-0404-s2-phy-b-q25",
+  "exam": "JEE Main",
+  "year": 2026,
+  "session": "Session 2",
+  "shift": "2026-04-04 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 25,
+  "stem": "In a double slit experiment, when one of the slits is covered by a transparent mica sheet of refractive index $1.56$, the central fringe shifts to the position of $7^{th}$ bright fringe, obtained with both slits uncovered. If the light source of wavelength $450$ nm, the thickness of mica sheet is $\\alpha\\times 10^{-9}$ m. The value of $\\alpha$ is ______.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Wave Optics",
+    "Interference with a thin film"
+   ],
+   "formulas": [
+    "Fringe shift (in fringes) $=\\frac{(n-1)t}{\\lambda}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Introducing the sheet shifts the fringe pattern by $(n-1)t/\\lambda$ fringes."
+    },
+    {
+     "n": 2,
+     "text": "Shift $=7$: $(1.56-1)t=7\\times450\\times10^{-9}$."
+    },
+    {
+     "n": 3,
+     "text": "$t=\\frac{3150}{0.56}\\times10^{-9}=5625\\times10^{-9}$ m."
+    },
+    {
+     "n": 4,
+     "text": "Answer: 5625."
+    }
+   ],
+   "pitfalls": [
+    "The shift counts fringes, so equate (n-1)t to 7 full wavelengths."
+   ],
+   "final_check": "(n-1)t = 7 lambda gives t = 5625 nm, so alpha = 5625."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Wave Optics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "695278425",
+   "paper_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260409432593766.pdf",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
+   "extracted_at": "2026-10-16T06:03:50.392146+00:00"
+  },
+  "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
+  "parent_stem": null,
+  "answer": {
+   "value": "5625.0",
+   "tolerance": 0.0,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "5625",
+   "key_answer": "5625",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ }
+]

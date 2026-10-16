@@ -1,0 +1,123 @@
+{
+ "papers": [
+  {
+   "exam": "JEE Main",
+   "file": "main2026-s2.json",
+   "id": "main2026-s2",
+   "note": "JEE Main 2026 Session 2, April 8 Shift 2 — 75 verified questions (incl. 1 published with a documented official-key dispute), solutions written from scratch and verified against the NTA official final answer key",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "shift": "2026-04-08 Shift 2",
+   "year": 2026
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2026-0402-s1.json",
+   "id": "main2026-0402-s1",
+   "note": "JEE Main 2026 Session 2 — 2026-04-02 Shift 1 — 75 questions (73 verified + 2 published with documented official-key disputes), solutions written from scratch and verified against the official final answer key",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "year": 2026,
+   "shift": "2026-04-02 Shift 1"
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2026-0402-s2.json",
+   "id": "main2026-0402-s2",
+   "note": "JEE Main 2026 Session 2 — 2026-04-02 Shift 2 — 75 questions (75 verified questions), solutions written from scratch and verified against the official final answer key",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "year": 2026,
+   "shift": "2026-04-02 Shift 2"
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2026-0404-s1.json",
+   "id": "main2026-0404-s1",
+   "note": "JEE Main 2026 Session 2 — 2026-04-04 Shift 1 — 75 questions (73 verified + 1 published with documented dispute + 1 NTA-dropped), solutions written from scratch and verified against the official final answer key",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "year": 2026,
+   "shift": "2026-04-04 Shift 1"
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2026-0404-s2.json",
+   "id": "main2026-0404-s2",
+   "note": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2 — 75 questions (73 verified + 2 published with documented disputes), solutions written from scratch and verified against the official final answer key",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "year": 2026,
+   "shift": "2026-04-04 Shift 2"
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2026-0405-s1.json",
+   "id": "main2026-0405-s1",
+   "note": "JEE Main 2026 Session 2 — 2026-04-05 Shift 1 — 75 questions (75 verified questions), solutions written from scratch and verified against the official final answer key",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "year": 2026,
+   "shift": "2026-04-05 Shift 1"
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2026-0405-s2.json",
+   "id": "main2026-0405-s2",
+   "note": "JEE Main 2026 Session 2 — 2026-04-05 Shift 2 — 75 questions (74 verified + 1 published with documented dispute), solutions written from scratch and verified against the official final answer key",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "year": 2026,
+   "shift": "2026-04-05 Shift 2"
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2026-0406-s1.json",
+   "id": "main2026-0406-s1",
+   "note": "JEE Main 2026 Session 2 — 2026-04-06 Shift 1 — 75 questions (73 verified + 2 published with documented disputes), solutions written from scratch and verified against the official final answer key",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "year": 2026,
+   "shift": "2026-04-06 Shift 1"
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2026-0406-s2.json",
+   "id": "main2026-0406-s2",
+   "note": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2 — 75 questions (75 verified questions), solutions written from scratch and verified against the official final answer key",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "year": 2026,
+   "shift": "2026-04-06 Shift 2"
+  },
+  {
+   "exam": "JEE Advanced",
+   "file": "adv2026-p2.json",
+   "id": "adv2026-p2",
+   "note": "JEE Advanced 2026 — Paper 2 — 54 questions (53 verified + 1 published with documented dispute; includes single/multi-correct, matrix-match, numerical), solutions written from scratch and verified against the official final answer key",
+   "paper": "Paper 2",
+   "question_count": 54,
+   "session": "Paper 2",
+   "year": 2026
+  },
+  {
+   "exam": "JEE Advanced",
+   "file": "adv2026-p1.json",
+   "id": "adv2026-p1",
+   "note": "JEE Advanced 2026 — Paper 1 — 48 questions, all verified against the official final answer key; includes single/multi-correct, matrix-match, numerical",
+   "paper": "Paper 1",
+   "question_count": 48,
+   "session": "Paper 1",
+   "year": 2026
+  }
+ ]
+}

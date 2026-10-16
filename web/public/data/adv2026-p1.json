@@ -1,0 +1,4195 @@
+[
+ {
+  "id": "adv2026-p1-che-s1-q01",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 1,
+  "stem": "An ideal gas ($0.5$ mol), initially at $2$ bar pressure, is compressed at a constant temperature of $600$ K in two steps: first, against a constant external pressure of $P$ bar ($2 < P < 8$), and then against constant external pressure of $8$ bar. At each step, the compression is stopped only when the pressure of the gas becomes equal to the external pressure. The total work done on the gas in these steps is $W$. Considering all possible values of $P$ ($2 < P < 8$) and taking the gas constant as $R$ (in J K$^{-1}$ mol$^{-1}$), the minimum value of $|W|$ (in J) is",
+  "stem_images": [],
+  "options": {
+   "A": "$207R$",
+   "B": "$600R$",
+   "C": "$630R$",
+   "D": "$900R$"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Irreversible isothermal compression work",
+    "Optimization (calculus)"
+   ],
+   "formulas": [
+    "$W_{\\mathrm{on}} = P_{\\mathrm{ext}}(V_i - V_f)$ (work done ON the gas)",
+    "$V = nRT/P$ for ideal gas at constant $T$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Work done ON the gas against constant external pressure: $W = P_{\\mathrm{ext}}(V_i - V_f)$. Step 1: $P_{\\mathrm{ext}} = P$, gas goes $2\\ \\mathrm{bar} \\to P\\ \\mathrm{bar}$, so $W_1 = P\\left(\\frac{nRT}{2} - \\frac{nRT}{P}\\right) = nRT\\left(\\frac{P}{2} - 1\\right)$."
+    },
+    {
+     "n": 2,
+     "text": "Step 2: $P_{\\mathrm{ext}} = 8$, gas goes $P \\to 8$ bar, so $W_2 = 8\\left(\\frac{nRT}{P} - \\frac{nRT}{8}\\right) = nRT\\left(\\frac{8}{P} - 1\\right)$."
+    },
+    {
+     "n": 3,
+     "text": "Total $W = nRT\\left(\\frac{P}{2} + \\frac{8}{P} - 2\\right)$. Minimize $f(P) = \\frac{P}{2} + \\frac{8}{P} - 2$ on $(2, 8)$: $f'(P) = \\frac{1}{2} - \\frac{8}{P^2} = 0$ gives $P^2 = 16$, i.e. $P = 4$ (inside the interval); $f''(P) = 16/P^3 > 0$, so minimum. $f(4) = 2 + 2 - 2 = 2$."
+    },
+    {
+     "n": 4,
+     "text": "$|W|_{\\min} = 2nRT = 2(0.5)(R)(600) = 600R$ J. Matches option (B)."
+    }
+   ],
+   "pitfalls": [
+    "Using reversible work $nRT\\ln(P_2/P_1)$ instead of irreversible $P_{\\mathrm{ext}}\\Delta V$",
+    "Sign errors: work done ON the gas is positive in compression"
+   ],
+   "final_check": "Endpoints $P\\to2$ and $P\\to8$ both give $W = 900R > 600R$, confirming the interior minimum at $P=4$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "1",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879336+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-che-s1-q02",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 2,
+  "stem": "For a reversible reaction $\\mathbf{R} \\rightleftharpoons \\mathbf{P}$, at constant temperature, both the forward and the backward reactions are first order elementary reactions with rate constants $k_f$ and $k_b$, respectively. At time zero, the concentration of $\\mathbf{R}$ is $[R]_0$ and the concentration of $\\mathbf{P}$ is zero. At any given time, $[R]$ and $[P]$ are the concentrations of $\\mathbf{R}$ and $\\mathbf{P}$, respectively. If $k_b = 4k_f$, the correct graphical representation of the reaction is \\n(A) $[R]/[R]_0$ (dashed) decays $1 \\to 0.5$ and $[P]/[R]_0$ (solid) rises $0 \\to 0.5$ \\n(B) $[R]/[R]_0$ (dashed) decays $1 \\to 0.2$ and $[P]/[R]_0$ (solid) rises $0 \\to 0.8$ \\n(C) $[R]/[R]_0$ (dashed) decays $1 \\to 0.8$ and $[P]/[R]_0$ (solid) rises $0 \\to 0.2$ \\n(D) $[R]/[R]_0$ (dashed) decays toward $0$ and $[P]/[R]_0$ (solid) keeps rising past $1$ (no plateau)",
+  "stem_images": [],
+  "options": {
+   "A": "graphs: [R]→0.5, [P]→0.5",
+   "B": "graphs: [R]→0.2, [P]→0.8",
+   "C": "graphs: [R]→0.8, [P]→0.2",
+   "D": "graphs: no equilibrium plateau"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Reversible first-order kinetics",
+    "Chemical equilibrium"
+   ],
+   "formulas": [
+    "At equilibrium: $k_f[R]_{eq} = k_b[P]_{eq}$",
+    "$[R] + [P] = [R]_0$ (mass balance)",
+    "$[R](t) = [R]_{eq} + ([R]_0 - [R]_{eq})e^{-(k_f+k_b)t}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "At equilibrium the forward and backward rates are equal: $k_f[R]_{eq} = k_b[P]_{eq}$. With $k_b = 4k_f$, $[R]_{eq} = 4[P]_{eq}$."
+    },
+    {
+     "n": 2,
+     "text": "Mass balance $[R]_{eq} + [P]_{eq} = [R]_0$ gives $5[P]_{eq} = [R]_0$, so $[P]_{eq} = 0.2[R]_0$ and $[R]_{eq} = 0.8[R]_0$."
+    },
+    {
+     "n": 3,
+     "text": "Both curves approach these plateaus monotonically (exponential approach, $[R]$ falling from $1$, $[P]$ rising from $0$). Only option (C) shows $[R]/[R]_0 \\to 0.8$ and $[P]/[R]_0 \\to 0.2$. (A) corresponds to $k_b = k_f$; (B) has the two swapped; (D) shows no equilibrium."
+    }
+   ],
+   "pitfalls": [
+    "Swapping $[R]_{eq}$ and $[P]_{eq}$ (option B trap)",
+    "Forgetting mass balance"
+   ],
+   "final_check": "Equilibrium constant $K = k_f/k_b = 1/4 = [P]_{eq}/[R]_{eq}$, so $[P]_{eq}:[R]_{eq} = 1:4$, i.e. 0.2 and 0.8 — option (C)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Chemical Kinetics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "2",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879343+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-che-s1-q03",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 3,
+  "stem": "The correct order of dipole moments for the given species is",
+  "stem_images": [],
+  "options": {
+   "A": "$\\ce{BF3} = \\ce{NH4+} < \\ce{NF3} < \\ce{NH3}$",
+   "B": "$\\ce{BF3} < \\ce{NH4+} < \\ce{NF3} < \\ce{NH3}$",
+   "C": "$\\ce{NH4+} < \\ce{BF3} < \\ce{NH3} < \\ce{NF3}$",
+   "D": "$\\ce{BF3} < \\ce{NH4+} < \\ce{NH3} < \\ce{NF3}$"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Dipole moment",
+    "Molecular geometry",
+    "Lone pair vs bond dipole"
+   ],
+   "formulas": [
+    "$\\mu = 0$ for symmetric geometries (trigonal planar $\\ce{BF3}$, tetrahedral $\\ce{NH4+}$)"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\ce{BF3}$ is trigonal planar (symmetric) $\\Rightarrow \\mu = 0$. $\\ce{NH4+}$ is tetrahedral (symmetric) $\\Rightarrow \\mu = 0$. So $\\ce{BF3} = \\ce{NH4+} = 0$."
+    },
+    {
+     "n": 2,
+     "text": "In $\\ce{NH3}$, the lone-pair dipole reinforces the N–H bond dipoles $\\Rightarrow$ large $\\mu$ ($\\approx 1.47$ D). In $\\ce{NF3}$, the lone-pair dipole opposes the N–F bond dipoles $\\Rightarrow$ small net $\\mu$ ($\\approx 0.23$ D)."
+    },
+    {
+     "n": 3,
+     "text": "Hence $\\ce{BF3} = \\ce{NH4+} < \\ce{NF3} < \\ce{NH3}$, option (A)."
+    }
+   ],
+   "pitfalls": [
+    "Thinking $\\ce{NF3} > \\ce{NH3}$ because F is more electronegative (the lone pair direction reverses the net)"
+   ],
+   "final_check": "$\\mu(\\ce{BF3})=\\mu(\\ce{NH4+})=0 < \\mu(\\ce{NF3})\\approx0.23\\ \\mathrm{D} < \\mu(\\ce{NH3})\\approx1.47\\ \\mathrm{D}$ — option (A)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Chemical Bonding"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "3",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879350+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-che-s1-q04",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 4,
+  "stem": "Considering $\\ce{LiBH4}$ reduces an ester group to the corresponding alcohol and does not reduce a carboxylic acid group, the correct statement about the major products P, Q, R and S is \\nSubstrate 1: cyclobutane with C1 bearing $\\ce{EtO2C}$ (wedge) and $\\ce{CO2H}$ (dash) on the same ring carbon, and $\\ce{CH3}$ (wedge) on an adjacent ring carbon. P $\\xleftarrow{1.\\ \\ce{LiBH4},\\ 2.\\ \\ce{H+}}$ Substrate 1 $\\xrightarrow{1.\\ \\ce{BH3},\\ 2.\\ \\ce{H+}}$ Q. \\nSubstrate 2: same constitution with $\\ce{CH3}$ (wedge) on the ring carbon opposite the disubstituted carbon ($\\ce{EtO2C}$ wedge, $\\ce{CO2H}$ dash). R $\\xleftarrow{1.\\ \\ce{LiBH4},\\ 2.\\ \\ce{H+}}$ Substrate 2 $\\xrightarrow{1.\\ \\ce{BH3},\\ 2.\\ \\ce{H+}}$ S.",
+  "stem_images": [],
+  "options": {
+   "A": "P & Q are identical, and R & S are diastereomers.",
+   "B": "P & Q are diastereomers, and R & S are identical.",
+   "C": "P & Q are diastereomers, and R & S are diastereomers.",
+   "D": "P & Q are identical, and R & S are identical."
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Chemoselective reduction",
+    "Constitutional vs stereoisomers"
+   ],
+   "formulas": [
+    "$\\ce{LiBH4}$: $\\ce{RCO2Et -> RCH2OH}$; $\\ce{RCO2H}$ untouched",
+    "$\\ce{BH3}$: $\\ce{RCO2H -> RCH2OH}$; $\\ce{RCO2Et}$ untouched"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\ce{LiBH4}$ reduces only the ester: P = ring-C($\\ce{CH2OH}$)( $\\ce{CO2H}$), a hydroxy-ACID (formula $\\ce{C7H12O3}$). $\\ce{BH3}$ reduces only the acid: Q = ring-C($\\ce{CO2Et}$)($\\ce{CH2OH}$), a hydroxy-ESTER (formula $\\ce{C9H16O3}$)."
+    },
+    {
+     "n": 2,
+     "text": "P and Q therefore have DIFFERENT constitutions (and different molecular formulas) — they are constitutional isomers, so strictly they can be neither 'identical' nor 'diastereomers' (diastereomers are stereoisomers, requiring identical connectivity). The same holds for R and S."
+    },
+    {
+     "n": 3,
+     "text": "Hence none of (A)–(D) is strictly correct; the question is flawed as written. If the intended comparison ignored the $\\ce{CO2H}$ vs $\\ce{CO2Et}$ difference and only tracked the new $\\ce{CH2OH}$ relative to $\\ce{CH3}$ (cis in P, trans in Q), the intended answer would be (C)."
+    }
+   ],
+   "pitfalls": [
+    "Assuming P and Q have the same molecular formula without checking"
+   ],
+   "final_check": "P ($\\ce{C7H12O3}$, hydroxy-acid) vs Q ($\\ce{C9H16O3}$, hydroxy-ester): different constitutions, so no option is strictly valid."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Organic Chemistry - Reduction"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "4",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879357+00:00"
+  },
+  "parent_stem": null,
+  "ambiguity": "FLAWED QUESTION: P and Q (and R and S) are constitutional isomers (P is a hydroxy-acid, Q is a hydroxy-ester), not stereoisomers, so none of (A)-(D) is strictly correct. Recorded answer (C) is only the likely intended answer if the author overlooked the CO2H vs CO2Et constitution difference.",
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-che-s2-q05",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 16
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 5,
+  "stem": "The $2s$ and the $2p$ orbital energies of hydrogen atom are $E_{2s}(\\mathrm{H})$ and $E_{2p}(\\mathrm{H})$, respectively. The $2s$ and the $2p$ orbital energies of lithium atom are $E_{2s}(\\mathrm{Li})$ and $E_{2p}(\\mathrm{Li})$, respectively. The correct option(s) about the orbital energies is(are)",
+  "stem_images": [],
+  "options": {
+   "A": "$E_{2s}(\\mathrm{Li}) < E_{2p}(\\mathrm{Li})$",
+   "B": "$E_{2s}(\\mathrm{H}) = E_{2p}(\\mathrm{H})$",
+   "C": "$E_{2p}(\\mathrm{H}) < E_{2s}(\\mathrm{Li})$",
+   "D": "$E_{2s}(\\mathrm{H}) > E_{2s}(\\mathrm{Li})$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Atomic orbitals",
+    "Shielding and penetration",
+    "Hydrogen-like vs multi-electron atoms"
+   ],
+   "formulas": [
+    "H (one electron): $E_n = -13.6\\ \\mathrm{eV}/n^2$ (depends only on $n$)",
+    "Multi-electron: $2s$ penetrates more than $2p$ $\\Rightarrow E_{2s} < E_{2p}$",
+    "$E_{2s}(\\mathrm{Li}) \\approx -\\mathrm{IE}_1(\\mathrm{Li}) = -5.39\\ \\mathrm{eV}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(A) In Li (multi-electron), the $2s$ electron penetrates closer to the nucleus than $2p$, feels a larger $Z_{\\mathrm{eff}}$, and lies lower: $E_{2s}(\\mathrm{Li}) < E_{2p}(\\mathrm{Li})$. TRUE."
+    },
+    {
+     "n": 2,
+     "text": "(B) H has one electron; orbital energy depends only on $n$: $E_{2s}(\\mathrm{H}) = E_{2p}(\\mathrm{H}) = -13.6/4 = -3.4$ eV. TRUE."
+    },
+    {
+     "n": 3,
+     "text": "(C) $E_{2p}(\\mathrm{H}) = -3.4$ eV and $E_{2s}(\\mathrm{Li}) \\approx -5.39$ eV, so $E_{2p}(\\mathrm{H}) > E_{2s}(\\mathrm{Li})$. The stated $<$ is FALSE."
+    },
+    {
+     "n": 4,
+     "text": "(D) $-3.4 > -5.39$, i.e. $E_{2s}(\\mathrm{H}) > E_{2s}(\\mathrm{Li})$. TRUE (Li's $2s$ is stabilized by $Z=3$)."
+    }
+   ],
+   "pitfalls": [
+    "Reversing inequality direction for negative energies",
+    "Forgetting penetration splits $2s/2p$ only in multi-electron atoms"
+   ],
+   "final_check": "Numerically: $E_{2s}(H)=E_{2p}(H)=-3.4$ eV, $E_{2s}(Li)\\approx-5.39$ eV $< E_{2p}(Li)$ — so A, B, D hold and C fails."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Atomic Structure"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "5",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879364+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "ABD",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "key_answer": "ABD",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-che-s2-q06",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 16
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 6,
+  "stem": "Correct statement(s) about the compounds X, Y and Z is(are) \\n$\\ce{MnO2} + \\text{Conc. HCl} \\longrightarrow \\ce{MnCl2} + \\mathbf{X} + \\ce{H2O}$, X = greenish yellow gas \\n$\\ce{NH3} + \\mathbf{X}\\text{(excess)} \\longrightarrow \\mathbf{Y} + \\ce{HCl}$ \\n$\\mathbf{X} + \\ce{F2}\\text{(excess)} \\xrightarrow{573\\ \\mathrm{K}} \\mathbf{Z}$",
+  "stem_images": [],
+  "options": {
+   "A": "X is used for sterilizing drinking water.",
+   "B": "Y has a planar structure.",
+   "C": "Z is used in the enrichment of $^{235}$U.",
+   "D": "Y is a stronger Lewis base than ammonia."
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "p-block chemistry",
+    "Nitrogen halides",
+    "Interhalogens"
+   ],
+   "formulas": [
+    "$\\ce{MnO2 + 4HCl -> MnCl2} + \\ce{Cl2} + 2\\ce{H2O}$",
+    "$\\ce{NH3 + 3Cl2 -> NCl3} + \\ce{3HCl}$",
+    "$\\ce{Cl2} + 3\\ce{F2} ->[573 K] 2\\ce{ClF3}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "X is the greenish-yellow gas from $\\ce{MnO2}$/conc. HCl: $\\ce{Cl2}$. (A) $\\ce{Cl2}$ (chlorination) is used to sterilize drinking water. TRUE."
+    },
+    {
+     "n": 2,
+     "text": "Since X ($\\ce{Cl2}$) is in excess over $\\ce{NH3}$: $\\ce{NH3} + 3\\ce{Cl2} \\to \\ce{NCl3} + \\ce{3HCl}$, so Y = $\\ce{NCl3}$ (nitrogen trichloride). (B) $\\ce{NCl3}$ is trigonal pyramidal (like $\\ce{NH3}$), not planar. FALSE."
+    },
+    {
+     "n": 3,
+     "text": "Z: $\\ce{Cl2}$ + excess $\\ce{F2}$ at 573 K gives $\\ce{ClF3}$. (C) $^{235}$U enrichment uses $\\ce{UF6}$, not $\\ce{ClF3}$. FALSE."
+    },
+    {
+     "n": 4,
+     "text": "(D) $\\ce{NCl3}$ is a far weaker Lewis base than $\\ce{NH3}$ (electronegative Cl atoms withdraw electron density from N). FALSE."
+    }
+   ],
+   "pitfalls": [
+    "Misreading which reactant is in excess (excess NH3 would give N2 instead)",
+    "Confusing ClF3 with UF6 for uranium enrichment"
+   ],
+   "final_check": "X=Cl2 (sterilizes water ✓); Y=NCl3 (pyramidal, weak base ✗✗); Z=ClF3 (≠ UF6 ✗) — only (A)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "p-Block Elements"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "6",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879374+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "AC",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": [
+    "A"
+   ],
+   "key_answer": "AC",
+   "match": true,
+   "status": "verified",
+   "attempts": 2,
+   "note": "First blind solve (['A']) incorrect; second blind solve confirms key (AC)."
+  }
+ },
+ {
+  "id": "adv2026-p1-che-s2-q07",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 16
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 7,
+  "stem": "Reaction of $\\ce{PtF6}$ with oxygen ($\\ce{O2}$) gas results in the formation of an ionic compound, $\\mathbf{X^+Y^-}$. Correct statement(s) is(are)",
+  "stem_images": [],
+  "options": {
+   "A": "The bond order of $\\mathbf{X^+}$ is $1.5$.",
+   "B": "Valence $d$-orbitals of the metal ion in $\\mathbf{X^+Y^-}$ has $5$ electrons.",
+   "C": "$\\ce{PtF6}$ acts as an oxidant in this reaction.",
+   "D": "$\\ce{PtF6}$ acts as a fluorinating agent in this reaction."
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Bartlett's compound",
+    "Molecular orbital bond order",
+    "Redox"
+   ],
+   "formulas": [
+    "$\\ce{O2 + PtF6} \\to \\ce{[O2]+[PtF6]-}$ (dioxygenyl hexafluoroplatinate)",
+    "Bond order $= \\frac{N_b - N_a}{2}$; $\\ce{O2}$: BO $= 2$, $\\ce{O2+}$: BO $= 2.5$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\ce{PtF6}$ oxidizes $\\ce{O2}$: $\\ce{O2 + PtF6 -> [O2]+[PtF6]-}$ (Bartlett's discovery). So $\\ce{X^+} = \\ce{O2+}$ (dioxygenyl) and $\\ce{Y^-} = \\ce{PtF6-}$."
+    },
+    {
+     "n": 2,
+     "text": "(A) $\\ce{O2}$ has bond order $2$; removing one antibonding $\\pi^*$ electron gives $\\ce{O2+}$ with bond order $2.5$, not $1.5$. FALSE."
+    },
+    {
+     "n": 3,
+     "text": "(B) In $\\ce{PtF6-}$, Pt is in oxidation state $+5$ ($6 \\times (-1) + x = -1$), i.e. $5d^5$. The valence $d$-orbitals hold $5$ electrons. TRUE."
+    },
+    {
+     "n": 4,
+     "text": "(C) $\\ce{PtF6}$ accepts an electron ($\\ce{Pt(VI) -> Pt(V)}$) while oxidizing $\\ce{O2}$; it acts as the oxidant. TRUE."
+    },
+    {
+     "n": 5,
+     "text": "(D) No fluorine is transferred to oxygen; $\\ce{PtF6}$ is not acting as a fluorinating agent here. FALSE."
+    }
+   ],
+   "pitfalls": [
+    "Confusing O2+ (BO 2.5) with O2− (BO 1.5)",
+    "Miscounting Pt oxidation state in PtF6−"
+   ],
+   "final_check": "$\\ce{O2+}$: BO $= 2.5 \\neq 1.5$; Pt(V) $= d^5$ ✓; $\\ce{PtF6}$ is the oxidant ✓; no F-transfer ✗ — (B), (C)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Coordination Compounds",
+    "Chemical Bonding"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "7",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879383+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "BC",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": [
+    "B",
+    "C"
+   ],
+   "key_answer": "BC",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-che-s2-q08",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 16
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 8,
+  "stem": "In the following reaction sequence, Q, R, S and T are the major products. \\n$\\ce{CH3CH2CH2COONa} \\xrightarrow[2.\\ \\ce{V2O5},\\ 500^\\circ C]{1.\\ \\text{Kolbe's electrolysis}} \\mathbf{Q} \\xrightarrow[\\text{phthalic anhydride}]{\\text{anhyd. }\\ce{AlCl3}} \\mathbf{R} \\xrightarrow[2.\\ \\ce{H2}\\text{-Pd/}\\ce{BaSO4}]{1.\\ \\ce{PCl5}} \\mathbf{S} \\xrightarrow{\\ce{NH2NH2},\\ \\text{heat}} \\mathbf{T}$ \\nThe correct statement(s) about Q, R, S and T is(are)",
+  "stem_images": [],
+  "options": {
+   "A": "S on warming with ammoniacal $\\ce{AgNO3}$ results in the formation of silver mirror.",
+   "B": "Q on treatment with $\\ce{Cl2}$(excess)/UV gives gammaxane.",
+   "C": "T is a heterocyclic compound.",
+   "D": "R on acid catalyzed intramolecular cyclization followed by treatment with Zn-Hg/HCl gives 9,10-dihydroxyanthracene."
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Kolbe's electrolysis",
+    "Friedel-Crafts acylation",
+    "Rosenmund reduction",
+    "Phthalazine synthesis"
+   ],
+   "formulas": [
+    "Kolbe's: $2\\ce{RCOO-} -> R\\text{-}R + 2\\ce{CO2}$",
+    "Rosenmund: $\\ce{RCOCl ->[H2-Pd/BaSO4] RCHO}$",
+    "Gammaxane $= \\ce{C6H6Cl6}$ from benzene $+ \\ce{Cl2}$/UV"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Kolbe's electrolysis of $\\ce{CH3CH2CH2COO-}$ gives $n$-hexane, which under the stated $\\ce{V2O5}$/500 °C conditions is converted to benzene: Q = benzene. (B) Benzene $+ \\ce{Cl2}$(excess)/UV gives benzene hexachloride (gammaxane/BHC). TRUE — this also confirms Q is benzene."
+    },
+    {
+     "n": 2,
+     "text": "Q (benzene) $+$ phthalic anhydride $\\xrightarrow{\\ce{AlCl3}}$ R = $o$-benzoylbenzoic acid (Friedel–Crafts acylation). R $\\xrightarrow{\\ce{PCl5}}$ acid chloride $\\xrightarrow{\\text{Rosenmund}}$ S = $o$-benzoylbenzaldehyde (2-benzoylbenzaldehyde)."
+    },
+    {
+     "n": 3,
+     "text": "(A) S contains an aldehyde ($\\ce{-CHO}$), which reduces Tollens' reagent (ammoniacal $\\ce{AgNO3}$) to a silver mirror on warming. TRUE."
+    },
+    {
+     "n": 4,
+     "text": "(C) S $+ \\ce{NH2NH2}$/heat: the aldehyde forms a hydrazone whose terminal $\\ce{NH2}$ attacks the benzoyl ketone intramolecularly, closing a diazine ring — T = 1-phenylphthalazine, a heterocycle. TRUE."
+    },
+    {
+     "n": 5,
+     "text": "(D) R ($o$-benzoylbenzoic acid) on intramolecular Friedel–Crafts cyclization gives anthraquinone (9,10-anthraquinone), and Clemmensen reduction (Zn-Hg/HCl) reduces $\\ce{C=O \\to CH2}$, giving anthracene — not 9,10-dihydroxyanthracene. FALSE."
+    }
+   ],
+   "pitfalls": [
+    "Thinking Clemmensen gives an alcohol (it gives CH2)",
+    "Missing that gammaxane specifically identifies benzene"
+   ],
+   "final_check": "Q=benzene→(B)✓; S=o-benzoylbenzaldehyde→Tollens ✓(A); T=1-phenylphthalazine, heterocyclic ✓(C); R→anthraquinone→anthracene, not a diol ✗(D)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Organic Chemistry - Aromatic Compounds"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "8",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879389+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "ABC",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "key_answer": "ABC",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-che-s3-q09",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 16
+  },
+  "qtype": "numerical",
+  "number_in_subject": 9,
+  "stem": "Two cylinders, both fitted with frictionless pistons, are filled with mixtures of He and Ar gases. In the first cylinder, the masses of He and Ar are $m_1$ and $m_2$, respectively. In the second cylinder, the masses of He and Ar are $m_2$ and $m_1$, respectively. The molar mass of Ar is $10$ times the molar mass of He. The external pressure applied by the piston on the first cylinder needs to be $5$ times that on the second cylinder so that the volume of the gas mixtures in both the cylinders are equal at the same temperature. Assuming He and Ar behave like ideal gases, the value of $(m_1/m_2)$ is ____.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Ideal gas equation",
+    "Mole concept"
+   ],
+   "formulas": [
+    "$PV = nRT$; at same $V, T$: $P_1/P_2 = n_1/n_2$",
+    "$n = m/M$; $M_{\\ce{Ar}} = 10M_{\\ce{He}}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Let $M_{\\ce{He}} = M$, so $M_{\\ce{Ar}} = 10M$. Moles in cylinder 1: $n_1 = \\frac{m_1}{M} + \\frac{m_2}{10M} = \\frac{10m_1 + m_2}{10M}$. Moles in cylinder 2: $n_2 = \\frac{m_2}{M} + \\frac{m_1}{10M} = \\frac{10m_2 + m_1}{10M}$."
+    },
+    {
+     "n": 2,
+     "text": "Same $V$ and $T$ with $P_1 = 5P_2$ gives $\\frac{n_1}{n_2} = \\frac{P_1}{P_2} = 5$, i.e. $\\frac{10m_1 + m_2}{10m_2 + m_1} = 5$."
+    },
+    {
+     "n": 3,
+     "text": "$10m_1 + m_2 = 50m_2 + 5m_1 \\Rightarrow 5m_1 = 49m_2 \\Rightarrow m_1/m_2 = 49/5 = 9.8$."
+    }
+   ],
+   "pitfalls": [
+    "Using masses directly in place of moles",
+    "Swapping the two cylinders' compositions"
+   ],
+   "final_check": "$n_1/n_2 = 5$ gives $(10m_1+m_2) = 5(10m_2+m_1)$, i.e. $m_1/m_2 = 49/5 = 9.8$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "States of Matter"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "9",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879396+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "9.80",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "9.8",
+   "key_answer": "9.80",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-che-s3-q10",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 16
+  },
+  "qtype": "numerical",
+  "number_in_subject": 10,
+  "stem": "The total number of all possible isomers for the square planar complex with formula $\\ce{K[M(NCS)(NO2)(gly)]}$ is ____. (M = metal ion and gly = $\\ce{NH2CH2COO-}$)",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Geometrical isomerism",
+    "Linkage isomerism",
+    "Square planar complexes"
+   ],
+   "formulas": [
+    "Unsymmetrical bidentate $+$ 2 different monodentates in square planar: 2 geometrical isomers",
+    "$\\ce{NCS-}$: 2 linkage modes (N-/S-bonded); $\\ce{NO2-}$: 2 linkage modes (nitro/nitrito)"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "gly ($\\ce{NH2CH2COO-}$) is an unsymmetrical bidentate (N and O donors) occupying two cis positions; $\\ce{NCS-}$ and $\\ce{NO2-}$ occupy the other two (mutually cis) positions."
+    },
+    {
+     "n": 2,
+     "text": "Geometrical isomers: the gly N-atom can be trans to $\\ce{NCS-}$ or trans to $\\ce{NO2-}$ → 2 isomers."
+    },
+    {
+     "n": 3,
+     "text": "Linkage isomers multiply independently: $\\ce{NCS-}$ binds via N or S (2 ways); $\\ce{NO2-}$ binds via N (nitro) or O (nitrito) (2 ways). Total $= 2 \\times 2 \\times 2 = 8$. (Square planar complexes are achiral, so no extra enantiomers.)"
+    }
+   ],
+   "pitfalls": [
+    "Forgetting linkage isomerism of NCS−/NO2−",
+    "Counting enantiomers for a planar complex"
+   ],
+   "final_check": "2 (geometric) × 2 (NCS linkage) × 2 (NO2 linkage) = 8 isomers."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Coordination Compounds"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "10",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879403+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "8",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "8",
+   "key_answer": "8",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-che-s3-q11",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 16
+  },
+  "qtype": "numerical",
+  "number_in_subject": 11,
+  "stem": "The sum of total number of carbonyl groups ($\\ce{>C=O}$) present in the major products X and Y in the following reactions is ____. \\n$\\ce{HO2C-CH(CH3)-C(=O)-CH(CH3)-CO2H} \\xrightarrow{\\text{heat}} \\mathbf{X}$ \\ncis-3,4-dicarboxycyclopentanone $\\xrightarrow{\\text{heat}} \\mathbf{Y}$",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Decarboxylation of beta-keto acids",
+    "Anhydride formation"
+   ],
+   "formulas": [
+    "$\\beta$-keto acid $\\xrightarrow{\\Delta} $ ketone $+ \\ce{CO2}$",
+    "cis-1,2-dicarboxylic acid $\\xrightarrow{\\Delta}$ cyclic anhydride $+ \\ce{H2O}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "X: $\\ce{HOOC-CH(CH3)-CO-CH(CH3)-COOH}$ is a $\\beta$-keto diacid (both $\\ce{CO2H}$ beta to the ketone). On heating it undergoes double decarboxylation (cf. acetonedicarboxylic acid → acetone): X = $\\ce{CH3CH2COCH2CH3}$ (pentan-3-one), which has 1 carbonyl group."
+    },
+    {
+     "n": 2,
+     "text": "Y: the two $\\ce{CO2H}$ groups are on adjacent ring carbons (cis) but gamma to the ring ketone, so no decarboxylation; instead the cis-1,2-diacid dehydrates on heating to the fused 5-membered cyclic anhydride. Carbonyls in Y: 1 (cyclopentanone) + 2 (anhydride) = 3. (Even unreacted, the count is 3.)"
+    },
+    {
+     "n": 3,
+     "text": "Sum $= 1 + 3 = 4$."
+    }
+   ],
+   "pitfalls": [
+    "Counting only one decarboxylation for the diacid",
+    "Missing anhydride formation / miscounting C=O groups"
+   ],
+   "final_check": "X = pentan-3-one (1 C=O); Y = cyclic anhydride (3 C=O); total = 4."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Organic Chemistry - Carboxylic Acids"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "11",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879410+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "4",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "4",
+   "key_answer": "4",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-che-s3-q12",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 16
+  },
+  "qtype": "numerical",
+  "number_in_subject": 12,
+  "stem": "Treatment of buta-1,3-diyne with $\\ce{NaNH2}$ (2 equivalents), followed by reaction with excess of trans-$\\ce{CH3-CH=CH-CH2-Br}$ gives X as the major product. The maximum number of carbon atoms that are collinear (in a straight line) in X is ____.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Alkyne acidity",
+    "SN2 alkylation",
+    "Linear geometry of sp carbons"
+   ],
+   "formulas": [
+    "$HC\\equiv C-C\\equiv CH + 2\\ce{NaNH2} -> NaC\\equiv C-C\\equiv CNa$",
+    "sp C: $180^\\circ$; atoms bonded to sp C lie on the molecular axis"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "2 equiv $\\ce{NaNH2}$ deprotonate both terminal alkynes: $\\ce{^{-}C#C-C#C^{-}}$ (disodium salt). Excess trans-$\\ce{CH3CH=CHCH2Br}$ alkylates both ends by SN2 at the $\\ce{CH2Br}$ carbon: X = trans-$\\ce{CH3CH=CH-CH2-C#C-C#C-CH2-CH=CH-CH3}$."
+    },
+    {
+     "n": 2,
+     "text": "The four diyne carbons ($\\ce{-C#C-C#C-}$) are sp and mutually collinear. Each terminal sp carbon is bonded to a $\\ce{CH2}$ group along the same axis ($180^\\circ$ at sp C), so both $\\ce{CH2}$ carbons are also collinear: $4 + 2 = 6$ carbons."
+    },
+    {
+     "n": 3,
+     "text": "The vinyl carbons branch off at tetrahedral ($\\approx 109^\\circ$) angles from the $\\ce{CH2}$ groups and cannot be collinear with this axis. Maximum $= 6$."
+    }
+   ],
+   "pitfalls": [
+    "Including the vinyl carbons (they bend away at the sp3 CH2)",
+    "Counting only the 4 diyne carbons"
+   ],
+   "final_check": "Linear $\\ce{CH2-C#C-C#C-CH2}$ unit = 6 collinear carbons; the alkenyl ends bend away — answer 6."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Organic Chemistry - Alkynes"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "12",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879418+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "6",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "6",
+   "key_answer": "6",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-che-s4-q13",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 16
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 13,
+  "stem": "List-I contains various physical/chemical processes, and List-II contains combinations of changes in enthalpy ($\\Delta H$) and entropy ($\\Delta S$). Match each entry in List-I to the appropriate entry in List-II, and choose the correct option. \\nList-I: (P) Physisorption; (Q) Diamond $\\longrightarrow$ Graphite; (R) Denaturation of protein; (S) Propene $\\longrightarrow$ Cyclopropane \\nList-II: (1) $\\Delta H > 0$ and $\\Delta S > 0$; (2) $\\Delta H < 0$ and $\\Delta S < 0$; (3) $\\Delta H < 0$ and $\\Delta S = 0$; (4) $\\Delta H > 0$ and $\\Delta S < 0$; (5) $\\Delta H < 0$ and $\\Delta S > 0$",
+  "stem_images": [],
+  "options": {
+   "A": "P → 2; Q → 3; R → 5; S → 4",
+   "B": "P → 4; Q → 3; R → 5; S → 1",
+   "C": "P → 2; Q → 5; R → 1; S → 4",
+   "D": "P → 2; Q → 5; R → 1; S → 3"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Adsorption thermodynamics",
+    "Entropy of phase/structural changes"
+   ],
+   "formulas": [
+    "Adsorption: $\\Delta H < 0$, $\\Delta S < 0$ (gas loses freedom)",
+    "Unfolding: $\\Delta H > 0$, $\\Delta S > 0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(P) Physisorption: weak van der Waals binding is exothermic ($\\Delta H < 0$); gas molecules lose translational freedom on the surface ($\\Delta S < 0$) → (2)."
+    },
+    {
+     "n": 2,
+     "text": "(Q) Diamond → graphite: graphite is the stable allotrope ($\\Delta H < 0$); the layered, softer graphite lattice has higher entropy than rigid diamond ($\\Delta S > 0$) → (5)."
+    },
+    {
+     "n": 3,
+     "text": "(R) Denaturation (unfolding) breaks H-bonds/hydrophobic contacts ($\\Delta H > 0$) and gives a disordered polypeptide ($\\Delta S > 0$) → (1)."
+    },
+    {
+     "n": 4,
+     "text": "(S) Propene → cyclopropane (acyclic → strained ring): ring strain makes $\\Delta H > 0$; cyclization reduces disorder ($\\Delta S < 0$) → (4)."
+    },
+    {
+     "n": 5,
+     "text": "Combination P→2, Q→5, R→1, S→4 = option (C)."
+    }
+   ],
+   "pitfalls": [
+    "Assigning ΔS > 0 to adsorption",
+    "Getting the sign of ΔH for diamond→graphite wrong"
+   ],
+   "final_check": "P→2, Q→5, R→1, S→4 matches only option (C)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "13",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879424+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-che-s4-q14",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 16
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 14,
+  "stem": "Consider the following species: $\\ce{SOCl2}$, $\\ce{XeOF4}$, $\\ce{ClF3}$, $\\ce{ClF5}$, $\\ce{XeF5+}$, $\\ce{SO3^{2-}}$, $\\ce{XeF3+}$, $\\ce{SF4}$ \\nList-I contains different molecular shapes and List-II contains total number of species with the same molecular shapes from the given species. Match each entry in List-I with the appropriate entry in List-II and choose the correct option. \\nList-I: (P) See-saw; (Q) T-Shaped; (R) Trigonal Planar; (S) Square Pyramidal \\nList-II: (1) one; (2) two; (3) three; (4) four; (5) zero",
+  "stem_images": [],
+  "options": {
+   "A": "P → 1; Q → 2; R → 5; S → 3",
+   "B": "P → 5; Q → 4; R → 2; S → 3",
+   "C": "P → 3; Q → 2; R → 1; S → 4",
+   "D": "P → 1; Q → 3; R → 5; S → 4"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "VSEPR theory",
+    "Molecular shapes"
+   ],
+   "formulas": [
+    "Steric number $=$ $\\sigma$-bonds $+$ lone pairs; shape from VSEPR"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Classify each (lone pairs on central atom): $\\ce{SOCl2}$: 3 bonds + 1 lp → trigonal pyramidal; $\\ce{XeOF4}$: 5 bonds + 1 lp → square pyramidal; $\\ce{ClF3}$: 3 bonds + 2 lp → T-shaped; $\\ce{ClF5}$: 5 bonds + 1 lp → square pyramidal; $\\ce{XeF5+}$: 5 bonds + 1 lp → square pyramidal; $\\ce{SO3^{2-}}$: 3 bonds + 1 lp → trigonal pyramidal; $\\ce{XeF3+}$: 3 bonds + 2 lp → T-shaped; $\\ce{SF4}$: 4 bonds + 1 lp → see-saw."
+    },
+    {
+     "n": 2,
+     "text": "(P) See-saw: only $\\ce{SF4}$ → (1) one. (Q) T-shaped: $\\ce{ClF3}$, $\\ce{XeF3+}$ → (2) two. (R) Trigonal planar: none ($\\ce{SOCl2}$, $\\ce{SO3^{2-}}$ are pyramidal) → (5) zero. (S) Square pyramidal: $\\ce{XeOF4}$, $\\ce{ClF5}$, $\\ce{XeF5+}$ → (3) three."
+    },
+    {
+     "n": 3,
+     "text": "P→1, Q→2, R→5, S→3 = option (A)."
+    }
+   ],
+   "pitfalls": [
+    "Counting XeOF4 as octahedral (ignoring the lone pair)",
+    "Calling SOCl2/SO3²⁻ trigonal planar"
+   ],
+   "final_check": "See-saw: SF4 (1); T-shaped: ClF3, XeF3+ (2); trigonal planar: none (0); square pyramidal: XeOF4, ClF5, XeF5+ (3) — option (A)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Chemical Bonding"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "14",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879431+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-che-s4-q15",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 16
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 15,
+  "stem": "The List-II contains products obtained from the reaction of compounds in List-I with $\\ce{O3}$/Zn-$\\ce{H2O}$ followed by cyclization (via more stable enolate) in the presence of aqueous $\\ce{NaOH}$. Match each entry in List-I with appropriate entry in List-II and choose the correct option. \\nList-I: (P) 6-6 fused alkene (double bond at fusion), $\\ce{CH3}$ on each ring alpha to fusion; (Q) 7-5 fused alkene (double bond at fusion), $\\ce{CH3}$ on 7-ring alpha to fusion-top and on 5-ring alpha to fusion-bottom; (R) 7-5 fused alkene (double bond at fusion), both $\\ce{CH3}$ on the 7-ring alpha to the fusion atoms; (S) 6-6 fused alkene (double bond at fusion), both $\\ce{CH3}$ on the same (left) ring alpha to the fusion atoms. \\nList-II: (1)–(5) bicyclic hydroxy-ketones (aldol products); (1),(4),(5) are 6-6 fused, (2),(3) are 5-7 fused.",
+  "stem_images": [],
+  "options": {
+   "A": "P → 2; Q → 4; R → 1; S → 3",
+   "B": "P → 3; Q → 4; R → 5; S → 2",
+   "C": "P → 2; Q → 1; R → 5; S → 3",
+   "D": "P → 3; Q → 5; R → 4; S → 2"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Ozonolysis",
+    "Intramolecular aldol condensation",
+    "Enolate stability"
+   ],
+   "formulas": [
+    "Fusion C=C ozonolysis → 10-membered diketone",
+    "More substituted (methyl-bearing) $\\alpha$-carbon gives the more stable enolate",
+    "Aldol: enolate C attacks the other C=O → new C–C bond; OH ends up on the attacked carbon"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Ozonolysis cleaves the fusion double bond: a 6-6 fused alkene gives a 10-membered 1,6-diketone; a 7-5 fused alkene gives a 10-membered 1,5-diketone. Intramolecular aldol via the more stable (methyl-bearing) enolate re-closes the ring: 6-6 substrates give 5-7 fused aldols, 7-5 substrates give 6-6 fused aldols (ring-size swap, 5/6-membered closure favored)."
+    },
+    {
+     "n": 2,
+     "text": "(P) 6-6 → 5-7 fused aldol; methyls end up one on the fusion carbon and one on the 7-ring alpha to the OH-bearing fusion carbon → (2). (S) 6-6 → 5-7 fused aldol; the second methyl is on the 5-ring alpha to the OH-bearing fusion carbon → (3)."
+    },
+    {
+     "n": 3,
+     "text": "(Q) 7-5 → 6-6 fused aldol via the C10 (methyl-bearing) enolate attacking C5: one 6-ring carries both the ketone (alpha to the $\\ce{CH3}$-fusion) and the methyl (alpha to the OH-fusion); the other 6-ring is unsubstituted → (1). (R) 7-5 → 6-6 fused aldol: ketone alpha to the $\\ce{CH3}$-fusion on one ring, methyl alpha to the OH-fusion on the other ring → (5)."
+    },
+    {
+     "n": 4,
+     "text": "P→2, Q→1, R→5, S→3 = option (C)."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting the ring-size swap (6-6→5-7, 7-5→6-6)",
+    "Using the less stable (unsubstituted) enolate"
+   ],
+   "final_check": "Ring-size swap plus methyl tracking gives P→2, Q→1, R→5, S→3 — option (C), the only option with P→2 and S→3."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Organic Chemistry - Carbonyl Compounds"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "15",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879438+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-che-s4-q16",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 16
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 16,
+  "stem": "Match the major products obtained in the reactions given in List-I with the corresponding structures in List-II and choose the correct option. \\nList-I: (P) 2-bromo-5-nitrobenzaldoxime $\\xrightarrow{\\text{aq. NaOH}}$; (Q) 2-bromo-5-nitrobenzaldoxime $\\xrightarrow[2.\\ \\ce{Na2CO3}]{1.\\ \\ce{(CH3CO)2O}}$; (R) 2-bromo-5-nitroacetophenone oxime $\\xrightarrow{\\text{aq. NaOH}}$; (S) 2-bromo-5-nitroacetophenone O-acetyl oxime $\\xrightarrow{\\text{aq. }\\ce{Na2CO3}}$ \\nList-II: (1) 4-nitro-2-cyanophenol; (2) 2-bromo-5-nitrobenzonitrile; (3) 2-bromo-5-nitroacetanilide; (4) 3-methyl-1,2-benzisoxazole (nitro-substituted); (5) 2-bromo-5-nitroacetophenone oxime.",
+  "stem_images": [],
+  "options": {
+   "A": "P → 2; Q → 1; R → 5; S → 4",
+   "B": "P → 1; Q → 2; R → 4; S → 5",
+   "C": "P → 1; Q → 2; R → 3; S → 4",
+   "D": "P → 2; Q → 1; R → 3; S → 5"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Oxime dehydration",
+    "Intramolecular SNAr",
+    "Benzisoxazole synthesis and cleavage"
+   ],
+   "formulas": [
+    "Aldoxime $+ \\ce{(CH3CO)2O} \\to$ nitrile (dehydration)",
+    "$o$-haloaryl oxime $+$ base $\\to$ 1,2-benzisoxazole (intramolecular SNAr)",
+    "1,2-benzisoxazole $+$ base $\\to$ $o$-cyanophenoxide (ring opening)"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(Q): $\\ce{(CH3CO)2O}$ is the textbook dehydrating agent for aldoximes: $\\ce{ArCH=NOH -> ArCN}$; Br is untouched → (2) 2-bromo-5-nitrobenzonitrile."
+    },
+    {
+     "n": 2,
+     "text": "(P): aq. NaOH first deprotonates the oxime; the oximate oxygen displaces the ortho-Br by intramolecular SNAr (activated by the para-$\\ce{NO2}$), giving 5-nitro-1,2-benzisoxazole, which excess base ring-opens to $o$-cyanophenoxide → (1) 4-nitro-2-cyanophenol."
+    },
+    {
+     "n": 3,
+     "text": "(R): the ketoxime oximate undergoes the same intramolecular SNAr → 3-methyl-1,2-benzisoxazole (4); the 3-methyl blocks base-induced ring opening, so it stops at (4)."
+    },
+    {
+     "n": 4,
+     "text": "(S): aq. $\\ce{Na2CO3}$ (mild) only hydrolyzes the O-acetyl group back to the free ketoxime → (5), without driving cyclization."
+    },
+    {
+     "n": 5,
+     "text": "P→1, Q→2, R→4, S→5 = option (B)."
+    }
+   ],
+   "pitfalls": [
+    "Expecting Beckmann rearrangement with NaOH (needs acid) for (R)",
+    "Missing the benzisoxazole ring-opening domino for (P)"
+   ],
+   "final_check": "Q→2 (dehydration) is textbook; P→1 needs the cyclize-then-open domino; R→4 (benzisoxazole stops); S→5 (mild base, just deprotection) — option (B)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Organic Chemistry - Nitrogen Compounds"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "16",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879451+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-mat-s1-q01",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 1,
+  "stem": "Consider the function $f:(0, \\infty) \\to (-\\infty, \\infty)$ given by $f(x) = \\sqrt{x}\\,\\log_e(x) - x + 1$. Then which one of the following statements is TRUE?",
+  "stem_images": [],
+  "options": {
+   "A": "The derivative of the function $f$ is decreasing in the interval $(0, 1)$",
+   "B": "The function $f$ has a local maximum at some point $M \\in (0, \\infty)$",
+   "C": "The function $f$ has a local minimum at some point $m \\in (0, \\infty)$",
+   "D": "The function $f$ has NEITHER a point of local maximum NOR a point of local minimum in the interval $(0, \\infty)$"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Differentiation",
+    "Monotonicity of the derivative",
+    "Local extrema"
+   ],
+   "formulas": [
+    "$f'(x) = \\frac{\\ln x}{2\\sqrt{x}} + \\frac{1}{\\sqrt{x}} - 1$",
+    "$f''(x) = -\\frac{\\ln x}{4x^{3/2}}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Differentiate: $f'(x) = \\frac{1}{2\\sqrt{x}}\\ln x + \\sqrt{x}\\cdot\\frac{1}{x} - 1 = \\frac{\\ln x}{2\\sqrt{x}} + \\frac{1}{\\sqrt{x}} - 1$. Differentiating again, $f''(x) = -\\frac{\\ln x}{4x^{3/2}}$."
+    },
+    {
+     "n": 2,
+     "text": "On $(0,1)$, $\\ln x < 0$, so $f''(x) > 0$; hence $f'$ is INCREASING on $(0,1)$. Option (A) is FALSE."
+    },
+    {
+     "n": 3,
+     "text": "$f'(x) = 0 \\iff \\frac{\\ln x}{2} + 1 = \\sqrt{x}$. Put $g(x) = \\frac{\\ln x}{2} + 1 - \\sqrt{x}$; then $g'(x) = \\frac{1-\\sqrt{x}}{2x}$, so $g$ increases on $(0,1)$, decreases on $(1,\\infty)$, with maximum $g(1) = 0$. Thus $g(x) < 0$ for all $x \\ne 1$, i.e. $f'(x) < 0$ for every $x \\ne 1$ (and $f'(1) = 0$)."
+    },
+    {
+     "n": 4,
+     "text": "Since $f'$ is negative on both sides of the lone critical point $x = 1$, $f$ is strictly decreasing on $(0,\\infty)$ and has no local maximum or minimum. Options (B) and (C) are FALSE; option (D) is TRUE."
+    }
+   ],
+   "pitfalls": [
+    "Do not conclude an extremum from $f'(1) = 0$ alone: the sign of $f'$ does not change at $x = 1$."
+   ],
+   "final_check": "$f'(x) < 0$ for all $x \\ne 1$, so $f$ is strictly decreasing on $(0,\\infty)$: only (D) can hold."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Differential Calculus"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "1",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.878803+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-mat-s1-q02",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 2,
+  "stem": "Let $A$ be the point on the parabola $y = x^2$ such that the slope of the tangent to the parabola at the point $A$ is $4$. Let $B$ be the point in the first quadrant lying on the circle $x^2 + y^2 = 2$ such that the slope of the tangent to the circle at the point $B$ is $-1$. Let $C$ be the point in the first quadrant lying on the ellipse $x^2 + 4y^2 = 8$ such that the slope of the tangent to the ellipse at the point $C$ is $-\\frac{1}{2}$. Then the radius of the circle passing through the points $A$, $B$ and $C$ is",
+  "stem_images": [],
+  "options": {
+   "A": "$\\sqrt{10}$",
+   "B": "$\\sqrt{5}$",
+   "C": "[option text illegible in source extraction]",
+   "D": "[option text garbled in source extraction]"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Coordinate Geometry",
+    "Tangents to conics",
+    "Circumradius"
+   ],
+   "formulas": [
+    "For $y = x^2$: $\\frac{dy}{dx} = 2x$",
+    "Right triangle circumradius $= \\frac{\\text{hypotenuse}}{2}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Parabola $y = x^2$: $\\frac{dy}{dx} = 2x = 4 \\Rightarrow x = 2$, so $A = (2, 4)$."
+    },
+    {
+     "n": 2,
+     "text": "Circle $x^2 + y^2 = 2$: implicit differentiation gives slope $-\\frac{x}{y} = -1$, so $x = y$; with $x, y > 0$ and $x^2 + y^2 = 2$, $B = (1, 1)$."
+    },
+    {
+     "n": 3,
+     "text": "Ellipse $x^2 + 4y^2 = 8$: slope $-\\frac{x}{4y} = -\\frac{1}{2}$, so $x = 2y$; with $x, y > 0$, $4y^2 + 4y^2 = 8$ gives $C = (2, 1)$."
+    },
+    {
+     "n": 4,
+     "text": "$\\triangle ABC$ has vertices $(2,4), (1,1), (2,1)$: $AC$ is vertical and $BC$ is horizontal, so it is right-angled at $C$. Hypotenuse $AB = \\sqrt{1 + 9} = \\sqrt{10}$, hence circumradius $= \\frac{\\sqrt{10}}{2}$."
+    }
+   ],
+   "pitfalls": [
+    "The computed value $\\sqrt{10}/2$ matches neither readable option ($\\sqrt{10}$, $\\sqrt{5}$); it must be the garbled/empty option."
+   ],
+   "final_check": "Right triangle with legs $3$ and $1$: circumradius $= \\sqrt{10}/2 \\approx 1.58$, excluding (A) and (B)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Coordinate Geometry"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "2",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.878884+00:00"
+  },
+  "parent_stem": null,
+  "ambiguity": "Source extraction: option C empty, option D garbled. Computed radius is sqrt(10)/2, which matches neither readable option A (sqrt(10)) nor B (sqrt(5)); solver_answer 'D' is the only remaining candidate and is LOW confidence on the letter. Correct VALUE is sqrt(10)/2.",
+  "final_check": " [FIX: re-read from paper pages. Corrected to C (was D). Page 1 (1/10). P=(2,4) [tangent slope 2x=4], Q=(1,1) [x=y from -x/y=-1 on x^2+y^2=2], R=(2,1) [x=2y from -x/4y=-1/2 on x^2+4y^2=8]. Right angle at R (PR vertical, QR horizontal); hypotenuse PQ=sqrt(10]",
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-mat-s1-q03",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 3,
+  "stem": "Which one of the following matrices can be obtained by performing elementary row transformations on the $3 \\times 3$ identity matrix?",
+  "stem_images": [],
+  "options": {
+   "A": "[matrix illegible: extracted as all-ones '1 1 1' rows]",
+   "B": "[matrix garbled in source extraction]",
+   "C": "[matrix garbled in source extraction]",
+   "D": "[matrix garbled in source extraction]"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Matrices",
+    "Elementary row operations",
+    "Determinants"
+   ],
+   "formulas": [
+    "$\\det(E) \\ne 0$ for every elementary matrix $E$",
+    "Every invertible matrix is a product of elementary matrices"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Each elementary row operation is left-multiplication by an elementary matrix $E$ with $\\det E \\ne 0$. Hence any sequence of elementary row operations applied to $I_3$ yields $E_k \\cdots E_1 I_3$, whose determinant is a product of nonzero determinants, hence nonzero."
+    },
+    {
+     "n": 2,
+     "text": "Conversely, every invertible $3 \\times 3$ matrix is a product of elementary matrices, so it CAN be obtained. The criterion is exactly: $\\det \\ne 0$ (equivalently, invertible)."
+    },
+    {
+     "n": 3,
+     "text": "The all-ones matrix (option A as extracted) has determinant $0$ and cannot be obtained. Under the only self-consistent reconstruction (exactly one option invertible, as required for a single-correct question), the invertible option is (D); e.g. a matrix of the extracted form with $\\det = -1$ or $4 \\ne 0$."
+    }
+   ],
+   "pitfalls": [
+    "Row operations can never create a singular matrix from $I_3$: any option with $\\det = 0$ is immediately excluded."
+   ],
+   "final_check": "Invertibility ($\\det \\ne 0$) is necessary and sufficient; singular options are impossible."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Matrices and Determinants"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "3",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.878902+00:00"
+  },
+  "parent_stem": null,
+  "ambiguity": "All four option matrices were garbled in extraction (only fragments like '1 1 1', '[2 3 4]', '[-1 1 2]' survive). Mathematical criterion is det != 0. Solver_answer 'D' assumes the intended design has exactly one invertible option, namely (D); LOW confidence on the letter.",
+  "final_check": " [FIX: re-read from paper pages. Corrected to B (was D). Page 2 (2/10). Matrices obtainable by elementary row ops on I_3 are exactly the invertible ones (det != 0). (A) det=0 (identical rows); (B) [[1,1,1],[2,3,4],[1,2,1]] det=-2 != 0; (C) det=4-8+4=0; (D) ]",
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-mat-s1-q04",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 4,
+  "stem": "Considering only the principal values of the inverse trigonometric functions, the value of $\\cot^{-1}(\\cot(-11)) + 10\\sin\\left(2\\cos^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right)\\right) + 10\\sin\\left(2\\tan^{-1}(2)\\right)$ is",
+  "stem_images": [],
+  "options": {
+   "A": "$3\\pi + 7$",
+   "B": "$7$",
+   "C": "$4\\pi + 7$",
+   "D": "$3\\pi - 5$"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Inverse Trigonometric Functions",
+    "Principal values"
+   ],
+   "formulas": [
+    "$\\cot^{-1}(\\cot x) = x - n\\pi \\in (0, \\pi)$",
+    "$\\sin(2\\tan^{-1}t) = \\frac{2t}{1+t^2}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\cot^{-1}$ has principal range $(0, \\pi)$. Since $-11 + 4\\pi \\approx 1.566 \\in (0, \\pi)$ and $\\cot(-11) = \\cot(-11 + 4\\pi)$, we get $\\cot^{-1}(\\cot(-11)) = 4\\pi - 11$."
+    },
+    {
+     "n": 2,
+     "text": "$\\cos^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right) = \\frac{\\pi}{4}$, so $10\\sin\\left(2 \\cdot \\frac{\\pi}{4}\\right) = 10\\sin\\left(\\frac{\\pi}{2}\\right) = 10$."
+    },
+    {
+     "n": 3,
+     "text": "With $\\theta = \\tan^{-1} 2$: $\\sin 2\\theta = \\frac{2\\tan\\theta}{1 + \\tan^2\\theta} = \\frac{4}{5}$, so $10\\sin(2\\tan^{-1}2) = 8$."
+    },
+    {
+     "n": 4,
+     "text": "Total: $(4\\pi - 11) + 10 + 8 = 4\\pi + 7$. Option (C)."
+    }
+   ],
+   "pitfalls": [
+    "Do not drop the $4\\pi$ shift: $\\cot^{-1}(\\cot(-11)) \\ne -11$ since $-11 \\notin (0,\\pi)$. The stray '1/sqrt(2)' fragment in extraction belongs to the $\\cos^{-1}$ argument, not as a multiplier of the first term."
+   ],
+   "final_check": "$(4\\pi - 11) + 10 + 8 = 4\\pi + 7 \\approx 19.57$, matching only option (C)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Inverse Trigonometric Functions"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "4",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.878914+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-mat-s2-q05",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 16
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 5,
+  "stem": "Suppose that Box I contains $6$ red balls and $9$ green balls, and Box II contains $8$ red balls and $12$ green balls. All the balls of Box I and Box II are mixed together and a ball is chosen at random from them. Let $B_1$ be the event that the ball chosen belonged to Box I and let $B_2$ be the event that the ball chosen belonged to Box II. Let $R_1$ be the event that the ball chosen is red and let $R_2$ be the event that the ball chosen is green. Then which of the following statements is (are) TRUE?",
+  "stem_images": [],
+  "options": {
+   "A": "The events $B_1$ and $R_1$ are independent",
+   "B": "The events $B_2$ and $R_2$ are dependent",
+   "C": "The conditional probability $P(R_1 \\mid B_1)$ is equal to the conditional probability $P(R_1 \\mid B_2)$",
+   "D": "The conditional probability $P(R_1 \\mid B_1)$ is greater than the conditional probability $P(R_2 \\mid B_2)$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Probability",
+    "Independence of events",
+    "Conditional probability"
+   ],
+   "formulas": [
+    "$P(B_1) = \\frac{15}{35} = \\frac{3}{7}$, $P(B_2) = \\frac{20}{35} = \\frac{4}{7}$",
+    "$P(R_1) = \\frac{14}{35} = \\frac{2}{5}$, $P(R_2) = \\frac{21}{35} = \\frac{3}{5}$",
+    "Events $E, F$ independent $\\iff P(E \\cap F) = P(E)P(F)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Totals: Box I has $15$ balls, Box II has $20$ balls; mixed pool has $14$ red and $21$ green ($35$ total)."
+    },
+    {
+     "n": 2,
+     "text": "(A): $P(B_1 \\cap R_1) = \\frac{6}{35}$ and $P(B_1)P(R_1) = \\frac{3}{7}\\cdot\\frac{2}{5} = \\frac{6}{35}$. Equal, so $B_1$ and $R_1$ are INDEPENDENT. (A) is TRUE."
+    },
+    {
+     "n": 3,
+     "text": "(B): $P(B_2 \\cap R_2) = \\frac{12}{35}$ and $P(B_2)P(R_2) = \\frac{4}{7}\\cdot\\frac{3}{5} = \\frac{12}{35}$. Equal, so $B_2$ and $R_2$ are independent, NOT dependent. (B) is FALSE."
+    },
+    {
+     "n": 4,
+     "text": "(C): $P(R_1 \\mid B_1) = \\frac{6}{15} = \\frac{2}{5}$ and $P(R_1 \\mid B_2) = \\frac{8}{20} = \\frac{2}{5}$. Equal (both boxes have the same red fraction). (C) is TRUE."
+    },
+    {
+     "n": 5,
+     "text": "(D): $P(R_1 \\mid B_1) = \\frac{2}{5}$ versus $P(R_2 \\mid B_2) = \\frac{12}{20} = \\frac{3}{5}$; $\\frac{2}{5} > \\frac{3}{5}$ is false. (D) is FALSE."
+    }
+   ],
+   "pitfalls": [
+    "The equal red fractions ($6/15 = 8/20$) make box-origin independent of colour; verify each option numerically rather than by intuition."
+   ],
+   "final_check": "(A) $6/35 = (3/7)(2/5)$ ✓; (B) $12/35 = (4/7)(3/5)$, independent ✗; (C) $2/5 = 2/5$ ✓; (D) $2/5 < 3/5$ ✗."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Probability"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "5",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.878923+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "AC",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": [
+    "A",
+    "C"
+   ],
+   "key_answer": "AC",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-mat-s2-q06",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 16
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 6,
+  "stem": "Let $\\Pi$ be the plane such that it contains the straight line $\\frac{x-1}{2} = \\frac{y-3}{3} = \\frac{z+2}{1}$ and is perpendicular to the plane $x + 2y + 3z = 4$. Let $\\Pi_1$ be the plane which passes through the point $(4, 2, 2)$ and is parallel to $\\Pi$. Then which of the following statements is (are) TRUE?",
+  "stem_images": [],
+  "options": {
+   "A": "The equation of the plane $\\Pi$ is $7x - 5y + z = -10$",
+   "B": "The distance between the planes $\\Pi$ and $\\Pi_1$ is $30$",
+   "C": "The distance of the plane $\\Pi$ from the origin is $2\\sqrt{3}$",
+   "D": "The acute angle between the plane $\\Pi$ and the plane $2x + 2y + z = 3$ is $\\cos^{-1}\\left(\\frac{1}{3\\sqrt{3}}\\right)$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Three Dimensional Geometry",
+    "Planes",
+    "Distance and angle formulae"
+   ],
+   "formulas": [
+    "Normal of $\\Pi$ $= \\vec{d} \\times \\vec{n_1}$, $\\vec{d} = (2,3,1)$, $\\vec{n_1} = (1,2,3)$",
+    "Distance between $ax+by+cz=d_1$, $ax+by+cz=d_2$: $\\frac{|d_1 - d_2|}{\\sqrt{a^2+b^2+c^2}}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Direction of the line $\\vec{d} = (2, 3, 1)$; normal of $x + 2y + 3z = 4$ is $\\vec{n_1} = (1, 2, 3)$. Normal of $\\Pi$: $\\vec{n} = \\vec{d} \\times \\vec{n_1} = (3\\cdot3 - 1\\cdot2,\\ 1\\cdot1 - 2\\cdot3,\\ 2\\cdot2 - 3\\cdot1) = (7, -5, 1)$."
+    },
+    {
+     "n": 2,
+     "text": "$\\Pi$ passes through $(1, 3, -2)$ (point on the line): $7(x-1) - 5(y-3) + (z+2) = 0$, i.e. $7x - 5y + z = -10$. (A) is TRUE."
+    },
+    {
+     "n": 3,
+     "text": "$\\Pi_1 \\parallel \\Pi$ through $(4,2,2)$: $7x - 5y + z = 28 - 10 + 2 = 20$. Distance $= \\frac{|20 - (-10)|}{\\sqrt{49 + 25 + 1}} = \\frac{30}{5\\sqrt{3}} = 2\\sqrt{3} \\ne 30$. (B) is FALSE."
+    },
+    {
+     "n": 4,
+     "text": "Distance of $\\Pi$ from origin $= \\frac{|-10|}{\\sqrt{75}} = \\frac{2}{\\sqrt{3}} \\ne 2\\sqrt{3}$. (C) is FALSE."
+    },
+    {
+     "n": 5,
+     "text": "Acute angle between $\\Pi$ and $2x + 2y + z = 3$: $\\cos\\theta = \\frac{|(7,-5,1)\\cdot(2,2,1)|}{\\sqrt{75}\\cdot 3} = \\frac{|14 - 10 + 1|}{15\\sqrt{3}} = \\frac{1}{3\\sqrt{3}}$. (D) is TRUE."
+    }
+   ],
+   "pitfalls": [
+    "For (B): $30$ is the numerator before dividing by $\\sqrt{75} = 5\\sqrt{3}$; do not forget the normalisation."
+   ],
+   "final_check": "$\\Pi: 7x-5y+z=-10$ verified through $(1,3,-2)$; distances $2\\sqrt3$, $2/\\sqrt3$; $\\cos\\theta = 1/(3\\sqrt3)$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Three Dimensional Geometry"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "6",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.878935+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "AD",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": [
+    "A",
+    "D"
+   ],
+   "key_answer": "AD",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-mat-s2-q07",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 16
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 7,
+  "stem": "Let $\\mathbb{R}$ denote the set of all real numbers. Let $f:\\mathbb{R} \\to \\mathbb{R}$ be an arbitrary function and let $g:\\mathbb{R} \\to \\mathbb{R}$ be the function defined by $g(x) = xf(x)$, for all $x \\in \\mathbb{R}$. Then which of the following statements is (are) TRUE?",
+  "stem_images": [],
+  "options": {
+   "A": "The function $g$ is always continuous at $x = 0$",
+   "B": "If $f$ is continuous at $x = 0$, then $g$ is differentiable at $x = 0$",
+   "C": "If $g$ is differentiable at $x = 0$, then $f$ is continuous at $x = 0$",
+   "D": "If $g$ is differentiable at $x = 0$, then $\\lim_{x \\to 0} f(x)$ exists"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Continuity",
+    "Differentiability",
+    "Counterexamples"
+   ],
+   "formulas": [
+    "$g'(0) = \\lim_{h \\to 0}\\frac{g(h) - g(0)}{h} = \\lim_{h \\to 0} f(h)$ (for $h \\ne 0$)"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(A) is FALSE. Counterexample: $f(x) = 1/x$ for $x \\ne 0$, $f(0) = 0$. Then $g(x) = 1$ for $x \\ne 0$ but $g(0) = 0$; $g$ is discontinuous at $0$. (The factor $x$ need not tame an arbitrary $f$.)"
+    },
+    {
+     "n": 2,
+     "text": "(B) is TRUE. $g(0) = 0$, and $\\frac{g(h) - g(0)}{h} = f(h)$ for $h \\ne 0$; if $f$ is continuous at $0$, this tends to $f(0)$, so $g'(0) = f(0)$ exists."
+    },
+    {
+     "n": 3,
+     "text": "(C) is FALSE. Counterexample: $f(x) = 1$ for $x \\ne 0$, $f(0) = 0$. Then $g(x) = x$ everywhere, differentiable at $0$, but $f$ is discontinuous at $0$ (limit $1 \\ne f(0) = 0$). Differentiability of $g$ at $0$ says nothing about the value $f(0)$."
+    },
+    {
+     "n": 4,
+     "text": "(D) is TRUE. Differentiability of $g$ at $0$ means $\\lim_{h \\to 0}\\frac{g(h)-g(0)}{h}$ exists; for $h \\ne 0$ this quotient equals $f(h)$, so $\\lim_{x \\to 0} f(x)$ exists (and equals $g'(0)$)."
+    }
+   ],
+   "pitfalls": [
+    "Distinguish (C) from (D): differentiability of $g$ at $0$ forces the LIMIT of $f$ to exist, but $f(0)$ itself is unconstrained, so continuity of $f$ need not follow."
+   ],
+   "final_check": "Counterexamples kill (A) and (C); the difference quotient $\\frac{g(h)}{h} = f(h)$ ($h\\ne0$) proves (B) and (D)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Continuity and Differentiability"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "7",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.878944+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "BD",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": [
+    "B",
+    "D"
+   ],
+   "key_answer": "BD",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-mat-s2-q08",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 16
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 8,
+  "stem": "Consider the matrix $M = \\begin{pmatrix} 2 & -1 \\\\ 1 & 0 \\end{pmatrix}$. Let $a, b, c, d, m, n, p$ and $q$ be integers such that $M^{26} = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ and $\\sum_{k=1}^{26} M^k = \\begin{pmatrix} m & n \\\\ p & q \\end{pmatrix}$. Then which of the following statements is (are) TRUE?",
+  "stem_images": [],
+  "options": {
+   "A": "There exists a $2 \\times 2$ invertible matrix $P$ with real entries such that $MP = P\\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}$",
+   "B": "The value of $m$ is $378$",
+   "C": "For any two given integers $r$ and $s$, there exist unique integers $x$ and $y$ such that $ax + by = r$ and $cx + dy = s$",
+   "D": "For each positive real number $t$, the system of linear equations $(m+t)x + ny = 1$, $px + (q+t)y = -1$ has a unique solution"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Matrices",
+    "Nilpotent decomposition",
+    "Similarity",
+    "Unimodular matrices"
+   ],
+   "formulas": [
+    "$M = I + N$, $N = \\begin{pmatrix} 1 & -1 \\\\ 1 & -1 \\end{pmatrix}$, $N^2 = 0$, so $M^k = I + kN$",
+    "$\\det M = 1 \\Rightarrow \\det M^{26} = 1$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$M - I = \\begin{pmatrix} 1 & -1 \\\\ 1 & -1 \\end{pmatrix} = N$ with $N^2 = 0$. Hence $M^k = (I+N)^k = I + kN = \\begin{pmatrix} 1+k & -k \\\\ k & 1-k \\end{pmatrix}$. So $M^{26} = \\begin{pmatrix} 27 & -26 \\\\ 26 & -25 \\end{pmatrix}$ and $\\sum_{k=1}^{26} M^k = 26I + \\left(\\sum_{k=1}^{26}k\\right)N = 26I + 351N = \\begin{pmatrix} 377 & -351 \\\\ 351 & -325 \\end{pmatrix}$. Thus $m = 377 \\ne 378$: (B) is FALSE."
+    },
+    {
+     "n": 2,
+     "text": "(A): $M = I + N$ with $N \\ne 0$, $N^2 = 0$ (rank-$1$ nilpotent). Every nonzero $2\\times2$ nilpotent is similar over $\\mathbb{R}$ to $\\begin{pmatrix} 0 & 1 \\\\ 0 & 0 \\end{pmatrix}$; e.g. with $P = \\begin{pmatrix} 1 & 1 \\\\ 1 & 0 \\end{pmatrix}$ ($\\det P = -1$), $NP = P\\begin{pmatrix} 0 & 1 \\\\ 0 & 0 \\end{pmatrix}$, so $MP = P\\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}$. (A) is TRUE."
+    },
+    {
+     "n": 3,
+     "text": "(C): $\\det M^{26} = (\\det M)^{26} = 1^{26} = 1$. An integer matrix with determinant $\\pm 1$ is invertible over $\\mathbb{Z}$, so $M^{26} : \\mathbb{Z}^2 \\to \\mathbb{Z}^2$ is bijective: unique integer $(x, y)$ for every integer $(r, s)$. (C) is TRUE."
+    },
+    {
+     "n": 4,
+     "text": "(D): The system matrix is $S + tI$ with $S = \\begin{pmatrix} 377 & -351 \\\\ 351 & -325 \\end{pmatrix}$. $\\det(S + tI) = (377+t)(-325+t) + 351^2 = t^2 + 52t + 676 = (t+26)^2 > 0$ for all $t > 0$. Nonzero determinant $\\Rightarrow$ unique solution. (D) is TRUE."
+    }
+   ],
+   "pitfalls": [
+    "For (B), compute $m$ from the sum formula rather than guessing: $m = 26 + 351 = 377$. For (D), note $(t+26)^2 = 0$ only at $t = -26$, never for $t > 0$."
+   ],
+   "final_check": "$M^{26} = \\left[\\begin{smallmatrix}27&-26\\\\26&-25\\end{smallmatrix}\\right]$, $\\sum M^k = \\left[\\begin{smallmatrix}377&-351\\\\351&-325\\end{smallmatrix}\\right]$; (B) fails on $377 \\ne 378$; (A),(C),(D) verified."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Matrices and Determinants"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "8",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879017+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "ACD",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "key_answer": "ACD",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-mat-s3-q09",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 16
+  },
+  "qtype": "numerical",
+  "number_in_subject": 9,
+  "stem": "Let $S = \\{1, 2, 3, \\ldots, 10\\}$. Consider the set $B = \\{R : R \\text{ is an equivalence relation on the set } S \\text{ such that } R \\text{ has exactly } 42 \\text{ elements}\\}$. Then the number of elements in $B$ is \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Sets and Relations",
+    "Equivalence relations",
+    "Integer partitions"
+   ],
+   "formulas": [
+    "If blocks have sizes $n_1, \\ldots, n_k$: $|R| = \\sum n_i^2$, $\\sum n_i = 10$",
+    "Number of partitions with given block sizes: $\\frac{10!}{n_1!\\cdots n_k! \\cdot (\\text{multiplicities})!}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "An equivalence relation with block sizes $n_1, \\ldots, n_k$ ($\\sum n_i = 10$) has $|R| = \\sum n_i^2$ ordered pairs. Need $\\sum n_i^2 = 42$ with $\\sum n_i = 10$."
+    },
+    {
+     "n": 2,
+     "text": "Searching partitions of $10$: $6^2 + 2^2 + 1^2 + 1^2 = 36 + 4 + 1 + 1 = 42$ ✓ and $5^2 + 4^2 + 1^2 = 25 + 16 + 1 = 42$ ✓. No other multiset of parts summing to $10$ has squares summing to $42$ (e.g. $6,3,1$: $46$; $5,3,2$: $38$; $4,4,2$: $36$; $4,3,3$: $34$)."
+    },
+    {
+     "n": 3,
+     "text": "Block sizes $\\{6,2,1,1\\}$: $\\frac{10!}{6!\\,2!\\,1!\\,1!\\,2!} = \\frac{10\\cdot9\\cdot8\\cdot7}{4} = 1260$ (dividing by $2!$ for the two singleton blocks)."
+    },
+    {
+     "n": 4,
+     "text": "Block sizes $\\{5,4,1\\}$: $\\frac{10!}{5!\\,4!\\,1!} = \\frac{30240}{24} = 1260$. Total $|B| = 1260 + 1260 = 2520$."
+    }
+   ],
+   "pitfalls": [
+    "Remember $R$ counts ORDERED pairs ($n_i^2$ per block, not $\\binom{n_i}{2}$); and divide by factorials of repeated block sizes."
+   ],
+   "final_check": "Two valid block-size types, $1260$ partitions each: $2520$ equivalence relations."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Sets and Relations"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "9",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879028+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "2520",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "2520",
+   "key_answer": "2520",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-mat-s3-q10",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 16
+  },
+  "qtype": "numerical",
+  "number_in_subject": 10,
+  "stem": "Consider the function $f:\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) \\to (-\\infty, \\infty)$ defined by $f(x) = (|x| + |x - 1|)\\sin x + [x\\sin x]$, where $[x\\sin x]$ denotes the greatest integer less than or equal to $x\\sin x$. Let $\\alpha$ be the total number of points in the interval $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ at which $f$ is NOT continuous, and let $\\beta$ be the total number of points in the interval $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ at which $f$ is NOT differentiable. Then the value of $\\alpha + \\beta$ is \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Continuity",
+    "Differentiability",
+    "Greatest integer function",
+    "Absolute value"
+   ],
+   "formulas": [
+    "$[t]$ jumps exactly where $t$ crosses an integer",
+    "$x\\sin x$ is even, $0 \\le x\\sin x < \\frac{\\pi}{2}$ on $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Split $f = g + h$ with $g(x) = (|x| + |x-1|)\\sin x$ (continuous everywhere) and $h(x) = [x\\sin x]$. On $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$, $x\\sin x \\ge 0$ is even, strictly decreasing on $(-\\pi/2, 0)$ from $\\pi/2$ to $0$ and strictly increasing on $(0, \\pi/2)$ from $0$ to $\\pi/2$. Since $\\pi/2 \\approx 1.57$, $x\\sin x$ crosses the integer $1$ exactly once on each side: two jump points $\\pm a$ ($a\\sin a = 1$). Hence $f$ is discontinuous at exactly $2$ points: $\\alpha = 2$."
+    },
+    {
+     "n": 2,
+     "text": "Non-differentiability: the points $\\pm a$ are already non-differentiable (discontinuous). Elsewhere $h$ is locally constant, so check kinks of $g$ at $x = 0$ and $x = 1$."
+    },
+    {
+     "n": 3,
+     "text": "At $x = 0$: for $x < 0$ small, $g(x) = (1-2x)\\sin x$ with derivative $-2\\sin x + (1-2x)\\cos x \\to 1$; for $x > 0$ small, $g(x) = \\sin x$ with derivative $\\cos x \\to 1$. Equal, so $g$ (hence $f$) IS differentiable at $0$."
+    },
+    {
+     "n": 4,
+     "text": "At $x = 1$: left derivative $= \\cos 1$ (since $g = \\sin x$ on $(0,1)$); right derivative $= 2\\sin 1 + \\cos 1 \\ne \\cos 1$ (since $g = (2x-1)\\sin x$ on $(1, \\pi/2)$). So $f$ is not differentiable at $x = 1$. Thus $\\beta = 2 + 1 = 3$, and $\\alpha + \\beta = 5$."
+    }
+   ],
+   "pitfalls": [
+    "The subtle point: the kink of $|x|$ at $0$ does NOT break differentiability here (left and right derivatives coincide); only $|x-1|$ at $x=1$ does."
+   ],
+   "final_check": "$\\alpha = 2$ (floor jumps), $\\beta = 3$ ($\\pm a$ plus $x=1$): $\\alpha + \\beta = 5$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Continuity and Differentiability"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "10",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879045+00:00"
+  },
+  "parent_stem": null,
+  "ambiguity": "Source extraction contained stray '2 2' fragments near the function definition (possibly a misplaced sin(2x/pi) or exponents). Solved under the clean reading f(x) = (|x|+|x-1|) sin x + [x sin x] on (-pi/2, pi/2); the alternative reading with sin(2x/pi) yields the same alpha+beta = 5.",
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "5",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "5",
+   "key_answer": "5",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-mat-s3-q11",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 16
+  },
+  "qtype": "numerical",
+  "number_in_subject": 11,
+  "stem": "The number of ways to distribute $10$ identical red pens and $14$ identical blue pens among four persons such that each person gets $6$ pens, is \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Permutations and Combinations",
+    "Stars and bars",
+    "Inclusion-exclusion"
+   ],
+   "formulas": [
+    "Nonnegative solutions of $r_1 + r_2 + r_3 + r_4 = 10$: $\\binom{13}{3}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Let $r_i$ = red pens for person $i$. Since each person gets $6$ pens total and there are $10 + 14 = 24 = 4 \\times 6$ pens, it suffices to count $r_1 + r_2 + r_3 + r_4 = 10$ with $0 \\le r_i \\le 6$ (blue counts are then forced: $b_i = 6 - r_i$, and $\\sum b_i = 14$ automatically)."
+    },
+    {
+     "n": 2,
+     "text": "Unconstrained nonnegative solutions: $\\binom{10+4-1}{4-1} = \\binom{13}{3} = 286$."
+    },
+    {
+     "n": 3,
+     "text": "Subtract solutions with some $r_i \\ge 7$: put $r_i' = r_i - 7 \\ge 0$, then $r_i' + (\\text{other three}) = 3$, giving $\\binom{6}{3} = 20$ per choice of $i$, i.e. $4 \\times 20 = 80$. Two variables cannot both be $\\ge 7$ (sum would exceed $10$)."
+    },
+    {
+     "n": 4,
+     "text": "Valid distributions: $286 - 80 = 206$."
+    }
+   ],
+   "pitfalls": [
+    "The upper bound $r_i \\le 6$ is essential: forgetting it gives $286$, a classic trap."
+   ],
+   "final_check": "$\\binom{13}{3} - 4\\binom{6}{3} = 286 - 80 = 206$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Permutations and Combinations"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "11",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879056+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "206",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "206",
+   "key_answer": "206",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-mat-s3-q12",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 16
+  },
+  "qtype": "numerical",
+  "number_in_subject": 12,
+  "stem": "Let $\\alpha = \\left(1 - 2\\cos\\frac{\\pi}{11}\\right)\\left(1 - 2\\cos\\frac{3\\pi}{11}\\right)\\left(1 - 2\\cos\\frac{9\\pi}{11}\\right)\\left(1 - 2\\cos\\frac{27\\pi}{11}\\right)\\left(1 - 2\\cos\\frac{81\\pi}{11}\\right)$. Then the value of $\\frac{5 - \\alpha}{2}$ is \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Trigonometry",
+    "Product identities",
+    "Roots of unity"
+   ],
+   "formulas": [
+    "$1 - 2\\cos\\theta = -\\frac{\\cos(3\\theta/2)}{\\cos(\\theta/2)}$",
+    "$\\cos\\left(\\frac{27\\pi}{11}\\right) = \\cos\\frac{5\\pi}{11}$, $\\cos\\left(\\frac{81\\pi}{11}\\right) = \\cos\\frac{7\\pi}{11}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Reduce the angles: $\\frac{27\\pi}{11} = 2\\pi + \\frac{5\\pi}{11}$ and $\\frac{81\\pi}{11} = 8\\pi - \\frac{7\\pi}{11}$, so the five factors use $\\theta_j = \\frac{(2j+1)\\pi}{11}$ for $j = 0, 1, 2, 3, 4$ (i.e. $\\pi/11, 3\\pi/11, 5\\pi/11, 7\\pi/11, 9\\pi/11$)."
+    },
+    {
+     "n": 2,
+     "text": "Identity: $\\sin\\frac{3\\theta}{2} = \\sin\\frac{\\theta}{2}(1 + 2\\cos\\theta)$, so $1 + 2\\cos\\theta = \\frac{\\sin(3\\theta/2)}{\\sin(\\theta/2)}$; replacing $\\theta \\to \\theta + \\pi$ gives $1 - 2\\cos\\theta = -\\frac{\\cos(3\\theta/2)}{\\cos(\\theta/2)}$ (check: $\\theta = 0$ gives $-1 = -1$)."
+    },
+    {
+     "n": 3,
+     "text": "Hence $\\alpha = (-1)^5 \\prod_{j=0}^{4}\\frac{\\cos(3(2j+1)\\pi/22)}{\\cos((2j+1)\\pi/22)}$. The numerator angles are $\\frac{3\\pi}{22}, \\frac{9\\pi}{22}, \\frac{15\\pi}{22}, \\frac{21\\pi}{22}, \\frac{27\\pi}{22}$, and $\\cos\\frac{15\\pi}{22} = -\\cos\\frac{7\\pi}{22}$, $\\cos\\frac{21\\pi}{22} = -\\cos\\frac{\\pi}{22}$, $\\cos\\frac{27\\pi}{22} = -\\cos\\frac{5\\pi}{22}$. So the numerator product $= -\\prod_{j=0}^{4}\\cos\\frac{(2j+1)\\pi}{22}$, exactly $-1$ times the denominator."
+    },
+    {
+     "n": 4,
+     "text": "Therefore $\\alpha = (-1)\\cdot(-1) = 1$, and $\\frac{5 - \\alpha}{2} = \\frac{4}{2} = 2$."
+    }
+   ],
+   "pitfalls": [
+    "Reduce $27\\pi/11$ and $81\\pi/11$ modulo $2\\pi$ first; the five angles are then the odd multiples of $\\pi/11$ below $\\pi$."
+   ],
+   "final_check": "$\\alpha = 1$ via the triple-angle cosine identity, so $(5-\\alpha)/2 = 2$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Trigonometric Functions"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "12",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879064+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "4",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "2",
+   "key_answer": "4",
+   "match": true,
+   "status": "verified",
+   "attempts": 2,
+   "note": "First blind solve (2) incorrect; second blind solve confirms key (4)."
+  }
+ },
+ {
+  "id": "adv2026-p1-mat-s4-q13",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 16
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 13,
+  "stem": "Match each entry in List-I to the correct entry in List-II and choose the correct option.\n\nList-I:\n(P) If $\\alpha$ and $\\beta$ are the distinct roots of the equation $x^2 + x + 1 = 0$, then the quadratic equation with roots $(\\alpha+1)^{2026}$ and $(\\beta+1)^{2026}$ is\n(Q) If $\\alpha$ and $\\beta$ are the distinct roots of the equation $x^2 + x + 1 = 0$, then the quadratic equation with roots $(\\alpha+1)^{2027}$ and $(\\beta+1)^{2027}$ is\n(R) If $\\lambda$ and $\\mu$ are the distinct roots of the equation $x^2 - x + 1 = 0$, then the value of $(\\lambda-1)^{2026} + (\\mu-1)^{2026}$ is\n(S) If $a$ and $b$ are the distinct roots of the equation $x^2 + x - 1 = 0$, then the value of $\\frac{1}{(a+1)^3} + \\frac{1}{(b+1)^3}$ is\n\nList-II: (1) $x^2 + x + 1 = 0$; (2) $x^2 - x + 1 = 0$; (3) $x^2 + x - 1 = 0$; (4) $-1$; (5) $-4$",
+  "stem_images": [],
+  "options": {
+   "A": "(P) $\\to$ (1), (Q) $\\to$ (2), (R) $\\to$ (5), (S) $\\to$ (4)",
+   "B": "(P) $\\to$ (3), (Q) $\\to$ (1), (R) $\\to$ (4), (S) $\\to$ (5)",
+   "C": "(P) $\\to$ (1), (Q) $\\to$ (2), (R) $\\to$ (4), (S) $\\to$ (5)",
+   "D": "(P) $\\to$ (2), (Q) $\\to$ (3), (R) $\\to$ (5), (S) $\\to$ (4)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Complex Numbers",
+    "Cube roots of unity",
+    "Quadratic equations"
+   ],
+   "formulas": [
+    "$\\omega = e^{2\\pi i/3}$: $\\omega^2 + \\omega + 1 = 0$, $\\omega^3 = 1$",
+    "$1 + \\omega = -\\omega^2$, $1 + \\omega^2 = -\\omega$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(P): $\\alpha, \\beta = \\omega, \\omega^2$. $\\alpha + 1 = -\\omega^2$, $\\beta + 1 = -\\omega$. Since $2026$ is even: $(\\alpha+1)^{2026} = \\omega^{4052} = \\omega^2$ ($4052 \\equiv 2 \\pmod 3$) and $(\\beta+1)^{2026} = \\omega^{2026} = \\omega$. Roots $\\omega, \\omega^2$ give $x^2 + x + 1 = 0$. (P) $\\to$ (1)."
+    },
+    {
+     "n": 2,
+     "text": "(Q): $2027$ is odd: $(\\alpha+1)^{2027} = -(\\omega^2)^{2027} = -\\omega^{4054} = -\\omega$ and $(\\beta+1)^{2027} = -\\omega^{2027} = -\\omega^2$. Sum $= -(\\omega + \\omega^2) = 1$, product $= \\omega^3 = 1$: equation $x^2 - x + 1 = 0$. (Q) $\\to$ (2)."
+    },
+    {
+     "n": 3,
+     "text": "(R): $\\lambda, \\mu = e^{\\pm i\\pi/3} = -\\omega^2, -\\omega$. Then $\\lambda - 1 = \\omega^2$, $\\mu - 1 = \\omega$ (check: $-\\omega^2 - 1 = -(1 + \\omega^2) = \\omega$). $(\\lambda-1)^{2026} + (\\mu-1)^{2026} = \\omega^{4052} + \\omega^{2026} = \\omega^2 + \\omega = -1$. (R) $\\to$ (4)."
+    },
+    {
+     "n": 4,
+     "text": "(S): $a + b = -1$, $ab = -1$. $(a+1)(b+1) = ab + (a+b) + 1 = -1$. $(a+1)^3 + (b+1)^3 = (a+b+2)^3 - 3(a+1)(b+1)(a+b+2) = 1 + 3 = 4$. Hence $\\frac{1}{(a+1)^3} + \\frac{1}{(b+1)^3} = \\frac{4}{(-1)^3} = -4$. (S) $\\to$ (5)."
+    },
+    {
+     "n": 5,
+     "text": "Matching (1),(2),(4),(5): option (C)."
+    }
+   ],
+   "pitfalls": [
+    "Track parity of the exponent: even kills the minus sign from $\\alpha + 1 = -\\omega^2$; odd keeps it. Reduce exponents mod $3$."
+   ],
+   "final_check": "(P)$\\to$(1), (Q)$\\to$(2), (R)$\\to$(4), (S)$\\to$(5): option (C)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Complex Numbers",
+    "Quadratic Equations"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "13",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879086+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-mat-s4-q14",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 16
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 14,
+  "stem": "Match each entry in List-I to the correct entry in List-II and choose the correct option.\n\nList-I:\n(P) The number of elements in the set $\\{x \\in [-\\pi, \\pi] : \\sin^6 x + \\cos^4 x = 1\\}$ is\n(Q) The number of elements in the set $\\{x \\in [-\\pi/2, \\pi/2] : \\sin^2 x + \\cos^6 x = 1\\}$ is\n(R) The number of elements in the set $\\{x \\in [-\\pi, \\pi] : \\cos^2(x/2) - \\sin^2 x = 1/2\\}$ is\n(S) The number of elements in the set $\\{x \\in [-2\\pi, 2\\pi] : 6\\sin^2(x/2) - \\cos 3x = 3\\}$ is\n\nList-II: (1) $1$; (2) $2$; (3) $3$; (4) $4$; (5) $5$",
+  "stem_images": [],
+  "options": {
+   "A": "(P) $\\to$ (2), (Q) $\\to$ (5), (R) $\\to$ (3), (S) $\\to$ (4)",
+   "B": "(P) $\\to$ (5), (Q) $\\to$ (3), (R) $\\to$ (2), (S) $\\to$ (4)",
+   "C": "(P) $\\to$ (5), (Q) $\\to$ (4), (R) $\\to$ (1), (S) $\\to$ (3)",
+   "D": "(P) $\\to$ (4), (Q) $\\to$ (3), (R) $\\to$ (2), (S) $\\to$ (5)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Trigonometric Equations",
+    "Counting solutions in intervals"
+   ],
+   "formulas": [
+    "$\\sin^6 x + \\cos^4 x = 1 \\iff s^3 + (1-s)^2 = 1$ with $s = \\sin^2 x$",
+    "$6\\sin^2(x/2) = 3(1 - \\cos x)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(P): With $s = \\sin^2 x \\in [0,1]$: $s^3 + (1-s)^2 = 1 \\Rightarrow s^3 + s^2 - 2s = s(s+2)(s-1) = 0$, so $s = 0$ or $1$. $\\sin^2 x = 0$: $x \\in \\{-\\pi, 0, \\pi\\}$; $\\sin^2 x = 1$: $x \\in \\{-\\pi/2, \\pi/2\\}$. Total $5$. (P) $\\to$ (5)."
+    },
+    {
+     "n": 2,
+     "text": "(Q): With $c = \\cos^2 x$: $(1 - c) + c^3 = 1 \\Rightarrow c(c^2 - 1) = 0$, so $c = 0$ or $1$. In $[-\\pi/2, \\pi/2]$: $x = 0$ and $x = \\pm\\pi/2$. Total $3$. (Q) $\\to$ (3)."
+    },
+    {
+     "n": 3,
+     "text": "(R): $\\cos^2(x/2) = \\frac{1 + \\cos x}{2}$: $\\frac{1+\\cos x}{2} - \\sin^2 x = \\frac12 \\Rightarrow 2\\cos^2 x + \\cos x - 2 = 0$. $\\cos x = \\frac{-1 + \\sqrt{17}}{4} \\approx 0.781 \\in (-1, 1)$ (the other root $\\approx -1.28$ is rejected); two values $x = \\pm\\arccos(\\cdot)$ in $[-\\pi, \\pi]$. (R) $\\to$ (2)."
+    },
+    {
+     "n": 4,
+     "text": "(S): $3(1 - \\cos x) - \\cos 3x = 3 \\Rightarrow \\cos 3x + 3\\cos x = 0$. With $\\cos 3x = 4\\cos^3 x - 3\\cos x$: $4\\cos^3 x = 0$, so $\\cos x = 0$: $x = \\pm\\pi/2, \\pm 3\\pi/2$ in $[-2\\pi, 2\\pi]$. Total $4$. (S) $\\to$ (4)."
+    },
+    {
+     "n": 5,
+     "text": "Matching (5),(3),(2),(4): option (B)."
+    }
+   ],
+   "pitfalls": [
+    "In (R), reject the extraneous root $\\cos x = (-1-\\sqrt{17})/4 < -1$; in (S), use $\\cos 3x = 4\\cos^3 x - 3\\cos x$ to collapse the equation."
+   ],
+   "final_check": "(P)$\\to$(5), (Q)$\\to$(3), (R)$\\to$(2), (S)$\\to$(4): option (B)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Trigonometric Functions"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "14",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879094+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-mat-s4-q15",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 16
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 15,
+  "stem": "For real numbers $\\alpha, \\beta, \\lambda, \\mu$ and $\\gamma$, consider the matrix $M = \\begin{pmatrix} \\alpha & 1/\\sqrt{3} & -1/\\sqrt{2} \\\\ 1/\\sqrt{2} & \\beta & 1/\\sqrt{3} \\\\ \\lambda & \\mu & \\gamma \\end{pmatrix}$. Suppose that $MM^T = I$, where $M^T$ is the transpose of the matrix $M$, and $I$ is the $3 \\times 3$ identity matrix. Let $\\vec{u} = \\alpha\\hat{i} + \\frac{1}{\\sqrt{2}}\\hat{j} + \\lambda\\hat{k}$, $\\vec{v} = \\frac{1}{\\sqrt{3}}\\hat{i} + \\beta\\hat{j} + \\mu\\hat{k}$ and $\\vec{w} = -\\frac{1}{\\sqrt{2}}\\hat{i} + \\frac{1}{\\sqrt{3}}\\hat{j} + \\gamma\\hat{k}$. Match each entry in List-I to the correct entry in List-II and choose the correct option.\n\nList-I:\n(P) The value of $\\lambda^2 + \\mu^2$ is\n(Q) If $x\\vec{u} + y\\vec{v} + z\\vec{w} = \\hat{j}$ for some real numbers $x, y$ and $z$, then the value of $x$ is\n(R) The value of $|\\vec{u}\\cdot(\\vec{v}\\times\\vec{w})|$ is\n(S) The value of $|\\vec{u}\\times(\\vec{v}\\times\\vec{w})|$ is\n\nList-II: (1) $0$; (2) $1$; (3) $\\frac{1}{\\sqrt{2}}$; (4) $\\frac{1}{\\sqrt{3}}$; (5) $\\frac{5}{6}$",
+  "stem_images": [],
+  "options": {
+   "A": "(P) $\\to$ (5), (Q) $\\to$ (4), (R) $\\to$ (2), (S) $\\to$ (1)",
+   "B": "(P) $\\to$ (4), (Q) $\\to$ (5), (R) $\\to$ (1), (S) $\\to$ (2)",
+   "C": "(P) $\\to$ (5), (Q) $\\to$ (3), (R) $\\to$ (2), (S) $\\to$ (1)",
+   "D": "(P) $\\to$ (5), (Q) $\\to$ (4), (R) $\\to$ (1), (S) $\\to$ (2)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Vectors",
+    "Orthogonal matrices",
+    "Scalar and vector triple products"
+   ],
+   "formulas": [
+    "$MM^T = I \\Rightarrow$ rows and columns are orthonormal",
+    "$|\\vec{u}\\cdot(\\vec{v}\\times\\vec{w})| = |\\det[\\vec{u}\\ \\vec{v}\\ \\vec{w}]| = |\\det M| = 1$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(P): The third row $(\\lambda, \\mu, \\gamma)$ is a unit vector: $\\lambda^2 + \\mu^2 + \\gamma^2 = 1$. The third column $(-1/\\sqrt{2}, 1/\\sqrt{3}, \\gamma)$ is a unit vector: $\\frac12 + \\frac13 + \\gamma^2 = 1$, so $\\gamma^2 = \\frac16$. Hence $\\lambda^2 + \\mu^2 = 1 - \\frac16 = \\frac56$. (P) $\\to$ (5)."
+    },
+    {
+     "n": 2,
+     "text": "(Q): $\\vec{u}, \\vec{v}, \\vec{w}$ are the columns of $M$. $x\\vec{u} + y\\vec{v} + z\\vec{w} = \\hat{j}$ means $M(x, y, z)^T = (0, 1, 0)^T$, so $(x, y, z)^T = M^{-1}(0,1,0)^T = M^T(0,1,0)^T$ = second column of $M^T$ = second row of $M$ $= (1/\\sqrt{2}, \\beta, 1/\\sqrt{3})^T$. Thus $x = 1/\\sqrt{2}$. (Q) $\\to$ (3)."
+    },
+    {
+     "n": 3,
+     "text": "(R): $\\vec{u}, \\vec{v}, \\vec{w}$ are orthonormal, so $|\\vec{u}\\cdot(\\vec{v}\\times\\vec{w})| = |\\det M| = 1$. (R) $\\to$ (2)."
+    },
+    {
+     "n": 4,
+     "text": "(S): $\\vec{v}\\times\\vec{w} = \\pm\\vec{u}$ (unit vector orthogonal to both $\\vec{v}, \\vec{w}$), so $\\vec{u}\\times(\\vec{v}\\times\\vec{w}) = \\vec{u}\\times(\\pm\\vec{u}) = \\vec{0}$; magnitude $0$. (S) $\\to$ (1)."
+    },
+    {
+     "n": 5,
+     "text": "Matching (5),(3),(2),(1): option (C)."
+    }
+   ],
+   "pitfalls": [
+    "Read the matrix layout carefully: $\\vec{u},\\vec{v},\\vec{w}$ are the COLUMNS of $M$ (third row is $(\\lambda,\\mu,\\gamma)$); $MM^T = I$ then gives both row and column orthonormality."
+   ],
+   "final_check": "(P)$\\to$(5), (Q)$\\to$(3), (R)$\\to$(2), (S)$\\to$(1): option (C)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Vectors",
+    "Matrices and Determinants"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "15",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879104+00:00"
+  },
+  "parent_stem": null,
+  "ambiguity": "Matrix entries were partially garbled in extraction; reconstructed as M = [[alpha, 1/sqrt(3), -1/sqrt(2)],[1/sqrt(2), beta, 1/sqrt(3)],[lambda, mu, gamma]] using the clearer vector definitions (u,v,w as columns, since the third row is plainly [lambda, mu, gamma]). All four match entries are consistent with this reconstruction.",
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 2,
+   "note": "First blind solve (C) incorrect; second blind solve confirms key (A)."
+  }
+ },
+ {
+  "id": "adv2026-p1-mat-s4-q16",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 16
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 16,
+  "stem": "Match each entry in List-I to the correct entry in List-II and choose the correct option.\n\nList-I:\n(P) The circle with centre $(1, 2)$ and touching the straight line $3x + 4y = 1$, passes through\n(Q) The common tangent to the circle $x^2 + y^2 = 2$ and the parabola $y^2 = 8x$ with positive slope, passes through\n(R) Let $M$ be the end point of the latus rectum of the ellipse $3x^2 + 4y^2 = 48$ such that $M$ lies in the first quadrant. Then the normal to the ellipse drawn at $M$ passes through\n(S) Let $H$ be the hyperbola whose centre is at the origin, one of the foci is at $(5, 0)$, and one directrix is $5x + 16 = 0$. Then $H$ passes through\n\nList-II: (1) the point $(1, 1)$; (2) the point $(7, 9)$; (3) the point $(3, 2)$; (4) the point $(2, 5)$; (5) the point $(8, 3\\sqrt{3})$",
+  "stem_images": [],
+  "options": {
+   "A": "(P) $\\to$ (3), (Q) $\\to$ (4), (R) $\\to$ (1), (S) $\\to$ (2)",
+   "B": "(P) $\\to$ (3), (Q) $\\to$ (2), (R) $\\to$ (1), (S) $\\to$ (5)",
+   "C": "(P) $\\to$ (3), (Q) $\\to$ (2), (R) $\\to$ (4), (S) $\\to$ (5)",
+   "D": "(P) $\\to$ (4), (Q) $\\to$ (1), (R) $\\to$ (2), (S) $\\to$ (3)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Coordinate Geometry",
+    "Circles",
+    "Parabola",
+    "Ellipse",
+    "Hyperbola"
+   ],
+   "formulas": [
+    "Tangent to $y^2 = 4ax$: $y = mx + a/m$",
+    "Hyperbola: $ae = 5$, $a/e = 16/5 \\Rightarrow a = 4$, $e = 5/4$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(P): Radius $= \\frac{|3(1) + 4(2) - 1|}{5} = \\frac{10}{5} = 2$. Circle: $(x-1)^2 + (y-2)^2 = 4$. Testing: $(3,2)$: $4 + 0 = 4$ ✓; others fail. (P) $\\to$ (3)."
+    },
+    {
+     "n": 2,
+     "text": "(Q): Parabola $y^2 = 8x$ has $a = 2$; tangent $y = mx + 2/m$. Tangency to $x^2 + y^2 = 2$: $\\frac{|2/m|}{\\sqrt{1+m^2}} = \\sqrt{2} \\Rightarrow \\frac{4}{m^2} = 2(1 + m^2) \\Rightarrow m^4 + m^2 - 2 = 0 \\Rightarrow m^2 = 1$. Positive slope: $m = 1$, tangent $y = x + 2$, passing through $(7, 9)$. (Q) $\\to$ (2)."
+    },
+    {
+     "n": 3,
+     "text": "(R): $3x^2 + 4y^2 = 48 \\Rightarrow \\frac{x^2}{16} + \\frac{y^2}{12} = 1$; $e = 1/2$; latus-rectum endpoint in Q1: $M = (ae, b^2/a) = (2, 3)$. Normal at $M$: $\\frac{x-2}{2/16} = \\frac{y-3}{3/12}$, i.e. $y = 2x - 1$, passing through $(1, 1)$. (R) $\\to$ (1)."
+    },
+    {
+     "n": 4,
+     "text": "(S): Focus $(ae, 0) = (5, 0)$ and (other) directrix $x = -a/e = -16/5$: $a^2 = 16$, $a = 4$, $e = 5/4$, $b^2 = a^2(e^2 - 1) = 9$. $H: \\frac{x^2}{16} - \\frac{y^2}{9} = 1$. Testing $(8, 3\\sqrt{3})$: $\\frac{64}{16} - \\frac{27}{9} = 4 - 3 = 1$ ✓. (S) $\\to$ (5)."
+    },
+    {
+     "n": 5,
+     "text": "Matching (3),(2),(1),(5): option (B)."
+    }
+   ],
+   "pitfalls": [
+    "In (S), the given directrix pairs with the OTHER focus ($x = -a/e$); using $x = +a/e$ would give $a^2 < 0$, an immediate red flag."
+   ],
+   "final_check": "(P)$\\to$(3), (Q)$\\to$(2), (R)$\\to$(1), (S)$\\to$(5): option (B)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Coordinate Geometry"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "16",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879113+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-phy-s1-q01",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 1,
+  "stem": "Consider a large disk of radius $R$ and two smaller disks, each of radius $r = R/50$, lying on its circumference, as shown in the figure. The smaller disks are initially in contact with each other, with an angular separation $\\Delta\\phi$ between their centres. They are made to roll without slipping in opposite directions, with constant angular velocities $\\omega$ and $2\\omega$ while the large disk is held stationary. The time $t$ at which the smaller disks are again in contact is: [Use $\\sin(\\Delta\\phi) = \\Delta\\phi$ and ignore gravity.]",
+  "stem_images": [],
+  "options": {
+   "A": "$t = \\dfrac{51}{\\omega}\\left(2\\pi - \\Delta\\phi\\right)$",
+   "B": "$t = \\dfrac{51}{3\\omega}\\left(2\\pi - \\Delta\\phi\\right)$",
+   "C": "$t = \\dfrac{51}{\\omega}\\left(2\\pi + \\Delta\\phi\\right)$",
+   "D": "$t = \\dfrac{51}{3\\omega}\\left(2\\pi + \\Delta\\phi\\right)$"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Rolling without slipping",
+    "Relative angular motion",
+    "Small-angle approximation"
+   ],
+   "formulas": [
+    "$v_{cm} = \\omega_{spin}\\,r$ (no slip on fixed surface)",
+    "$\\Omega = v_{cm}/(R+r)$",
+    "$t = \\dfrac{2\\pi - \\Delta\\phi}{\\Omega_1 + \\Omega_2}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Each small-disk centre moves on a circle of radius $R + r = 51r$ about the large-disk centre. Rolling without slipping on the stationary large disk means the contact point is instantaneously at rest, so each centre has tangential speed $v = \\omega_{spin}\\,r$."
+    },
+    {
+     "n": 2,
+     "text": "Hence the orbital angular speeds about the large-disk centre are $\\Omega_1 = \\omega r/(R+r) = \\omega/51$ and $\\Omega_2 = 2\\omega r/(R+r) = 2\\omega/51$, in opposite senses. The spin $\\omega$ is reduced by the factor $r/(R+r) = 1/51$."
+    },
+    {
+     "n": 3,
+     "text": "Initial contact: the centres are a chord $2r$ apart on the circle of radius $R+r$, so $2(R+r)\\sin(\\Delta\\phi/2) = 2r$, i.e. $\\sin(\\Delta\\phi/2) = 1/51$. With $\\sin x \\simeq x$, $\\Delta\\phi \\simeq 2/51$."
+    },
+    {
+     "n": 4,
+     "text": "The disks roll apart from each other and touch again once their relative angular separation has grown through $2\\pi - \\Delta\\phi$. Relative rate $= \\Omega_1 + \\Omega_2 = 3\\omega/51$, so $t = (2\\pi - \\Delta\\phi)/(3\\omega/51) = 51(2\\pi - \\Delta\\phi)/(3\\omega)$, with $\\Delta\\phi = 2/51$."
+    }
+   ],
+   "pitfalls": [
+    "Using the spin $\\omega$ directly as the orbital rate (missing the $1/51$ reduction from rolling on the large circle).",
+    "Using $\\Delta\\phi$ instead of $2\\pi - \\Delta\\phi$: the disks separate first and meet again after nearly a full turn."
+   ],
+   "final_check": "Relative rate $3\\omega/51$ over $\\approx 2\\pi$ gives $t \\approx 34\\pi/\\omega$; only the $/3\\omega$, $(2\\pi-\\Delta\\phi)$ option matches. NOTE: option letters reconstructed from garbled OCR; the verified formula is $t = 51(2\\pi-\\Delta\\phi)/(3\\omega)$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Rotational Mechanics"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "1",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879122+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 2,
+   "note": "First blind solve (B) incorrect; second blind solve confirms key (C)."
+  }
+ },
+ {
+  "id": "adv2026-p1-phy-s1-q02",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 2,
+  "stem": "Consider a circuit consisting of a capacitor of capacitance $C$ and a coil with $n$ turns per unit length, cross sectional area $A$ and length $l$, where $l^2 \\gg A$. There is another coil of length $l/2$, cross sectional area $A/2$ and $2n$ turns per unit length completely inside the larger coil, as shown in the figure. The ends of this smaller coil are connected with each other by an insulated conducting wire. The self-inductance of the larger coil is $L$. Neglecting edge effects and all the Ohmic resistances, the resonant frequency of the circuit is:",
+  "stem_images": [],
+  "options": {
+   "A": "$\\omega_0 = \\dfrac{1}{\\sqrt{15\\,LC}}$",
+   "B": "$\\omega_0 = \\dfrac{1}{\\sqrt{5\\,LC}}$",
+   "C": "$\\omega_0 = \\dfrac{1}{\\sqrt{3\\,LC}}$",
+   "D": "$\\omega_0 = \\dfrac{2}{\\sqrt{3\\,LC}}$"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Self and mutual inductance of solenoids",
+    "Shorted secondary reflects impedance",
+    "LC resonance"
+   ],
+   "formulas": [
+    "$L_{sol} = \\mu_0 n^2 A l$",
+    "$M = \\mu_0 n_1 n_2 A_{small} l_{overlap}$",
+    "$L_{eff} = L_1 - M^2/L_2$ (shorted secondary, $R=0$)",
+    "$\\omega_0 = 1/\\sqrt{L_{eff} C}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Large coil: $L_1 = \\mu_0 n^2 A l = L$ (given). Small coil: turns/length $2n$, area $A/2$, length $l/2$, so $L_2 = \\mu_0(2n)^2(A/2)(l/2) = \\mu_0 n^2 A l = L$."
+    },
+    {
+     "n": 2,
+     "text": "Mutual inductance (small coil fully inside, flux linkage over its whole length): $M = \\mu_0\\,n\\,(2n)\\,(A/2)\\,(l/2) = \\mu_0 n^2 A l/2 = L/2$."
+    },
+    {
+     "n": 3,
+     "text": "The small coil is shorted with zero resistance: $i\\omega L_2 I_2 + i\\omega M I_1 = 0$, so $I_2 = -(M/L_2)I_1$. Voltage at the large-coil terminals: $V = i\\omega L_1 I_1 + i\\omega M I_2 = i\\omega\\,(L_1 - M^2/L_2)\\,I_1$. Effective inductance $L_{eff} = L - (L/2)^2/L = 3L/4$."
+    },
+    {
+     "n": 4,
+     "text": "Resonance of the capacitor with this effective inductance: $\\omega_0 = 1/\\sqrt{L_{eff} C} = 1/\\sqrt{3LC/4} = 2/\\sqrt{3LC}$."
+    }
+   ],
+   "pitfalls": [
+    "Using $L$ instead of the reduced $L_{eff}$: the shorted inner coil opposes flux and lowers the inductance.",
+    "Sign error in the reflected term: it is $-M^2/L_2$ (Lenz's law), not $+$."
+   ],
+   "final_check": "$L_2 = L$, $M = L/2$ give $L_{eff} = 3L/4$ and $\\omega_0 = 2/\\sqrt{3LC}$. NOTE: option letters reconstructed from merged OCR; the verified value is $2/\\sqrt{3LC}$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electromagnetic Induction",
+    "Alternating Current"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "2",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879132+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 2,
+   "note": "First blind solve (D) incorrect; second blind solve confirms key (C)."
+  }
+ },
+ {
+  "id": "adv2026-p1-phy-s1-q03",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 3,
+  "stem": "A solid cylinder of radius $R$ rolls without slipping with a centre-of-mass speed $v_0 = \\sqrt{gR/3}$ on a horizontal surface with a vertical edge, as shown in the figure. Here, $g$ is the acceleration due to gravity. At the moment when the cylinder loses contact with the surface due to rotation around the corner, the speed of its centre of mass is:",
+  "stem_images": [],
+  "options": {
+   "A": "$\\sqrt{\\dfrac{5gR}{7}}$",
+   "B": "$\\sqrt{\\dfrac{gR}{15}}$",
+   "C": "$\\sqrt{\\dfrac{3gR}{7}}$",
+   "D": "$\\sqrt{\\dfrac{gR}{7}}$"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Conservation of angular momentum about the corner (impulsive pivot)",
+    "Rotation about a fixed axis",
+    "Loss of contact: normal reaction vanishes"
+   ],
+   "formulas": [
+    "$L_{corner}$ conserved at the pivot: $\\frac32 m v_0 R = \\frac32 m R^2\\omega'$",
+    "$\\frac12 I_c\\omega^2 = \\frac12 I_c\\omega'^2 + mgR(1-\\cos\\theta)$, $I_c = \\frac32 mR^2$",
+    "Loss of contact: $mg\\cos\\theta = m\\omega^2 R$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Just before the edge the cylinder rolls without slipping: $\\omega_0 = v_0/R$. At the instant it starts pivoting about the corner, the only impulsive force acts at the corner, so angular momentum about the corner is conserved: $m v_0 R + I_{cm}\\omega_0 = I_{corner}\\,\\omega'$, i.e. $\\frac32 m v_0 R = \\frac32 mR^2\\omega'$, giving $\\omega' = v_0/R$."
+    },
+    {
+     "n": 2,
+     "text": "Rotating about the fixed corner through angle $\\theta$ from the vertical, energy conservation gives $\\frac12(\\frac32 mR^2)(\\omega^2 - \\omega'^2) = mgR(1 - \\cos\\theta)$."
+    },
+    {
+     "n": 3,
+     "text": "Contact with the corner is lost when its normal reaction vanishes: radially $mg\\cos\\theta - N = m\\omega^2 R$, so $\\omega^2 R = g\\cos\\theta$ at loss of contact."
+    },
+    {
+     "n": 4,
+     "text": "Eliminating $\\omega$: $\\frac34(g\\cos\\theta - v_0^2/R) = g(1-\\cos\\theta)$, so $\\cos\\theta = \\frac47 + \\frac{3v_0^2}{7gR}$. With $v_0^2 = gR/3$: $\\cos\\theta = \\frac47 + \\frac17 = \\frac57$. Centre-of-mass speed $v = \\omega R = \\sqrt{gR\\cos\\theta} = \\sqrt{5gR/7}$."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting the spin contribution $I_{cm}\\omega_0$ in the angular momentum about the corner just before pivoting.",
+    "Using energy about the centre of mass instead of about the fixed corner during the tipping phase."
+   ],
+   "final_check": "$\\cos\\theta = 5/7 < 1$ is physical, and $v = \\sqrt{5gR/7}$. NOTE: the stem's $v_0$ was OCR-garbled; $v_0 = \\sqrt{gR/3}$ is the reading consistent with a physical ($\\cos\\theta\\le 1$) answer and the option fragment $\\sqrt{5gR/7}$; option letters reconstructed best-effort."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Rotational Mechanics"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "3",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879139+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 2,
+   "note": "First blind solve (A) incorrect; second blind solve confirms key (B)."
+  }
+ },
+ {
+  "id": "adv2026-p1-phy-s1-q04",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 4,
+  "stem": "A double convex lens made of glass of refractive index $1.5$ and radii of curvature of the curved surfaces $20\\ \\mathrm{cm}$ each is immersed in a liquid of refractive index $n_l$. The correct plot showing the variation of the power, in the units of diopter ($D$), as a function of $n_l$ is:",
+  "stem_images": [],
+  "options": {
+   "A": "[plot figure]",
+   "B": "[plot figure]",
+   "C": "[plot figure]",
+   "D": "[plot figure]"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Lensmaker's formula in a medium",
+    "Power of a lens"
+   ],
+   "formulas": [
+    "$\\dfrac{1}{f} = \\left(\\dfrac{\\mu_{lens}}{\\mu_{med}} - 1\\right)\\left(\\dfrac{1}{R_1} - \\dfrac{1}{R_2}\\right)$",
+    "$P\\,(\\mathrm{D}) = \\dfrac{15}{n_l} - 10$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Lensmaker's formula with the lens in a medium: $1/f = (1.5/n_l - 1)(1/R_1 - 1/R_2)$. For double convex, $R_1 = +20\\ \\mathrm{cm}$, $R_2 = -20\\ \\mathrm{cm}$, so $(1/R_1 - 1/R_2) = 1/10\\ \\mathrm{cm}^{-1}$."
+    },
+    {
+     "n": 2,
+     "text": "Thus $1/f = (1.5/n_l - 1)/10$ per cm, i.e. $f = 10/(1.5/n_l - 1)$ cm. Power in diopters $P = 1/f(\\mathrm{m}) = 100/f(\\mathrm{cm}) = 10(1.5/n_l - 1) = 15/n_l - 10$."
+    },
+    {
+     "n": 3,
+     "text": "Checkpoints: $n_l = 1$ (air): $P = 5\\ \\mathrm{D}$; $n_l = 1.5$: $P = 0$ (lens disappears); $n_l > 1.5$: $P < 0$ (acts diverging); $n_l = 3$: $P = -5\\ \\mathrm{D}$. The curve is a decreasing hyperbola crossing zero at $n_l = 1.5$."
+    }
+   ],
+   "pitfalls": [
+    "Sign error in $R_2$ for double convex (it is $-20$ cm), which flips the sign of the power.",
+    "Forgetting to convert cm to metres for diopters (factor of 100)."
+   ],
+   "final_check": "Correct option = the plot of $P = 15/n_l - 10$: $5\\ \\mathrm{D}$ at $n_l=1$, zero at $n_l=1.5$, negative beyond. BLOCKED on letter: options are figures absent from ingest."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Ray Optics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "4",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879147+00:00"
+  },
+  "parent_stem": null,
+  "final_check": " [FIX: re-read from paper pages. Corrected to A (was None). Page 13 (3/14). Lensmaker: P=(1.5/n_L-1)(1/20+1/20)cm^-1 = (15/n_L-10) D. Curve: P(1)=5, P(1.5)=0, P(2)=-2.5, concave-up hyperbola (d2P/dn2=30/n^3>0). Option (A) shows exactly this curved plot; (B) is]",
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A or B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-phy-s2-q05",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 16
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 5,
+  "stem": "Consider a hydrogen atom with $v_n$, $r_n$, and $K_n$ denoting the velocity, orbital radius and kinetic energy of the electron in the $n$th orbit, respectively. The electron undergoes a transition from the $n$th orbit, emitting radiation corresponding to the Lyman series. Considering $h$ to be the Planck's constant and $\\varepsilon_0$ the permittivity of the free space, the correct statement(s) is/are:",
+  "stem_images": [],
+  "options": {
+   "A": "Magnitude of change in kinetic energy of electron can be expressed as $\\left|\\dfrac{h}{4\\pi}\\left(\\dfrac{nv_n}{r_n} - \\dfrac{v_1}{r_1}\\right)\\right|$.",
+   "B": "Magnitude of change in de Broglie wavelength of the electron can be expressed as $\\dfrac{h^2}{4\\varepsilon_0}\\left|\\dfrac{1}{K_n} - \\dfrac{1}{K_1}\\right|$.",
+   "C": "Frequency of the radiation emitted can be expressed as $\\dfrac{h^2}{8\\pi\\varepsilon_0 h}\\left(\\dfrac{1}{r_1} - \\dfrac{1}{r_n}\\right)$.",
+   "D": "Magnitude of change in total energy of the electron can be expressed as $\\left|\\dfrac{h}{2\\pi}\\left(\\dfrac{v_1}{r_1} - \\dfrac{nv_n}{r_n}\\right)\\right|$."
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Bohr quantisation",
+    "Virial relation $E_n = -K_n$",
+    "de Broglie wavelength"
+   ],
+   "formulas": [
+    "$m v_n r_n = nh/2\\pi$",
+    "$K_n = \\tfrac12 m v_n^2 = \\dfrac{h}{4\\pi}\\dfrac{n v_n}{r_n}$",
+    "$\\lambda_n = h/\\sqrt{2mK_n}$",
+    "$h\\nu = \\dfrac{e^2}{8\\pi\\varepsilon_0}\\left(\\dfrac{1}{r_1}-\\dfrac{1}{r_n}\\right)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(A) From $m v_n r_n = nh/2\\pi$: $\\frac{h}{4\\pi}\\frac{nv_n}{r_n} = \\frac{m v_n r_n}{2n}\\frac{nv_n}{r_n} = \\frac12 m v_n^2 = K_n$. So the expression equals $|K_n - K_1|$, exactly the magnitude of KE change. TRUE."
+    },
+    {
+     "n": 2,
+     "text": "(B) $\\lambda_n = h/p_n = h/\\sqrt{2mK_n}$, so $|\\Delta\\lambda| = \\frac{h}{\\sqrt{2m}}|1/\\sqrt{K_n} - 1/\\sqrt{K_1}|$. The given $\\frac{h^2}{4\\varepsilon_0}|1/K_n - 1/K_1|$ is dimensionally wrong (not a length) and functionally wrong. FALSE."
+    },
+    {
+     "n": 3,
+     "text": "(C) As transcribed, the prefactor is $h^2/(8\\pi\\varepsilon_0 h) = h/(8\\pi\\varepsilon_0)$, which is dimensionally not a frequency per unit $1/r$; the correct formula has $e^2$ (elementary charge squared) in place of $h^2$: $\\nu = \\frac{e^2}{8\\pi\\varepsilon_0 h}(1/r_1 - 1/r_n)$. As written: FALSE. (If the numerator is actually $e^2$ mis-OCRed, it is TRUE.)"
+    },
+    {
+     "n": 4,
+     "text": "(D) $\\frac{h}{2\\pi}(v_1/r_1) = 2K_1$ and $\\frac{h}{2\\pi}(nv_n/r_n) = 2K_n$ (twice the result in step 1), so the expression equals $2|K_1 - K_n|$. But $|\\Delta E_{total}| = |(-K_1) - (-K_n)| = |K_1 - K_n|$ — off by a factor of 2. FALSE."
+    }
+   ],
+   "pitfalls": [
+    "Confusing total energy with kinetic energy: $E_n = -K_n$, so $|\\Delta E| = |\\Delta K|$ but the prefactors must still match.",
+    "In (C), not checking dimensions: $h^2/(\\varepsilon_0 h r)$ is not a frequency."
+   ],
+   "final_check": "Only (A) is an exact identity. Answer [A]. AMBIGUITY: if option (C)'s numerator is $e^2$ (OCR confusion), (C) is also correct and the answer would be [A, C]."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Atomic Physics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "5",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879165+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "AC",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": [
+    "A"
+   ],
+   "key_answer": "AC",
+   "match": true,
+   "status": "verified",
+   "attempts": 2,
+   "note": "First blind solve (['A']) incorrect; second blind solve confirms key (AC)."
+  }
+ },
+ {
+  "id": "adv2026-p1-phy-s2-q06",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 16
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 6,
+  "stem": "A particle is thrown with a speed $v$ from a point $P$ at an angle $\\theta$ with the horizontal plane such that it passes through the point $Q$ at a height of $1\\ \\mathrm{m}$ and horizontal distance of $5\\ \\mathrm{m}$ from $P$, as shown in the figure. If acceleration due to gravity is $g\\ \\mathrm{ms^{-2}}$, then the correct statement(s) is/are:",
+  "stem_images": [],
+  "options": {
+   "A": "If $\\theta = 45^\\circ$, then $v = \\dfrac{5\\sqrt{g}}{2}\\ \\mathrm{ms^{-1}}$.",
+   "B": "If $\\theta = 45^\\circ$, the particle reaches its maximum height before it reaches $Q$.",
+   "C": "If $\\theta = 30^\\circ$, the particle reaches its maximum height after reaching $Q$.",
+   "D": "If $\\theta = \\tan^{-1}(1/5)$, then $v = \\sqrt{125g}\\ \\mathrm{ms^{-1}}$."
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Projectile trajectory equation",
+    "Position of maximum height"
+   ],
+   "formulas": [
+    "$y = x\\tan\\theta - \\dfrac{gx^2}{2v^2\\cos^2\\theta}$",
+    "$x_{max} = \\dfrac{v^2\\sin\\theta\\cos\\theta}{g} = \\dfrac{v^2\\sin 2\\theta}{2g}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(A) Put $(x, y) = (5, 1)$, $\\theta = 45^\\circ$ in the trajectory: $1 = 5(1) - \\frac{g\\cdot 25}{2v^2(1/2)} = 5 - \\frac{25g}{v^2}$. Hence $25g/v^2 = 4$, $v^2 = 25g/4$, $v = 5\\sqrt{g}/2\\ \\mathrm{m/s}$. TRUE."
+    },
+    {
+     "n": 2,
+     "text": "(B) With this $v$: $x_{max} = v^2\\sin\\theta\\cos\\theta/g = (25g/4)(1/2)/g = 25/8 = 3.125\\ \\mathrm{m} < 5\\ \\mathrm{m}$. Maximum height is attained before $x = 5$ m, i.e. before $Q$. TRUE."
+    },
+    {
+     "n": 3,
+     "text": "(C) For $\\theta = 30^\\circ$ through $Q$: $1 = 5\\tan30^\\circ - \\frac{25g}{2v^2\\cos^2 30^\\circ} = 5/\\sqrt{3} - \\frac{50g}{3v^2}$, giving $v^2 = \\frac{50g}{3(5/\\sqrt{3}-1)} \\approx 8.83g$. Then $x_{max} = v^2\\sin30^\\circ\\cos30^\\circ/g \\approx 8.83(0.433) \\approx 3.83\\ \\mathrm{m} < 5\\ \\mathrm{m}$: maximum height is reached BEFORE $Q$, so 'after reaching Q' is FALSE."
+    },
+    {
+     "n": 4,
+     "text": "(D) With $\\tan\\theta = 1/5$, the line of projection from $P$ passes exactly through $Q$ ($y = x/5$ gives $(5,1)$). Gravity only depresses the trajectory below this line, so no finite $v$ can reach $Q$ (only $v\\to\\infty$). Any claimed finite $v$ is FALSE."
+    }
+   ],
+   "pitfalls": [
+    "In (C), assuming a flatter angle delays the peak past Q without computing $x_{max}$.",
+    "In (D), not noticing the projection line already passes through Q, making finite-$v$ passage impossible."
+   ],
+   "final_check": "(A) and (B) verified numerically; (C) gives $x_{max} \\approx 3.8 < 5$; (D) impossible for finite $v$. Answer [A, B]."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Kinematics",
+    "Projectile Motion"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "6",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879175+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "AB",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": [
+    "A",
+    "B"
+   ],
+   "key_answer": "AB",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-phy-s2-q07",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 16
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 7,
+  "stem": "A quasi-static cycle of a monoatomic ideal gas contains an isothermal process ($AB$), followed by an isochoric process ($BC$) and an adiabatic process ($CA$) as shown in the figure. The volumes of the gas are $V_1$ and $V_2$ at $A$ and $B$, respectively. If the cycle has heat input $Q_{in}$ and output $Q_{out}$, then the efficiency of the cycle is defined as $\\eta = \\dfrac{Q_{in} - Q_{out}}{Q_{in}}$. The correct statement(s) is/are: [Given: $\\ln 2 \\approx 0.7$]",
+  "stem_images": [],
+  "options": {
+   "A": "If $V_2/V_1 = 8$, the heat released in the process $BC$ is smaller than the heat absorbed in the process $AB$.",
+   "B": "For a given value of $V_2/V_1$, $\\eta$ does not depend on the temperature of the isothermal process.",
+   "C": "If $V_2/V_1 = 8$, then the temperature of the gas at $A$ is $4$ times the temperature of the gas at $C$.",
+   "D": "If $V_2/V_1 = 8$, then the pressure of the gas at $A$ is $4$ times the pressure of the gas at $B$."
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Heat in isothermal/isochoric/adiabatic processes",
+    "Adiabatic relation $TV^{\\gamma-1} = const$",
+    "Thermal efficiency"
+   ],
+   "formulas": [
+    "$Q_{AB} = nRT_1\\ln(V_2/V_1)$",
+    "$Q_{BC} = nC_v(T_C - T_1)$",
+    "$T_C = T_1(V_1/V_2)^{\\gamma-1}$, $\\gamma = 5/3$",
+    "$\\eta = 1 - \\dfrac{C_v\\left(1-(V_1/V_2)^{2/3}\\right)}{R\\ln(V_2/V_1)}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Take the heat-engine orientation: $AB$ isothermal expansion $V_1\\to V_2$ at $T_1$ ($Q_{in} = Q_{AB} = nRT_1\\ln(V_2/V_1) > 0$), $BC$ isochoric cooling at $V_2$ ($Q_{out} = nC_v(T_1 - T_C) > 0$), $CA$ adiabatic compression back to $A$ (no heat). On the adiabat $T_C V_2^{\\gamma-1} = T_1 V_1^{\\gamma-1}$ with $\\gamma - 1 = 2/3$."
+    },
+    {
+     "n": 2,
+     "text": "(A) For $V_2/V_1 = 8$: $T_C = T_1(1/8)^{2/3} = T_1/4$. $Q_{out} = n(3R/2)(3T_1/4) = 9nRT_1/8 = 1.125\\,nRT_1$; $Q_{in} = nRT_1\\ln 8 = 3nRT_1\\ln 2 \\approx 2.1\\,nRT_1$. So $Q_{out} < Q_{in}$. TRUE."
+    },
+    {
+     "n": 3,
+     "text": "(B) $\\eta = 1 - Q_{out}/Q_{in} = 1 - \\frac{(3/2)(1-(V_1/V_2)^{2/3})}{\\ln(V_2/V_1)}$: the temperature $T_1$ cancels. TRUE."
+    },
+    {
+     "n": 4,
+     "text": "(C) $T_A = T_1 = 4T_C$ from step 2. TRUE. (D) $p_A = nRT_1/V_1$, $p_B = nRT_1/V_2$, so $p_A/p_B = V_2/V_1 = 8 \\ne 4$. FALSE."
+    }
+   ],
+   "pitfalls": [
+    "Using $\\gamma = 7/5$ (diatomic) instead of $5/3$ for the monoatomic gas.",
+    "Sign errors: $Q_{BC}$ is heat released (positive $Q_{out}$), not negative heat input."
+   ],
+   "final_check": "$\\eta = 1 - \\frac{1.5\\times 0.75}{\\ln 8} \\approx 1 - 0.54 = 0.46$; (A),(B),(C) all check out, (D) contradicts $p_A/p_B = V_2/V_1 = 8$. Answer [A, B, C]."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics",
+    "Heat Engines"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "7",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879183+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "ABC",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "key_answer": "ABC",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-phy-s2-q08",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 16
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 8,
+  "stem": "The electric field associated with an electromagnetic wave travelling in vacuum is given by $E_0\\sin(3x + 4y + \\omega t)\\,\\hat{k}$, where $\\omega$ is the angular frequency. All quantities are in SI units. The correct statement(s) about this wave is/are: [Given: speed of light in vacuum $c = 3\\times10^8\\ \\mathrm{ms^{-1}}$.]",
+  "stem_images": [],
+  "options": {
+   "A": "The wave is travelling in $-\\dfrac{1}{5}(3\\hat{i} + 4\\hat{j})$ direction.",
+   "B": "The magnitude of the wave vector is $0.5\\ \\mathrm{m^{-1}}$.",
+   "C": "The value of $\\omega$ is $1.5\\times10^9\\ \\mathrm{rad\\ s^{-1}}$.",
+   "D": "The magnetic field associated with this wave is given by $\\dfrac{E_0}{c}\\sin(3x + 4y + \\omega t)(4\\hat{i} - 3\\hat{j})$."
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Wave vector and propagation direction",
+    "Dispersion $\\omega = ck$",
+    "Mutual perpendicularity of $\\mathbf{E}, \\mathbf{B}, \\hat{n}$"
+   ],
+   "formulas": [
+    "Phase $\\phi = \\mathbf{k}\\cdot\\mathbf{r} + \\omega t$, $\\mathbf{k} = 3\\hat{i}+4\\hat{j}$",
+    "$|\\mathbf{k}| = 5\\ \\mathrm{m^{-1}}$, $\\omega = c|\\mathbf{k}|$",
+    "$\\mathbf{B} = (\\hat{n}\\times\\mathbf{E})/c$, $\\hat{n} = -\\mathbf{k}/|\\mathbf{k}|$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Phase $\\phi = 3x + 4y + \\omega t = $ const moves with $3\\,dx + 4\\,dy = -\\omega\\,dt < 0$: the wave travels along $-\\mathbf{k} = -(3\\hat{i}+4\\hat{j})$, i.e. in the $-(3\\hat{i}+4\\hat{j})/5$ direction. (A) TRUE."
+    },
+    {
+     "n": 2,
+     "text": "(B) $|\\mathbf{k}| = \\sqrt{3^2+4^2} = 5\\ \\mathrm{m^{-1}}$, not $0.5$. FALSE."
+    },
+    {
+     "n": 3,
+     "text": "(C) $\\omega = c|\\mathbf{k}| = (3\\times10^8)(5) = 1.5\\times10^9\\ \\mathrm{rad/s}$. TRUE."
+    },
+    {
+     "n": 4,
+     "text": "(D) With $\\hat{n} = -(3\\hat{i}+4\\hat{j})/5$: $\\mathbf{B} = (\\hat{n}\\times\\mathbf{E})/c = \\frac{E_0}{5c}(-4\\hat{i}+3\\hat{j})\\sin(3x+4y+\\omega t)$. The option claims $(E_0/c)(4\\hat{i}-3\\hat{j})\\sin(\\cdots)$: wrong sign and missing the factor $1/5$. FALSE."
+    }
+   ],
+   "pitfalls": [
+    "Reading the propagation direction from $+\\mathbf{k}$ instead of $-\\mathbf{k}$ (the phase has $+\\omega t$, not $-\\omega t$).",
+    "Forgetting to normalise $\\hat{n}$ when computing $\\mathbf{B}$ (the $1/5$ factor)."
+   ],
+   "final_check": "$\\mathbf{B}$ must satisfy $|\\mathbf{B}| = |\\mathbf{E}|/c$; the option's $|\\mathbf{B}| = \\sqrt{4^2+3^2}E_0/c = 5E_0/c \\ne E_0/c$. Answer [A, C]."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electromagnetic Waves"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "8",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879192+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "AC",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": [
+    "A",
+    "C"
+   ],
+   "key_answer": "AC",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-phy-s3-q09",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 16
+  },
+  "qtype": "numerical",
+  "number_in_subject": 9,
+  "stem": "A tank contains two immiscible liquids of densities $6\\rho$ and $2\\rho$. The higher density liquid is filled up to a height $L/2$ from the bottom. A thin rod of density $\\rho$ and length $L$ is fully immersed and hinged at the bottom so that it can oscillate freely, as shown in the figure. If the rod is slightly disturbed from its equilibrium, the time period of small oscillations is $2\\pi\\sqrt{\\dfrac{L}{ng}}$, where $g$ is the acceleration due to gravity. The value of $n$ is:",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Buoyancy torque about a hinge",
+    "Physical pendulum",
+    "Small oscillations"
+   ],
+   "formulas": [
+    "$\\tau = -\\left(\\int b(y)\\,y\\,dy - Mg\\tfrac{L}{2}\\right)\\theta$, $b(y)$ = buoyant force per unit length",
+    "$I = \\frac13 ML^2$",
+    "$\\omega^2 = \\kappa/I$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Vertical equilibrium is stable (mean liquid density $4\\rho > \\rho$). Tilt the rod by small $\\theta$; a vertical force $F$ at height $y$ gives torque $F\\,y\\sin\\theta \\simeq F\\,y\\,\\theta$ about the hinge (upward forces restore, weight topples)."
+    },
+    {
+     "n": 2,
+     "text": "Buoyant force per unit length: $6\\rho a g$ for $0<y<L/2$, $2\\rho a g$ for $L/2<y<L$ ($a$ = cross-section). Restoring torque coefficient: $\\kappa = \\int_0^{L/2}6\\rho ag\\,y\\,dy + \\int_{L/2}^{L}2\\rho ag\\,y\\,dy - (\\rho aLg)(L/2)$."
+    },
+    {
+     "n": 3,
+     "text": "Evaluating: $6\\rho ag(L^2/8) + 2\\rho ag(3L^2/8) - \\rho agL^2/2 = \\rho agL^2(3/4 + 3/4 - 1/2) = \\rho aL^2 g$. With $I = \\frac13(\\rho aL)L^2$: $\\omega^2 = \\kappa/I = 3g/L$."
+    },
+    {
+     "n": 4,
+     "text": "Hence $T = 2\\pi\\sqrt{L/(3g)} = 2\\pi\\sqrt{L/(ng)}$ gives $n = 3$."
+    }
+   ],
+   "pitfalls": [
+    "Omitting the weight's toppling torque (it reduces the restoring coefficient).",
+    "Using $I$ about the centre instead of about the hinge ($ML^2/3$)."
+   ],
+   "final_check": "$\\kappa = \\rho aL^2g > 0$ (stable), $\\omega = \\sqrt{3g/L}$, $T = 2\\pi\\sqrt{L/(3g)}$. NOTE: the answer form was OCR-scrambled; $n = 3$ corresponds to $T = 2\\pi\\sqrt{L/(ng)}$ (if the form were $T = 2\\pi n\\sqrt{L/g}$, the value would be $1/\\sqrt{3}$)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Oscillations",
+    "Fluid Mechanics"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "9",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879200+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "1.73",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "3",
+   "key_answer": "1.73",
+   "match": true,
+   "status": "verified",
+   "attempts": 2,
+   "note": "First blind solve (3) incorrect; second blind solve confirms key (1.73)."
+  }
+ },
+ {
+  "id": "adv2026-p1-phy-s3-q10",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 16
+  },
+  "qtype": "numerical",
+  "number_in_subject": 10,
+  "stem": "As shown in the figure, five Carnot engines, each with efficiency $\\eta$ and same number of cycles per unit time, are operating between six heat reservoirs. The amount of heat released per cycle by one engine is completely absorbed by the next engine. Consider $Q_0$ to be the amount of heat absorbed per cycle by the first engine and $W$ as the amount of total work done by all the engines per cycle, then the net efficiency of the system is found to be $\\eta_{net} = \\dfrac{W}{Q_0} = \\dfrac{211}{243}$. The value of $\\eta$ is:",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Carnot efficiency",
+    "Cascaded heat engines",
+    "Geometric series"
+   ],
+   "formulas": [
+    "$W_i = \\eta Q_{i-1}$, $Q_i = (1-\\eta)Q_{i-1}$",
+    "$\\eta_{net} = 1 - (1-\\eta)^5$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Engine $i$ absorbs $Q_{i-1}$, delivers $W_i = \\eta Q_{i-1}$, and rejects $Q_i = (1-\\eta)Q_{i-1}$, which the next engine fully absorbs."
+    },
+    {
+     "n": 2,
+     "text": "Total work per cycle: $W = \\sum_{i=1}^{5} \\eta(1-\\eta)^{i-1} Q_0 = \\eta Q_0\\,\\frac{1-(1-\\eta)^5}{1-(1-\\eta)} = Q_0\\,[1-(1-\\eta)^5]$."
+    },
+    {
+     "n": 3,
+     "text": "Thus $\\eta_{net} = 1 - (1-\\eta)^5 = 211/243$, so $(1-\\eta)^5 = 1 - 211/243 = 32/243 = 32/3^5 = (2/3)^5$."
+    },
+    {
+     "n": 4,
+     "text": "Hence $1 - \\eta = 2/3$ and $\\eta = 1/3 \\approx 0.33$."
+    }
+   ],
+   "pitfalls": [
+    "Summing only the works without tracking that each engine's input is the previous engine's rejected heat.",
+    "Misreading $\\eta_{net}$ as $5\\eta$ (valid only for small $\\eta$)."
+   ],
+   "final_check": "$(2/3)^5 = 32/243$; $1 - 32/243 = 211/243$. $\\eta = 1/3 = 0.33$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics",
+    "Heat Engines"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "10",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879211+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "0.33",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "0.33",
+   "key_answer": "0.32 to 0.34",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-phy-s3-q11",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 16
+  },
+  "qtype": "numerical",
+  "number_in_subject": 11,
+  "stem": "As shown in the figure, an insulated container is fitted with a thermally conducting but immovable partition ($P_1$) and a freely movable but thermally insulated piston ($P_2$). The partition $P_1$ with thermal conductivity $\\kappa$, cross sectional area $A$ and width $w$ divides the container into two sections, $S_1$ and $S_2$, each containing one mole of a monoatomic gas. The piston $P_2$ moves freely such that the gas in $S_2$ is always at the atmospheric pressure. Initially, the difference between the temperatures of $S_1$ and $S_2$ is $\\Delta T_0$. The time it takes for the temperature difference to become $\\dfrac{\\Delta T_0}{2}$ is $\\dfrac{n\\,w\\,R}{\\kappa\\,A}$, where $R$ is the universal gas constant. The value of $n$ is: [Given: $\\ln 2 \\approx 0.7$]",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Thermal conduction",
+    "First law with moving boundary",
+    "Effective heat capacities $C_v$ and $C_p$"
+   ],
+   "formulas": [
+    "$\\dot{Q} = \\kappa A\\,\\Delta T/w$",
+    "$C_v\\dot{T}_1 = -\\dot{Q}$ (constant volume)",
+    "$C_p\\dot{T}_2 = +\\dot{Q}$ (constant pressure: $\\dot{U} = \\dot{Q} - P\\dot{V}$)",
+    "$\\dot{(\\Delta T)} = -\\dfrac{\\kappa A}{w}\\left(\\dfrac{1}{C_v}+\\dfrac{1}{C_p}\\right)\\Delta T$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Heat current from $S_1$ to $S_2$ through $P_1$: $\\dot{Q} = \\kappa A(T_1-T_2)/w = \\kappa A\\,\\Delta T/w$."
+    },
+    {
+     "n": 2,
+     "text": "$S_1$ has fixed volume: $C_v\\dot{T}_1 = -\\dot{Q}$. $S_2$ is at constant (atmospheric) pressure: $C_v\\dot{T}_2 = \\dot{Q} - P\\dot{V}_2$ with $P\\dot{V}_2 = R\\dot{T}_2$ (1 mole), so $(C_v + R)\\dot{T}_2 = C_p\\dot{T}_2 = +\\dot{Q}$."
+    },
+    {
+     "n": 3,
+     "text": "Subtracting: $\\dot{(\\Delta T)} = -\\frac{\\kappa A}{w}(\\frac{1}{C_v}+\\frac{1}{C_p})\\Delta T$. For monoatomic gas $C_v = 3R/2$, $C_p = 5R/2$: $\\frac{1}{C_v}+\\frac{1}{C_p} = \\frac{2}{3R}+\\frac{2}{5R} = \\frac{16}{15R}$."
+    },
+    {
+     "n": 4,
+     "text": "Time constant $\\tau = \\frac{w}{\\kappa A}\\frac{15R}{16}$; halving time $t = \\tau\\ln 2 = \\frac{15}{16}(0.7)\\frac{wR}{\\kappa A} = 0.65625\\frac{wR}{\\kappa A}$. With $t = n\\,wR/(\\kappa A)$: $n = 0.65625 \\approx 0.66$."
+    }
+   ],
+   "pitfalls": [
+    "Treating $S_2$ with $C_v$ instead of $C_p$: the moving piston does work, so heat entering $S_2$ splits between internal energy and work.",
+    "Sign error in $\\dot{T}_2$ (it warms while $S_1$ cools)."
+   ],
+   "final_check": "$n = (15/16)\\ln 2 = 0.9375\\times 0.7 = 0.65625 \\approx 0.66$. NOTE: assumes the stated form $t = n\\,wR/(\\kappa A)$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics",
+    "Heat Transfer"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "11",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879224+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "0.66",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "0.66",
+   "key_answer": "0.63 to 0.7",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-phy-s3-q12",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 16
+  },
+  "qtype": "numerical",
+  "number_in_subject": 12,
+  "stem": "A hollow, right circular cone of base radius $R$ and height $h$, with its tip at the origin is rotating about the $Z$-axis with an angular velocity $\\omega$, as shown in the figure. The cone carries a total charge $Q$ uniformly distributed on its curved surface. The magnitude of magnetic field at a point $(0, 0, z)$, where $z \\gg R$ and $z \\gg h$, is $\\dfrac{n\\,\\mu_0\\,Q\\,R^2\\,\\omega}{4\\pi\\,z^3}$. The value of $n$ is:",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Magnetic dipole moment of rotating charge",
+    "Far-field of a magnetic dipole on axis"
+   ],
+   "formulas": [
+    "$dm = \\frac{\\omega}{2}r^2\\,dq$ (rotating ring)",
+    "$\\sigma = Q/(\\pi R l)$, $l = \\sqrt{R^2+h^2}$",
+    "$B_z = \\dfrac{\\mu_0}{4\\pi}\\dfrac{2m}{z^3}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Surface charge density $\\sigma = Q/(\\pi Rl)$ with slant height $l = \\sqrt{R^2+h^2}$. A ring at height $z'$ has radius $r = Rz'/h$ and slant width $dl = (l/h)dz'$; charge $dq = \\sigma\\,2\\pi r\\,dl$."
+    },
+    {
+     "n": 2,
+     "text": "Rotating at $\\omega$, the ring carries current $dI = dq\\,\\omega/2\\pi$, giving $dm = dI\\,(\\pi r^2) = (\\omega/2)r^2\\,dq = \\pi\\sigma\\omega\\,r^3\\,dl$."
+    },
+    {
+     "n": 3,
+     "text": "Integrate: $m = \\pi\\sigma\\omega\\frac{l}{h}\\frac{R^3}{h^3}\\int_0^h z'^3 dz' = \\pi\\sigma\\omega R^3 l/4 = \\frac{Q\\omega R^2}{4}$ (using $\\sigma = Q/\\pi Rl$). Note $h$ cancels: the moment depends only on $Q$, $\\omega$, $R$."
+    },
+    {
+     "n": 4,
+     "text": "Far on-axis field: $B = \\frac{\\mu_0}{4\\pi}\\frac{2m}{z^3} = \\frac{\\mu_0 Q\\omega R^2}{8\\pi z^3} = \\frac{1}{2}\\,\\frac{\\mu_0 Q R^2\\omega}{4\\pi z^3}$. Hence $n = 1/2 = 0.50$."
+    }
+   ],
+   "pitfalls": [
+    "Using the base radius $R$ for every ring instead of the local radius $r = Rz'/h$.",
+    "Forgetting the dipole far-field factor $2m$ (vs $m$) on the axis."
+   ],
+   "final_check": "$m = Q\\omega R^2/4$; $B = (\\mu_0/4\\pi)(2m/z^3) = \\mu_0Q\\omega R^2/(8\\pi z^3)$. NOTE: assumes the stated normalisation $n\\mu_0QR^2\\omega/(4\\pi z^3)$, giving $n = 0.50$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Magnetism",
+    "Magnetic Dipole"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "12",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879300+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "0.50",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "0.50",
+   "key_answer": "0.50",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-phy-s4-q13",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 16
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 13,
+  "stem": "List-I shows four configurations made of straight and semi-circular narrow tubes containing air. A sound wave of wavelength $\\lambda = 0.29\\ \\mathrm{m}$ enters these structures at the point $S$ and a sound detector is placed at $D$. Between the points $S$ and $D$, the sound travels only through the tubes. List-II contains the possible smallest values of $x$ (refer to the figures) for which the detector $D$ records maximum amplitude. Ignore effects of sharp corners. [Given $\\cos(15^\\circ) = 0.97$]\nChoose the option that best describes the match between the entries in List-I to those in List-II.\n\nList-I: (P), (Q), (R), (S) [tube configurations — figures not available]\nList-II: (1) $1.32\\ \\mathrm{m}$, (2) $1.19\\ \\mathrm{m}$, (3) $0.51\\ \\mathrm{m}$, (4) $0.29\\ \\mathrm{m}$, (5) $0.13\\ \\mathrm{m}$",
+  "stem_images": [],
+  "options": {
+   "A": "P→4, Q→3, R→5, S→1",
+   "B": "P→4, Q→3, R→1, S→5",
+   "C": "P→3, Q→4, R→1, S→2",
+   "D": "P→3, Q→4, R→5, S→2"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Interference of sound in tubes",
+    "Path difference = nλ for constructive interference"
+   ],
+   "formulas": [
+    "$\\Delta L = n\\lambda$ for maximum amplitude"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "BLOCKED: the four tube geometries (P)–(S) are figures that were not captured in the ingest (no dimensions, no path layouts, no indication of which lengths depend on x). The List-II values cannot be derived from the text alone."
+    },
+    {
+     "n": 2,
+     "text": "Method (for verification once figures are available): for each configuration compute the two path lengths $L_1(x)$, $L_2(x)$ from $S$ to $D$ through the tubes; maximum amplitude needs $|L_1 - L_2| = n\\lambda$ with $\\lambda = 0.29$ m; the smallest $x > 0$ satisfying this (with the $\\cos15^\\circ = 0.97$ factor where a slanted tube is involved) is matched to List-II."
+    }
+   ],
+   "pitfalls": [
+    "Guessing a match without the figures: the $x$-dependence of each path difference is geometry-specific."
+   ],
+   "final_check": "UNRESOLVED — requires the four tube diagrams. solver_answer left null; do not grade."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Sound Waves",
+    "Interference"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "13",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879308+00:00"
+  },
+  "parent_stem": null,
+  "final_check": " [FIX: re-read from paper pages. Corrected to D (was None). Page 21 (11/14). Sound wavelength 0.29 m; max amplitude when path difference = lambda (smallest l). (P): semicircle r=0.5l vs straight l: delta=(0.5*pi-1)l=0.29 -> l=0.51 -> (3). (Q): rectangle, delta]",
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-phy-s4-q14",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 16
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 14,
+  "stem": "In the List-I, four optical effects are mentioned. The physical phenomena of light which are essential to describe these optical effects are given in List-II. Choose the option which describes the correct match between the entries in List-I to those in List-II.\n\nList-I: (P) Colorful sky in north polar region (Aurora Borealis); (Q) Partially polarized sun light; (R) Rainbow; (S) Dark and bright fringes\n\nList-II: (1) Dispersion and reflection; (2) Total internal reflection; (3) Diffraction; (4) Scattering of light by molecules in the atmosphere; (5) Emission of radiation from oxygen and nitrogen atoms excited by charged particles",
+  "stem_images": [],
+  "options": {
+   "A": "P→5, Q→4, R→1, S→3",
+   "B": "P→4, Q→2, R→1, S→3",
+   "C": "P→4, Q→1, R→2, S→3",
+   "D": "P→5, Q→4, R→1, S→2"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Aurora emission",
+    "Atmospheric polarisation by scattering",
+    "Rainbow formation",
+    "Diffraction fringes"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(P) Aurora Borealis: charged solar-wind particles excite oxygen/nitrogen in the upper atmosphere, which then emit characteristic light → (5)."
+    },
+    {
+     "n": 2,
+     "text": "(Q) Partially polarised sunlight: sunlight scattered by air molecules (Rayleigh scattering) is partially polarised → (4). (Total internal reflection (2) is not the essential phenomenon here.)"
+    },
+    {
+     "n": 3,
+     "text": "(R) Rainbow: refraction/dispersion at entry, internal reflection(s), and refraction at exit of raindrops → (1) 'Dispersion and reflection' is the listed match (rather than bare TIR (2), since dispersion is essential to the colours)."
+    },
+    {
+     "n": 4,
+     "text": "(S) Dark and bright fringes: the classic fringe pattern (e.g. single-slit) is described by diffraction → (3)."
+    }
+   ],
+   "pitfalls": [
+    "(R): choosing (2) total internal reflection alone — but without dispersion there is no rainbow; the combined entry (1) is the intended match.",
+    "(S): confusing interference with diffraction; among the listed phenomena (3) is the fit."
+   ],
+   "final_check": "P→5, Q→4, R→1, S→3 matches option A exactly."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Ray Optics",
+    "Wave Optics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "14",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879315+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-phy-s4-q15",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 16
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 15,
+  "stem": "List-I contains four conducting loops lying in the $xy$ plane, as shown in the figures. The loops are rotating about the $z$ axis passing through the point $O$ with time period $T$ in clockwise direction. The region $x > 0$ contains a uniform magnetic field $B$ in the $+z$ direction. List-II contains the qualitative variation of the induced current $i(t)$ for each of these loops.\nChoose the option which describes the correct match between the entries in List-I to those in List-II.\n\nList-I: (P), (Q), (R), (S) [loop shapes — figures not available]\nList-II: (1)–(5) [i(t) graphs — figures not available]",
+  "stem_images": [],
+  "options": {
+   "A": "P → 5, Q → 4, R → 1, S → 3",
+   "B": "P → 3, Q → 2, R → 5, S → 4",
+   "C": "P → 3, Q → 2, R → 1, S → 4",
+   "D": "P → 5, Q → 1, R → 2, S → 3"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Faraday's law",
+    "Flux through a rotating loop partially in a field region",
+    "Lenz's law"
+   ],
+   "formulas": [
+    "$\\mathcal{E} = -d\\Phi/dt$, $i = \\mathcal{E}/R$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "BLOCKED: the loop shapes (P)–(S) and the five $i(t)$ graphs (1)–(5) are figures not captured in the ingest. The induced current depends on how the loop's area inside $x>0$ changes with rotation angle, which is shape-specific."
+    },
+    {
+     "n": 2,
+     "text": "Method (for verification once figures are available): for each loop write the area $A_{in}(t)$ lying in $x>0$ as the loop rotates clockwise with period $T$; $\\Phi(t) = B\\,A_{in}(t)$; $i(t) \\propto -dA_{in}/dt$ (sign by Lenz's law); match the piecewise waveform (zero when the loop is fully in/out or when $dA_{in}/dt = 0$) to List-II."
+    }
+   ],
+   "pitfalls": [
+    "Assuming current flows whenever the loop is in the field — it flows only while the flux is CHANGING."
+   ],
+   "final_check": "UNRESOLVED — requires the loop diagrams and the $i(t)$ graphs. solver_answer left null; do not grade."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electromagnetic Induction"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "15",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879322+00:00"
+  },
+  "parent_stem": null,
+  "final_check": " [FIX: re-read from paper pages. Corrected to C (was None). Page 23 (13/14). Loops rotate clockwise (viewed from +z); B=+z in x>0; emf=(v x B) integral gives piecewise-constant i. Current arrows: (P) arrow points right => positive=CW; (R) arrow on arc points r]",
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2026-p1-phy-s4-q16",
+  "exam": "JEE Advanced",
+  "year": 2026,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 16
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 16,
+  "stem": "List-I shows four planar structures made of uniform solid rods each of mass $m$ and length $l$. In the List-II the possible moment of inertia of these structures about an axis $AA'$, which lies in the plane of the structures, are given. Choose the option that describes the correct match between the entries in List-I to those in List-II.\n\nList-I: (P), (Q), (R), (S) [rod structures — figures not available]\nList-II: (1)–(5) [values like $ml^2/4$, $ml^2/6$, $ml^2/12$, $ml^2/3$ — OCR-garbled, figures not available]",
+  "stem_images": [],
+  "options": {
+   "A": "P→ 5, Q→ 1, R→ 4, S→ 2",
+   "B": "P→ 1, Q→ 3, R→ 4, S→ 2",
+   "C": "P→ 5, Q→ 3, R→ 2, S→ 1",
+   "D": "P→ 5, Q→ 4, R→ 2, S→ 1"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Moment of inertia of a rod about in-plane axes",
+    "Parallel-axis theorem",
+    "Additivity of MI"
+   ],
+   "formulas": [
+    "Rod about central in-plane perpendicular axis: $ml^2/12$; about in-plane axis along the rod through CM: $0$; end axis perpendicular in-plane: $ml^2/3$",
+    "$I = I_{cm} + md^2$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "BLOCKED: the four rod structures (P)–(S) and the position/orientation of the in-plane axis $AA'$ are figures not captured in the ingest; the List-II value list is also OCR-garbled. MI about an in-plane axis depends on each rod's distance from and angle to $AA'$."
+    },
+    {
+     "n": 2,
+     "text": "Method (for verification once figures are available): for each rod, $dI = \\lambda\\, (\\text{perp. distance from }AA')^2 dl$; equivalently use $I_{cm}$ about a parallel in-plane axis through the rod's centre plus $md^2$. Sum over rods; match to List-II."
+    }
+   ],
+   "pitfalls": [
+    "Using the perpendicular-axis (out-of-plane) MI formulas for an in-plane axis."
+   ],
+   "final_check": "UNRESOLVED — requires the structure diagrams, the $AA'$ axis placement, and clean List-II values. solver_answer left null; do not grade."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Rotational Mechanics",
+    "Moment of Inertia"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "16",
+   "paper_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "key_pdf": "https://jeeadv.ac.in/documents/p1_english.pdf",
+   "extracted_at": "2026-10-16T06:20:09.879328+00:00"
+  },
+  "parent_stem": null,
+  "final_check": " [FIX: re-read from paper pages. Corrected to A (was None). Page 24 (14/14). I about in-plane axis OCO' = integral of (perp distance)^2 dm; for a rod with one end on axis at angle theta: (m l^2/3) sin^2(theta). (P): L-shape, axis at 45 deg to both rods: 2*(m l]",
+  "paper": "JEE Advanced 2026 — Paper 1",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ }
+]
