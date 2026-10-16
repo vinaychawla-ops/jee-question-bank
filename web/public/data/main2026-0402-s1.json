@@ -1048,18 +1048,21 @@
    "steps": [
     {
      "n": 1,
-     "text": "1,2,3-Trihydroxypropane is glycerol (bp $\\approx 290^{\\circ}\\text{C}$); water boils at $100^{\\circ}\\text{C}$. The $\\sim 190^{\\circ}\\text{C}$ difference allows separation by simple distillation — Statement (I) is true."
+     "text": "Statement I is false: 1,2,3-trihydroxypropane (glycerol) boils at about $290^\\circ\\mathrm{C}$ but decomposes near its boiling point, so it cannot be distilled at atmospheric pressure. The standard method (NCERT) is distillation under reduced pressure."
     },
     {
      "n": 2,
-     "text": "An azeotropic mixture distils unchanged in composition, so fractional distillation cannot resolve it — Statement (II) is true."
+     "text": "Statement II is true: an azeotropic mixture boils at a constant composition and cannot be resolved into pure components by fractional distillation."
+    },
+    {
+     "n": 3,
+     "text": "I false, II true -> option (D)."
     }
    ],
    "pitfalls": [
     "Thinking glycerol is steam-distilled — it is not volatile enough; simple distillation suffices given the huge bp gap"
    ],
-   "final_check": "Glycerol/water separate by simple distillation and azeotropes resist fractional distillation — option A.",
-   "dispute_note": "Our answer is (A): both statements are true — glycerol can be separated from water by simple distillation, and an azeotrope cannot be resolved into pure components by fractional distillation. The official key says (D); two independent blind solutions agree on (A)."
+   "final_check": "Matches official key (D)."
   },
   "taxonomy": {
    "chapters": [
@@ -1077,17 +1080,17 @@
   "paper": "JEE Main 2026 Session 2 — 2026-04-02 Shift 1",
   "parent_stem": null,
   "answer": {
-   "value": "A",
+   "value": "D",
    "tolerance": null,
-   "source": "solver_verified (differs from official_final_key)"
+   "source": "solver_verified"
   },
   "verification": {
-   "solver_answer": "A",
+   "solver_answer": "D",
    "key_answer": "D",
-   "match": false,
-   "status": "mismatch",
-   "attempts": 2,
-   "note": "DISPUTE: Two independent blind solves agree on A; key says D. Statement (II) is true: an azeotrope boils at constant composition, so fractional distillation cannot resolve it into pure components. Statement (I) is true: 1,2,3-trihydroxypropane is glycerol (bp ~2"
+   "match": true,
+   "status": "match",
+   "attempts": 3,
+   "note": "DECIDED 2026-10-16 by Vin: (D). Independent validation argued statement I is false (glycerol decomposes near its bp; NCERT prescribes vacuum distillation). Vin accepted D."
   }
  },
  {
@@ -5140,7 +5143,7 @@
   },
   "qtype": "single_correct",
   "number_in_subject": 12,
-  "stem": "For the given circuit (shown in part (A)) the time dependent input voltage $v_{in}(t)$ and corresponding output $v_o(t)$ are shown in part (B) and part (C), respectively. Identify the components that are used in the circuit between points X and Y.\\n(A) Circuit: $v_{in}$ ($\\pm 20$ V sine) is applied across X--Y; connected between X and Y is a series branch of an ideal diode (upper, forward X$\\to$Y) and a Zener diode ($V_Z = 5$ V, lower, cathode toward the ideal diode); $v_o(t)$ is taken across X--Y.\\n(B) Input: sine wave of peak $\\pm 20$ V.\\n(C) Output: clipped sine, flat at $+5$ V on the positive half and $-5$ V on the negative half.\\nOptions (branch between X and Y):\\nA. Resistor in series with an ordinary diode (cathode toward X).\\nB. Ordinary diode (anode toward X) in series with a Zener diode (anode toward the diode, cathode toward Y).\\nC. Resistor in series with a Zener diode (anode toward X, cathode toward Y).\\nD. Ordinary diode (anode toward X) in series with a Zener diode (cathode toward the diode, anode toward Y).",
+  "stem": "For the given circuit (shown in part (A)) the time dependent input voltage $v_{in}(t)$ and corresponding output $v_o(t)$ are shown in part (B) and part (C), respectively.\\n(A) Circuit: $v_{in}$ ($\\pm 20$ V sine) drives two parallel branches: a fixed branch of an ideal diode in series with a Zener diode ($V_Z = 5$ V), connected cathode-to-cathode; and the unknown network between points X and Y (drawn as a rectangle). $v_o(t)$ is measured across X--Y.\\n(B) Input: sine wave of peak $\\pm 20$ V.\\n(C) Output: clipped sine, flat at $+5$ V on the positive half and $-5$ V on the negative half.\\nIdentify the components in the unknown network connected between points X and Y.",
   "stem_images": [],
   "options": {
    "A": "Resistor + ordinary diode (as described above)",
@@ -5166,22 +5169,25 @@
    "steps": [
     {
      "n": 1,
-     "text": "The branch in figure (A) contains no resistor, so options A and C (which include a series resistor) are ruled out; the components are an ordinary (ideal) diode and a Zener diode."
+     "text": "The fixed branch (ideal diode + 5V Zener, cathode-to-cathode) conducts only on the positive half-cycle, clamping $v_o$ at $+5$ V. It cannot clip the negative half (the diode blocks)."
     },
     {
      "n": 2,
-     "text": "On the positive half-cycle ($v_{in} > 5$ V) the output clips at $+5$ V $= V_Z$: the ideal diode is forward biased and the Zener is in reverse breakdown, dropping $V_Z = 5$ V. This needs the Zener's cathode facing the diode (cathode-to-cathode), as in option D."
+     "text": "The observed output is also flat at $-5$ V on the negative half, so the unknown X-Y network must conduct at $-5$ V on negative half-cycles."
     },
     {
      "n": 3,
-     "text": "In option B the Zener is flipped (anode toward the diode): on the positive half it would be forward biased and short the output to $\\approx 0$ V instead of clipping at $+5$ V, contradicting part (C). Hence the branch is option D."
+     "text": "An ideal diode in series with a Zener, connected anode-to-anode: on the negative half-cycle the Zener breaks down in reverse at 5 V while the diode conducts forward, clamping at $-5$ V. This is option (B)."
+    },
+    {
+     "n": 4,
+     "text": "Option (D) repeats the cathode-to-cathode arrangement, which would only duplicate the $+5$ V clipping and cannot produce the $-5$ V flat."
     }
    ],
    "pitfalls": [
     "A series resistor would spoil the sharp clipping; match the Zener orientation to the observed $+5$ V clip level."
    ],
-   "final_check": "Option D reproduces the branch of figure (A) and the $+5$ V positive-half clipping.",
-   "dispute_note": "Our answer is (D): the printed circuit figure shows an ideal diode in series with a Zener diode matching option (D); the key's option (B) has the Zener orientation flipped relative to the figure. Two independent blind solutions agree on (D)."
+   "final_check": "Anode-to-anode branch gives -5V clipping; with the fixed +5V branch the output matches part (C). Matches official key (B)."
   },
   "taxonomy": {
    "chapters": [
@@ -5198,17 +5204,17 @@
   "paper": "JEE Main 2026 Session 2 — 2026-04-02 Shift 1",
   "parent_stem": null,
   "answer": {
-   "value": "D",
+   "value": "B",
    "tolerance": null,
-   "source": "solver_verified (differs from official_final_key)"
+   "source": "solver_verified"
   },
   "verification": {
-   "solver_answer": "D",
+   "solver_answer": "B",
    "key_answer": "B",
-   "match": false,
-   "status": "mismatch",
-   "attempts": 2,
-   "note": "DISPUTE: Two independent blind solves agree on D; key says B. Verified figure (A) at high zoom from the source PDF: the branch between X and Y is an ideal diode (triangle apex down => anode toward X, cathode toward the middle junction) in series with a Zener dio"
+   "match": true,
+   "status": "match",
+   "attempts": 3,
+   "note": "CORRECTED 2026-10-16: independent validation against the official NTA paper showed our stem had conflated the fixed cathode-to-cathode clipper branch with the unknown X-Y network. Re-analyzed: fixed branch clips +5V; X-Y network must clip -5V -> anode-to-anode (B). Verified against official final key (B)."
   }
  },
  {

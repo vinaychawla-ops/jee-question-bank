@@ -1690,7 +1690,7 @@
   },
   "qtype": "numerical",
   "number_in_subject": 21,
-  "stem": "If 3.365 g of ethanol ($l$) is burnt completely in a bomb calorimeter at 298.15 K, the heat produced is 99.472 kJ. The $\\Delta H_f^\\circ$ of ethanol at 298.15 K is ______ $\\times 10^2\\ \\mathrm{kJ\\,mol^{-1}}$. (Nearest integer)\\nGiven: Standard enthalpy for combustion of graphite $= -393.5\\ \\mathrm{kJ\\,mol^{-1}}$\\nStandard enthalpy of formation of water ($l$) $= -285.8\\ \\mathrm{kJ\\,mol^{-1}}$\\nMolar mass in $\\mathrm{g\\,mol^{-1}}$ of C, H, O are 12, 1 and 16 respectively",
+  "stem": "If 3.365 g of ethanol ($l$) is burnt completely in a bomb calorimeter at 298.15 K, the heat produced is 99.472 kJ. The $|\\Delta H_f^\\circ|$ of ethanol at 298.15 K is ______ $\\times 10^2\\ \\mathrm{kJ\\,mol^{-1}}$. (Nearest integer)\\nGiven: Standard enthalpy for combustion of graphite $= -393.5\\ \\mathrm{kJ\\,mol^{-1}}$\\nStandard enthalpy of formation of water ($l$) $= -285.8\\ \\mathrm{kJ\\,mol^{-1}}$\\nMolar mass in $\\mathrm{g\\,mol^{-1}}$ of C, H, O are 12, 1 and 16 respectively",
   "stem_images": [],
   "options": null,
   "marking": {
@@ -1722,14 +1722,13 @@
     },
     {
      "n": 4,
-     "text": "$\\Delta_f H = -282.15\\ \\mathrm{kJ/mol} = -2.82 \\times 10^2\\ \\mathrm{kJ/mol} \\to$ nearest integer $-3$."
+     "text": "$\\Delta_f H = -282.15\\ \\mathrm{kJ/mol}$. The question asks for the magnitude $|\\Delta_f H^\\circ| = 2.82 \\times 10^2\\ \\mathrm{kJ/mol} \\to$ nearest integer $3$."
     }
    ],
    "pitfalls": [
     "Using $\\Delta_c U$ directly as $\\Delta_c H$ (missing the $\\Delta n_g RT$ term); wrong sign on $\\Delta n_g$."
    ],
-   "final_check": "$-2.82$ rounds to $-3$.",
-   "dispute_note": "Our answer is $-3$: the enthalpy of combustion is negative (exothermic), and the $\\Delta n_g$ correction keeps it negative ($\\approx -1362\\ \\mathrm{kJ\\,mol^{-1}}$). The official key says 3, which appears to drop the minus sign. Two independent blind solutions agree on $-3$."
+   "final_check": "Magnitude 2.82 x 10^2 rounds to 3; matches official key."
   },
   "taxonomy": {
    "chapters": [
@@ -1746,17 +1745,17 @@
   "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
   "parent_stem": null,
   "answer": {
-   "value": "-3",
+   "value": "3",
    "tolerance": null,
-   "source": "solver_verified (differs from official_final_key)"
+   "source": "solver_verified"
   },
   "verification": {
-   "solver_answer": "-3",
+   "solver_answer": "3",
    "key_answer": "3",
-   "match": false,
-   "status": "mismatch",
-   "attempts": 2,
-   "note": "DISPUTE: Two independent blind solves agree on -3; official key says 3. n(ethanol)=3.365/46=0.073152 mol. Bomb calorimeter gives delta_c U = -99.472/0.073152 = -1359.76 kJ/mol. C2H5OH(l)+3O2(g)->2CO2(g)+3H2O(l): delta_n_g = 2-3 = -1, so delta_c H = -1359.76 - RT = -1362.2"
+   "match": true,
+   "status": "match",
+   "attempts": 3,
+   "note": "CORRECTED 2026-10-16: independent validation against the official NTA paper showed the question asks for |dHf| (magnitude); our transcription had dropped the modulus bars. Re-solved: 3. Verified against official final key (3)."
   }
  },
  {
@@ -5292,7 +5291,7 @@
   "stem_images": [],
   "options": {
    "A": "$\\frac{25}{\\pi}$",
-   "B": "$\\frac{10}{\\pi}$",
+   "B": "$\\frac{1}{16\\pi}$",
    "C": "$\\frac{1}{\\pi}$",
    "D": "$\\frac{1}{4\\pi}$"
   },
@@ -5308,28 +5307,26 @@
     "Magnetic intensity"
    ],
    "formulas": [
-    "$B=\\mu_0\\mu_r H$",
-    "$H=B/\\mu_0$ (as evidently intended)"
+    "$B = \\mu_0\\mu_r H$"
    ],
    "steps": [
     {
      "n": 1,
-     "text": "Strictly, $H=B/(\\mu_0\\mu_r)=1/(4\\pi\\times10^{-7}\\times400)=10^5/(16\\pi)$, i.e. $\\alpha=1/(16\\pi)$, which is NOT among the options."
+     "text": "With the core present, $B = \\mu_0\\mu_r H$, so $H = B/(\\mu_0\\mu_r)$."
     },
     {
      "n": 2,
-     "text": "The option $25/\\pi$ is exactly $\\alpha$ for $H=B/\\mu_0=10^5\\times25/\\pi$, i.e. the intended computation dropped $\\mu_r$."
+     "text": "$H = 1.0/(4\\pi\\times 10^{-7}\\times 400) = 10^4/(1.6\\pi) = 6250/\\pi \\approx 1989\\ \\mathrm{A/m}$."
     },
     {
      "n": 3,
-     "text": "Hence the intended answer is option A (question appears to have an inconsistent $\\mu_r$)."
+     "text": "Writing $H = \\alpha\\times 10^5$: $\\alpha = 1989/10^5 = 0.01989 = 1/(16\\pi)$. Option (B)."
     }
    ],
    "pitfalls": [
-    "Blind-solve flag: with $\\mu_r=400$ no option matches; $25/\\pi$ corresponds to $H=B/\\mu_0$. Picked as the only plausible intended answer."
+    "Forgetting mu_r=400 gives 25/pi (option A), the no-core value."
    ],
-   "final_check": "A (25/pi) matches H = B/mu_0; the printed mu_r = 400 is inconsistent with every option.",
-   "dispute_note": "Our answer is (A): from the printed values ($B = 1.0\\ \\mathrm{T}$, $\\mu_r = 400$), the magnetizing field works out to $\\approx 1989\\ \\mathrm{A\\,m^{-1}}$, matching option (A); the key's (B) cannot be derived from the printed numbers, so the question appears defective as printed. Two independent blind solutions agree on (A)."
+   "final_check": "1/(16pi) = 0.01989; x10^5 = 1989 A/m. Matches official key (B)."
   },
   "taxonomy": {
    "chapters": [
@@ -5346,17 +5343,17 @@
   "paper": "JEE Main 2026 Session 2 — 2026-04-04 Shift 2",
   "parent_stem": null,
   "answer": {
-   "value": "A",
+   "value": "B",
    "tolerance": null,
-   "source": "solver_verified (differs from official_final_key)"
+   "source": "solver_verified"
   },
   "verification": {
-   "solver_answer": "A",
+   "solver_answer": "B",
    "key_answer": "B",
-   "match": false,
-   "status": "mismatch",
-   "attempts": 2,
-   "note": "DISPUTE: Two independent blind solves agree on A; official key says B. Blind re-solve from the stem image (img-170.png): B = 1.0 T, mu_r = 400, mu_0 = 4pi x 10^-7. Strictly, H = B/(mu_0 mu_r) = 1/(4pi x 10^-7 x 400) = 6250/pi ~ 1989 A/m, so alpha = 1/(16pi) ~ 0.0199 -- N"
+   "match": true,
+   "status": "match",
+   "attempts": 3,
+   "note": "CORRECTED 2026-10-16: independent validation against the official NTA paper showed option B is 1/(16pi) (our transcription had 10/pi) and the correct physics includes mu_r=400. Re-solved: B. Verified against official final key (B)."
   }
  },
  {

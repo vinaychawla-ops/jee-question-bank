@@ -1282,7 +1282,7 @@
   },
   "qtype": "single_correct",
   "number_in_subject": 16,
-  "stem": "Given below are two statements :\n**Statement I:** The condensation reaction between $\\ce{CH3-CHO}$ and $\\ce{H2N-NH-C(=O)-NH2}$ under optimum pH will produce $\\ce{CH3-CH=N-NH-C(=O)-NH2}$\n**Statement II:** The molecule, $\\ce{Ph-CH(OH)(OCH3)}$ will generate $\\ce{Ph-CHO}$ in the presence of dilute acid.\nIn the light of the above statements, choose the **correct** answer from the options given below :",
+  "stem": "Given below are two statements :\\n**Statement I:** The condensation reaction between $\\ce{CH3-CHO}$ and $\\ce{H2N-NH-C(=O)-NH2}$ under optimum pH will produce $\\ce{CH3-CH=N-C(H)(=O)-NH-NH2}$ (structure as printed in the official paper: the $\\ce{C=N}$ carbon is bonded directly to the carbonyl carbon).\\n**Statement II:** The molecule, $\\ce{Ph-CH(OH)(OCH3)}$ will generate $\\ce{Ph-CHO}$ in the presence of dilute acid.\\nIn the light of the above statements, choose the **correct** answer from the options given below :",
   "stem_images": [],
   "options": {
    "A": "Both Statement I and Statement II are true",
@@ -1309,22 +1309,25 @@
    "steps": [
     {
      "n": 1,
-     "text": "Acetaldehyde condenses with semicarbazide ($\\ce{H2N-NH-CO-NH2}$) at the terminal hydrazinic $\\ce{NH2}$ under optimum pH (~4–5) to give acetaldehyde semicarbazone $\\ce{CH3-CH=N-NH-CO-NH2}$ — Statement I is true."
+     "text": "The true semicarbazone is $\\ce{CH3-CH=N-NH-C(=O)-NH2}$ (C=N at the terminal nitrogen). The official paper prints $\\ce{CH3-CH=N-C(H)(=O)-NH-NH2}$, with the imine carbon bonded directly to the carbonyl carbon -- not the reaction product."
     },
     {
      "n": 2,
-     "text": "$\\ce{Ph-CH(OH)(OCH3)}$ is a hemiacetal; dilute acid hydrolyses it to benzaldehyde $\\ce{Ph-CHO}$ plus methanol — Statement II is true."
+     "text": "Judged on the question as printed, Statement I is false."
     },
     {
      "n": 3,
-     "text": "Both true gives option A."
+     "text": "Statement II is true: $\\ce{Ph-CH(OH)(OCH3)}$ is a hemiacetal, hydrolyzed by dilute acid to $\\ce{Ph-CHO}$."
+    },
+    {
+     "n": 4,
+     "text": "I false, II true -> option (D)."
     }
    ],
    "pitfalls": [
     "Condensing at the amide NH2 end of semicarbazide; thinking hemiacetals resist dilute acid"
    ],
-   "final_check": "Semicarbazone formation and hemiacetal hydrolysis are both textbook — option A.",
-   "dispute_note": "Our answer is (A): both statements are true — semicarbazone formation and hemiacetal hydrolysis are standard textbook chemistry. The official key says (D) with no apparent chemical basis. Two independent blind solutions agree on (A)."
+   "final_check": "As printed: I false, II true = (D). Matches official key."
   },
   "taxonomy": {
    "chapters": [
@@ -1341,17 +1344,17 @@
   "paper": "JEE Main 2026 Session 2 — 2026-04-05 Shift 2",
   "parent_stem": null,
   "answer": {
-   "value": "A",
+   "value": "D",
    "tolerance": null,
-   "source": "solver_verified (differs from official_final_key)"
+   "source": "solver_verified"
   },
   "verification": {
-   "solver_answer": "A",
+   "solver_answer": "D",
    "key_answer": "D",
-   "match": false,
-   "status": "mismatch",
-   "attempts": 2,
-   "note": "DISPUTE: Two independent blind solves say both statements true (A) — semicarbazone formation and hemiacetal hydrolysis are textbook; official key says D with no plausible chemical basis. Published with solver answer and this note."
+   "match": true,
+   "status": "match",
+   "attempts": 3,
+   "note": "CORRECTED 2026-10-16: independent validation against the official NTA paper showed the printed product has the C=N carbon bonded directly to the carbonyl carbon (a misprint of the true semicarbazone). As printed, statement I is false. Verified against official final key (D)."
   }
  },
  {

@@ -3273,7 +3273,7 @@
     "4n+2 rule",
     "fused aromatics"
    ],
-   "final_check": "Aromatic: tropylium, phenanthrene, tetralin, C4H4(2+), phenyl anion = 5.",
+   "final_check": "4 aromatic species; NTA key says 3. Dispute stands on the dihydronaphthalene.",
    "formulas": [
     "Aromatic: cyclic, planar, conjugated, $(4n+2)\\,\\pi$ electrons"
    ],
@@ -3283,36 +3283,36 @@
    "steps": [
     {
      "n": 1,
-     "text": "p-benzoquinone: cross-conjugated dione → NOT aromatic."
+     "text": "p-Benzoquinone: not aromatic (cross-conjugated; no continuous cyclic $\\pi$ system)."
     },
     {
      "n": 2,
-     "text": "Tropylium cation $\\ce{C7H7^+}$: $6\\pi$ electrons, cyclic and planar → aromatic."
+     "text": "Tropylium cation $\\ce{C7H7^+}$: aromatic, $6\\pi$ electrons (Huckel $4n+2$, $n=1$)."
     },
     {
      "n": 3,
-     "text": "Phenanthrene: $14\\pi$ electron fused system → aromatic."
+     "text": "Phenanthrene: aromatic, $14\\pi$ electrons over three fused rings."
     },
     {
      "n": 4,
-     "text": "1,2,3,4-tetrahydronaphthalene (tetralin): contains an intact benzene ring → aromatic."
+     "text": "1,2-Dihydronaphthalene: contains an intact benzene ring, which is unambiguously aromatic -> counts."
     },
     {
      "n": 5,
-     "text": "Cyclobutadiene dication $\\ce{C4H4^{2+}}$: $2\\pi$ electrons ($n = 0$) → aromatic."
+     "text": "Cyclobutadiene dication $\\ce{C4H4^{2+}}$: aromatic, $2\\pi$ electrons ($n=0$)."
     },
     {
      "n": 6,
-     "text": "Phenyl anion $\\ce{C6H5^-}$: the ring keeps $6\\pi$ aromaticity (lone pair sits in an in-plane $sp^2$ orbital) → aromatic."
+     "text": "Cyclohexadienyl anion $\\ce{C6H7^-}$: NOT aromatic -- one $sp^3$ carbon breaks the conjugation."
     },
     {
      "n": 7,
-     "text": "Total = 5 → option (D)."
+     "text": "Total: 4 -> option (B)."
     }
    ],
-   "dispute_note": "Our answer is (D) = 5: the tropylium cation, phenanthrene, the cyclobutadiene dication, the phenyl anion, and tetralin (via its intact benzene ring) are all aromatic; only p-benzoquinone is not. NTA's official final key says (C) = 3, which requires excluding both tetralin and the phenyl anion. The phenyl anion ($\\ce{C6H5^-}$) is unambiguously aromatic \\u2014 its ring keeps $6\\pi$ electrons (the lone pair sits in an in-plane $sp^2$ orbital, outside the $\\pi$ system) \\u2014 so excluding it contradicts standard H\\u00fcckel analysis. An independent fully-worked solution (Zollege) for this exact shift also gives (D) = 5."
+   "dispute_note": "Our answer is (B) = 4: tropylium, phenanthrene, 1,2-dihydronaphthalene (via its intact benzene ring), and the cyclobutadiene dication are aromatic; p-benzoquinone and the cyclohexadienyl anion are not. NTA's official final key says (C) = 3, which requires excluding the dihydronaphthalene. Excluding it is hard to defend, since its benzene ring is unambiguously aromatic. (Corrected 2026-10-16: our earlier (D)=5 rested on mis-transcribed structures.)"
   },
-  "stem": "The total number of aromatic compounds/species from the following is ______.\\n\\nStructures (in order): p-benzoquinone; tropylium cation $\\ce{C7H7^+}$; phenanthrene; 1,2,3,4-tetrahydronaphthalene (tetralin); cyclobutadiene dication $\\ce{C4H4^{2+}}$; phenyl anion $\\ce{C6H5^-}$.",
+  "stem": "The total number of aromatic compounds/species from the following is ______.\\n\\nStructures (in order): p-benzoquinone; tropylium cation $\\ce{C7H7^+}$; phenanthrene; 1,2-dihydronaphthalene; cyclobutadiene dication $\\ce{C4H4^{2+}}$; cyclohexadienyl anion $\\ce{C6H7^-}$.",
   "stem_images": [],
   "subject": "chemistry",
   "taxonomy": {
@@ -3325,15 +3325,15 @@
   "paper": "Paper 1",
   "parent_stem": null,
   "verification": {
-   "solver_answer": "D",
+   "solver_answer": "B",
    "key_answer": "C",
    "match": false,
    "status": "mismatch",
    "attempts": 3,
-   "resolution": "Two independent blind solves gave D=5; NTA official final key gives C=3. User decided 2026-10-16 to publish D with a red dispute note. Corroboration for D: Zollege's worked solution for this shift gives (D)=5; Vidyamandir gives (B)=4. No worked solution found supporting NTA's (C)=3."
+   "resolution": "CORRECTED 2026-10-16: independent validation against the official NTA paper showed our transcription had misread two structures (cyclohexadienyl anion as phenyl anion; 1,2-dihydronaphthalene as tetralin). Re-analyzed against the official structures: aromatic = tropylium, phenanthrene, 1,2-dihydronaphthalene (intact benzene ring), cyclobutadiene dication = 4 -> (B). NTA key says (C)=3, apparently excluding the dihydronaphthalene. Vin to confirm B vs C."
   },
   "answer": {
-   "value": "D",
+   "value": "B",
    "tolerance": null,
    "source": "solver_verified (differs from official_final_key)"
   }
