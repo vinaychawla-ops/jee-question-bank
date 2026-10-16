@@ -2,7 +2,30 @@ import React, { useState } from 'react';
 import { Tex } from '../lib/tex';
 import { SolutionView } from './SolutionView';
 import { Badge } from './QuestionCard';
-import { difficultyLabel, subjectLabel, typeGroupLabel } from '../lib/filters';
+import { difficultyLabel, imageUrl, isIncomplete, subjectLabel, typeGroupLabel } from '../lib/filters';
+
+function Figures({ images }) {
+  const list = (images ?? []).filter(Boolean);
+  if (list.length === 0) return null;
+  return (
+    <div className="mt-4 space-y-2">
+      {list.map((src) => (
+        <figure key={src} className="overflow-hidden rounded-lg border border-slate-200 dark:border-slate-700">
+          <img
+            src={imageUrl(src)}
+            alt={`Figure ${src}`}
+            loading="lazy"
+            className="max-h-96 w-full bg-white object-contain p-2"
+            onError={(e) => {
+              e.currentTarget.style.display = 'none';
+            }}
+          />
+          <figcaption className="truncate px-2 py-1 text-[11px] text-slate-400">{src}</figcaption>
+        </figure>
+      ))}
+    </div>
+  );
+}
 
 function formatAnswer(q) {
   const v = String(q.answer.value);
@@ -59,9 +82,27 @@ export function QuestionDetail({ q, paperTitle, bookmarked, onToggleBookmark, on
         </div>
         <p className="mt-2 text-xs text-slate-400 dark:text-slate-500">{paperTitle}</p>
 
+        {isIncomplete(q) && (
+          <p className="mt-3 rounded-lg border border-amber-300 bg-amber-50 px-3 py-2 text-xs font-medium text-amber-800 dark:border-amber-800 dark:bg-amber-950/50 dark:text-amber-200">
+            ⚠ Figure / passage incomplete — this question depends on a diagram, table, or shared
+            passage that is still being restored. Answer with care.
+          </p>
+        )}
+
+        {q.parent_stem && String(q.parent_stem).trim() && (
+          <div className="mt-4 rounded-lg border border-indigo-200 bg-indigo-50/60 px-3 py-2.5 text-[15px] leading-relaxed text-slate-800 dark:border-indigo-900/60 dark:bg-indigo-950/30 dark:text-slate-200">
+            <p className="mb-1 text-[11px] font-bold uppercase tracking-wide text-indigo-500 dark:text-indigo-300">
+              Shared passage
+            </p>
+            <Tex>{q.parent_stem}</Tex>
+          </div>
+        )}
+
         <div className="mt-4 text-[16px] leading-relaxed text-slate-900 dark:text-slate-100">
           <Tex>{q.stem}</Tex>
         </div>
+
+        <Figures images={q.stem_images} />
 
         {q.options && (
           <div className="mt-5 space-y-2">
@@ -75,6 +116,17 @@ export function QuestionDetail({ q, paperTitle, bookmarked, onToggleBookmark, on
                 </span>
                 <div className="min-w-0 flex-1 text-[15px] text-slate-800 dark:text-slate-200">
                   <Tex>{text}</Tex>
+                  {q.option_images?.[letter] && (
+                    <img
+                      src={imageUrl(q.option_images[letter])}
+                      alt={`Option ${letter} figure`}
+                      loading="lazy"
+                      className="mt-2 max-h-64 w-full rounded-md border border-slate-200 bg-white object-contain p-1.5 dark:border-slate-700"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                      }}
+                    />
+                  )}
                 </div>
               </div>
             ))}

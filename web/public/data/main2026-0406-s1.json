@@ -57,7 +57,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Some Basic Concepts of Chemistry"
+    "Mole Concept"
    ],
    "difficulty": "easy"
   },
@@ -315,7 +315,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Chemical Bonding and Molecular Structure"
+    "Chemical Bonding"
    ],
    "difficulty": "medium"
   },
@@ -1156,7 +1156,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Organic Chemistry – Basic Principles and Techniques"
+    "GOC and Isomerism"
    ],
    "difficulty": "medium"
   },
@@ -1315,7 +1315,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Haloalkanes and Haloarenes"
+    "Haloalkanes and Alcohols"
    ],
    "difficulty": "medium"
   },
@@ -1400,7 +1400,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Alcohols, Phenols and Ethers"
+    "Haloalkanes and Alcohols"
    ],
    "difficulty": "medium"
   },
@@ -1484,7 +1484,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Alcohols, Phenols and Ethers"
+    "Haloalkanes and Alcohols"
    ],
    "difficulty": "easy"
   },
@@ -1566,7 +1566,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Biomolecules"
+    "Biomolecules and Polymers"
    ],
    "difficulty": "easy"
   },
@@ -1649,7 +1649,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Biomolecules"
+    "Biomolecules and Polymers"
    ],
    "difficulty": "medium"
   },
@@ -1884,7 +1884,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Alcohols, Phenols and Ethers"
+    "Haloalkanes and Alcohols"
    ],
    "difficulty": "easy"
   },
@@ -2133,8 +2133,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Relations and Functions",
-    "Inverse Trigonometric Functions"
+    "Sets, Relations and Functions",
+    "Trigonometry"
    ],
    "difficulty": "medium"
   },
@@ -2218,7 +2218,7 @@
   "taxonomy": {
    "chapters": [
     "Quadratic Equations",
-    "Parabola"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "easy"
   },
@@ -2302,7 +2302,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Conic Sections",
+    "Parabola, Ellipse and Hyperbola",
     "Quadratic Equations"
    ],
    "difficulty": "medium"
@@ -2468,7 +2468,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Sequence and Series"
+    "Sequences and Series"
    ],
    "difficulty": "easy"
   },
@@ -2552,7 +2552,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Sequence and Series"
+    "Sequences and Series"
    ],
    "difficulty": "easy"
   },
@@ -2953,7 +2953,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Conic Sections"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "medium"
   },
@@ -3036,7 +3036,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Conic Sections"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "medium"
   },
@@ -3117,7 +3117,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Inverse Trigonometric Functions"
+    "Trigonometry"
    ],
    "difficulty": "medium"
   },
@@ -3198,7 +3198,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Trigonometric Functions"
+    "Trigonometry"
    ],
    "difficulty": "medium"
   },
@@ -3280,7 +3280,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Three Dimensional Geometry"
+    "3D Geometry"
    ],
    "difficulty": "hard"
   },
@@ -3362,8 +3362,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Three Dimensional Geometry",
-    "Vector Algebra"
+    "3D Geometry",
+    "Vectors"
    ],
    "difficulty": "medium"
   },
@@ -3445,7 +3445,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Limits and Derivatives"
+    "Limits, Continuity and Differentiability"
    ],
    "difficulty": "medium"
   },
@@ -3527,7 +3527,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Definite Integration"
+    "Definite Integration and Area"
    ],
    "difficulty": "medium"
   },
@@ -3608,7 +3608,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Area Under Curves"
+    "Definite Integration and Area"
    ],
    "difficulty": "medium"
   },
@@ -3690,8 +3690,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Relations and Functions",
-    "Area Under Curves"
+    "Sets, Relations and Functions",
+    "Definite Integration and Area"
    ],
    "difficulty": "medium"
   },
@@ -3924,7 +3924,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Vector Algebra"
+    "Vectors"
    ],
    "difficulty": "easy"
   },
@@ -4002,8 +4002,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Trigonometric Functions",
-    "Sequence and Series"
+    "Trigonometry",
+    "Sequences and Series"
    ],
    "difficulty": "medium"
   },
@@ -4171,8 +4171,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Units and Measurements",
-    "Errors in Measurement"
+    "Units and Measurements"
    ],
    "difficulty": "easy"
   },
@@ -4258,8 +4257,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Units and Measurements",
-    "Dimensional Analysis"
+    "Units and Measurements"
    ],
    "difficulty": "easy"
   },
@@ -4346,8 +4344,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Work, Energy and Power",
-    "Work-Energy Theorem"
+    "Work, Energy and Power"
    ],
    "difficulty": "easy"
   },
@@ -4439,8 +4436,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Laws of Motion",
-    "Friction"
+    "Laws of Motion"
    ],
    "difficulty": "medium"
   },
@@ -4523,7 +4519,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Mechanical Properties of Solids",
+    "Fluids and Properties of Matter",
     "Laws of Motion"
    ],
    "difficulty": "easy"
@@ -4617,8 +4613,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Rotational Motion",
-    "Torque and Angular Acceleration"
+    "Rotational Mechanics"
    ],
    "difficulty": "easy"
   },
@@ -4707,7 +4702,7 @@
   "taxonomy": {
    "chapters": [
     "Work, Energy and Power",
-    "Circular Motion"
+    "Kinematics"
    ],
    "difficulty": "easy"
   },
@@ -4797,8 +4792,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Centre of Mass",
-    "Systems of Particles"
+    "Rotational Mechanics"
    ],
    "difficulty": "medium"
   },
@@ -4879,8 +4873,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Mechanical Properties of Solids",
-    "Elasticity"
+    "Fluids and Properties of Matter"
    ],
    "difficulty": "easy"
   },
@@ -4967,7 +4960,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Kinetic Theory of Gases",
+    "Thermodynamics and KTG",
     "Thermodynamics"
    ],
    "difficulty": "medium"
@@ -5055,8 +5048,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Wave Optics",
-    "Interference"
+    "Wave Optics"
    ],
    "difficulty": "easy"
   },
@@ -5138,8 +5130,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Oscillations",
-    "Simple Harmonic Motion"
+    "SHM and Waves"
    ],
    "difficulty": "easy"
   },
@@ -5226,8 +5217,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Electrostatics",
-    "Electric Field"
+    "Electrostatics"
    ],
    "difficulty": "medium"
   },
@@ -5398,7 +5388,7 @@
   "taxonomy": {
    "chapters": [
     "Electromagnetic Waves",
-    "Intensity"
+    "Wave Optics"
    ],
    "difficulty": "easy"
   },
@@ -5485,8 +5475,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Ray Optics",
-    "Refraction at Spherical Surfaces"
+    "Ray Optics"
    ],
    "difficulty": "medium"
   },
@@ -5573,8 +5562,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Moving Charges and Magnetism",
-    "Magnetic Energy"
+    "Magnetism"
    ],
    "difficulty": "medium"
   },
@@ -5661,8 +5649,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Electromagnetic Induction",
-    "LR Circuits"
+    "EMI and AC"
    ],
    "difficulty": "easy"
   },
@@ -5749,8 +5736,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Atoms",
-    "Hydrogen Spectrum"
+    "Modern Physics"
    ],
    "difficulty": "easy"
   },
@@ -5833,8 +5819,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Alternating Current",
-    "LCR Circuits"
+    "EMI and AC"
    ],
    "difficulty": "easy"
   },
@@ -5921,8 +5906,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Current Electricity",
-    "Kirchhoff's Laws"
+    "Current Electricity"
    ],
    "difficulty": "hard"
   },
@@ -6005,8 +5989,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Wave Optics",
-    "Polarisation"
+    "Wave Optics"
    ],
    "difficulty": "easy"
   },
@@ -6093,8 +6076,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Nuclei",
-    "Mass-Energy Equivalence"
+    "Modern Physics"
    ],
    "difficulty": "medium"
   },
@@ -6176,8 +6158,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Electrostatics",
-    "Work in Electric Field"
+    "Electrostatics"
    ],
    "difficulty": "easy"
   },
@@ -6262,7 +6243,7 @@
   "taxonomy": {
    "chapters": [
     "Thermodynamics",
-    "Isothermal Process"
+    "Thermodynamics and KTG"
    ],
    "difficulty": "medium"
   },

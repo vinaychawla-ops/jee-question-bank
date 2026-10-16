@@ -60,7 +60,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Some Basic Concepts of Chemistry"
+    "Mole Concept"
    ],
    "difficulty": "easy"
   },
@@ -709,7 +709,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Classification of Elements and Periodicity"
+    "Periodic Table"
    ],
    "difficulty": "medium"
   },
@@ -955,7 +955,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Some Basic Concepts of Chemistry"
+    "Mole Concept"
    ],
    "difficulty": "easy"
   },
@@ -1030,7 +1030,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "General Organic Chemistry"
+    "GOC and Isomerism"
    ],
    "difficulty": "medium"
   },
@@ -1197,7 +1197,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Haloalkanes and Haloarenes"
+    "Haloalkanes and Alcohols"
    ],
    "difficulty": "medium"
   },
@@ -1276,7 +1276,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Aldehydes, Ketones and Carboxylic Acids"
+    "Carbonyl Compounds"
    ],
    "difficulty": "medium"
   },
@@ -1365,8 +1365,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Aldehydes, Ketones and Carboxylic Acids",
-    "General Organic Chemistry"
+    "Carbonyl Compounds",
+    "GOC and Isomerism"
    ],
    "difficulty": "hard"
   },
@@ -1446,9 +1446,9 @@
   },
   "taxonomy": {
    "chapters": [
-    "Haloalkanes and Haloarenes",
+    "Haloalkanes and Alcohols",
     "Amines",
-    "Aldehydes, Ketones and Carboxylic Acids"
+    "Carbonyl Compounds"
    ],
    "difficulty": "hard"
   },
@@ -1527,7 +1527,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Biomolecules"
+    "Biomolecules and Polymers"
    ],
    "difficulty": "easy"
   },
@@ -2015,8 +2015,8 @@
   "taxonomy": {
    "chapters": [
     "Amines",
-    "Haloalkanes and Haloarenes",
-    "Some Basic Concepts of Chemistry"
+    "Haloalkanes and Alcohols",
+    "Mole Concept"
    ],
    "difficulty": "medium"
   },
@@ -2957,7 +2957,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Hyperbola"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "medium"
   },
@@ -3041,7 +3041,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Parabola"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "easy"
   },
@@ -3213,7 +3213,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Vector Algebra"
+    "Vectors"
    ],
    "difficulty": "easy"
   },
@@ -3301,7 +3301,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Three Dimensional Geometry"
+    "3D Geometry"
    ],
    "difficulty": "medium"
   },
@@ -3386,7 +3386,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Vector Algebra"
+    "Vectors"
    ],
    "difficulty": "medium"
   },
@@ -3466,7 +3466,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Definite Integration"
+    "Definite Integration and Area"
    ],
    "difficulty": "easy"
   },
@@ -3555,7 +3555,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Application of Derivatives"
+    "Applications of Derivatives"
    ],
    "difficulty": "medium"
   },
@@ -3809,7 +3809,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Relations and Functions"
+    "Sets, Relations and Functions"
    ],
    "difficulty": "easy"
   },
@@ -3972,7 +3972,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Ellipse"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "medium"
   },
@@ -4056,7 +4056,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Area Under Curves"
+    "Definite Integration and Area"
    ],
    "difficulty": "hard"
   },
@@ -4136,7 +4136,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Continuity and Differentiability"
+    "Limits, Continuity and Differentiability"
    ],
    "difficulty": "easy"
   },
@@ -4303,8 +4303,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Friction",
-    "Circular Motion"
+    "Laws of Motion",
+    "Kinematics"
    ],
    "difficulty": "easy"
   },
@@ -4342,10 +4342,8 @@
   },
   "qtype": "single_correct",
   "number_in_subject": 3,
-  "stem": "Two blocks of masses 2 kg and 1 kg respectively, are tied to the ends of a string which passes over a light frictionless pulley as shown in the figure below. The masses are held at rest at the same horizontal level and then released. The distance traversed by the centre of mass in 2 s is _______ m. (Take $g = 10\\ \\mathrm{m/s^2}$)",
-  "stem_images": [
-   "Pulley diagram: a vertical string passes over a light frictionless pulley fixed to the ceiling; a 2 kg block hangs on the left and a 1 kg block on the right, both initially held at the same horizontal level."
-  ],
+  "stem": "Two blocks of masses 2 kg and 1 kg respectively, are tied to the ends of a string which passes over a light frictionless pulley as shown in the figure below. The masses are held at rest at the same horizontal level and then released. The distance traversed by the centre of mass in 2 s is _______ m. (Take $g = 10\\ \\mathrm{m/s^2}$)\n\n[Figure: Pulley diagram: a vertical string passes over a light frictionless pulley fixed to the ceiling; a 2 kg block hangs on the left and a 1 kg block on the right, both initially held at the same horizontal level.]",
+  "stem_images": [],
   "options": {
    "A": "3.33",
    "B": "3.12",
@@ -4389,7 +4387,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Centre of Mass"
+    "Rotational Mechanics"
    ],
    "difficulty": "medium"
   },
@@ -4471,8 +4469,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Electromagnetism",
-    "Lorentz Force"
+    "Electromagnetic Waves",
+    "Magnetism"
    ],
    "difficulty": "medium"
   },
@@ -4510,10 +4508,8 @@
   },
   "qtype": "single_correct",
   "number_in_subject": 5,
-  "stem": "If $X$ and $Y$ are the inputs, the given circuit works as _______.",
-  "stem_images": [
-   "Logic circuit: X feeds both inputs of a NAND gate giving $\\bar{X}$; Y feeds both inputs of a NAND gate giving $\\bar{Y}$; these feed a third NAND gate giving $\\overline{\\bar{X}\\cdot\\bar{Y}} = X + Y$; this is buffered through a single-input AND gate and then inverted by a single-input NAND gate, giving $\\overline{X+Y}$."
-  ],
+  "stem": "If $X$ and $Y$ are the inputs, the given circuit works as _______.\n\n[Figure: Logic circuit: X feeds both inputs of a NAND gate giving $\\bar{X}$; Y feeds both inputs of a NAND gate giving $\\bar{Y}$; these feed a third NAND gate giving $\\overline{\\bar{X}\\cdot\\bar{Y}} = X + Y$; this is buffered through a single-input AND gate and then inverted by a single-input NAND gate, giving $\\overline{X+Y}$.]",
+  "stem_images": [],
   "options": {
    "A": "OR gate",
    "B": "AND gate",
@@ -4556,8 +4552,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Semiconductors",
-    "Digital Electronics"
+    "Semiconductors"
    ],
    "difficulty": "easy"
   },
@@ -4724,8 +4719,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Units and Measurements",
-    "Errors in Measurement"
+    "Units and Measurements"
    ],
    "difficulty": "medium"
   },
@@ -4807,8 +4801,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Surface Tension",
-    "Fluid Mechanics"
+    "Fluids and Properties of Matter"
    ],
    "difficulty": "medium"
   },
@@ -4890,7 +4883,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Kinetic Theory of Gases"
+    "Thermodynamics and KTG"
    ],
    "difficulty": "medium"
   },
@@ -4974,8 +4967,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Viscosity",
-    "Fluid Mechanics"
+    "Fluids and Properties of Matter"
    ],
    "difficulty": "medium"
   },
@@ -5385,8 +5377,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Electrostatics",
-    "Gauss's Law"
+    "Electrostatics"
    ],
    "difficulty": "easy"
   },
@@ -5424,10 +5415,8 @@
   },
   "qtype": "single_correct",
   "number_in_subject": 16,
-  "stem": "One side of an equilateral prism is painted by a transparent material of refractive index $n_2$. The refractive index of prism is 1.6. The minimum value of $n_2$ required for total internal reflection from painted face is _______.",
-  "stem_images": [
-   "Equilateral prism with apex at top; a ray enters the left face at normal incidence (right-angle mark at entry) and travels down to the painted (hatched) base; the paint is labelled $n_2$."
-  ],
+  "stem": "One side of an equilateral prism is painted by a transparent material of refractive index $n_2$. The refractive index of prism is 1.6. The minimum value of $n_2$ required for total internal reflection from painted face is _______.\n\n[Figure: Equilateral prism with apex at top; a ray enters the left face at normal incidence (right-angle mark at entry) and travels down to the painted (hatched) base; the paint is labelled $n_2$.]",
+  "stem_images": [],
   "options": {
    "A": "$\\frac{3\\sqrt{3}}{1.6}$",
    "B": "$\\sqrt{3}$",
@@ -5471,8 +5460,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Ray Optics",
-    "Total Internal Reflection"
+    "Ray Optics"
    ],
    "difficulty": "medium"
   },
@@ -5510,10 +5498,8 @@
   },
   "qtype": "single_correct",
   "number_in_subject": 17,
-  "stem": "The figure given below shows an LCR series circuit with two switches $S_1$ and $S_2$. When switch $S_1$ is closed keeping $S_2$ open, the phase difference ($\\phi$) between the current and source voltage is $30^{\\circ}$ and phase difference is $60^{\\circ}$ when $S_2$ is closed keeping $S_1$ open. The value of $(3L_1 - L_2)$ is _______ H.",
-  "stem_images": [
-   "Circuit: top branch has a left node → $C = 100\\,\\mu$F → $R$ → right node; the left node connects down through inductor $L_2$ (in parallel with switch $S_1$) to the bottom rail; the right node connects down through inductor $L_1$ (in parallel with switch $S_2$) to the bottom rail; the AC source $v = V_0\\sin(300t)$ sits in the bottom rail."
-  ],
+  "stem": "The figure given below shows an LCR series circuit with two switches $S_1$ and $S_2$. When switch $S_1$ is closed keeping $S_2$ open, the phase difference ($\\phi$) between the current and source voltage is $30^{\\circ}$ and phase difference is $60^{\\circ}$ when $S_2$ is closed keeping $S_1$ open. The value of $(3L_1 - L_2)$ is _______ H.\n\n[Figure: Circuit: top branch has a left node → $C = 100\\,\\mu$F → $R$ → right node; the left node connects down through inductor $L_2$ (in parallel with switch $S_1$) to the bottom rail; the right node connects down through inductor $L_1$ (in parallel with switch $S_2$) to the bottom rail; the AC source $v = V_0\\sin(300t)$ sits in the bottom rail.]",
+  "stem_images": [],
   "options": {
    "A": "$\\frac{9}{2}$",
    "B": "$\\frac{2}{9}$",
@@ -5564,7 +5550,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "AC Circuits"
+    "EMI and AC"
    ],
    "difficulty": "hard"
   },
@@ -5647,8 +5633,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Electromagnetic Induction",
-    "Mutual Inductance"
+    "EMI and AC"
    ],
    "difficulty": "medium"
   },
@@ -5736,7 +5721,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Nuclei"
+    "Modern Physics"
    ],
    "difficulty": "medium"
   },
@@ -5814,7 +5799,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Simple Harmonic Motion"
+    "SHM and Waves"
    ],
    "difficulty": "easy"
   },
@@ -5965,8 +5950,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Atoms",
-    "Bohr Model"
+    "Modern Physics"
    ],
    "difficulty": "easy"
   },
@@ -6158,10 +6142,8 @@
   },
   "qtype": "numerical",
   "number_in_subject": 25,
-  "stem": "Moment of inertia about an axis $AB$ for a rod of mass 40 kg and length 3 m is same as that of a solid sphere of mass of 10 kg and radius $R$ about an axis parallel to $AB$ axis with separation of 3 m as shown in figure below. The value of $R$ is given as $\\sqrt{\\frac{\\alpha}{2}}$. The value of $\\alpha$ is _______.",
-  "stem_images": [
-   "Vertical axis $AB$; horizontal rod (3 m, $M = 40$ kg) with its right end on $AB$; solid sphere of radius $R$ whose centre is 3 m (horizontal dashed line) from $AB$; a vertical dashed axis through the sphere's centre, parallel to $AB$, is the sphere's rotation axis."
-  ],
+  "stem": "Moment of inertia about an axis $AB$ for a rod of mass 40 kg and length 3 m is same as that of a solid sphere of mass of 10 kg and radius $R$ about an axis parallel to $AB$ axis with separation of 3 m as shown in figure below. The value of $R$ is given as $\\sqrt{\\frac{\\alpha}{2}}$. The value of $\\alpha$ is _______.\n\n[Figure: Vertical axis $AB$; horizontal rod (3 m, $M = 40$ kg) with its right end on $AB$; solid sphere of radius $R$ whose centre is 3 m (horizontal dashed line) from $AB$; a vertical dashed axis through the sphere's centre, parallel to $AB$, is the sphere's rotation axis.]",
+  "stem_images": [],
   "options": null,
   "marking": {
    "correct": 4,
@@ -6199,7 +6181,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Rotational Motion"
+    "Rotational Mechanics"
    ],
    "difficulty": "medium"
   },

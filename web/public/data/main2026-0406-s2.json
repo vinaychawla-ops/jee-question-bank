@@ -49,7 +49,7 @@
     }
    ],
    "pitfalls": [
-    "Using radius instead of diameter changes nothing here since $V \\propto r^3$ too, but the power is 3 either way \u2014 do not use power 2."
+    "Using radius instead of diameter changes nothing here since $V \\propto r^3$ too, but the power is 3 either way — do not use power 2."
    ],
    "final_check": "3 x 2% = 6% matches option C."
   },
@@ -65,7 +65,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504292+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -121,19 +121,19 @@
    "steps": [
     {
      "n": 1,
-     "text": "Boltzmann constant: from $E = k_B T$, $[k_B] = [E]/[T] = ML^2T^{-2}K^{-1}$ \u2192 A matches III."
+     "text": "Boltzmann constant: from $E = k_B T$, $[k_B] = [E]/[T] = ML^2T^{-2}K^{-1}$ → A matches III."
     },
     {
      "n": 2,
-     "text": "Stefan's constant: from $\\frac{\\text{power}}{\\text{area}} = \\sigma T^4$, $[\\sigma] = \\frac{ML^2T^{-3}}{L^2K^4} = MT^{-3}K^{-4}$ \u2192 B matches IV."
+     "text": "Stefan's constant: from $\\frac{\\text{power}}{\\text{area}} = \\sigma T^4$, $[\\sigma] = \\frac{ML^2T^{-3}}{L^2K^4} = MT^{-3}K^{-4}$ → B matches IV."
     },
     {
      "n": 3,
-     "text": "Planck's constant: from $E = h\\nu$, $[h] = [E][T] = ML^2T^{-1}$ \u2192 C matches II."
+     "text": "Planck's constant: from $E = h\\nu$, $[h] = [E][T] = ML^2T^{-1}$ → C matches II."
     },
     {
      "n": 4,
-     "text": "Gravitational constant: from $F = \\frac{Gm_1m_2}{r^2}$, $[G] = \\frac{[F][L^2]}{[M^2]} = M^{-1}L^3T^{-2}$ \u2192 D matches I."
+     "text": "Gravitational constant: from $F = \\frac{Gm_1m_2}{r^2}$, $[G] = \\frac{[F][L^2]}{[M^2]} = M^{-1}L^3T^{-2}$ → D matches I."
     },
     {
      "n": 5,
@@ -157,7 +157,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504306+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -224,11 +224,11 @@
     },
     {
      "n": 4,
-     "text": "Solid sphere A: $k = 2/5$, $M = 5m$ \u2192 $a_A = \\dfrac{2F}{5m(1+2/5)} = \\dfrac{2F}{7m}$."
+     "text": "Solid sphere A: $k = 2/5$, $M = 5m$ → $a_A = \\dfrac{2F}{5m(1+2/5)} = \\dfrac{2F}{7m}$."
     },
     {
      "n": 5,
-     "text": "Spherical shell B: $k = 2/3$, $M = m$ \u2192 $a_B = \\dfrac{2F}{m(1+2/3)} = \\dfrac{6F}{5m}$."
+     "text": "Spherical shell B: $k = 2/3$, $M = m$ → $a_B = \\dfrac{2F}{m(1+2/3)} = \\dfrac{6F}{5m}$."
     },
     {
      "n": 6,
@@ -236,7 +236,7 @@
     }
    ],
    "pitfalls": [
-    "The force at the top aids rotation and translation differently \u2014 do not use $a = F/M$; friction is not zero here."
+    "The force at the top aids rotation and translation differently — do not use $a = F/M$; friction is not zero here."
    ],
    "final_check": "5:21 is option A; friction comes out positive ($f = F(1-k)/(1+k)$), consistent."
   },
@@ -252,7 +252,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504316+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "A",
@@ -316,7 +316,7 @@
     }
    ],
    "pitfalls": [
-    "Do not integrate $F\\,dx$ via $a = v\\,dv/dx$ unnecessarily \u2014 the work-energy theorem is direct."
+    "Do not integrate $F\\,dx$ via $a = v\\,dv/dx$ unnecessarily — the work-energy theorem is direct."
    ],
    "final_check": "1250 J is option C."
   },
@@ -332,7 +332,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504325+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -398,7 +398,7 @@
     }
    ],
    "pitfalls": [
-    "Only the right side is adiabatic \u2014 the left side is heated, so do not apply $PV^\\gamma = $ const to the left compartment."
+    "Only the right side is adiabatic — the left side is heated, so do not apply $PV^\\gamma = $ const to the left compartment."
    ],
    "final_check": "4 litres is option B."
   },
@@ -414,7 +414,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504333+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "B",
@@ -480,7 +480,7 @@
     }
    ],
    "pitfalls": [
-    "$\\vec{E}\\times\\vec{k}$ points opposite to $\\vec{k}\\times\\vec{E}$ \u2014 order matters."
+    "$\\vec{E}\\times\\vec{k}$ points opposite to $\\vec{k}\\times\\vec{E}$ — order matters."
    ],
    "final_check": "Magnitude and direction both check out; option B."
   },
@@ -496,7 +496,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504341+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "B",
@@ -561,13 +561,13 @@
     }
    ],
    "pitfalls": [
-    "A non-zero acceleration does not imply a curved path \u2014 curvature needs velocity and acceleration to be non-parallel."
+    "A non-zero acceleration does not imply a curved path — curvature needs velocity and acceleration to be non-parallel."
    ],
-   "final_check": "Parallel v_cm and a_cm \u2192 straight line, option C."
+   "final_check": "Parallel v_cm and a_cm → straight line, option C."
   },
   "taxonomy": {
    "chapters": [
-    "Centre of Mass"
+    "Rotational Mechanics"
    ],
    "difficulty": "easy"
   },
@@ -577,7 +577,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504349+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -639,13 +639,13 @@
     }
    ],
    "pitfalls": [
-    "Watch the $\\times 10^{-4}$ scale on the extension axis \u2014 missing it shifts the answer by $10^4$."
+    "Watch the $\\times 10^{-4}$ scale on the extension axis — missing it shifts the answer by $10^4$."
    ],
-   "final_check": "1.0\u00d710^10 N/m\u00b2 is option C."
+   "final_check": "1.0×10^10 N/m² is option C."
   },
   "taxonomy": {
    "chapters": [
-    "Mechanical Properties of Solids"
+    "Fluids and Properties of Matter"
    ],
    "difficulty": "easy"
   },
@@ -655,7 +655,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504356+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -709,7 +709,7 @@
    "steps": [
     {
      "n": 1,
-     "text": "Capacity: $\\pi R^2 H = 528\\ \\mathrm{dm^3} = 528000\\ \\mathrm{cm^3}$ \u2192 $H = \\dfrac{528000}{\\pi(40)^2} = \\dfrac{330}{\\pi} = 105\\ \\mathrm{cm}$ (using $\\pi = 22/7$)."
+     "text": "Capacity: $\\pi R^2 H = 528\\ \\mathrm{dm^3} = 528000\\ \\mathrm{cm^3}$ → $H = \\dfrac{528000}{\\pi(40)^2} = \\dfrac{330}{\\pi} = 105\\ \\mathrm{cm}$ (using $\\pi = 22/7$)."
     },
     {
      "n": 2,
@@ -725,13 +725,13 @@
     }
    ],
    "pitfalls": [
-    "The fall height is measured from the hole to the ground ($2H-70$), not just $H$ \u2014 the vessel sits on a block of height $H$."
+    "The fall height is measured from the hole to the ground ($2H-70$), not just $H$ — the vessel sits on a block of height $H$."
    ],
-   "final_check": "140\u221a2 cm is option B."
+   "final_check": "140√2 cm is option B."
   },
   "taxonomy": {
    "chapters": [
-    "Fluid Mechanics"
+    "Fluids and Properties of Matter"
    ],
    "difficulty": "medium"
   },
@@ -741,7 +741,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504364+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "B",
@@ -802,13 +802,13 @@
     }
    ],
    "pitfalls": [
-    "Both gases are monoatomic so $C_V$ cancels \u2014 but if they were different, $C_V$ values would not cancel."
+    "Both gases are monoatomic so $C_V$ cancels — but if they were different, $C_V$ values would not cancel."
    ],
    "final_check": "7T/4 is option D."
   },
   "taxonomy": {
    "chapters": [
-    "Kinetic Theory of Gases"
+    "Thermodynamics and KTG"
    ],
    "difficulty": "easy"
   },
@@ -818,7 +818,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504373+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "D",
@@ -890,13 +890,13 @@
     }
    ],
    "pitfalls": [
-    "Maximum energy stored in the spring uses the total extension from natural length ($4\\,\\mathrm{mm}$), not just the oscillation amplitude \u2014 that gives $8\\times 10^{-3}\\,\\mathrm{J}$, not $\\tfrac12 kA^2 = 2\\times 10^{-3}\\,\\mathrm{J}$."
+    "Maximum energy stored in the spring uses the total extension from natural length ($4\\,\\mathrm{mm}$), not just the oscillation amplitude — that gives $8\\times 10^{-3}\\,\\mathrm{J}$, not $\\tfrac12 kA^2 = 2\\times 10^{-3}\\,\\mathrm{J}$."
    ],
-   "final_check": "5\u221a50/\u03c0 Hz and 8\u00d710\u207b\u00b3 J is option A."
+   "final_check": "5√50/π Hz and 8×10⁻³ J is option A."
   },
   "taxonomy": {
    "chapters": [
-    "Oscillations"
+    "SHM and Waves"
    ],
    "difficulty": "medium"
   },
@@ -906,7 +906,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504451+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "A",
@@ -971,9 +971,9 @@
     }
    ],
    "pitfalls": [
-    "The minus sign in $\\vec{E} = -\\nabla V$ is the classic trap \u2014 option B is its mirror image."
+    "The minus sign in $\\vec{E} = -\\nabla V$ is the classic trap — option B is its mirror image."
    ],
-   "final_check": "(-20\u00ee + 30\u0135) V/m is option A."
+   "final_check": "(-20î + 30ĵ) V/m is option A."
   },
   "taxonomy": {
    "chapters": [
@@ -987,7 +987,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504463+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "A",
@@ -1052,13 +1052,13 @@
     }
    ],
    "pitfalls": [
-    "Opposite currents give fields that ADD at the midpoint between the wires (they would cancel only for the same current direction... actually check with right-hand rule) \u2014 here they add."
+    "Opposite currents give fields that ADD at the midpoint between the wires (they would cancel only for the same current direction... actually check with right-hand rule) — here they add."
    ],
-   "final_check": "300 \u03bcT is option B."
+   "final_check": "300 μT is option B."
   },
   "taxonomy": {
    "chapters": [
-    "Magnetic Effects of Current"
+    "Magnetism"
    ],
    "difficulty": "easy"
   },
@@ -1068,7 +1068,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504471+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "B",
@@ -1140,7 +1140,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Electromagnetic Induction"
+    "EMI and AC"
    ],
    "difficulty": "easy"
   },
@@ -1150,7 +1150,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504479+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "D",
@@ -1215,13 +1215,13 @@
     },
     {
      "n": 4,
-     "text": "Change (loss): $U_i - U_f = 2.5\\times 10^{-7}\\ \\mathrm{J}$ \u2192 $\\alpha = 5/2$."
+     "text": "Change (loss): $U_i - U_f = 2.5\\times 10^{-7}\\ \\mathrm{J}$ → $\\alpha = 5/2$."
     }
    ],
    "pitfalls": [
-    "Energy is lost (as heat/spark) on sharing \u2014 the final energy is half, not equal."
+    "Energy is lost (as heat/spark) on sharing — the final energy is half, not equal."
    ],
-   "final_check": "\u03b1 = 5/2 is option B."
+   "final_check": "α = 5/2 is option B."
   },
   "taxonomy": {
    "chapters": [
@@ -1235,7 +1235,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504486+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "B",
@@ -1304,13 +1304,13 @@
     }
    ],
    "pitfalls": [
-    "Multiply BE-per-nucleon by the number of nucleons on each side \u2014 a common slip is using $1.1$ directly for deuterium's total BE."
+    "Multiply BE-per-nucleon by the number of nucleons on each side — a common slip is using $1.1$ directly for deuterium's total BE."
    ],
    "final_check": "24.4 MeV is option B."
   },
   "taxonomy": {
    "chapters": [
-    "Nuclei"
+    "Modern Physics"
    ],
    "difficulty": "easy"
   },
@@ -1320,7 +1320,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504496+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "B",
@@ -1381,9 +1381,9 @@
     }
    ],
    "pitfalls": [
-    "Use $A = 60^\\circ$ for an equilateral prism \u2014 the deviation given is $A/2 = 30^\\circ$, not $60^\\circ$."
+    "Use $A = 60^\\circ$ for an equilateral prism — the deviation given is $A/2 = 30^\\circ$, not $60^\\circ$."
    ],
-   "final_check": "\u221a2 is option C."
+   "final_check": "√2 is option C."
   },
   "taxonomy": {
    "chapters": [
@@ -1397,7 +1397,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504504+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -1462,7 +1462,7 @@
     }
    ],
    "pitfalls": [
-    "Trace the bridge crossing carefully \u2014 the descending wire from the NOT output does NOT connect to B's line."
+    "Trace the bridge crossing carefully — the descending wire from the NOT output does NOT connect to B's line."
    ],
    "final_check": "0, 0 respectively is option C."
   },
@@ -1478,7 +1478,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504511+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -1539,13 +1539,13 @@
     },
     {
      "n": 3,
-     "text": "This becomes KE of both: $\\frac{1}{2}(6+2)v^2 = 240$ \u2192 $v^2 = 60$ \u2192 $v = \\sqrt{60} \\approx 7.746\\ \\mathrm{m/s}$."
+     "text": "This becomes KE of both: $\\frac{1}{2}(6+2)v^2 = 240$ → $v^2 = 60$ → $v = \\sqrt{60} \\approx 7.746\\ \\mathrm{m/s}$."
     }
    ],
    "pitfalls": [
-    "Both masses gain kinetic energy \u2014 use the total mass $(m_1+m_2)$ in the KE term."
+    "Both masses gain kinetic energy — use the total mass $(m_1+m_2)$ in the KE term."
    ],
-   "final_check": "\u22487.74 m/s is option A."
+   "final_check": "≈7.74 m/s is option A."
   },
   "taxonomy": {
    "chapters": [
@@ -1559,7 +1559,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504518+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "A",
@@ -1617,7 +1617,7 @@
     },
     {
      "n": 2,
-     "text": "Given $I = I_0$: $2(1+\\cos\\phi) = 1$ \u2192 $\\cos\\phi = -1/2$ \u2192 $\\phi = 2\\pi/3$ (least positive)."
+     "text": "Given $I = I_0$: $2(1+\\cos\\phi) = 1$ → $\\cos\\phi = -1/2$ → $\\phi = 2\\pi/3$ (least positive)."
     },
     {
      "n": 3,
@@ -1627,7 +1627,7 @@
    "pitfalls": [
     "$\\cos\\phi = -1/2$ also admits $\\phi = 4\\pi/3$; the question asks for the (least) path difference, $\\lambda/3$. The source being on-axis adds no extra path difference."
    ],
-   "final_check": "2000 \u00c5 is option C."
+   "final_check": "2000 Å is option C."
   },
   "taxonomy": {
    "chapters": [
@@ -1641,7 +1641,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504526+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "A",
@@ -1698,7 +1698,7 @@
     },
     {
      "n": 3,
-     "text": "$\\sin 45^\\circ - \\mu\\cos 45^\\circ = \\frac{\\sin 45^\\circ}{4}$ \u2192 $1 - \\mu = 1/4$ \u2192 $\\mu = 3/4 = 75/100$."
+     "text": "$\\sin 45^\\circ - \\mu\\cos 45^\\circ = \\frac{\\sin 45^\\circ}{4}$ → $1 - \\mu = 1/4$ → $\\mu = 3/4 = 75/100$."
     },
     {
      "n": 4,
@@ -1706,9 +1706,9 @@
     }
    ],
    "pitfalls": [
-    "The time ratio is squared in the distance relation \u2014 $t$ vs $t/2$ gives a factor of $4$ in acceleration, not $2$."
+    "The time ratio is squared in the distance relation — $t$ vs $t/2$ gives a factor of $4$ in acceleration, not $2$."
    ],
-   "final_check": "\u03bc = 0.75 = 75/100, so \u03b1 = 75."
+   "final_check": "μ = 0.75 = 75/100, so α = 75."
   },
   "taxonomy": {
    "chapters": [
@@ -1722,7 +1722,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504534+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "75.0",
@@ -1777,17 +1777,17 @@
     },
     {
      "n": 3,
-     "text": "$\\dfrac{V_1}{V_2} = \\dfrac{9}{4} = \\dfrac{9}{\\alpha}$ \u2192 $\\alpha = 4$."
+     "text": "$\\dfrac{V_1}{V_2} = \\dfrac{9}{4} = \\dfrac{9}{\\alpha}$ → $\\alpha = 4$."
     }
    ],
    "pitfalls": [
     "Increased by $50\\%$ means $\\lambda_2 = 1.5\\lambda_1$, not $0.5\\lambda_1$."
    ],
-   "final_check": "V\u2081/V\u2082 = 9/4 gives \u03b1 = 4."
+   "final_check": "V₁/V₂ = 9/4 gives α = 4."
   },
   "taxonomy": {
    "chapters": [
-    "Dual Nature of Matter"
+    "Modern Physics"
    ],
    "difficulty": "easy"
   },
@@ -1797,7 +1797,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504545+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "4.0",
@@ -1850,7 +1850,7 @@
     },
     {
      "n": 2,
-     "text": "Shunt ($2\\ \\Omega$, total $0.5\\ \\mathrm{A}$): $I_g G = (0.5 - I_g)\\times 2$ \u2192 $I_g(G+2) = 1$ \u2192 $I_g = \\dfrac{1}{G+2}$."
+     "text": "Shunt ($2\\ \\Omega$, total $0.5\\ \\mathrm{A}$): $I_g G = (0.5 - I_g)\\times 2$ → $I_g(G+2) = 1$ → $I_g = \\dfrac{1}{G+2}$."
     },
     {
      "n": 3,
@@ -1858,13 +1858,13 @@
     },
     {
      "n": 4,
-     "text": "Equating: $\\dfrac{1}{G+2} = \\dfrac{10}{470+G}$ \u2192 $470 + G = 10G + 20$ \u2192 $9G = 450$ \u2192 $G = 50\\ \\Omega$."
+     "text": "Equating: $\\dfrac{1}{G+2} = \\dfrac{10}{470+G}$ → $470 + G = 10G + 20$ → $9G = 450$ → $G = 50\\ \\Omega$."
     }
    ],
    "pitfalls": [
-    "Use $500\\,\\mathrm{mA} = 0.5\\,\\mathrm{A}$ consistently in SI \u2014 mixing mA and A breaks the shunt equation."
+    "Use $500\\,\\mathrm{mA} = 0.5\\,\\mathrm{A}$ consistently in SI — mixing mA and A breaks the shunt equation."
    ],
-   "final_check": "G = 50 \u03a9 satisfies both conversions (I_g = 1/52 A)."
+   "final_check": "G = 50 Ω satisfies both conversions (I_g = 1/52 A)."
   },
   "taxonomy": {
    "chapters": [
@@ -1878,7 +1878,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504557+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "50.0",
@@ -1930,21 +1930,21 @@
     },
     {
      "n": 2,
-     "text": "With $V = R$: $\\frac{1-R}{2} + (2 - R) = 1$ \u2192 $(1-R) + 2(2-R) = 2$ \u2192 $5 - 3R = 2$ \u2192 $R = 1\\ \\Omega$."
+     "text": "With $V = R$: $\\frac{1-R}{2} + (2 - R) = 1$ → $(1-R) + 2(2-R) = 2$ → $5 - 3R = 2$ → $R = 1\\ \\Omega$."
     },
     {
      "n": 3,
-     "text": "Reverse one cell (say $E_1 \\to -1\\ \\mathrm{V}$): $\\frac{-1 - V}{2} + \\frac{2 - V}{1} = \\frac{V}{1}$ \u2192 $-1 - V + 4 - 2V = 2V$ \u2192 $3 = 5V$ \u2192 $V = 3/5\\ \\mathrm{V}$."
+     "text": "Reverse one cell (say $E_1 \\to -1\\ \\mathrm{V}$): $\\frac{-1 - V}{2} + \\frac{2 - V}{1} = \\frac{V}{1}$ → $-1 - V + 4 - 2V = 2V$ → $3 = 5V$ → $V = 3/5\\ \\mathrm{V}$."
     },
     {
      "n": 4,
-     "text": "Current $= V/R = 3/5\\ \\mathrm{A} = \\alpha/5$ \u2192 $\\alpha = 3$."
+     "text": "Current $= V/R = 3/5\\ \\mathrm{A} = \\alpha/5$ → $\\alpha = 3$."
     }
    ],
    "pitfalls": [
-    "After polarity reversal the equivalent EMF drops \u2014 recompute from scratch; do not reuse the first equivalent EMF."
+    "After polarity reversal the equivalent EMF drops — recompute from scratch; do not reuse the first equivalent EMF."
    ],
-   "final_check": "R = 1 \u03a9, reversed current 3/5 A, so \u03b1 = 3."
+   "final_check": "R = 1 Ω, reversed current 3/5 A, so α = 3."
   },
   "taxonomy": {
    "chapters": [
@@ -1958,7 +1958,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504566+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "3.0",
@@ -2011,11 +2011,11 @@
     },
     {
      "n": 2,
-     "text": "$m = -2$: $v = 2u$ \u2192 $\\frac{1}{-10} = \\frac{1}{2u} + \\frac{1}{u} = \\frac{3}{2u}$ \u2192 $u = -15\\ \\mathrm{cm}$ (object $15\\ \\mathrm{cm}$ from mirror)."
+     "text": "$m = -2$: $v = 2u$ → $\\frac{1}{-10} = \\frac{1}{2u} + \\frac{1}{u} = \\frac{3}{2u}$ → $u = -15\\ \\mathrm{cm}$ (object $15\\ \\mathrm{cm}$ from mirror)."
     },
     {
      "n": 3,
-     "text": "$m = +2$: $v = -2u$ \u2192 $\\frac{1}{-10} = \\frac{1}{-2u} + \\frac{1}{u} = \\frac{1}{2u}$ \u2192 $u = -5\\ \\mathrm{cm}$ (object $5\\ \\mathrm{cm}$ from mirror)."
+     "text": "$m = +2$: $v = -2u$ → $\\frac{1}{-10} = \\frac{1}{-2u} + \\frac{1}{u} = \\frac{1}{2u}$ → $u = -5\\ \\mathrm{cm}$ (object $5\\ \\mathrm{cm}$ from mirror)."
     },
     {
      "n": 4,
@@ -2023,7 +2023,7 @@
     }
    ],
    "pitfalls": [
-    "Both magnifications $\\pm 2$ must be used \u2014 the real-image case alone gives only one position."
+    "Both magnifications $\\pm 2$ must be used — the real-image case alone gives only one position."
    ],
    "final_check": "Positions 15 cm and 5 cm apart by 10 cm."
   },
@@ -2039,7 +2039,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504575+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "10.0",
@@ -2110,7 +2110,7 @@
     "Forgetting to multiply by atomicity (O2 has 2, SO2 has 3 atoms per molecule)",
     "Using 22.4 L at STP for the He volume given in litres without converting mL"
    ],
-   "final_check": "A = C = E = 0.125 mol atoms; B = 0.1875, D = 0.00223 \u2014 only A, C, E match, option D."
+   "final_check": "A = C = E = 0.125 mol atoms; B = 0.1875, D = 0.00223 — only A, C, E match, option D."
   },
   "taxonomy": {
    "chapters": [
@@ -2124,7 +2124,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504583+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "D",
@@ -2181,7 +2181,7 @@
     },
     {
      "n": 2,
-     "text": "Test options: Li$^{2+}$ ($Z=3$), $n=2$: $n^2/Z = 4/3$ \u2713. He$^+$ ($Z=2$), $n=3$: $9/2=4.5$ \u2717; He$^+$, $n=2$: $4/2=2$ \u2717; Li$^{2+}$, $n=3$: $9/3=3$ \u2717."
+     "text": "Test options: Li$^{2+}$ ($Z=3$), $n=2$: $n^2/Z = 4/3$ ✓. He$^+$ ($Z=2$), $n=3$: $9/2=4.5$ ✗; He$^+$, $n=2$: $4/2=2$ ✗; Li$^{2+}$, $n=3$: $9/3=3$ ✗."
     },
     {
      "n": 3,
@@ -2192,7 +2192,7 @@
     "Using $r_n = a_0 n^2$ without dividing by Z",
     "Mixing up He+ (Z=2) and Li2+ (Z=3)"
    ],
-   "final_check": "52.9 \u00d7 4/3 = 70.53 pm exactly matches Li2+, n = 2."
+   "final_check": "52.9 × 4/3 = 70.53 pm exactly matches Li2+, n = 2."
   },
   "taxonomy": {
    "chapters": [
@@ -2206,7 +2206,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504590+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "D",
@@ -2257,22 +2257,22 @@
    "steps": [
     {
      "n": 1,
-     "text": "Statement I: count valence electrons around S. SO$_{2}$: $6+4=10$ e$^-$ (expanded); SO$_{3}$: $6+6=12$ e$^-$ (expanded); SF$_{4}$: $6+4=10$ e$^-$ (expanded); SF$_{6}$: $6+6=12$ e$^-$ (expanded); H$_{2}$S: $6+2=8$ e$^-$ (obeys). So 4 compounds violate the octet, not 3 \u2014 Statement I is false."
+     "text": "Statement I: count valence electrons around S. SO$_{2}$: $6+4=10$ e$^-$ (expanded); SO$_{3}$: $6+6=12$ e$^-$ (expanded); SF$_{4}$: $6+4=10$ e$^-$ (expanded); SF$_{6}$: $6+6=12$ e$^-$ (expanded); H$_{2}$S: $6+2=8$ e$^-$ (obeys). So 4 compounds violate the octet, not 3 — Statement I is false."
     },
     {
      "n": 2,
-     "text": "Statement II: lone pairs on central atom \u2014 H$_{2}$O has 2, ClF$_{3}$ has 2, SF$_{4}$ has 1, NH$_{3}$ has 1, BrF$_{5}$ has 1, XeF$_{4}$ has 2."
+     "text": "Statement II: lone pairs on central atom — H$_{2}$O has 2, ClF$_{3}$ has 2, SF$_{4}$ has 1, NH$_{3}$ has 1, BrF$_{5}$ has 1, XeF$_{4}$ has 2."
     },
     {
      "n": 3,
-     "text": "Check sets: [H$_{2}$O, ClF$_{3}$, SF$_{4}$] \u2717 (2,2,1); [NH$_{3}$, BrF$_{5}$, SF$_{4}$] \u2713 (1,1,1); [BrF$_{5}$, ClF$_{3}$, XeF$_{4}$] \u2717 (1,2,2); [XeF$_{4}$, ClF$_{3}$, H$_{2}$O] \u2717 (2,2,2). Exactly 1 set qualifies \u2014 Statement II is true."
+     "text": "Check sets: [H$_{2}$O, ClF$_{3}$, SF$_{4}$] ✗ (2,2,1); [NH$_{3}$, BrF$_{5}$, SF$_{4}$] ✓ (1,1,1); [BrF$_{5}$, ClF$_{3}$, XeF$_{4}$] ✗ (1,2,2); [XeF$_{4}$, ClF$_{3}$, H$_{2}$O] ✗ (2,2,2). Exactly 1 set qualifies — Statement II is true."
     }
    ],
    "pitfalls": [
     "Counting H2S as expanded-octet (it has exactly 8 electrons around S)",
     "Miscounting lone pairs on ClF3 (2) and XeF4 (2)"
    ],
-   "final_check": "4 (not 3) sulphur compounds expand the octet, so I is false; only the [NH3, BrF5, SF4] set has one lone pair each, so II is true \u2014 option D."
+   "final_check": "4 (not 3) sulphur compounds expand the octet, so I is false; only the [NH3, BrF5, SF4] set has one lone pair each, so II is true — option D."
   },
   "taxonomy": {
    "chapters": [
@@ -2286,7 +2286,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504598+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "D",
@@ -2342,19 +2342,19 @@
    "steps": [
     {
      "n": 1,
-     "text": "A \u2192 II: for a reversible isothermal expansion $\\Delta U = 0$, so $q = -w = nRT\\ln(V_2/V_1)$."
+     "text": "A → II: for a reversible isothermal expansion $\\Delta U = 0$, so $q = -w = nRT\\ln(V_2/V_1)$."
     },
     {
      "n": 2,
-     "text": "B \u2192 I: free expansion against zero external pressure gives $w = 0$; with $\\Delta U = 0$, $q = 0$."
+     "text": "B → I: free expansion against zero external pressure gives $w = 0$; with $\\Delta U = 0$, $q = 0$."
     },
     {
      "n": 3,
-     "text": "C \u2192 III: irreversible work is computed with the constant external pressure, $w = -p_{ext}(V_2 - V_1)$ (listed form III)."
+     "text": "C → III: irreversible work is computed with the constant external pressure, $w = -p_{ext}(V_2 - V_1)$ (listed form III)."
     },
     {
      "n": 4,
-     "text": "D \u2192 IV: for a reversible cyclic process the Clausius integral $\\oint q_{rev}/T = 0$."
+     "text": "D → IV: for a reversible cyclic process the Clausius integral $\\oint q_{rev}/T = 0$."
     }
    ],
    "pitfalls": [
@@ -2375,7 +2375,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504605+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -2438,14 +2438,14 @@
     },
     {
      "n": 3,
-     "text": "$\\pi = 3 \\times 1.437 \\times 10^{-4} \\times 0.083 \\times 300 = 0.01074 \\approx 0.0107$ bar \u2014 Statement II is true."
+     "text": "$\\pi = 3 \\times 1.437 \\times 10^{-4} \\times 0.083 \\times 300 = 0.01074 \\approx 0.0107$ bar — Statement II is true."
     }
    ],
    "pitfalls": [
     "Getting the direction of osmosis backwards (water moves toward higher solute concentration)",
     "Forgetting the van't Hoff factor i = 3 for K2SO4"
    ],
-   "final_check": "1.0 M > 0.667 M so water flows 2\u21921 (I false); \u03c0 = 0.0107 bar (II true) \u2014 option D."
+   "final_check": "1.0 M > 0.667 M so water flows 2→1 (I false); π = 0.0107 bar (II true) — option D."
   },
   "taxonomy": {
    "chapters": [
@@ -2459,7 +2459,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504612+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "D",
@@ -2521,14 +2521,14 @@
     },
     {
      "n": 3,
-     "text": "Solving: $\\alpha^{x+y} = \\frac{K}{x^x y^y c^{x+y-1}}$, so $\\alpha = \\left(\\frac{K}{c^{x+y-1}x^x y^y}\\right)^{1/(x+y)}$ \u2014 option B."
+     "text": "Solving: $\\alpha^{x+y} = \\frac{K}{x^x y^y c^{x+y-1}}$, so $\\alpha = \\left(\\frac{K}{c^{x+y-1}x^x y^y}\\right)^{1/(x+y)}$ — option B."
     }
    ],
    "pitfalls": [
-    "Writing the exponent of c as x+y instead of x+y\u22121",
+    "Writing the exponent of c as x+y instead of x+y−1",
     "Inverting K (options C and D have the reciprocal form)"
    ],
-   "final_check": "K has units of c^{x+y\u22121}, so K/c^{x+y\u22121} is dimensionless \u2014 option B."
+   "final_check": "K has units of c^{x+y−1}, so K/c^{x+y−1} is dimensionless — option B."
   },
   "taxonomy": {
    "chapters": [
@@ -2542,7 +2542,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504619+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "B",
@@ -2612,7 +2612,7 @@
     "Accepting 'ratio of charge and potential difference' without checking the definition of electrical work",
     "Misreading the Nernst slope as proportional to n instead of 1/n"
    ],
-   "final_check": "Only D misstates a definition (work = charge \u00d7 emf), so D is the incorrect statement."
+   "final_check": "Only D misstates a definition (work = charge × emf), so D is the incorrect statement."
   },
   "taxonomy": {
    "chapters": [
@@ -2626,7 +2626,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504627+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "D",
@@ -2678,22 +2678,22 @@
    "steps": [
     {
      "n": 1,
-     "text": "The extreme-left element of a period is an alkali metal, which loses its single valence electron most easily \u2014 it has the lowest first ionisation enthalpy in the period."
+     "text": "The extreme-left element of a period is an alkali metal, which loses its single valence electron most easily — it has the lowest first ionisation enthalpy in the period."
     },
     {
      "n": 2,
-     "text": "The extreme-right element (excluding noble gases) is a halogen, which has the greatest tendency to gain an electron \u2014 it has the most negative (highest) electron gain enthalpy in the period."
+     "text": "The extreme-right element (excluding noble gases) is a halogen, which has the greatest tendency to gain an electron — it has the most negative (highest) electron gain enthalpy in the period."
     },
     {
      "n": 3,
-     "text": "Hence: lowest first ionisation enthalpy, and highest (most negative) electron gain enthalpy \u2014 option C."
+     "text": "Hence: lowest first ionisation enthalpy, and highest (most negative) electron gain enthalpy — option C."
     }
    ],
    "pitfalls": [
     "Confusing 'highest negative electron gain enthalpy' with the least negative value",
     "Forgetting to exclude noble gases (which have positive electron gain enthalpy)"
    ],
-   "final_check": "Alkali metal = easiest to ionise (lowest IE1); halogen = most exothermic electron gain (highest negative \u0394egH) \u2014 option C."
+   "final_check": "Alkali metal = easiest to ionise (lowest IE1); halogen = most exothermic electron gain (highest negative ΔegH) — option C."
   },
   "taxonomy": {
    "chapters": [
@@ -2707,7 +2707,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504635+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -2758,7 +2758,7 @@
    "steps": [
     {
      "n": 1,
-     "text": "Statement I: bond angles are F$_{2}$O $\\approx 103^\\circ$ $<$ H$_{2}$O $= 104.5^\\circ$ $<$ Cl$_{2}$O $\\approx 111^\\circ$. As the electronegativity of the terminal atom decreases (F $>$ H $>$ Cl), the bond angle widens \u2014 the stated trend is correct, so Statement I is true."
+     "text": "Statement I: bond angles are F$_{2}$O $\\approx 103^\\circ$ $<$ H$_{2}$O $= 104.5^\\circ$ $<$ Cl$_{2}$O $\\approx 111^\\circ$. As the electronegativity of the terminal atom decreases (F $>$ H $>$ Cl), the bond angle widens — the stated trend is correct, so Statement I is true."
     },
     {
      "n": 2,
@@ -2769,7 +2769,7 @@
     "Assuming all tetrafluorides of group 14 are ionic",
     "Reversing the bond-angle trend (more electronegative terminal atom gives a smaller angle)"
    ],
-   "final_check": "103\u00b0 < 104.5\u00b0 < 111\u00b0 confirms I; SiF4 is covalent, refuting II \u2014 option C."
+   "final_check": "103° < 104.5° < 111° confirms I; SiF4 is covalent, refuting II — option C."
   },
   "taxonomy": {
    "chapters": [
@@ -2784,7 +2784,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504642+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -2835,26 +2835,26 @@
    "steps": [
     {
      "n": 1,
-     "text": "Electronic configurations: Cr = [Ar]3d$^{5}$4s$^{1}$, Mn = [Ar]3d$^{5}$4s$^{2}$. First ionisation removes a 4s electron: Cr loses its lone 4s$^{1}$ electron easily (Cr$^+$ attains stable 3d$^{5}$), while Mn must break the stable 4s$^{2}$ pair \u2014 so $\\Delta_rH_1$: Mn (717 kJ/mol) $>$ Cr (653 kJ/mol). Statement C is true, A is false."
+     "text": "Electronic configurations: Cr = [Ar]3d$^{5}$4s$^{1}$, Mn = [Ar]3d$^{5}$4s$^{2}$. First ionisation removes a 4s electron: Cr loses its lone 4s$^{1}$ electron easily (Cr$^+$ attains stable 3d$^{5}$), while Mn must break the stable 4s$^{2}$ pair — so $\\Delta_rH_1$: Mn (717 kJ/mol) $>$ Cr (653 kJ/mol). Statement C is true, A is false."
     },
     {
      "n": 2,
-     "text": "Second ionisation: Cr$^+$ = [Ar]3d$^{5}$ (half-filled, exceptionally stable) resists further ionisation, whereas Mn$^+$ = [Ar]3d$^{5}$4s$^{1}$ loses the 4s electron more easily \u2014 so $\\Delta_rH_2$: Cr (1592 kJ/mol) $>$ Mn (1509 kJ/mol). Statement B is true, D is false."
+     "text": "Second ionisation: Cr$^+$ = [Ar]3d$^{5}$ (half-filled, exceptionally stable) resists further ionisation, whereas Mn$^+$ = [Ar]3d$^{5}$4s$^{1}$ loses the 4s electron more easily — so $\\Delta_rH_2$: Cr (1592 kJ/mol) $>$ Mn (1509 kJ/mol). Statement B is true, D is false."
     },
     {
      "n": 3,
-     "text": "True statements are B and C \u2014 option B."
+     "text": "True statements are B and C — option B."
     }
    ],
    "pitfalls": [
     "Assuming Cr always has higher ionisation enthalpy because of its 3d5 configuration",
     "Forgetting that the second ionisation of Cr disrupts the stable 3d5 core"
    ],
-   "final_check": "IE1: Mn > Cr (stable 4s2); IE2: Cr > Mn (stable 3d5 in Cr+) \u2014 B and C only."
+   "final_check": "IE1: Mn > Cr (stable 4s2); IE2: Cr > Mn (stable 3d5 in Cr+) — B and C only."
   },
   "taxonomy": {
    "chapters": [
-    "d and f Block Elements"
+    "d- and f-Block Elements"
    ],
    "difficulty": "medium"
   },
@@ -2864,7 +2864,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504649+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "B",
@@ -2918,26 +2918,26 @@
    "steps": [
     {
      "n": 1,
-     "text": "A: [NiCl$_{4}$]$^{2-}$ \u2014 Ni(II) d$^{8}$, Cl$^-$ weak field \u2192 tetrahedral sp$^{3}$ with 2 unpaired electrons \u2192 paramagnetic \u2713."
+     "text": "A: [NiCl$_{4}$]$^{2-}$ — Ni(II) d$^{8}$, Cl$^-$ weak field → tetrahedral sp$^{3}$ with 2 unpaired electrons → paramagnetic ✓."
     },
     {
      "n": 2,
-     "text": "B: [Ni(NH$_{3}$)$_{6}$]$^{2+}$ \u2014 Ni(II) d$^{8}$, NH$_{3}$ weak field \u2192 outer-orbital octahedral sp$^{3}$d$^{2}$ with 2 unpaired electrons \u2192 paramagnetic \u2713."
+     "text": "B: [Ni(NH$_{3}$)$_{6}$]$^{2+}$ — Ni(II) d$^{8}$, NH$_{3}$ weak field → outer-orbital octahedral sp$^{3}$d$^{2}$ with 2 unpaired electrons → paramagnetic ✓."
     },
     {
      "n": 3,
-     "text": "C: [Ni(CO)$_{4}$] \u2014 Ni(0) d$^{10}$, tetrahedral sp$^{3}$ but with all electrons paired \u2192 diamagnetic, not paramagnetic \u2717."
+     "text": "C: [Ni(CO)$_{4}$] — Ni(0) d$^{10}$, tetrahedral sp$^{3}$ but with all electrons paired → diamagnetic, not paramagnetic ✗."
     },
     {
      "n": 4,
-     "text": "D: [Ni(CN)$_{4}$]$^{2-}$ \u2014 Ni(II) d$^{8}$, CN$^-$ strong field \u2192 pairing gives dsp$^{2}$ square planar, diamagnetic \u2713. Correct: A, B, D \u2014 option D."
+     "text": "D: [Ni(CN)$_{4}$]$^{2-}$ — Ni(II) d$^{8}$, CN$^-$ strong field → pairing gives dsp$^{2}$ square planar, diamagnetic ✓. Correct: A, B, D — option D."
     }
    ],
    "pitfalls": [
     "Calling [Ni(CO)4] paramagnetic just because it is tetrahedral",
     "Assigning inner-orbital d2sp3 to [Ni(NH3)6]2+ (NH3 is weak field for Ni(II))"
    ],
-   "final_check": "A \u2713, B \u2713, C \u2717 (Ni(0) d10 is diamagnetic), D \u2713 \u2014 A, B and D only."
+   "final_check": "A ✓, B ✓, C ✗ (Ni(0) d10 is diamagnetic), D ✓ — A, B and D only."
   },
   "taxonomy": {
    "chapters": [
@@ -2951,7 +2951,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504656+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "D",
@@ -3002,22 +3002,22 @@
    "steps": [
     {
      "n": 1,
-     "text": "Statement I: sugar (sucrose) is soluble in alcohol whereas NaCl is practically insoluble in alcohol, so shaking the mixture with alcohol dissolves the sugar and leaves NaCl behind \u2014 a valid differential-solubility separation. True."
+     "text": "Statement I: sugar (sucrose) is soluble in alcohol whereas NaCl is practically insoluble in alcohol, so shaking the mixture with alcohol dissolves the sugar and leaves NaCl behind — a valid differential-solubility separation. True."
     },
     {
      "n": 2,
-     "text": "Statement II: rose essence (essential oil) is steam-volatile and immiscible with water \u2014 exactly the conditions for steam distillation, the standard method for extracting essential oils from petals. True."
+     "text": "Statement II: rose essence (essential oil) is steam-volatile and immiscible with water — exactly the conditions for steam distillation, the standard method for extracting essential oils from petals. True."
     }
    ],
    "pitfalls": [
     "Thinking sugar is insoluble in alcohol (it dissolves; NaCl does not)",
     "Confusing steam distillation with simple distillation (steam distillation needs a water-immiscible, steam-volatile liquid)"
    ],
-   "final_check": "Differential solubility separates sugar/NaCl in alcohol; steam distillation isolates water-immiscible volatile oils \u2014 both true, option A."
+   "final_check": "Differential solubility separates sugar/NaCl in alcohol; steam distillation isolates water-immiscible volatile oils — both true, option A."
   },
   "taxonomy": {
    "chapters": [
-    "Purification of Organic Compounds"
+    "GOC and Isomerism"
    ],
    "difficulty": "easy"
   },
@@ -3027,7 +3027,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504662+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "A",
@@ -3075,32 +3075,32 @@
     "Resonance in esters"
    ],
    "formulas": [
-    "Bond length decreases as bond order increases: C=O $<$ C\u2013O (partial double) $<$ C\u2013O (single)"
+    "Bond length decreases as bond order increases: C=O $<$ C–O (partial double) $<$ C–O (single)"
    ],
    "steps": [
     {
      "n": 1,
-     "text": "$\\alpha$ is the carbonyl C=O double bond \u2014 shortest ($\\approx$ 1.21 \u00c5)."
+     "text": "$\\alpha$ is the carbonyl C=O double bond — shortest ($\\approx$ 1.21 Å)."
     },
     {
      "n": 2,
-     "text": "$\\beta$ is the acyl C\u2013O bond: the lone pair on the alkoxy oxygen delocalises into the carbonyl (resonance), giving it partial double-bond character \u2014 shorter than a normal C\u2013O single bond ($\\approx$ 1.36 \u00c5)."
+     "text": "$\\beta$ is the acyl C–O bond: the lone pair on the alkoxy oxygen delocalises into the carbonyl (resonance), giving it partial double-bond character — shorter than a normal C–O single bond ($\\approx$ 1.36 Å)."
     },
     {
      "n": 3,
-     "text": "$\\gamma$ is the O\u2013CH$_{3}$ single bond with no resonance shortening \u2014 longest ($\\approx$ 1.43 \u00c5). Hence $\\alpha < \\beta < \\gamma$ \u2014 option B."
+     "text": "$\\gamma$ is the O–CH$_{3}$ single bond with no resonance shortening — longest ($\\approx$ 1.43 Å). Hence $\\alpha < \\beta < \\gamma$ — option B."
     }
    ],
    "pitfalls": [
-    "Treating both C\u2013O bonds as identical single bonds",
-    "Ignoring resonance shortening of the acyl C\u2013O bond"
+    "Treating both C–O bonds as identical single bonds",
+    "Ignoring resonance shortening of the acyl C–O bond"
    ],
-   "final_check": "C=O (1.21 \u00c5) < resonance-shortened C\u2013O (1.36 \u00c5) < pure single O\u2013C (1.43 \u00c5) \u2014 option B."
+   "final_check": "C=O (1.21 Å) < resonance-shortened C–O (1.36 Å) < pure single O–C (1.43 Å) — option B."
   },
   "taxonomy": {
    "chapters": [
     "Chemical Bonding",
-    "General Organic Chemistry"
+    "GOC and Isomerism"
    ],
    "difficulty": "easy"
   },
@@ -3110,7 +3110,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504668+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "B",
@@ -3165,7 +3165,7 @@
    "steps": [
     {
      "n": 1,
-     "text": "x: acid-catalysed hydration of prop-1-yne follows Markovnikov's rule \u2014 water adds to give the enol, which tautomerises to propan-2-one (acetone)."
+     "text": "x: acid-catalysed hydration of prop-1-yne follows Markovnikov's rule — water adds to give the enol, which tautomerises to propan-2-one (acetone)."
     },
     {
      "n": 2,
@@ -3173,18 +3173,18 @@
     },
     {
      "n": 3,
-     "text": "Acetone + acetone with Ba(OH)$_{2}$ undergoes aldol addition, and heating dehydrates the aldol to the $\\alpha,\\beta$-unsaturated ketone 4-methylpent-3-en-2-one (mesityl oxide) \u2014 option B."
+     "text": "Acetone + acetone with Ba(OH)$_{2}$ undergoes aldol addition, and heating dehydrates the aldol to the $\\alpha,\\beta$-unsaturated ketone 4-methylpent-3-en-2-one (mesityl oxide) — option B."
     }
    ],
    "pitfalls": [
     "Naming the aldol addition product (4-hydroxy-4-methylpentan-2-one) instead of the dehydrated product",
     "Missing that both x and y are acetone, so it is a self-aldol condensation"
    ],
-   "final_check": "Both fragments are acetone; self-aldol + dehydration gives (CH3)2C=CHCOCH3 = 4-methylpent-3-en-2-one \u2014 option B."
+   "final_check": "Both fragments are acetone; self-aldol + dehydration gives (CH3)2C=CHCOCH3 = 4-methylpent-3-en-2-one — option B."
   },
   "taxonomy": {
    "chapters": [
-    "Aldehydes and Ketones"
+    "Carbonyl Compounds"
    ],
    "difficulty": "medium"
   },
@@ -3194,7 +3194,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504674+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "B",
@@ -3254,23 +3254,23 @@
     },
     {
      "n": 2,
-     "text": "[A] + Br$_{2}$ \u2192 [B] = 2,3-dibromobutane. Ethanolic KOH + NaNH$_{2}$ (two dehydrohalogenations) \u2192 [C] = but-2-yne (CH$_{3}$C$\\equiv$CCH$_{3}$)."
+     "text": "[A] + Br$_{2}$ → [B] = 2,3-dibromobutane. Ethanolic KOH + NaNH$_{2}$ (two dehydrohalogenations) → [C] = but-2-yne (CH$_{3}$C$\\equiv$CCH$_{3}$)."
     },
     {
      "n": 3,
-     "text": "Kucherov hydration of but-2-yne gives [D] = butan-2-one (CH$_{3}$COCH$_{2}$CH$_{3}$), a methyl ketone. Methyl ketones give a positive haloform test (yellow CHI$_{3}$ precipitate) \u2014 option A."
+     "text": "Kucherov hydration of but-2-yne gives [D] = butan-2-one (CH$_{3}$COCH$_{2}$CH$_{3}$), a methyl ketone. Methyl ketones give a positive haloform test (yellow CHI$_{3}$ precipitate) — option A."
     }
    ],
    "pitfalls": [
-    "Picking Tollens' (silver mirror) test \u2014 that detects aldehydes, but D is a ketone",
+    "Picking Tollens' (silver mirror) test — that detects aldehydes, but D is a ketone",
     "Forgetting the Saytzeff major product at the first elimination step"
    ],
-   "final_check": "D = CH3COCH2CH3, a CH3CO\u2013 methyl ketone, uniquely confirmed by the haloform test \u2014 option A."
+   "final_check": "D = CH3COCH2CH3, a CH3CO– methyl ketone, uniquely confirmed by the haloform test — option A."
   },
   "taxonomy": {
    "chapters": [
     "Hydrocarbons",
-    "Aldehydes and Ketones"
+    "Carbonyl Compounds"
    ],
    "difficulty": "medium"
   },
@@ -3280,7 +3280,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504680+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "A",
@@ -3333,22 +3333,22 @@
    "steps": [
     {
      "n": 1,
-     "text": "Benzyl phenyl ether is protonated at oxygen; cleavage occurs at the bond giving the more stable carbocation. The benzyl cation (PhCH$_{2}^{+}$) is resonance-stabilised while a phenyl cation is extremely unstable, so the O\u2013CH$_{2}$ bond cleaves (SN1-type) \u2014 Statement II is true."
+     "text": "Benzyl phenyl ether is protonated at oxygen; cleavage occurs at the bond giving the more stable carbocation. The benzyl cation (PhCH$_{2}^{+}$) is resonance-stabilised while a phenyl cation is extremely unstable, so the O–CH$_{2}$ bond cleaves (SN1-type) — Statement II is true."
     },
     {
      "n": 2,
-     "text": "Iodide attacks the benzyl carbon giving benzyl iodide (PhCH$_{2}$I) and phenol (PhOH) \u2014 not benzyl alcohol and iodobenzene. Statement I is false."
+     "text": "Iodide attacks the benzyl carbon giving benzyl iodide (PhCH$_{2}$I) and phenol (PhOH) — not benzyl alcohol and iodobenzene. Statement I is false."
     }
    ],
    "pitfalls": [
-    "Assuming cleavage at the Ph\u2013O bond (aryl\u2013O has partial double-bond character and phenyl cation is unstable)",
+    "Assuming cleavage at the Ph–O bond (aryl–O has partial double-bond character and phenyl cation is unstable)",
     "Writing the alcohol/iodide pair on the wrong fragments"
    ],
-   "final_check": "Stable benzyl cation directs cleavage to PhOH + PhCH2I; I is false, II is true \u2014 option D."
+   "final_check": "Stable benzyl cation directs cleavage to PhOH + PhCH2I; I is false, II is true — option D."
   },
   "taxonomy": {
    "chapters": [
-    "Ethers"
+    "Haloalkanes and Alcohols"
    ],
    "difficulty": "easy"
   },
@@ -3358,7 +3358,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504688+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "D",
@@ -3415,27 +3415,27 @@
    "steps": [
     {
      "n": 1,
-     "text": "(i) Propanoic acid + NH$_{3}$/$\\Delta$ \u2192 propanamide (CH$_{3}$CH$_{2}$CONH$_{2}$). (ii) Hofmann bromamide degradation (NaOH/Br$_{2}$) \u2192 ethylamine (CH$_{3}$CH$_{2}$NH$_{2}$)."
+     "text": "(i) Propanoic acid + NH$_{3}$/$\\Delta$ → propanamide (CH$_{3}$CH$_{2}$CONH$_{2}$). (ii) Hofmann bromamide degradation (NaOH/Br$_{2}$) → ethylamine (CH$_{3}$CH$_{2}$NH$_{2}$)."
     },
     {
      "n": 2,
-     "text": "(iii) Ethylamine + HNO$_{2}$ at 0$^{\\circ}$C \u2192 ethanol (CH$_{3}$CH$_{2}$OH) with N$_{2}$ evolution."
+     "text": "(iii) Ethylamine + HNO$_{2}$ at 0$^{\\circ}$C → ethanol (CH$_{3}$CH$_{2}$OH) with N$_{2}$ evolution."
     },
     {
      "n": 3,
-     "text": "(iv) Ethanol reduces benzenediazonium chloride (ethanol is oxidised to acetaldehyde) giving benzene as the major product (X) \u2014 option A."
+     "text": "(iv) Ethanol reduces benzenediazonium chloride (ethanol is oxidised to acetaldehyde) giving benzene as the major product (X) — option A."
     }
    ],
    "pitfalls": [
     "Stopping at ethanol and picking 'Propanol' (the alcohol formed is ethanol, C2, not propanol)",
     "Missing that ethanol acts as the reducing agent for the diazonium salt in step (iv)"
    ],
-   "final_check": "Sequence: acid \u2192 amide \u2192 amine \u2192 alcohol \u2192 diazonium reduction to benzene \u2014 option A."
+   "final_check": "Sequence: acid → amide → amine → alcohol → diazonium reduction to benzene — option A."
   },
   "taxonomy": {
    "chapters": [
     "Amines",
-    "Carboxylic Acids"
+    "Carbonyl Compounds"
    ],
    "difficulty": "medium"
   },
@@ -3445,7 +3445,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504697+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "A",
@@ -3498,22 +3498,22 @@
    "steps": [
     {
      "n": 1,
-     "text": "Hofmann bromamide degradation needs a primary amide RCONH$_{2}$: the two N-substituted amides (C$_{6}$H$_{11}$CONHCH$_{2}$CH$_{3}$, (CH$_{3}$)$_{3}$CCONHCH$_{3}$) do not react. The four primary amides give: benzamide \u2192 aniline; phenylacetamide \u2192 benzylamine; acetamide \u2192 methylamine; cyclohexanecarboxamide \u2192 cyclohexylamine."
+     "text": "Hofmann bromamide degradation needs a primary amide RCONH$_{2}$: the two N-substituted amides (C$_{6}$H$_{11}$CONHCH$_{2}$CH$_{3}$, (CH$_{3}$)$_{3}$CCONHCH$_{3}$) do not react. The four primary amides give: benzamide → aniline; phenylacetamide → benzylamine; acetamide → methylamine; cyclohexanecarboxamide → cyclohexylamine."
     },
     {
      "n": 2,
-     "text": "Gabriel phthalimide synthesis prepares primary aliphatic amines via SN2 of alkyl halides: benzylamine \u2713, methylamine \u2713, cyclohexylamine \u2713 (primary aliphatic amine). Aniline \u2717 \u2014 aryl halides do not undergo the SN2 step, so aromatic amines cannot be made this way."
+     "text": "Gabriel phthalimide synthesis prepares primary aliphatic amines via SN2 of alkyl halides: benzylamine ✓, methylamine ✓, cyclohexylamine ✓ (primary aliphatic amine). Aniline ✗ — aryl halides do not undergo the SN2 step, so aromatic amines cannot be made this way."
     },
     {
      "n": 3,
-     "text": "Compounds satisfying both conditions: phenylacetamide, acetamide, cyclohexanecarboxamide = 3 \u2014 option C."
+     "text": "Compounds satisfying both conditions: phenylacetamide, acetamide, cyclohexanecarboxamide = 3 — option C."
     }
    ],
    "pitfalls": [
-    "Counting N-substituted amides as Hofmann substrates (they lack the \u2013CONH2 group)",
+    "Counting N-substituted amides as Hofmann substrates (they lack the –CONH2 group)",
     "Counting aniline as Gabriel-accessible (aryl halides are inert to SN2)"
    ],
-   "final_check": "4 primary amides undergo Hofmann; of their amines only aniline is excluded from Gabriel \u2014 3 compounds, option C."
+   "final_check": "4 primary amides undergo Hofmann; of their amines only aniline is excluded from Gabriel — 3 compounds, option C."
   },
   "taxonomy": {
    "chapters": [
@@ -3527,7 +3527,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504703+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -3573,8 +3573,8 @@
    "concepts": [
     "Reduction of glucose with HI",
     "Aromatisation of n-hexane",
-    "Friedel\u2013Crafts acylation",
-    "Electron counting in \u03c0 bonds and lone pairs"
+    "Friedel–Crafts acylation",
+    "Electron counting in π bonds and lone pairs"
    ],
    "formulas": [
     "$\\text{Glucose} \\xrightarrow{HI,\\ \\Delta} CH_3(CH_2)_4CH_3$",
@@ -3588,22 +3588,22 @@
     },
     {
      "n": 2,
-     "text": "(iii) Benzene + benzoyl chloride/anhyd. AlCl$_{3}$ \u2192 Friedel\u2013Crafts acylation \u2192 benzophenone (PhCOPh), the product (X)."
+     "text": "(iii) Benzene + benzoyl chloride/anhyd. AlCl$_{3}$ → Friedel–Crafts acylation → benzophenone (PhCOPh), the product (X)."
     },
     {
      "n": 3,
-     "text": "Electron count in benzophenone: two phenyl rings \u00d7 3 $\\pi$ bonds = 6 $\\pi$ bonds, plus 1 C=O $\\pi$ bond = 7 $\\pi$ bonds \u2192 14 $\\pi$ electrons; the carbonyl oxygen carries 2 lone pairs \u2192 4 electrons. Total = 14 + 4 = 18 \u2014 option D."
+     "text": "Electron count in benzophenone: two phenyl rings × 3 $\\pi$ bonds = 6 $\\pi$ bonds, plus 1 C=O $\\pi$ bond = 7 $\\pi$ bonds → 14 $\\pi$ electrons; the carbonyl oxygen carries 2 lone pairs → 4 electrons. Total = 14 + 4 = 18 — option D."
     }
    ],
    "pitfalls": [
-    "Forgetting the lone pairs on the carbonyl oxygen (counting only \u03c0 electrons gives 14)",
-    "Miscounting \u03c0 bonds (each benzene ring has 3, plus one C=O)"
+    "Forgetting the lone pairs on the carbonyl oxygen (counting only π electrons gives 14)",
+    "Miscounting π bonds (each benzene ring has 3, plus one C=O)"
    ],
-   "final_check": "7 \u03c0 bonds (14 e\u2212) + 2 lone pairs on O (4 e\u2212) = 18 \u2014 option D."
+   "final_check": "7 π bonds (14 e−) + 2 lone pairs on O (4 e−) = 18 — option D."
   },
   "taxonomy": {
    "chapters": [
-    "Biomolecules",
+    "Biomolecules and Polymers",
     "Hydrocarbons"
    ],
    "difficulty": "medium"
@@ -3614,7 +3614,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504711+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "D",
@@ -3671,14 +3671,14 @@
     },
     {
      "n": 2,
-     "text": "Thus the gas X is NO and the brown-ring compound Y is [Fe(NO)]SO$_{4}$ (shorthand for the aqua-nitrosyl complex) \u2014 option A."
+     "text": "Thus the gas X is NO and the brown-ring compound Y is [Fe(NO)]SO$_{4}$ (shorthand for the aqua-nitrosyl complex) — option A."
     }
    ],
    "pitfalls": [
     "Confusing NO with NO2 (NO2 is a brown gas but does not give the brown ring complex)",
     "Writing the product with the wrong ligand"
    ],
-   "final_check": "Brown ring = [Fe(H2O)5(NO)]2+ formed from NO gas \u2014 option A."
+   "final_check": "Brown ring = [Fe(H2O)5(NO)]2+ formed from NO gas — option A."
   },
   "taxonomy": {
    "chapters": [
@@ -3693,7 +3693,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504719+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "A",
@@ -3750,10 +3750,10 @@
     }
    ],
    "pitfalls": [
-    "Counting all 3 chlorides as precipitable (only the ionisation-sphere Cl\u2212 reacts)",
+    "Counting all 3 chlorides as precipitable (only the ionisation-sphere Cl− reacts)",
     "Volume/molarity arithmetic errors with mL"
    ],
-   "final_check": "0.1 L \u00d7 0.05 M = 0.005 mol complex \u2192 0.005 mol AgCl = 5 \u00d7 10\u207b\u00b3 \u2014 answer 5."
+   "final_check": "0.1 L × 0.05 M = 0.005 mol complex → 0.005 mol AgCl = 5 × 10⁻³ — answer 5."
   },
   "taxonomy": {
    "chapters": [
@@ -3767,7 +3767,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504726+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "5.0",
@@ -3820,7 +3820,7 @@
     },
     {
      "n": 2,
-     "text": "Only one monochlorination product means all 12 hydrogens are equivalent \u2014 this is neopentane, 2,2-dimethylpropane, C(CH$_{3}$)$_{4}$."
+     "text": "Only one monochlorination product means all 12 hydrogens are equivalent — this is neopentane, 2,2-dimethylpropane, C(CH$_{3}$)$_{4}$."
     },
     {
      "n": 3,
@@ -3831,12 +3831,12 @@
     "Solving (3n+1)/2 = 8 incorrectly",
     "Picking n-pentane (which gives 3 monochloro products) instead of neopentane"
    ],
-   "final_check": "C5H12 with all H equivalent = neopentane = 4 primary carbons \u2014 answer 4."
+   "final_check": "C5H12 with all H equivalent = neopentane = 4 primary carbons — answer 4."
   },
   "taxonomy": {
    "chapters": [
     "Hydrocarbons",
-    "General Organic Chemistry"
+    "GOC and Isomerism"
    ],
    "difficulty": "easy"
   },
@@ -3846,7 +3846,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504735+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "4.0",
@@ -3896,22 +3896,22 @@
    "steps": [
     {
      "n": 1,
-     "text": "In basic medium MnO$_{4}^{-}$ \u2192 MnO$_{2}$ (n-factor 3). Equivalents of MnO$_{4}^{-}$ = $0.5 \\times 0.2 \\times 3 = 0.3$ eq. KI is in excess (0.75 mol I$^-$ vs 0.3 eq needed)."
+     "text": "In basic medium MnO$_{4}^{-}$ → MnO$_{2}$ (n-factor 3). Equivalents of MnO$_{4}^{-}$ = $0.5 \\times 0.2 \\times 3 = 0.3$ eq. KI is in excess (0.75 mol I$^-$ vs 0.3 eq needed)."
     },
     {
      "n": 2,
-     "text": "Iodine liberated: 2I$^-$ \u2192 I$_{2}$ + 2e$^-$, so moles I$_{2}$ = $0.3/2 = 0.15$ mol."
+     "text": "Iodine liberated: 2I$^-$ → I$_{2}$ + 2e$^-$, so moles I$_{2}$ = $0.3/2 = 0.15$ mol."
     },
     {
      "n": 3,
-     "text": "Titration: 1 mol I$_{2}$ \u2261 2 mol S$_{2}$O$_{3}^{2-}$ (n-factor of thiosulphate = 1), so moles thiosulphate = $0.30$ mol in 0.300 L \u2192 $x = 0.30/0.30 = 1$ M."
+     "text": "Titration: 1 mol I$_{2}$ ≡ 2 mol S$_{2}$O$_{3}^{2-}$ (n-factor of thiosulphate = 1), so moles thiosulphate = $0.30$ mol in 0.300 L → $x = 0.30/0.30 = 1$ M."
     }
    ],
    "pitfalls": [
-    "Using n-factor 5 for MnO4\u2212 (acidic medium) instead of 3 (basic medium)",
+    "Using n-factor 5 for MnO4− (acidic medium) instead of 3 (basic medium)",
     "Forgetting the 1:2 stoichiometry of I2 with thiosulphate"
    ],
-   "final_check": "0.3 eq MnO4\u2212 \u2192 0.15 mol I2 \u2192 0.30 mol thio in 300 mL = 1 M \u2014 answer 1."
+   "final_check": "0.3 eq MnO4− → 0.15 mol I2 → 0.30 mol thio in 300 mL = 1 M — answer 1."
   },
   "taxonomy": {
    "chapters": [
@@ -3925,7 +3925,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504742+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "1.0",
@@ -3987,9 +3987,9 @@
    ],
    "pitfalls": [
     "Using mole numbers instead of partial pressures in Kp",
-    "Sign errors: \u0394G\u00b0 is negative here; the question asks for magnitude"
+    "Sign errors: ΔG° is negative here; the question asks for magnitude"
    ],
-   "final_check": "Kp = 36/7, RT ln Kp = 8.25 kJ/mol \u2192 nearest integer 8."
+   "final_check": "Kp = 36/7, RT ln Kp = 8.25 kJ/mol → nearest integer 8."
   },
   "taxonomy": {
    "chapters": [
@@ -4004,7 +4004,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504749+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "8.0",
@@ -4047,7 +4047,7 @@
     "Activation energy from temperature exponent"
    ],
    "formulas": [
-    "$k = Ae^{-E_a/RT}$ \u21d2 $E_a/R = 28000\\ \\text{K}$"
+    "$k = Ae^{-E_a/RT}$ ⇒ $E_a/R = 28000\\ \\text{K}$"
    ],
    "steps": [
     {
@@ -4063,7 +4063,7 @@
     "Multiplying by R in the wrong units (J vs kJ)",
     "Reading the pre-exponential factor as part of Ea"
    ],
-   "final_check": "28000 \u00d7 8.3 = 232400 J/mol = 232.4 kJ/mol \u2192 232."
+   "final_check": "28000 × 8.3 = 232400 J/mol = 232.4 kJ/mol → 232."
   },
   "taxonomy": {
    "chapters": [
@@ -4077,7 +4077,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504756+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "232.0",
@@ -4159,7 +4159,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Functions"
+    "Sets, Relations and Functions"
    ],
    "difficulty": "easy"
   },
@@ -4169,7 +4169,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.503789+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "D",
@@ -4262,7 +4262,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.503860+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -4348,7 +4348,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.503879+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "A",
@@ -4429,7 +4429,7 @@
   "taxonomy": {
    "chapters": [
     "Matrices and Determinants",
-    "Trigonometric Equations"
+    "Trigonometry"
    ],
    "difficulty": "medium"
   },
@@ -4439,7 +4439,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.503892+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "D",
@@ -4515,7 +4515,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Matrices"
+    "Matrices and Determinants"
    ],
    "difficulty": "medium"
   },
@@ -4525,7 +4525,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.503925+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -4607,7 +4607,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.503936+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -4693,7 +4693,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.503948+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -4762,7 +4762,7 @@
     }
    ],
    "pitfalls": [
-    "Using $\\sum x_i^2=424+\\alpha^2+\\beta^2$: $4+16+64+144+196=424$ \u2014 omitting a term.",
+    "Using $\\sum x_i^2=424+\\alpha^2+\\beta^2$: $4+16+64+144+196=424$ — omitting a term.",
     "Swapping $\\alpha$ and $\\beta$ despite $\\alpha<\\beta$."
    ],
    "final_check": "Check: mean of $2,4,6,8,10,12,14$ is $8$; $\\sum x_i^2=560$, $560/7-64=16$; roots $20,21$ give sum $41$, product $420$."
@@ -4779,7 +4779,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504075+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "B",
@@ -4860,7 +4860,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504086+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -4942,7 +4942,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504096+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -5018,7 +5018,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Conic Sections"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "medium"
   },
@@ -5028,7 +5028,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504104+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "D",
@@ -5104,7 +5104,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Conic Sections"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "medium"
   },
@@ -5114,7 +5114,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504113+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "A",
@@ -5189,7 +5189,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Inverse Trigonometric Functions"
+    "Trigonometry"
    ],
    "difficulty": "easy"
   },
@@ -5199,7 +5199,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504123+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "A",
@@ -5274,7 +5274,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Three Dimensional Geometry"
+    "3D Geometry"
    ],
    "difficulty": "easy"
   },
@@ -5284,7 +5284,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504132+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -5355,7 +5355,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Vector Algebra"
+    "Vectors"
    ],
    "difficulty": "easy"
   },
@@ -5365,7 +5365,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504144+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -5447,7 +5447,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Limits",
+    "Limits, Continuity and Differentiability",
     "Quadratic Equations"
    ],
    "difficulty": "medium"
@@ -5458,7 +5458,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504153+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -5535,8 +5535,8 @@
   "taxonomy": {
    "chapters": [
     "Matrices and Determinants",
-    "Definite Integration",
-    "Application of Derivatives"
+    "Definite Integration and Area",
+    "Applications of Derivatives"
    ],
    "difficulty": "easy"
   },
@@ -5546,7 +5546,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504163+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "B",
@@ -5623,7 +5623,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Functions",
+    "Sets, Relations and Functions",
     "Differential Equations"
    ],
    "difficulty": "hard"
@@ -5634,7 +5634,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504172+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "C",
@@ -5705,7 +5705,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Area Under Curves"
+    "Definite Integration and Area"
    ],
    "difficulty": "easy"
   },
@@ -5715,7 +5715,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504182+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "A",
@@ -5787,7 +5787,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Definite Integration"
+    "Definite Integration and Area"
    ],
    "difficulty": "easy"
   },
@@ -5797,7 +5797,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504189+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "B",
@@ -5872,7 +5872,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Sets and Relations"
+    "Sets, Relations and Functions"
    ],
    "difficulty": "hard"
   },
@@ -5882,7 +5882,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504198+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "15.0",
@@ -5963,7 +5963,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504243+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "30.0",
@@ -6045,7 +6045,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504257+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "18.0",
@@ -6120,7 +6120,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Three Dimensional Geometry"
+    "3D Geometry"
    ],
    "difficulty": "hard"
   },
@@ -6130,7 +6130,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504269+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "162.0",
@@ -6186,15 +6186,15 @@
     },
     {
      "n": 3,
-     "text": "At $x=-2$: $f$ continuous, $f$ changes sign; $g\\circ f$ jumps from $-2$ to $2$ \u2014 discontinuous."
+     "text": "At $x=-2$: $f$ continuous, $f$ changes sign; $g\\circ f$ jumps from $-2$ to $2$ — discontinuous."
     },
     {
      "n": 4,
-     "text": "At $x=2$: similarly $f$ crosses $0$ and $g\\circ f$ jumps \u2014 discontinuous."
+     "text": "At $x=2$: similarly $f$ crosses $0$ and $g\\circ f$ jumps — discontinuous."
     },
     {
      "n": 5,
-     "text": "At $x=0$: $f$ jumps $8\\to-4$; left limit of $g\\circ f$ is $\\sqrt{12}$, value/right limit is $(-12)^{1/3}$ \u2014 discontinuous."
+     "text": "At $x=0$: $f$ jumps $8\\to-4$; left limit of $g\\circ f$ is $\\sqrt{12}$, value/right limit is $(-12)^{1/3}$ — discontinuous."
     },
     {
      "n": 6,
@@ -6203,14 +6203,14 @@
    ],
    "pitfalls": [
     "Missing $x=\\pm 2$ (discontinuities induced by $g$'s jump at $0$, not $f$'s).",
-    "Assuming $g\\circ f$ is continuous at $0$ because $f(0)=-4\\ne 0$ \u2014 but $f$ itself jumps there."
+    "Assuming $g\\circ f$ is continuous at $0$ because $f(0)=-4\\ne 0$ — but $f$ itself jumps there."
    ],
    "final_check": "Discontinuities exactly at $x\\in\\{-2,0,2\\}$; everywhere else both $f$ and the relevant branch of $g$ are continuous."
   },
   "taxonomy": {
    "chapters": [
-    "Continuity and Differentiability",
-    "Functions"
+    "Limits, Continuity and Differentiability",
+    "Sets, Relations and Functions"
    ],
    "difficulty": "medium"
   },
@@ -6220,7 +6220,7 @@
    "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/202604041650269669.pdf",
    "extracted_at": "2026-10-16T06:05:55.504279+00:00"
   },
-  "paper": "JEE Main 2026 Session 2 \u2014 2026-04-06 Shift 2",
+  "paper": "JEE Main 2026 Session 2 — 2026-04-06 Shift 2",
   "parent_stem": null,
   "answer": {
    "value": "3.0",

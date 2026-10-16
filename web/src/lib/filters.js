@@ -117,7 +117,33 @@ export function marksFor(q, correct, attempted) {
 export function paperTitle(paper) {
   const bits = [paper.exam, paper.year];
   if (paper.paper) bits.push(paper.paper);
-  if (paper.session) bits.push(paper.session);
+  // Advanced index.json stores session === paper ("Paper 1"/"Paper 2");
+  // dedupe so we don't render "Paper 2 · Paper 2" (audit Cat 7).
+  if (paper.session && paper.session !== paper.paper) bits.push(paper.session);
   if (paper.shift) bits.push(paper.shift);
   return bits.join(' · ');
+}
+
+/** True when a record is missing figures/passages it depends on (audit Cat 1-4). */
+const INCOMPLETE_RE = /not captured|\[figures? not available\]|\[plot figure\]|\[figure option/i;
+export function isIncomplete(q) {
+  if (!q) return false;
+  const opts = Object.values(q.options ?? {}).join('\n');
+  const hay = `${q.stem ?? ''}\n${opts}`;
+  if (INCOMPLETE_RE.test(hay)) return true;
+  if (Array.isArray(q.stem_images) && q.stem_images.length > 0) return true;
+  // Paragraph-style stems with no shared setup captured yet (audit Cat 1:
+  // parent_stem is null on all 777 records).
+  if (q.qtype === 'stem_numerical' && (q.parent_stem == null || String(q.parent_stem).trim() === '')) return true;
+  return false;
+}
+
+/** Resolve a stem_images entry to a fetchable URL under public/data. */
+export function imageUrl(img) {
+  if (!img) return img;
+  if (/^(https?:|data:|blob:)/.test(img)) return img;
+  const clean = String(img).replace(/^\/+/, '').replace(/^data\//, '');
+  // Bare filenames like "img-005.png" live in data/images/.
+  if (!clean.includes('/')) return `data/images/${clean}`;
+  return `data/${clean}`;
 }

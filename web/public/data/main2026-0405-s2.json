@@ -58,7 +58,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Mole Concept and Stoichiometry"
+    "Mole Concept"
    ],
    "difficulty": "easy"
   },
@@ -227,7 +227,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Chemical Bonding and Molecular Structure"
+    "Chemical Bonding"
    ],
    "difficulty": "easy"
   },
@@ -724,7 +724,7 @@
   "taxonomy": {
    "chapters": [
     "p-Block Elements",
-    "Chemical Bonding and Molecular Structure"
+    "Chemical Bonding"
    ],
    "difficulty": "medium"
   },
@@ -810,7 +810,7 @@
   "taxonomy": {
    "chapters": [
     "Coordination Compounds",
-    "d-Block Elements"
+    "d- and f-Block Elements"
    ],
    "difficulty": "medium"
   },
@@ -989,7 +989,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Organic Chemistry - Basic Principles and Techniques"
+    "GOC and Isomerism"
    ],
    "difficulty": "easy"
   },
@@ -1160,7 +1160,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Organic Chemistry - Basic Principles and Techniques",
+    "GOC and Isomerism",
     "Hydrocarbons"
    ],
    "difficulty": "medium"
@@ -1243,8 +1243,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Carboxylic Acids and Derivatives",
-    "Organic Chemistry"
+    "Carbonyl Compounds",
+    "GOC and Isomerism"
    ],
    "difficulty": "medium"
   },
@@ -1331,7 +1331,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Aldehydes and Ketones"
+    "Carbonyl Compounds"
    ],
    "difficulty": "medium"
   },
@@ -1414,7 +1414,7 @@
   "taxonomy": {
    "chapters": [
     "Amines",
-    "Organic Chemistry"
+    "GOC and Isomerism"
    ],
    "difficulty": "medium"
   },
@@ -1501,7 +1501,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Biomolecules"
+    "Biomolecules and Polymers"
    ],
    "difficulty": "easy"
   },
@@ -1581,7 +1581,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Biomolecules"
+    "Biomolecules and Polymers"
    ],
    "difficulty": "medium"
   },
@@ -1662,7 +1662,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "d-Block Elements",
+    "d- and f-Block Elements",
     "Salt Analysis"
    ],
    "difficulty": "easy"
@@ -1818,8 +1818,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Organometallic Compounds",
-    "Haloalkanes"
+    "Coordination Compounds",
+    "Haloalkanes and Alcohols"
    ],
    "difficulty": "medium"
   },
@@ -2310,7 +2310,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Determinants",
+    "Matrices and Determinants",
     "Sequences and Series"
    ],
    "difficulty": "medium"
@@ -2396,7 +2396,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Matrices"
+    "Matrices and Determinants"
    ],
    "difficulty": "easy"
   },
@@ -2976,7 +2976,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Conic Sections"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "medium"
   },
@@ -3062,7 +3062,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Conic Sections"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "medium"
   },
@@ -3146,7 +3146,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Conic Sections"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "easy"
   },
@@ -3228,7 +3228,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Three Dimensional Geometry"
+    "3D Geometry"
    ],
    "difficulty": "medium"
   },
@@ -3310,7 +3310,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Three Dimensional Geometry"
+    "3D Geometry"
    ],
    "difficulty": "easy"
   },
@@ -3391,7 +3391,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Vector Algebra"
+    "Vectors"
    ],
    "difficulty": "easy"
   },
@@ -3476,8 +3476,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Limits and Derivatives",
-    "Application of Derivatives"
+    "Limits, Continuity and Differentiability",
+    "Applications of Derivatives"
    ],
    "difficulty": "medium"
   },
@@ -3563,7 +3563,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Definite Integration"
+    "Definite Integration and Area"
    ],
    "difficulty": "medium"
   },
@@ -3810,7 +3810,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Relations and Functions"
+    "Sets, Relations and Functions"
    ],
    "difficulty": "medium"
   },
@@ -3974,7 +3974,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Trigonometric Functions"
+    "Trigonometry"
    ],
    "difficulty": "medium"
   },
@@ -4055,7 +4055,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Definite Integration"
+    "Definite Integration and Area"
    ],
    "difficulty": "medium"
   },
@@ -4400,7 +4400,7 @@
   "taxonomy": {
    "chapters": [
     "Work, Energy and Power",
-    "Friction"
+    "Laws of Motion"
    ],
    "difficulty": "easy"
   },
@@ -4567,7 +4567,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Rotational Motion"
+    "Rotational Mechanics"
    ],
    "difficulty": "easy"
   },
@@ -4651,7 +4651,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Rotational Motion"
+    "Rotational Mechanics"
    ],
    "difficulty": "easy"
   },
@@ -4817,7 +4817,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Mechanical Properties of Fluids"
+    "Fluids and Properties of Matter"
    ],
    "difficulty": "medium"
   },
@@ -4899,8 +4899,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Thermal Properties of Matter",
-    "Kinetic Theory of Gases"
+    "Thermodynamics and KTG"
    ],
    "difficulty": "medium"
   },
@@ -4991,7 +4990,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Oscillations"
+    "SHM and Waves"
    ],
    "difficulty": "hard"
   },
@@ -5077,7 +5076,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Electromagnetic Induction"
+    "EMI and AC"
    ],
    "difficulty": "medium"
   },
@@ -5164,7 +5163,7 @@
   "taxonomy": {
    "chapters": [
     "Current Electricity",
-    "Capacitors"
+    "Electrostatics"
    ],
    "difficulty": "easy"
   },
@@ -5249,7 +5248,7 @@
   "taxonomy": {
    "chapters": [
     "Work, Energy and Power",
-    "Electromagnetism"
+    "Electromagnetic Waves"
    ],
    "difficulty": "easy"
   },
@@ -5671,7 +5670,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Dual Nature of Radiation and Matter"
+    "Modern Physics"
    ],
    "difficulty": "easy"
   },
@@ -5753,7 +5752,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Nuclei"
+    "Modern Physics"
    ],
    "difficulty": "easy"
   },
@@ -5912,7 +5911,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Mechanical Properties of Solids"
+    "Fluids and Properties of Matter"
    ],
    "difficulty": "easy"
   },
@@ -5995,7 +5994,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Thermal Properties of Matter"
+    "Thermodynamics and KTG"
    ],
    "difficulty": "medium"
   },
@@ -6070,7 +6069,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Alternating Current"
+    "EMI and AC"
    ],
    "difficulty": "easy"
   },
@@ -6227,7 +6226,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Electromagnetic Induction"
+    "EMI and AC"
    ],
    "difficulty": "medium"
   },

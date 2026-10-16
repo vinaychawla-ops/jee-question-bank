@@ -4,7 +4,7 @@ import { DIFFICULTIES, SUBJECTS, TYPE_GROUPS, emptyFilters } from '../lib/filter
 function Select({ label, value, onChange, options, allLabel }) {
   return (
     <label className="flex min-w-0 flex-col gap-1">
-      <span className="truncate whitespace-nowrap text-[11px] font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+      <span className="whitespace-nowrap text-[11px] font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
         {label}
       </span>
       <select
@@ -45,8 +45,8 @@ export function FilterBar({ filters, setFilters, chapters, exams, years, resultC
         <Select label="Difficulty" value={filters.difficulty} onChange={set('difficulty')} options={DIFFICULTIES} allLabel="All levels" />
         <Select label="Type" value={filters.typeGroup} onChange={set('typeGroup')} options={TYPE_GROUPS} allLabel="All types" />
 
-        <label className="col-span-2 flex min-w-0 flex-col gap-1 sm:col-span-1 sm:flex-1">
-          <span className="truncate whitespace-nowrap text-[11px] font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+        <label className="col-span-2 flex min-w-0 flex-col gap-1 sm:basis-full">
+          <span className="whitespace-nowrap text-[11px] font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
             Search
           </span>
           <input

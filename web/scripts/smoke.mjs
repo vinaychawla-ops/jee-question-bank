@@ -28,6 +28,15 @@ for (const p of index.papers ?? []) {
   for (const q of arr) records.push(q);
 }
 const ids = new Set();
+// Image refs must resolve under public/data (bare "img-*.png" -> data/images/).
+function resolveImage(p) {
+  if (/^(https?:|data:|blob:)/.test(p)) return null; // remote/data URIs: skip
+  const clean = String(p).replace(/^\/+/, '').replace(/^data\//, '');
+  const rel = clean.includes('/') ? clean : `images/${clean}`;
+  return join(pub, rel);
+}
+let incompleteN = 0;
+const INCOMPLETE_RE = /not captured|\[figures? not available\]|\[plot figure\]|\[figure option/i;
 for (const q of records) {
   for (const k of REQUIRED) if (!(k in q)) fail(`${q.id ?? '?'}: missing field ${k}`);
   if (ids.has(q.id)) fail(`duplicate id ${q.id}`);
@@ -39,10 +48,27 @@ for (const q of records) {
     fail(`${q.id}: MCQ without options`);
   if (['numerical','stem_numerical'].includes(q.qtype) && q.options != null) fail(`${q.id}: numerical with options`);
   if (['numerical','stem_numerical'].includes(q.qtype) && Number.isNaN(Number(q.answer.value))) fail(`${q.id}: non-numeric numerical answer`);
+  if (!Array.isArray(q.stem_images)) fail(`${q.id}: stem_images must be a list`);
+  for (const img of q.stem_images ?? []) {
+    if (typeof img !== 'string' || !img.trim()) { fail(`${q.id}: bad stem_images entry`); continue; }
+    const full = resolveImage(img);
+    if (full && !existsSync(full)) fail(`${q.id}: missing image file ${img} (looked in ${full})`);
+  }
+  if (q.parent_stem != null && (typeof q.parent_stem !== 'string' || !q.parent_stem.trim())) fail(`${q.id}: bad parent_stem`);
+  if (q.option_images != null) {
+    if (typeof q.option_images !== 'object' || Array.isArray(q.option_images)) fail(`${q.id}: bad option_images`);
+    else for (const [k, v] of Object.entries(q.option_images)) {
+      if (!['A','B','C','D'].includes(k) || typeof v !== 'string' || !v.trim()) { fail(`${q.id}: bad option_images[${k}]`); continue; }
+      const full = resolveImage(v);
+      if (full && !existsSync(full)) fail(`${q.id}: missing option image ${v}`);
+    }
+  }
   const sol = q.solution ?? {};
   for (const k of ['concepts','formulas','steps','pitfalls','final_check']) if (!(k in sol)) fail(`${q.id}: solution missing ${k}`);
+  const hay = `${q.stem ?? ''}\n${Object.values(q.options ?? {}).join('\n')}`;
+  if (INCOMPLETE_RE.test(hay)) incompleteN++;
 }
-console.log(`schema OK: ${records.length} record(s), ids unique`);
+console.log(`schema OK: ${records.length} record(s), ids unique, ${incompleteN} flagged incomplete`);
 
 // ---- 3. KaTeX renders every math segment (strict: throw on error) ----
 function segments(text) {

@@ -13,7 +13,9 @@
   "qtype": "single_correct",
   "number_in_subject": 1,
   "stem": "At $300\\ \\mathrm{K}$, the molar conductivities of the aqueous solutions of three salts at two different concentrations are given below:\\nThe conductivity of a saturated aqueous solution of $\\ce{AgCl}$ is $1.40\\times 10^{-6}\\ \\mathrm{S\\ cm^{-1}}$ at $300\\ \\mathrm{K}$. If the solubility of $\\ce{AgCl}$ in water at $300\\ \\mathrm{K}$ is $X\\ \\mathrm{mol\\ L^{-1}}$, then $\\log_{10}(X^{-1})$ is ___.\\n(Assume that $\\ce{AgCl}$ dissolved in water ionizes completely and that the molar conductivity of saturated $\\ce{AgCl}$ solution is equal to its limiting molar conductivity.)",
-  "stem_images": [],
+  "stem_images": [
+   "images/adv2026-p2-che-s1-p20.png"
+  ],
   "options": {
    "A": "3",
    "B": "4",
@@ -58,7 +60,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "electrochemistry"
+    "Electrochemistry"
    ],
    "difficulty": "medium"
   },
@@ -149,8 +151,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "chemical bonding",
-    "VSEPR theory"
+    "Chemical Bonding"
    ],
    "difficulty": "easy"
   },
@@ -189,7 +190,9 @@
   "qtype": "single_correct",
   "number_in_subject": 3,
   "stem": "Natural rubber on complete ozonolysis ($\\ce{O3}$/$\\ce{Zn}$-$\\ce{H2O}$) gives compound X as the major product. X gives positive iodoform and Tollens' tests. X on heating with aqueous $\\ce{NaOH}$ gives Y as the major product. Y is ___.\\n[Options are structure diagrams not captured in extraction.] [Options are structure diagrams (from the rendered page): (A) cyclopent-2-en-1-one (5-membered ring, C=O, one C=C conjugated); (B) 1-(2-hydroxycyclopropyl)ethan-1-one (cyclopropane bearing OH and COCH3); (C) a cyclohexadiene ring bearing two acetyl (COCH3) groups; (D) a fused bicyclic keto-alcohol ether.]",
-  "stem_images": [],
+  "stem_images": [
+   "images/adv2026-p2-che-s1-p21.png"
+  ],
   "options": {
    "A": "[Figure option A — see paper]",
    "B": "[Figure option B — see paper]",
@@ -237,9 +240,9 @@
   },
   "taxonomy": {
    "chapters": [
-    "organic chemistry",
-    "polymers",
-    "aldol condensation"
+    "GOC and Isomerism",
+    "Biomolecules and Polymers",
+    "Carbonyl Compounds"
    ],
    "difficulty": "hard"
   },
@@ -278,7 +281,9 @@
   "qtype": "single_correct",
   "number_in_subject": 4,
   "stem": "A known artificial sweetener X is composed of 4-chloro-4-deoxy-$\\alpha$-D-galactose and 1,6-dichloro-1,6-dideoxy-$\\beta$-D-fructose joined by a glycosidic linkage. Structure of D-galactose is given below: [diagram not captured in extraction]\\nThe correct structure of X is ___.\\n[Options are structure diagrams not captured in extraction.] [The given Fischer of D-galactose (from the rendered page): CHO / H-OH (C2) / HO-H (C3) / HO-H (C4) / H-OH (C5) / CH2OH. Options (A)-(D) are chair-conformation disaccharide diagrams differing in the galactose C4-Cl stereochemistry and the fructose anomeric configuration.]",
-  "stem_images": [],
+  "stem_images": [
+   "images/adv2026-p2-che-s1-p22.png"
+  ],
   "options": {
    "A": "[Figure option A — see paper]",
    "B": "[Figure option B — see paper]",
@@ -325,8 +330,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "biomolecules",
-    "carbohydrates"
+    "Biomolecules and Polymers"
    ],
    "difficulty": "medium"
   },
@@ -365,7 +369,9 @@
   "qtype": "multi_correct",
   "number_in_subject": 5,
   "stem": "For a first-order reaction $\\ce{R -> P}$ at a given temperature, $k$ is the rate constant. For this reaction, at the given temperature, the concentrations of R and P at a time $t$ are $[\\ce{R}]$ and $[\\ce{P}]$, respectively. The correct graphical representation(s) for this reaction is(are) ___.\\n[Options are graphs not captured in extraction.] [Options are graphs (from the rendered page): (A) [P] vs t: concave-up rising curve; (B) d[R]/dt vs [R]: straight line through the origin with positive slope; (C) d[P]/dt vs t: exponential decay curve; (D) k vs t: horizontal line.]",
-  "stem_images": [],
+  "stem_images": [
+   "images/adv2026-p2-che-s2-p24.png"
+  ],
   "options": {
    "A": "[Figure option A — see paper]",
    "B": "[Figure option B — see paper]",
@@ -420,7 +426,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "chemical kinetics"
+    "Chemical Kinetics"
    ],
    "difficulty": "medium"
   },
@@ -462,7 +468,9 @@
   "qtype": "multi_correct",
   "number_in_subject": 6,
   "stem": "Correct statement(s) about the compounds P, Q and R is(are) ___. [Structures/identities of P, Q, R were given as diagrams in the paper but were not captured in extraction.] [Reaction scheme (from the rendered page): Xe(g) + F2(g) (1:5 ratio) --(873 K, 7 bar)--> P; P + O2F2 --(143 K)--> Q + O2; Q + H2O --(complete hydrolysis)--> R + HF.]",
-  "stem_images": [],
+  "stem_images": [
+   "images/adv2026-p2-che-s2-p24.png"
+  ],
   "options": {
    "A": "P has two lone pairs of electrons on the central atom.",
    "B": "Q has a perfect octahedral geometry.",
@@ -526,7 +534,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "chemical bonding"
+    "Chemical Bonding"
    ],
    "difficulty": "medium"
   },
@@ -624,8 +632,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "periodic table",
-    "periodic properties"
+    "Periodic Table"
    ],
    "difficulty": "medium"
   },
@@ -667,7 +674,9 @@
   "qtype": "multi_correct",
   "number_in_subject": 8,
   "stem": "In the following reaction sequence, P, Q, S and T are the major products. [Reaction sequence diagram was not captured in extraction.] The correct statement(s) about P, Q, S and T is(are) [Reaction scheme (from the rendered page): aniline --(1. (CH3CO)2O, pyridine; 2. conc. HNO3/conc. H2SO4, 288 K)--> P --(1. H3O+; 2. NaNO2/HCl, 273-278 K)--> Q; cumene --(1. O2/H3O+; 2. NaOH/CO2; 3. H3O+)--> S; S + Q --(aqueous NaOH)--> T.]",
-  "stem_images": [],
+  "stem_images": [
+   "images/adv2026-p2-che-s2-p25.png"
+  ],
   "options": {
    "A": "Q on treatment with ethanol generates an aromatic aldehyde.",
    "B": "S gives positive phthalein dye test.",
@@ -725,7 +734,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "organic chemistry"
+    "GOC and Isomerism"
    ],
    "difficulty": "hard"
   },
@@ -822,8 +831,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "biomolecules",
-    "carbohydrates"
+    "Biomolecules and Polymers"
    ],
    "difficulty": "medium"
   },
@@ -909,7 +917,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "atomic structure"
+    "Atomic Structure"
    ],
    "difficulty": "easy"
   },
@@ -993,8 +1001,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "surface chemistry",
-    "chemical equilibrium"
+    "Surface Chemistry",
+    "Chemical Equilibrium"
    ],
    "difficulty": "medium"
   },
@@ -1080,8 +1088,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "solutions",
-    "colligative properties"
+    "Solutions"
    ],
    "difficulty": "medium"
   },
@@ -1160,7 +1167,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "coordination compounds"
+    "Coordination Compounds"
    ],
    "difficulty": "medium"
   },
@@ -1199,7 +1206,9 @@
   "qtype": "numerical",
   "number_in_subject": 14,
   "stem": "In the following reaction sequence, major products X and Y are acyclic monomers. [Reaction sequence diagram was not captured in extraction.] $500\\ \\mathrm{mol}$ of X completely reacts with $500\\ \\mathrm{mol}$ of Y to give $1\\ \\mathrm{mol}$ of a single biodegradable acyclic copolymer Z as the only product. The amount of Z formed in grams is ___.\\nGiven: Atomic mass (in amu): H : 1, C : 12, N : 14, O : 16, Br : 80 [Reaction scheme (from the rendered page): CH3I --(1. KCN; 2. H3O+, $\\Delta$; 3. Red P, Br2; 4. NH3 excess)--> X (acyclic monomer); Caprolactam --(H3O+, $\\Delta$)--> Y (acyclic monomer).]",
-  "stem_images": [],
+  "stem_images": [
+   "images/adv2026-p2-che-s3-p27.png"
+  ],
   "options": null,
   "marking": {
    "correct": 4,
@@ -1247,7 +1256,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "polymers"
+    "Biomolecules and Polymers"
    ],
    "difficulty": "hard"
   },
@@ -1331,8 +1340,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "solutions",
-    "states of matter"
+    "Solutions",
+    "States of Matter"
    ],
    "difficulty": "medium"
   },
@@ -1405,7 +1414,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "solutions"
+    "Solutions"
    ],
    "difficulty": "easy"
   },
@@ -1496,7 +1505,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "practical organic chemistry"
+    "Biomolecules and Polymers"
    ],
    "difficulty": "medium"
   },
@@ -1579,7 +1588,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "practical organic chemistry"
+    "Biomolecules and Polymers"
    ],
    "difficulty": "medium"
   },
@@ -1665,7 +1674,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Vector Algebra"
+    "Vectors"
    ],
    "difficulty": "medium"
   },
@@ -1751,7 +1760,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Conic Sections"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "medium"
   },
@@ -1910,7 +1919,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Definite Integration"
+    "Definite Integration and Area"
    ],
    "difficulty": "easy"
   },
@@ -2004,7 +2013,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Differentiation"
+    "Limits, Continuity and Differentiability"
    ],
    "difficulty": "hard"
   },
@@ -2199,7 +2208,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Three Dimensional Geometry"
+    "3D Geometry"
    ],
    "difficulty": "hard"
   },
@@ -2476,7 +2485,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Relations and Functions"
+    "Sets, Relations and Functions"
    ],
    "difficulty": "hard"
   },
@@ -2736,7 +2745,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Conic Sections"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "hard"
   },
@@ -2823,7 +2832,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Continuity and Differentiability"
+    "Limits, Continuity and Differentiability"
    ],
    "difficulty": "hard"
   },
@@ -2862,7 +2871,9 @@
   "qtype": "numerical",
   "number_in_subject": 15,
   "stem": "The value of $n$ is _______.",
-  "stem_images": [],
+  "stem_images": [
+   "images/adv2026-p2-mat-s4-p08.png"
+  ],
   "options": null,
   "marking": {
    "correct": 2,
@@ -2903,7 +2914,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Trigonometric Equations"
+    "Trigonometry"
    ],
    "difficulty": "medium"
   },
@@ -2913,7 +2924,7 @@
    "key_pdf": "https://jeeadv.ac.in/documents/p2_english.pdf",
    "extracted_at": "2026-10-16T06:09:53.722636+00:00"
   },
-  "parent_stem": null,
+  "parent_stem": "Question Stem for Q15-16: two curves C1 and C2 defined on x in [0, 10]; n is the total number of intersection points; alpha1 < alpha2 < ... < alpha_n are the x-coordinates of the intersections. (Exact curve definitions are in the page figure below.)",
   "paper": "JEE Advanced 2026 — Paper 2",
   "answer": {
    "value": "11",
@@ -2942,7 +2953,9 @@
   "qtype": "numerical",
   "number_in_subject": 16,
   "stem": "Let $A$ be the area of the region enclosed between the curves $C_1$, $C_2$, and the lines $x = \\alpha_1$ and $x = \\alpha_4$. Then the value of $\\frac{1}{\\pi} - \\frac{\\log_e(A - 2e^{-2})}{\\pi}$ is _______.",
-  "stem_images": [],
+  "stem_images": [
+   "images/adv2026-p2-mat-s4-p08.png"
+  ],
   "options": null,
   "marking": {
    "correct": 2,
@@ -2986,8 +2999,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Definite Integration",
-    "Area Under Curves"
+    "Definite Integration and Area"
    ],
    "difficulty": "hard"
   },
@@ -2997,7 +3009,7 @@
    "key_pdf": "https://jeeadv.ac.in/documents/p2_english.pdf",
    "extracted_at": "2026-10-16T06:09:53.722642+00:00"
   },
-  "parent_stem": null,
+  "parent_stem": "Question Stem for Q15-16: two curves C1 and C2 defined on x in [0, 10]; n is the total number of intersection points; alpha1 < alpha2 < ... < alpha_n are the x-coordinates of the intersections. (Exact curve definitions are in the page figure below.)",
   "final_check": " [RE-SOLVE: first solver's stem/options were mangled from OCR; re-solved from true paper pages. Corrected answer 2.5 (was 0.93). TRUE paper (p.8): value is -(1/pi) ln(beta - 2e^{-pi/2}) where beta = area between C1=e^{-x}, C2=e^{-x}(sin x+cos x) on [alpha1, alpha4] (record had m]",
   "paper": "JEE Advanced 2026 — Paper 2",
   "answer": {
@@ -3027,7 +3039,9 @@
   "qtype": "numerical",
   "number_in_subject": 17,
   "stem": "Let $P$ be the point in the first quadrant where the given ellipses intersect. If $\\theta$ is the acute angle between the tangents to the given ellipses at the point $P$, then the value of $4\\tan\\theta$ is _______.",
-  "stem_images": [],
+  "stem_images": [
+   "images/adv2026-p2-mat-s4-p09.png"
+  ],
   "options": null,
   "marking": {
    "correct": 2,
@@ -3071,7 +3085,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Conic Sections"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "medium"
   },
@@ -3081,7 +3095,7 @@
    "key_pdf": "https://jeeadv.ac.in/documents/p2_english.pdf",
    "extracted_at": "2026-10-16T06:09:53.722655+00:00"
   },
-  "parent_stem": null,
+  "parent_stem": "Consider the ellipses given by x^2 + 4y^2 = 1 and 4x^2 + y^2 = 1. (See page figure.)",
   "paper": "JEE Advanced 2026 — Paper 2",
   "answer": {
    "value": "7.5",
@@ -3110,7 +3124,9 @@
   "qtype": "numerical",
   "number_in_subject": 18,
   "stem": "If $A$ is the area of the common region that lies inside both the given ellipses, then the value of $\\cot A$ is _______.",
-  "stem_images": [],
+  "stem_images": [
+   "images/adv2026-p2-mat-s4-p09.png"
+  ],
   "options": null,
   "marking": {
    "correct": 2,
@@ -3154,8 +3170,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Conic Sections",
-    "Area Under Curves"
+    "Parabola, Ellipse and Hyperbola",
+    "Definite Integration and Area"
    ],
    "difficulty": "hard"
   },
@@ -3165,7 +3181,7 @@
    "key_pdf": "https://jeeadv.ac.in/documents/p2_english.pdf",
    "extracted_at": "2026-10-16T06:09:53.722664+00:00"
   },
-  "parent_stem": null,
+  "parent_stem": "Consider the ellipses given by x^2 + 4y^2 = 1 and 4x^2 + y^2 = 1. (See page figure.)",
   "paper": "JEE Advanced 2026 — Paper 2",
   "answer": {
    "value": "0.75",
@@ -3336,8 +3352,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Radioactivity",
-    "Calorimetry"
+    "Modern Physics",
+    "Thermodynamics and KTG"
    ],
    "difficulty": "medium"
   },
@@ -3425,8 +3441,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Ray Optics",
-    "Dispersion"
+    "Ray Optics"
    ],
    "difficulty": "medium"
   },
@@ -3515,8 +3530,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Central Force Motion",
-    "Oscillations"
+    "Gravitation",
+    "SHM and Waves"
    ],
    "difficulty": "hard"
   },
@@ -3700,7 +3715,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Electromagnetic fields",
+    "Electromagnetic Waves",
     "Kinematics"
    ],
    "difficulty": "hard"
@@ -4015,7 +4030,7 @@
   "number_in_subject": 10,
   "stem": "Two thin wires, Wire-1 of diameter $0.650\\ \\mathrm{mm}$ and Wire-2 of unknown diameter $d$ are given. To obtain the value of $d$, the diameters of the two wires are measured with a screw gauge. The screw gauge has a pitch of $0.5\\ \\mathrm{mm}$ and there are $100$ divisions on the circular scale (CS). The smallest division on the linear scale (LS) is $0.5\\ \\mathrm{mm}$. The table shows the readings of LS and CS for the measurements:\\n\\nReadings $-$ Wire-1: LS $= 0.5\\ \\mathrm{mm}$, CS $= 42$; Wire-2: LS $= 1.5\\ \\mathrm{mm}$, CS $= 95$.\\n\\nThe value of $d$ (in $\\mu\\mathrm{m}$) is:",
   "stem_images": [
-   "img-002.png"
+   "images/adv2026-p2-phy-s3-p15.png"
   ],
   "options": null,
   "marking": {
@@ -4177,7 +4192,7 @@
   "number_in_subject": 12,
   "stem": "As shown in the figure, a ray $AB$ of unpolarized light enters from water of refractive index $n_w = 4/3$ into a medium of refractive index $n_p = 4/\\sqrt{3}$ after passing through a glass plate of refractive index $n_g = 1.5$ and a layer of water. At a particular incident angle $i$ the reflected ray $CD$ is polarized in the direction as shown in the figure (polarization perpendicular to the plane of incidence). The value of $i$ (in degrees) is:",
   "stem_images": [
-   "img-003.png"
+   "images/adv2026-p2-phy-s3-p16.png"
   ],
   "options": null,
   "marking": {
@@ -4256,7 +4271,7 @@
   "number_in_subject": 13,
   "stem": "As shown in the figure, the resistance of a galvanometer $G$ can be found by the half-deflection method. A $10\\ \\mathrm{V}$ battery drives current through a resistor $R_1$ in series with the parallel combination of $G$ and (a variable resistor $R_2$ with key $K$). The resistance $R_2$ is adjusted such that when the key $K$ is closed the deflection in the galvanometer becomes half of the value as compared to when $K$ is open. Half-deflection is obtained at $R_2 = 4\\ \\Omega$ and thus the galvanometer resistance is found to be $6\\ \\Omega$. In this half-deflection condition the current (in $\\mathrm{mA}$) through the resistor $R_1$ is:",
   "stem_images": [
-   "img-004.png"
+   "images/adv2026-p2-phy-s3-p16.png"
   ],
   "options": null,
   "marking": {
@@ -4412,7 +4427,7 @@
   "number_in_subject": 15,
   "stem": "The height (in $\\mathrm{m}$) of the liquid in the left chamber at $t = 500\\ \\mathrm{s}$ is:",
   "stem_images": [
-   "img-005.png"
+   "images/adv2026-p2-phy-s4-p18.png"
   ],
   "options": null,
   "marking": {
@@ -4452,7 +4467,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Fluid Mechanics"
+    "Fluids and Properties of Matter"
    ],
    "difficulty": "medium"
   },
@@ -4462,7 +4477,7 @@
    "key_pdf": "https://jeeadv.ac.in/documents/p2_english.pdf",
    "extracted_at": "2026-10-16T06:09:53.722813+00:00"
   },
-  "parent_stem": null,
+  "parent_stem": "A container of height 2 m, length 2 m and breadth 1 m has insulating vertical walls and two large horizontal metal plates (M1, M2). It is partitioned into two equal chambers by a thin insulating wall with a small hole (10 cm^2) near the bottom. Initially the hole is closed; the left chamber is full of liquid (dielectric constant 15), the right chamber is empty. At t = 0 the hole is opened; liquid flows left to right. Space above liquid has dielectric constant 1 at atmospheric pressure. The schematic at t > 0 is shown in the figure. g = 10 m/s^2.",
   "paper": "JEE Advanced 2026 — Paper 2",
   "answer": {
    "value": "1.25",
@@ -4492,7 +4507,7 @@
   "number_in_subject": 16,
   "stem": "The difference in the capacitance (in $\\mathrm{F}$) between the metal plates at $t = 0$ and that at $t = 500\\ \\mathrm{s}$ is $(8 - n)\\epsilon_0$, where $\\epsilon_0$ is the permittivity of free space. The value of $n$ is:",
   "stem_images": [
-   "img-005.png"
+   "images/adv2026-p2-phy-s4-p18.png"
   ],
   "options": null,
   "marking": {
@@ -4541,7 +4556,7 @@
    "key_pdf": "https://jeeadv.ac.in/documents/p2_english.pdf",
    "extracted_at": "2026-10-16T06:09:53.722836+00:00"
   },
-  "parent_stem": null,
+  "parent_stem": "A container of height 2 m, length 2 m and breadth 1 m has insulating vertical walls and two large horizontal metal plates (M1, M2). It is partitioned into two equal chambers by a thin insulating wall with a small hole (10 cm^2) near the bottom. Initially the hole is closed; the left chamber is full of liquid (dielectric constant 15), the right chamber is empty. At t = 0 the hole is opened; liquid flows left to right. Space above liquid has dielectric constant 1 at atmospheric pressure. The schematic at t > 0 is shown in the figure. g = 10 m/s^2.",
   "paper": "JEE Advanced 2026 — Paper 2",
   "answer": {
    "value": "1.97",
@@ -4571,7 +4586,7 @@
   "number_in_subject": 17,
   "stem": "After the collision the disk starts to rotate around point $C$ in the $XY$ plane. The maximum change in the height (in $\\mathrm{m}$) of its center $O$ is:",
   "stem_images": [
-   "img-006.png"
+   "images/adv2026-p2-phy-s4-p19.png"
   ],
   "options": null,
   "marking": {
@@ -4626,7 +4641,7 @@
    "key_pdf": "https://jeeadv.ac.in/documents/p2_english.pdf",
    "extracted_at": "2026-10-16T06:09:53.722844+00:00"
   },
-  "parent_stem": null,
+  "parent_stem": "A uniform circular disk (radius 0.2 m, mass 1 kg) pivoted at its top point P rotates freely in the xy-plane, as shown in the figure. A particle (20 g) travelling along -x at 100 m/s hits the disk circumference at point Q; after collision it moves along -x at 90 m/s. g = 10 m/s^2.",
   "paper": "JEE Advanced 2026 — Paper 2",
   "answer": {
    "value": "0.15",
@@ -4656,7 +4671,7 @@
   "number_in_subject": 18,
   "stem": "Amount of energy loss (in $\\mathrm{J}$) in the collision is:",
   "stem_images": [
-   "img-006.png"
+   "images/adv2026-p2-phy-s4-p19.png"
   ],
   "options": null,
   "marking": {
@@ -4705,7 +4720,7 @@
    "key_pdf": "https://jeeadv.ac.in/documents/p2_english.pdf",
    "extracted_at": "2026-10-16T06:09:53.722852+00:00"
   },
-  "parent_stem": null,
+  "parent_stem": "A uniform circular disk (radius 0.2 m, mass 1 kg) pivoted at its top point P rotates freely in the xy-plane, as shown in the figure. A particle (20 g) travelling along -x at 100 m/s hits the disk circumference at point Q; after collision it moves along -x at 90 m/s. g = 10 m/s^2.",
   "paper": "JEE Advanced 2026 — Paper 2",
   "answer": {
    "value": "17.47",

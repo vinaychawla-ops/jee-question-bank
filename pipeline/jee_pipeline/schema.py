@@ -65,12 +65,25 @@ def validate_record(rec: dict) -> list[str]:
         errors.append("stem must be a non-empty string (LaTeX)")
 
     if not isinstance(rec.get("stem_images"), list) or not all(
-            isinstance(x, str) for x in rec.get("stem_images", [])):
-        errors.append("stem_images must be a list of strings")
+            isinstance(x, str) and x.strip() for x in rec.get("stem_images", [])):
+        errors.append("stem_images must be a list of non-empty strings")
 
     if "parent_stem" in rec and rec["parent_stem"] is not None \
-            and not isinstance(rec["parent_stem"], str):
-        errors.append("parent_stem must be a string or null")
+            and (not isinstance(rec["parent_stem"], str)
+                 or not rec["parent_stem"].strip()):
+        errors.append("parent_stem must be a non-empty string or null")
+
+    if "option_images" in rec and rec["option_images"] is not None:
+        oi = rec["option_images"]
+        if not isinstance(oi, dict):
+            errors.append("option_images must be a dict {A-D: path} or null")
+        else:
+            bad = set(oi) - OPTION_LETTERS
+            if bad:
+                errors.append(f"option_images keys must be A-D, got {sorted(bad)}")
+            for k, v in oi.items():
+                if not isinstance(v, str) or not v.strip():
+                    errors.append(f"option_images[{k}] must be a non-empty string")
 
     # -- section / marking --------------------------------------------------
     section = rec.get("section")

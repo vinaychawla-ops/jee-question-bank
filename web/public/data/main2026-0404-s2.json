@@ -60,7 +60,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Some Basic Concepts of Chemistry"
+    "Mole Concept"
    ],
    "difficulty": "easy"
   },
@@ -222,7 +222,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Chemical Bonding and Molecular Structure"
+    "Chemical Bonding"
    ],
    "difficulty": "medium"
   },
@@ -380,7 +380,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Equilibrium"
+    "Chemical Equilibrium"
    ],
    "difficulty": "easy"
   },
@@ -465,7 +465,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Organic Chemistry - Basic Principles and Techniques",
+    "GOC and Isomerism",
     "Hydrocarbons"
    ],
    "difficulty": "easy"
@@ -543,7 +543,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Classification of Elements and Periodicity in Properties"
+    "Periodic Table"
    ],
    "difficulty": "easy"
   },
@@ -892,7 +892,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Chemical Bonding and Molecular Structure"
+    "Chemical Bonding"
    ],
    "difficulty": "medium"
   },
@@ -1147,7 +1147,7 @@
   "taxonomy": {
    "chapters": [
     "Hydrocarbons",
-    "Organic Chemistry"
+    "GOC and Isomerism"
    ],
    "difficulty": "medium"
   },
@@ -1224,7 +1224,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Organic Chemistry - Basic Principles and Techniques"
+    "GOC and Isomerism"
    ],
    "difficulty": "easy"
   },
@@ -1318,8 +1318,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Organic Compounds Containing Oxygen",
-    "Aldehydes, Ketones and Carboxylic Acids"
+    "Haloalkanes and Alcohols",
+    "Carbonyl Compounds"
    ],
    "difficulty": "easy"
   },
@@ -1396,7 +1396,6 @@
   },
   "taxonomy": {
    "chapters": [
-    "Organic Compounds Containing Nitrogen",
     "Amines"
    ],
    "difficulty": "easy"
@@ -1483,7 +1482,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Biomolecules"
+    "Biomolecules and Polymers"
    ],
    "difficulty": "hard"
   },
@@ -1565,7 +1564,6 @@
   },
   "taxonomy": {
    "chapters": [
-    "Practical Chemistry",
     "Salt Analysis"
    ],
    "difficulty": "easy"
@@ -1651,8 +1649,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Practical Chemistry",
-    "Organic Compounds Containing Oxygen"
+    "Salt Analysis",
+    "Haloalkanes and Alcohols"
    ],
    "difficulty": "easy"
   },
@@ -1817,7 +1815,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Equilibrium",
+    "Chemical Equilibrium",
     "Thermodynamics"
    ],
    "difficulty": "medium"
@@ -2046,7 +2044,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Organic Chemistry - Basic Principles and Techniques"
+    "GOC and Isomerism"
    ],
    "difficulty": "easy"
   },
@@ -2133,7 +2131,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Functions"
+    "Sets, Relations and Functions"
    ],
    "difficulty": "medium"
   },
@@ -2399,7 +2397,7 @@
   "taxonomy": {
    "chapters": [
     "Quadratic Equations",
-    "Definite Integration"
+    "Definite Integration and Area"
    ],
    "difficulty": "medium"
   },
@@ -2658,7 +2656,7 @@
   "taxonomy": {
    "chapters": [
     "Sequences and Series",
-    "Logarithms"
+    "Sets, Relations and Functions"
    ],
    "difficulty": "easy"
   },
@@ -2916,7 +2914,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Ellipse",
+    "Parabola, Ellipse and Hyperbola",
     "Circles"
    ],
    "difficulty": "medium"
@@ -3003,7 +3001,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Hyperbola"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "medium"
   },
@@ -3087,7 +3085,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Application of Derivatives"
+    "Applications of Derivatives"
    ],
    "difficulty": "easy"
   },
@@ -3171,7 +3169,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Three Dimensional Geometry"
+    "3D Geometry"
    ],
    "difficulty": "easy"
   },
@@ -3255,7 +3253,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Three Dimensional Geometry"
+    "3D Geometry"
    ],
    "difficulty": "medium"
   },
@@ -3340,7 +3338,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Vector Algebra"
+    "Vectors"
    ],
    "difficulty": "medium"
   },
@@ -3420,7 +3418,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Functions",
+    "Sets, Relations and Functions",
     "Sequences and Series"
    ],
    "difficulty": "medium"
@@ -3578,7 +3576,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Area Under Curves"
+    "Definite Integration and Area"
    ],
    "difficulty": "easy"
   },
@@ -3758,8 +3756,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Definite Integration",
-    "Inverse Trigonometric Functions"
+    "Definite Integration and Area",
+    "Trigonometry"
    ],
    "difficulty": "medium"
   },
@@ -3924,7 +3922,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Continuity and Differentiability"
+    "Limits, Continuity and Differentiability"
    ],
    "difficulty": "medium"
   },
@@ -4088,7 +4086,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Parabola"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "hard"
   },
@@ -4177,7 +4175,7 @@
   "taxonomy": {
    "chapters": [
     "Differential Equations",
-    "Definite Integration"
+    "Definite Integration and Area"
    ],
    "difficulty": "hard"
   },
@@ -4675,7 +4673,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Elasticity"
+    "Fluids and Properties of Matter"
    ],
    "difficulty": "medium"
   },
@@ -4756,7 +4754,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Fluid Mechanics"
+    "Fluids and Properties of Matter"
    ],
    "difficulty": "easy"
   },
@@ -4838,7 +4836,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Kinetic Theory of Gases"
+    "Thermodynamics and KTG"
    ],
    "difficulty": "easy"
   },
@@ -4920,7 +4918,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Thermal Properties of Matter"
+    "Thermodynamics and KTG"
    ],
    "difficulty": "medium"
   },
@@ -5002,7 +5000,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Oscillations"
+    "SHM and Waves"
    ],
    "difficulty": "medium"
   },
@@ -5167,7 +5165,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Electrostatic Potential and Capacitance"
+    "Electrostatics"
    ],
    "difficulty": "medium"
   },
@@ -5330,7 +5328,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Magnetism and Matter"
+    "Magnetism"
    ],
    "difficulty": "easy"
   },
@@ -5662,7 +5660,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Atoms and Nuclei"
+    "Modern Physics"
    ],
    "difficulty": "easy"
   },
@@ -5743,7 +5741,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Dual Nature of Matter and Radiation"
+    "Modern Physics"
    ],
    "difficulty": "easy"
   },
@@ -5825,7 +5823,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Semiconductor Electronics"
+    "Semiconductors"
    ],
    "difficulty": "easy"
   },
@@ -5906,7 +5904,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Semiconductor Electronics"
+    "Semiconductors"
    ],
    "difficulty": "easy"
   },
@@ -6067,7 +6065,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Magnetism and Matter"
+    "Magnetism"
    ],
    "difficulty": "medium"
   },
@@ -6147,7 +6145,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Magnetic Effects of Current"
+    "Magnetism"
    ],
    "difficulty": "easy"
   },

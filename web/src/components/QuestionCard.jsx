@@ -1,6 +1,6 @@
 import React from 'react';
 import { Tex } from '../lib/tex';
-import { difficultyLabel, subjectLabel, typeGroupLabel } from '../lib/filters';
+import { difficultyLabel, isIncomplete, subjectLabel, typeGroupLabel } from '../lib/filters';
 
 const DIFF_STYLE = {
   easy: 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/50 dark:text-emerald-300',
@@ -34,6 +34,11 @@ export function QuestionCard({ q, paperTitle, bookmarked, onToggleBookmark, onOp
               {c}
             </Badge>
           ))}
+          {isIncomplete(q) && (
+            <Badge className="bg-amber-100 text-amber-700 dark:bg-amber-900/50 dark:text-amber-300">
+              Needs figure
+            </Badge>
+          )}
         </div>
         <button
           onClick={(e) => {

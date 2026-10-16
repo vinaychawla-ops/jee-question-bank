@@ -62,7 +62,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Some Basic Concepts of Chemistry"
+    "Mole Concept"
    ],
    "difficulty": "easy"
   },
@@ -495,7 +495,7 @@
   "taxonomy": {
    "chapters": [
     "Redox Reactions",
-    "Some Basic Concepts of Chemistry"
+    "Mole Concept"
    ],
    "difficulty": "medium"
   },
@@ -664,7 +664,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Classification of Elements and Periodicity"
+    "Periodic Table"
    ],
    "difficulty": "easy"
   },
@@ -1112,7 +1112,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "General Organic Chemistry"
+    "GOC and Isomerism"
    ],
    "difficulty": "easy"
   },
@@ -1288,7 +1288,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Haloalkanes and Haloarenes"
+    "Haloalkanes and Alcohols"
    ],
    "difficulty": "easy"
   },
@@ -1374,8 +1374,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Alcohols, Phenols and Ethers",
-    "Aldehydes, Ketones and Carboxylic Acids"
+    "Haloalkanes and Alcohols",
+    "Carbonyl Compounds"
    ],
    "difficulty": "medium"
   },
@@ -1546,7 +1546,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Biomolecules"
+    "Biomolecules and Polymers"
    ],
    "difficulty": "easy"
   },
@@ -1637,7 +1637,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Biomolecules"
+    "Biomolecules and Polymers"
    ],
    "difficulty": "easy"
   },
@@ -1724,7 +1724,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Alcohols, Phenols and Ethers"
+    "Haloalkanes and Alcohols"
    ],
    "difficulty": "easy"
   },
@@ -1897,7 +1897,7 @@
   "taxonomy": {
    "chapters": [
     "Hydrocarbons",
-    "Aldehydes, Ketones and Carboxylic Acids"
+    "Carbonyl Compounds"
    ],
    "difficulty": "medium"
   },
@@ -1981,7 +1981,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Some Basic Concepts of Chemistry"
+    "Mole Concept"
    ],
    "difficulty": "medium"
   },
@@ -2228,8 +2228,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Relations and Functions",
-    "Inverse Trigonometric Functions"
+    "Sets, Relations and Functions",
+    "Trigonometry"
    ],
    "difficulty": "medium"
   },
@@ -2312,7 +2312,7 @@
   "taxonomy": {
    "chapters": [
     "Quadratic Equations",
-    "Basic Mathematics (Modulus)"
+    "Sets, Relations and Functions"
    ],
    "difficulty": "medium"
   },
@@ -2477,7 +2477,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Relations and Functions",
+    "Sets, Relations and Functions",
     "Permutations and Combinations"
    ],
    "difficulty": "easy"
@@ -2560,7 +2560,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Matrices"
+    "Matrices and Determinants"
    ],
    "difficulty": "medium"
   },
@@ -2642,8 +2642,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Matrices",
-    "Determinants"
+    "Matrices and Determinants"
    ],
    "difficulty": "medium"
   },
@@ -3303,7 +3302,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Three Dimensional Geometry"
+    "3D Geometry"
    ],
    "difficulty": "medium"
   },
@@ -3383,7 +3382,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Three Dimensional Geometry"
+    "3D Geometry"
    ],
    "difficulty": "easy"
   },
@@ -3465,7 +3464,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Inverse Trigonometric Functions",
+    "Trigonometry",
     "Limits, Continuity and Differentiability"
    ],
    "difficulty": "medium"
@@ -3548,8 +3547,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Polynomials",
-    "Definite Integration"
+    "Quadratic Equations",
+    "Definite Integration and Area"
    ],
    "difficulty": "medium"
   },
@@ -3631,8 +3630,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Area Under Curves",
-    "Definite Integration"
+    "Definite Integration and Area"
    ],
    "difficulty": "medium"
   },
@@ -3715,7 +3713,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Definite Integration"
+    "Definite Integration and Area"
    ],
    "difficulty": "hard"
   },
@@ -3952,7 +3950,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Conic Sections"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "medium"
   },
@@ -4029,7 +4027,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Trigonometric Functions"
+    "Trigonometry"
    ],
    "difficulty": "medium"
   },
@@ -4108,7 +4106,7 @@
   "taxonomy": {
    "chapters": [
     "Vectors",
-    "Trigonometric Functions"
+    "Trigonometry"
    ],
    "difficulty": "hard"
   },
@@ -4345,7 +4343,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Mechanical Properties of Solids"
+    "Fluids and Properties of Matter"
    ],
    "difficulty": "easy"
   },
@@ -4425,8 +4423,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Laws of Motion",
-    "Friction"
+    "Laws of Motion"
    ],
    "difficulty": "medium"
   },
@@ -4508,7 +4505,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Nuclei"
+    "Modern Physics"
    ],
    "difficulty": "easy"
   },
@@ -4590,7 +4587,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Rotational Motion"
+    "Rotational Mechanics"
    ],
    "difficulty": "medium"
   },
@@ -4667,8 +4664,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Kinematics",
-    "Projectile Motion"
+    "Kinematics"
    ],
    "difficulty": "easy"
   },
@@ -4746,8 +4742,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Dual Nature of Radiation and Matter",
-    "Photoelectric Effect"
+    "Modern Physics"
    ],
    "difficulty": "easy"
   },
@@ -4824,8 +4819,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Wave Optics",
-    "Diffraction"
+    "Wave Optics"
    ],
    "difficulty": "easy"
   },
@@ -4906,8 +4900,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Mechanical Properties of Solids",
-    "Elasticity"
+    "Fluids and Properties of Matter"
    ],
    "difficulty": "medium"
   },
@@ -4989,7 +4982,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Kinetic Theory of Gases"
+    "Thermodynamics and KTG"
    ],
    "difficulty": "easy"
   },
@@ -5072,7 +5065,7 @@
   "taxonomy": {
    "chapters": [
     "Thermodynamics",
-    "Kinetic Theory of Gases"
+    "Thermodynamics and KTG"
    ],
    "difficulty": "medium"
   },
@@ -5151,7 +5144,7 @@
   "taxonomy": {
    "chapters": [
     "Current Electricity",
-    "Measuring Instruments"
+    "Units and Measurements"
    ],
    "difficulty": "easy"
   },
@@ -5189,7 +5182,7 @@
   },
   "qtype": "single_correct",
   "number_in_subject": 13,
-  "stem": "Two $4$ bits binary numbers, $A = 1101$ and $B = 1010$ are given in the inputs of a logic circuit shown in figure below. The output $(Y)$ will be :\\n(The figure: $A$ passes through a NOT gate; the NOT-gate output and $B$ are the two inputs of a NAND gate.)",
+  "stem": "Two $4$ bits binary numbers, $A = 1101$ and $B = 1010$ are given in the inputs of a logic circuit shown in figure below. The output $(Y)$ will be :\\n[Figure: $A$ passes through a NOT gate; the NOT-gate output and $B$ are the two inputs of a NAND gate]",
   "stem_images": [],
   "options": {
    "A": "$Y = 1101$",
@@ -5232,8 +5225,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Semiconductor Electronics",
-    "Logic Gates"
+    "Semiconductors"
    ],
    "difficulty": "easy"
   },
@@ -5271,7 +5263,7 @@
   },
   "qtype": "single_correct",
   "number_in_subject": 14,
-  "stem": "A rod of length $10\\ \\text{cm}$ lies along the principle axis of a concave mirror of focal length $10\\ \\text{cm}$ as shown in figure. The length of the image is ______ cm.\\n(The near end of the rod is $20\\ \\text{cm}$ from the mirror pole; the far end is $30\\ \\text{cm}$ from the mirror pole.)",
+  "stem": "A rod of length $10\\ \\text{cm}$ lies along the principle axis of a concave mirror of focal length $10\\ \\text{cm}$. [Figure: rod along principal axis; near end 20 cm from pole, far end 30 cm from pole.] The length of the image is ______ cm.\\n(The near end of the rod is $20\\ \\text{cm}$ from the mirror pole; the far end is $30\\ \\text{cm}$ from the mirror pole.)",
   "stem_images": [],
   "options": {
    "A": "$2.5$",
@@ -5314,8 +5306,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Ray Optics",
-    "Mirrors"
+    "Ray Optics"
    ],
    "difficulty": "medium"
   },
@@ -5397,8 +5388,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Electrostatics",
-    "Capacitance"
+    "Electrostatics"
    ],
    "difficulty": "medium"
   },
@@ -5480,8 +5470,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Magnetism",
-    "Magnetic Moment"
+    "Magnetism"
    ],
    "difficulty": "medium"
   },
@@ -5519,7 +5508,7 @@
   },
   "qtype": "single_correct",
   "number_in_subject": 17,
-  "stem": "Consider a circuit consisting of a capacitor $(20\\ \\mu\\text{F})$, resistor $(100\\ \\Omega)$ and two identical diodes as shown in figure. The resistance of diode under forward biasing condition is $10\\ \\Omega$. The time constant of the circuit is $\\alpha \\times 10^{-3}\\ \\text{s}$. The value of $\\alpha$ is ______.\\n(The two diodes are connected in anti-parallel, in series with the resistor and the capacitor.)",
+  "stem": "Consider a circuit consisting of a capacitor $(20\\ \\mu\\text{F})$, resistor $(100\\ \\Omega)$ and two identical diodes. [Figure: capacitor + resistor + two anti-parallel diodes in series.] The resistance of diode under forward biasing condition is $10\\ \\Omega$. The time constant of the circuit is $\\alpha \\times 10^{-3}\\ \\text{s}$. The value of $\\alpha$ is ______.\\n(The two diodes are connected in anti-parallel, in series with the resistor and the capacitor.)",
   "stem_images": [],
   "options": {
    "A": "$2.2$",
@@ -5563,7 +5552,7 @@
   "taxonomy": {
    "chapters": [
     "Current Electricity",
-    "Semiconductor Electronics"
+    "Semiconductors"
    ],
    "difficulty": "medium"
   },
@@ -5601,7 +5590,7 @@
   },
   "qtype": "single_correct",
   "number_in_subject": 18,
-  "stem": "The voltage and the current between $A$ and $B$ points shown in the circuit are ______.\\n(Five parallel branches between $A$ (left) and $B$ (right), every battery's positive terminal on the $A$ side: (i) $27\\ \\text{V} + 3\\ \\Omega$; (ii) $27\\ \\text{V} + 3\\ \\Omega$; (iii) $14\\ \\text{V} + 13\\ \\text{V} + 3\\ \\Omega$; (iv) $3\\ \\Omega + 3\\ \\Omega$ directly from $A$ to $B$; (v) $27\\ \\text{V} + 3\\ \\Omega$.)",
+  "stem": "The voltage and the current between $A$ and $B$ points shown in the circuit [Figure: five parallel branches A-B described below] are ______.\\n(Five parallel branches between $A$ (left) and $B$ (right), every battery's positive terminal on the $A$ side: (i) $27\\ \\text{V} + 3\\ \\Omega$; (ii) $27\\ \\text{V} + 3\\ \\Omega$; (iii) $14\\ \\text{V} + 13\\ \\text{V} + 3\\ \\Omega$; (iv) $3\\ \\Omega + 3\\ \\Omega$ directly from $A$ to $B$; (v) $27\\ \\text{V} + 3\\ \\Omega$.)",
   "stem_images": [],
   "options": {
    "A": "$24\\ \\text{V}, 12\\ \\text{A}$",
@@ -5649,8 +5638,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Current Electricity",
-    "Kirchhoff's Laws"
+    "Current Electricity"
    ],
    "difficulty": "medium"
   },
@@ -5727,8 +5715,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Wave Optics",
-    "Resolving Power"
+    "Wave Optics"
    ],
    "difficulty": "easy"
   },
@@ -5809,8 +5796,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Wave Optics",
-    "Polarization"
+    "Wave Optics"
    ],
    "difficulty": "medium"
   },
@@ -5963,8 +5949,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Mechanical Properties of Fluids",
-    "Surface Tension"
+    "Fluids and Properties of Matter"
    ],
    "difficulty": "medium"
   },
@@ -6041,8 +6026,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Oscillations",
-    "SHM"
+    "SHM and Waves"
    ],
    "difficulty": "easy"
   },
@@ -6120,7 +6104,7 @@
   "taxonomy": {
    "chapters": [
     "Work, Energy and Power",
-    "Newton's Laws"
+    "Laws of Motion"
    ],
    "difficulty": "easy"
   },
@@ -6198,7 +6182,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Alternating Current"
+    "EMI and AC"
    ],
    "difficulty": "medium"
   },

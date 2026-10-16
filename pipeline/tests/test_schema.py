@@ -111,3 +111,21 @@ def test_verification_status_enum():
     rec = valid_record()
     rec["verification"]["status"] = "maybe"
     assert any("verification.status" in e for e in validate_record(rec))
+
+
+def test_option_images_optional_dict():
+    rec = valid_record()
+    rec["option_images"] = {"A": "images/a.png", "B": "images/b.png"}
+    assert validate_record(rec) == []
+    rec["option_images"] = {"E": "images/e.png"}
+    assert any("option_images" in e for e in validate_record(rec))
+    rec["option_images"] = {"A": "  "}
+    assert any("option_images" in e for e in validate_record(rec))
+
+
+def test_parent_stem_nonempty_or_null():
+    rec = valid_record()
+    rec["parent_stem"] = "  "
+    assert any("parent_stem" in e for e in validate_record(rec))
+    rec["parent_stem"] = "Shared passage text."
+    assert validate_record(rec) == []

@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Tex } from '../lib/tex';
 import { SolutionView } from './SolutionView';
-import { checkMcq, checkNumerical, marksFor, subjectLabel } from '../lib/filters';
+import { checkMcq, checkNumerical, imageUrl, isIncomplete, marksFor, subjectLabel } from '../lib/filters';
 
 function shuffle(arr) {
   const a = [...arr];
@@ -56,6 +56,17 @@ function AnswerInput({ q, value, onChange }) {
               </span>
               <span className="min-w-0 flex-1 text-[15px] text-slate-800 dark:text-slate-200">
                 <Tex>{q.options[L]}</Tex>
+                {q.option_images?.[L] && (
+                  <img
+                    src={imageUrl(q.option_images[L])}
+                    alt={`Option ${L} figure`}
+                    loading="lazy"
+                    className="mt-2 max-h-64 w-full rounded-md border border-slate-200 bg-white object-contain p-1.5 dark:border-slate-700"
+                    onError={(e) => {
+                      e.currentTarget.style.display = 'none';
+                    }}
+                  />
+                )}
               </span>
             </label>
           ))}
@@ -86,6 +97,17 @@ function AnswerInput({ q, value, onChange }) {
             </span>
             <span className="min-w-0 flex-1 text-[15px] text-slate-800 dark:text-slate-200">
               <Tex>{q.options[L]}</Tex>
+              {q.option_images?.[L] && (
+                <img
+                  src={imageUrl(q.option_images[L])}
+                  alt={`Option ${L} figure`}
+                  loading="lazy"
+                  className="mt-2 max-h-64 w-full rounded-md border border-slate-200 bg-white object-contain p-1.5 dark:border-slate-700"
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none';
+                  }}
+                />
+              )}
             </span>
           </label>
         ))}
@@ -279,9 +301,35 @@ function Session({ questions, totalSeconds, onSubmit, onExit }) {
         <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-indigo-600 dark:text-indigo-300">
           {subjectLabel(q.subject)} · Question {index + 1}
         </p>
+        {isIncomplete(q) && (
+          <p className="mb-3 rounded-lg border border-amber-300 bg-amber-50 px-3 py-2 text-xs font-medium text-amber-800 dark:border-amber-800 dark:bg-amber-950/50 dark:text-amber-200">
+            ⚠ Figure / passage incomplete — answer with care.
+          </p>
+        )}
+        {q.parent_stem && String(q.parent_stem).trim() && (
+          <div className="mb-3 rounded-lg border border-indigo-200 bg-indigo-50/60 px-3 py-2.5 text-[15px] dark:border-indigo-900/60 dark:bg-indigo-950/30">
+            <Tex>{q.parent_stem}</Tex>
+          </div>
+        )}
         <div className="text-[16px] leading-relaxed text-slate-900 dark:text-slate-100">
           <Tex>{q.stem}</Tex>
         </div>
+        {(q.stem_images ?? []).filter(Boolean).length > 0 && (
+          <div className="mt-3 space-y-2">
+            {(q.stem_images ?? []).filter(Boolean).map((src) => (
+              <img
+                key={src}
+                src={imageUrl(src)}
+                alt={`Figure ${src}`}
+                loading="lazy"
+                className="max-h-96 w-full rounded-lg border border-slate-200 bg-white object-contain p-2 dark:border-slate-700"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                }}
+              />
+            ))}
+          </div>
+        )}
         <div className="mt-5">
           <AnswerInput q={q} value={answers[q.id]} onChange={(v) => setAnswer(q.id, v)} />
         </div>

@@ -242,7 +242,7 @@
   "taxonomy": {
    "chapters": [
     "Laws of Motion",
-    "Circular Motion"
+    "Kinematics"
    ],
    "difficulty": "easy"
   },
@@ -497,7 +497,7 @@
   "subject": "physics",
   "taxonomy": {
    "chapters": [
-    "Projectile Motion"
+    "Kinematics"
    ],
    "difficulty": "medium"
   },
@@ -666,7 +666,7 @@
   "subject": "physics",
   "taxonomy": {
    "chapters": [
-    "Fluid Mechanics"
+    "Fluids and Properties of Matter"
    ],
    "difficulty": "medium"
   },
@@ -748,8 +748,7 @@
   "subject": "physics",
   "taxonomy": {
    "chapters": [
-    "Viscosity",
-    "Fluid Mechanics"
+    "Fluids and Properties of Matter"
    ],
    "difficulty": "easy"
   },
@@ -1000,7 +999,7 @@
   "subject": "physics",
   "taxonomy": {
    "chapters": [
-    "Oscillations"
+    "SHM and Waves"
    ],
    "difficulty": "easy"
   },
@@ -1081,7 +1080,7 @@
   "subject": "physics",
   "taxonomy": {
    "chapters": [
-    "Dual Nature of Matter"
+    "Modern Physics"
    ],
    "difficulty": "medium"
   },
@@ -1253,7 +1252,7 @@
   "subject": "physics",
   "taxonomy": {
    "chapters": [
-    "Electromagnetic Induction"
+    "EMI and AC"
    ],
    "difficulty": "medium"
   },
@@ -1416,9 +1415,7 @@
    ]
   },
   "stem": "Light ray incident along a vector $\\vec{AO}$ ($\\vec{AO} = 2\\hat{i} - 3\\hat{j}$) emerges out along vector $\\vec{OB}$ ($\\vec{OB} = C\\hat{i} - 4\\hat{j}$) as shown in the figure below. The value of $C$ is _______. [Figure: ray $A\\to O$ incident from medium $\\mu_1=1$, refracting to $O\\to B$ in medium $\\mu_2=1.5$; angles $\\alpha$, $\\beta$ measured from the vertical normal.]",
-  "stem_images": [
-   "img-185.png"
-  ],
+  "stem_images": [],
   "subject": "physics",
   "taxonomy": {
    "chapters": [
@@ -1507,7 +1504,7 @@
   "subject": "physics",
   "taxonomy": {
    "chapters": [
-    "Dual Nature of Matter"
+    "Modern Physics"
    ],
    "difficulty": "medium"
   },
@@ -1593,7 +1590,7 @@
   "subject": "physics",
   "taxonomy": {
    "chapters": [
-    "Nuclear Physics"
+    "Modern Physics"
    ],
    "difficulty": "hard"
   },
@@ -1676,18 +1673,11 @@
    "final_check": "Boolean reduction gives Y = B; option B is the only waveform identical to input B."
   },
   "stem": "The output $Y$ for the given inputs $A$ and $B$ to the circuit is : [Figure: input timing diagrams — $A$ high on $t\\in[0,2)$, $B$ high on $t\\in[1,3)$; logic circuit with two AND gates feeding an OR gate; upper AND takes $A,B$; lower AND takes $\\bar{A}$ (NOT bubble), $B$.]",
-  "stem_images": [
-   "img-200.png",
-   "img-201.png",
-   "img-202.png",
-   "img-203.png",
-   "img-204.png"
-  ],
+  "stem_images": [],
   "subject": "physics",
   "taxonomy": {
    "chapters": [
-    "Semiconductors",
-    "Logic Gates"
+    "Semiconductors"
    ],
    "difficulty": "medium"
   },
@@ -1769,7 +1759,7 @@
   "subject": "physics",
   "taxonomy": {
    "chapters": [
-    "Capacitors",
+    "Electrostatics",
     "Current Electricity"
    ],
    "difficulty": "hard"
@@ -2006,14 +1996,12 @@
    ]
   },
   "stem": "The stored charge in the capacitor in steady state of the following circuit is _______ $\\mu$C. [Figure: 12 V battery; ladder network with top series resistors 5 $\\Omega$, 4 $\\Omega$, 10 $\\Omega$; vertical shunts 12 $\\Omega$ (across battery), 10 $\\Omega$, 4 $\\Omega$; bottom series resistors 2 $\\Omega$, 2 $\\Omega$; 100 $\\mu$F capacitor vertical at the right end.]",
-  "stem_images": [
-   "img-208.png"
-  ],
+  "stem_images": [],
   "subject": "physics",
   "taxonomy": {
    "chapters": [
     "Current Electricity",
-    "Capacitors"
+    "Electrostatics"
    ],
    "difficulty": "hard"
   },
@@ -3118,7 +3106,7 @@
   "subject": "chemistry",
   "taxonomy": {
    "chapters": [
-    "Purification of Organic Compounds"
+    "GOC and Isomerism"
    ],
    "difficulty": "easy"
   },
@@ -3205,20 +3193,12 @@
    ]
   },
   "stem": "The major product of which of the following reactions is **not** obtained by a rearrangement reaction? (Reaction schemes shown as labelled structures.)",
-  "stem_images": [
-   "img-269.png",
-   "img-270.png",
-   "img-271.png",
-   "img-272.png",
-   "img-273.png",
-   "img-274.png",
-   "img-275.png"
-  ],
+  "stem_images": [],
   "subject": "chemistry",
   "taxonomy": {
    "chapters": [
     "Hydrocarbons",
-    "General Organic Chemistry"
+    "GOC and Isomerism"
    ],
    "difficulty": "medium"
   },
@@ -3317,7 +3297,7 @@
   "subject": "chemistry",
   "taxonomy": {
    "chapters": [
-    "General Organic Chemistry"
+    "GOC and Isomerism"
    ],
    "difficulty": "medium"
   },
@@ -3399,7 +3379,7 @@
   "subject": "chemistry",
   "taxonomy": {
    "chapters": [
-    "Haloalkanes"
+    "Haloalkanes and Alcohols"
    ],
    "difficulty": "medium"
   },
@@ -3480,7 +3460,7 @@
   "subject": "chemistry",
   "taxonomy": {
    "chapters": [
-    "Haloalkanes"
+    "Haloalkanes and Alcohols"
    ],
    "difficulty": "easy"
   },
@@ -3561,19 +3541,12 @@
    ]
   },
   "stem": "Consider the following reaction. (Substrate shown as structure: a six-membered lactam — piperidin-2-one — with an N-substituent $\\ce{-CH(CH3)-CHO}$.)\\n$$\\text{substrate} \\xrightarrow[\\text{(ii) NaOH(aq.), }\\Delta]{\\text{(i) NaBH}_4/\\text{MeOH}} \\xrightarrow{\\text{(iii) }\\ce{H3O^+}} (P)$$\\n\\nThe major product (P) formed is: (four structures shown as options)",
-  "stem_images": [
-   "img-290.png",
-   "img-291.png",
-   "img-292.png",
-   "img-293.png",
-   "img-294.png",
-   "img-295.png"
-  ],
+  "stem_images": [],
   "subject": "chemistry",
   "taxonomy": {
    "chapters": [
     "Amines",
-    "Carboxylic Acids"
+    "Carbonyl Compounds"
    ],
    "difficulty": "hard"
   },
@@ -3757,7 +3730,7 @@
   "subject": "chemistry",
   "taxonomy": {
    "chapters": [
-    "Biomolecules"
+    "Biomolecules and Polymers"
    ],
    "difficulty": "easy"
   },
@@ -3834,7 +3807,7 @@
   "subject": "chemistry",
   "taxonomy": {
    "chapters": [
-    "Biomolecules"
+    "Biomolecules and Polymers"
    ],
    "difficulty": "easy"
   },
@@ -4025,7 +3998,7 @@
   "subject": "chemistry",
   "taxonomy": {
    "chapters": [
-    "Aldehydes and Ketones"
+    "Carbonyl Compounds"
    ],
    "difficulty": "medium"
   },
@@ -4321,7 +4294,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Relations and Functions"
+    "Sets, Relations and Functions"
    ],
    "difficulty": "medium"
   },
@@ -4659,7 +4632,7 @@
   "taxonomy": {
    "chapters": [
     "Sequences and Series",
-    "Trigonometric Functions"
+    "Trigonometry"
    ],
    "difficulty": "medium"
   },
@@ -4910,7 +4883,7 @@
   "taxonomy": {
    "chapters": [
     "Binomial Theorem",
-    "Definite Integration"
+    "Definite Integration and Area"
    ],
    "difficulty": "medium"
   },
@@ -5157,7 +5130,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Parabola"
+    "Parabola, Ellipse and Hyperbola"
    ],
    "difficulty": "medium"
   },
@@ -5238,7 +5211,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Inverse Trigonometric Functions"
+    "Trigonometry"
    ],
    "difficulty": "medium"
   },
@@ -5316,8 +5289,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Continuity and Differentiability",
-    "Application of Derivatives"
+    "Limits, Continuity and Differentiability",
+    "Applications of Derivatives"
    ],
    "difficulty": "medium"
   },
@@ -5398,7 +5371,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Vector Algebra"
+    "Vectors"
    ],
    "difficulty": "medium"
   },
@@ -5477,7 +5450,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Three Dimensional Geometry"
+    "3D Geometry"
    ],
    "difficulty": "medium"
   },
@@ -5554,7 +5527,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Definite Integration"
+    "Definite Integration and Area"
    ],
    "difficulty": "medium"
   },
@@ -5719,8 +5692,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Functions",
-    "Area Under Curves"
+    "Sets, Relations and Functions",
+    "Definite Integration and Area"
    ],
    "difficulty": "hard"
   },
@@ -5802,8 +5775,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Continuity and Differentiability",
-    "Definite Integration"
+    "Limits, Continuity and Differentiability",
+    "Definite Integration and Area"
    ],
    "difficulty": "medium"
   },
@@ -5885,8 +5858,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Ellipse",
-    "Functions"
+    "Parabola, Ellipse and Hyperbola",
+    "Sets, Relations and Functions"
    ],
    "difficulty": "medium"
   },
@@ -5971,7 +5944,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Logarithms"
+    "Sets, Relations and Functions"
    ],
    "difficulty": "medium"
   },
@@ -6052,7 +6025,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Definite Integration"
+    "Definite Integration and Area"
    ],
    "difficulty": "medium"
   },
@@ -6133,8 +6106,8 @@
   },
   "taxonomy": {
    "chapters": [
-    "Three Dimensional Geometry",
-    "Vector Algebra"
+    "3D Geometry",
+    "Vectors"
    ],
    "difficulty": "medium"
   },
@@ -6217,7 +6190,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Circle"
+    "Circles"
    ],
    "difficulty": "medium"
   },
@@ -6295,7 +6268,7 @@
   },
   "taxonomy": {
    "chapters": [
-    "Functions"
+    "Sets, Relations and Functions"
    ],
    "difficulty": "hard"
   },
