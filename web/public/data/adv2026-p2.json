@@ -12,7 +12,7 @@
   },
   "qtype": "single_correct",
   "number_in_subject": 1,
-  "stem": "At $300\\ \\mathrm{K}$, the molar conductivities of the aqueous solutions of three salts at two different concentrations are given below:\\nThe conductivity of a saturated aqueous solution of $\\ce{AgCl}$ is $1.40\\times 10^{-6}\\ \\mathrm{S\\ cm^{-1}}$ at $300\\ \\mathrm{K}$. If the solubility of $\\ce{AgCl}$ in water at $300\\ \\mathrm{K}$ is $X\\ \\mathrm{mol\\ L^{-1}}$, then $\\log_{10}(X^{-1})$ is ___.\\n(Assume that $\\ce{AgCl}$ dissolved in water ionizes completely and that the molar conductivity of saturated $\\ce{AgCl}$ solution is equal to its limiting molar conductivity.)",
+  "stem": "At $300\\ \\mathrm{K}$, the molar conductivities of the aqueous solutions of three salts at two different concentrations are given below:\nSalt | Concentration (M) | Molar conductivity ($\\\\mathrm{S\\ cm^2\\ mol^{-1}}$)\\n$\\\\ce{NaNO3}$ | 0.01 | 111\\n$\\\\ce{NaNO3}$ | 0.04 | 101\\n$\\\\ce{NaCl}$ | 0.01 | 117\\n$\\\\ce{NaCl}$ | 0.04 | 107\\n$\\\\ce{AgNO3}$ | 0.01 | 125\\n$\\\\ce{AgNO3}$ | 0.04 | 116\nThe conductivity of a saturated aqueous solution of $\\ce{AgCl}$ is $1.40\\times 10^{-6}\\ \\mathrm{S\\ cm^{-1}}$ at $300\\ \\mathrm{K}$. If the solubility of $\\ce{AgCl}$ in water at $300\\ \\mathrm{K}$ is $X\\ \\mathrm{mol\\ L^{-1}}$, then $\\log_{10}(X^{-1})$ is ___.\\n(Assume that $\\ce{AgCl}$ dissolved in water ionizes completely and that the molar conductivity of saturated $\\ce{AgCl}$ solution is equal to its limiting molar conductivity.)",
   "stem_images": [
    "images/adv2026-p2-che-s1-p20.png"
   ],
@@ -189,15 +189,15 @@
   },
   "qtype": "single_correct",
   "number_in_subject": 3,
-  "stem": "Natural rubber on complete ozonolysis ($\\ce{O3}$/$\\ce{Zn}$-$\\ce{H2O}$) gives compound X as the major product. X gives positive iodoform and Tollens' tests. X on heating with aqueous $\\ce{NaOH}$ gives Y as the major product. Y is ___.\\n[Options are structure diagrams not captured in extraction.] [Options are structure diagrams (from the rendered page): (A) cyclopent-2-en-1-one (5-membered ring, C=O, one C=C conjugated); (B) 1-(2-hydroxycyclopropyl)ethan-1-one (cyclopropane bearing OH and COCH3); (C) a cyclohexadiene ring bearing two acetyl (COCH3) groups; (D) a fused bicyclic keto-alcohol ether.]",
+  "stem": "Natural rubber on complete ozonolysis ($\\ce{O3}$/$\\ce{Zn}$-$\\ce{H2O}$) gives compound X as the major product. X gives positive iodoform and Tollens' tests. X on heating with aqueous $\\ce{NaOH}$ gives Y as the major product. Y is ___.",
   "stem_images": [
    "images/adv2026-p2-che-s1-p21.png"
   ],
   "options": {
-   "A": "[Figure option A — see paper]",
-   "B": "[Figure option B — see paper]",
-   "C": "[Figure option C — see paper]",
-   "D": "[Figure option D — see paper]"
+   "A": "cyclopent-3-en-1-one: five-membered ring with $\\ce{C=O}$ at C1 and an isolated $\\ce{C=C}$ between C3-C4",
+   "B": "1-(2-hydroxycyclopropyl)ethan-1-one: cyclopropane ring bearing $\\ce{-OH}$ and $\\ce{-COCH3}$ on adjacent carbons",
+   "C": "1,4-diacetylcyclohex-2-ene: six-membered ring with one $\\ce{C=C}$ and $\\ce{-COCH3}$ groups at C1 and C4",
+   "D": "fused bicyclic keto-acetal: seven-membered ring with one $\\ce{C=C}$ and a ketone, fused to a tetrahydrofuran ring bearing $\\ce{-CH3}$ and $\\ce{-OH}$"
   },
   "marking": {
    "correct": 3,
@@ -265,6 +265,12 @@
    "match": true,
    "status": "verified",
    "attempts": 1
+  },
+  "option_images": {
+   "A": "images/adv2026-p2-che-s1-q03-optA.png",
+   "B": "images/adv2026-p2-che-s1-q03-optB.png",
+   "C": "images/adv2026-p2-che-s1-q03-optC.png",
+   "D": "images/adv2026-p2-che-s1-q03-optD.png"
   }
  },
  {
@@ -280,15 +286,15 @@
   },
   "qtype": "single_correct",
   "number_in_subject": 4,
-  "stem": "A known artificial sweetener X is composed of 4-chloro-4-deoxy-$\\alpha$-D-galactose and 1,6-dichloro-1,6-dideoxy-$\\beta$-D-fructose joined by a glycosidic linkage. Structure of D-galactose is given below: [diagram not captured in extraction]\\nThe correct structure of X is ___.\\n[Options are structure diagrams not captured in extraction.] [The given Fischer of D-galactose (from the rendered page): CHO / H-OH (C2) / HO-H (C3) / HO-H (C4) / H-OH (C5) / CH2OH. Options (A)-(D) are chair-conformation disaccharide diagrams differing in the galactose C4-Cl stereochemistry and the fructose anomeric configuration.]",
+  "stem": "A known artificial sweetener X is composed of 4-chloro-4-deoxy-$\\alpha$-D-galactose and 1,6-dichloro-1,6-dideoxy-$\\beta$-D-fructose joined by a glycosidic linkage. Structure of D-galactose is given below: [Fischer projection of D-galactose (from the paper): $\\ce{CHO}$ / $\\ce{H}$-$\\ce{OH}$ (C2) / $\\ce{HO}$-$\\ce{H}$ (C3) / $\\ce{HO}$-$\\ce{H}$ (C4) / $\\ce{H}$-$\\ce{OH}$ (C5) / $\\ce{CH2OH}$]\\nThe correct structure of X is ___.\\n[The given Fischer of D-galactose (from the rendered page): CHO / H-OH (C2) / HO-H (C3) / HO-H (C4) / H-OH (C5) / CH2OH. Options (A)-(D) are chair-conformation disaccharide diagrams differing in the galactose C4-Cl stereochemistry and the fructose anomeric configuration.]",
   "stem_images": [
    "images/adv2026-p2-che-s1-p22.png"
   ],
   "options": {
-   "A": "[Figure option A — see paper]",
-   "B": "[Figure option B — see paper]",
-   "C": "[Figure option C — see paper]",
-   "D": "[Figure option D — see paper]"
+   "A": "galactose unit with $\\ce{Cl}$ on the upper ring carbon (same side as $\\ce{CH2OH}$); fructose joined through the upper ring oxygen; $\\ce{CH2Cl}$ at the top and bottom of the fructose unit",
+   "B": "galactose unit with $\\ce{Cl}$ on the middle-left ring carbon (below the $\\ce{CH2OH}$-bearing carbon); same fructose linkage as (A)",
+   "C": "same galactose unit as (B); glycosidic oxygen joined through a $\\ce{CH2}$ bridge at the middle of the fructose unit; $\\ce{CH2Cl}$ at the lower-left and lower-right",
+   "D": "same galactose unit as (A); glycosidic oxygen joined lower (1-6 type linkage); $\\ce{CH2Cl}$ at the lower-left and lower-right of the fructose unit"
   },
   "marking": {
    "correct": 3,
@@ -353,6 +359,12 @@
    "match": true,
    "status": "verified",
    "attempts": 1
+  },
+  "option_images": {
+   "A": "images/adv2026-p2-che-s1-q04-optA.png",
+   "B": "images/adv2026-p2-che-s1-q04-optB.png",
+   "C": "images/adv2026-p2-che-s1-q04-optC.png",
+   "D": "images/adv2026-p2-che-s1-q04-optD.png"
   }
  },
  {
@@ -368,15 +380,15 @@
   },
   "qtype": "multi_correct",
   "number_in_subject": 5,
-  "stem": "For a first-order reaction $\\ce{R -> P}$ at a given temperature, $k$ is the rate constant. For this reaction, at the given temperature, the concentrations of R and P at a time $t$ are $[\\ce{R}]$ and $[\\ce{P}]$, respectively. The correct graphical representation(s) for this reaction is(are) ___.\\n[Options are graphs not captured in extraction.] [Options are graphs (from the rendered page): (A) [P] vs t: concave-up rising curve; (B) d[R]/dt vs [R]: straight line through the origin with positive slope; (C) d[P]/dt vs t: exponential decay curve; (D) k vs t: horizontal line.]",
+  "stem": "For a first-order reaction $\\ce{R -> P}$ at a given temperature, $k$ is the rate constant. For this reaction, at the given temperature, the concentrations of R and P at a time $t$ are $[\\ce{R}]$ and $[\\ce{P}]$, respectively. The correct graphical representation(s) for this reaction is(are) ___.\\n[Options are graphs (from the rendered page): (A) [P] vs t: concave-up rising curve; (B) d[R]/dt vs [R]: straight line through the origin with positive slope; (C) d[P]/dt vs t: exponential decay curve; (D) k vs t: horizontal line.]",
   "stem_images": [
    "images/adv2026-p2-che-s2-p24.png"
   ],
   "options": {
-   "A": "[Figure option A — see paper]",
-   "B": "[Figure option B — see paper]",
-   "C": "[Figure option C — see paper]",
-   "D": "[Figure option D — see paper]"
+   "A": "$[\\ce{P}]$ vs $t$: rising curve from the origin, concave down, leveling off to a plateau",
+   "B": "$d[\\ce{R}]/dt$ vs $[\\ce{R}]$: straight line through the origin with positive slope",
+   "C": "$d[\\ce{P}]/dt$ vs $t$: falling exponential decay from a maximum toward zero",
+   "D": "$k$ vs $t$: horizontal straight line (constant)"
   },
   "marking": {
    "correct": 4,
@@ -452,6 +464,12 @@
    "match": true,
    "status": "verified",
    "attempts": 1
+  },
+  "option_images": {
+   "A": "images/adv2026-p2-che-s2-q05-optA.png",
+   "B": "images/adv2026-p2-che-s2-q05-optB.png",
+   "C": "images/adv2026-p2-che-s2-q05-optC.png",
+   "D": "images/adv2026-p2-che-s2-q05-optD.png"
   }
  },
  {
@@ -467,7 +485,7 @@
   },
   "qtype": "multi_correct",
   "number_in_subject": 6,
-  "stem": "Correct statement(s) about the compounds P, Q and R is(are) ___. [Structures/identities of P, Q, R were given as diagrams in the paper but were not captured in extraction.] [Reaction scheme (from the rendered page): Xe(g) + F2(g) (1:5 ratio) --(873 K, 7 bar)--> P; P + O2F2 --(143 K)--> Q + O2; Q + H2O --(complete hydrolysis)--> R + HF.]",
+  "stem": "Correct statement(s) about the compounds P, Q and R is(are) ___. [Reaction scheme (from the rendered page): Xe(g) + F2(g) (1:5 ratio) --(873 K, 7 bar)--> P; P + O2F2 --(143 K)--> Q + O2; Q + H2O --(complete hydrolysis)--> R + HF.]",
   "stem_images": [
    "images/adv2026-p2-che-s2-p24.png"
   ],
@@ -673,7 +691,7 @@
   },
   "qtype": "multi_correct",
   "number_in_subject": 8,
-  "stem": "In the following reaction sequence, P, Q, S and T are the major products. [Reaction sequence diagram was not captured in extraction.] The correct statement(s) about P, Q, S and T is(are) [Reaction scheme (from the rendered page): aniline --(1. (CH3CO)2O, pyridine; 2. conc. HNO3/conc. H2SO4, 288 K)--> P --(1. H3O+; 2. NaNO2/HCl, 273-278 K)--> Q; cumene --(1. O2/H3O+; 2. NaOH/CO2; 3. H3O+)--> S; S + Q --(aqueous NaOH)--> T.]",
+  "stem": "In the following reaction sequence, P, Q, S and T are the major products. The correct statement(s) about P, Q, S and T is(are) [Reaction scheme (from the rendered page): aniline --(1. (CH3CO)2O, pyridine; 2. conc. HNO3/conc. H2SO4, 288 K)--> P --(1. H3O+; 2. NaNO2/HCl, 273-278 K)--> Q; cumene --(1. O2/H3O+; 2. NaOH/CO2; 3. H3O+)--> S; S + Q --(aqueous NaOH)--> T.]",
   "stem_images": [
    "images/adv2026-p2-che-s2-p25.png"
   ],
@@ -1205,7 +1223,7 @@
   },
   "qtype": "numerical",
   "number_in_subject": 14,
-  "stem": "In the following reaction sequence, major products X and Y are acyclic monomers. [Reaction sequence diagram was not captured in extraction.] $500\\ \\mathrm{mol}$ of X completely reacts with $500\\ \\mathrm{mol}$ of Y to give $1\\ \\mathrm{mol}$ of a single biodegradable acyclic copolymer Z as the only product. The amount of Z formed in grams is ___.\\nGiven: Atomic mass (in amu): H : 1, C : 12, N : 14, O : 16, Br : 80 [Reaction scheme (from the rendered page): CH3I --(1. KCN; 2. H3O+, $\\Delta$; 3. Red P, Br2; 4. NH3 excess)--> X (acyclic monomer); Caprolactam --(H3O+, $\\Delta$)--> Y (acyclic monomer).]",
+  "stem": "In the following reaction sequence, major products X and Y are acyclic monomers. $500\\ \\mathrm{mol}$ of X completely reacts with $500\\ \\mathrm{mol}$ of Y to give $1\\ \\mathrm{mol}$ of a single biodegradable acyclic copolymer Z as the only product. The amount of Z formed in grams is ___.\\nGiven: Atomic mass (in amu): H : 1, C : 12, N : 14, O : 16, Br : 80 [Reaction scheme (from the rendered page): CH3I --(1. KCN; 2. H3O+, $\\Delta$; 3. Red P, Br2; 4. NH3 excess)--> X (acyclic monomer); Caprolactam --(H3O+, $\\Delta$)--> Y (acyclic monomer).]",
   "stem_images": [
    "images/adv2026-p2-che-s3-p27.png"
   ],
@@ -2924,7 +2942,7 @@
    "key_pdf": "https://jeeadv.ac.in/documents/p2_english.pdf",
    "extracted_at": "2026-10-16T06:09:53.722636+00:00"
   },
-  "parent_stem": "Question Stem for Q15-16: two curves C1 and C2 defined on x in [0, 10]; n is the total number of intersection points; alpha1 < alpha2 < ... < alpha_n are the x-coordinates of the intersections. (Exact curve definitions are in the page figure below.)",
+  "parent_stem": "Consider the curve $C_1$ given by $y = e^{-x}$ for $x \\in [0, 10\\pi]$, and the curve $C_2$ given by $y = e^{-x}(\\sin x + \\cos x)$ for $x \\in [0, 10\\pi]$. Let $n$ be the total number of points of intersection of the curves $C_1$ and $C_2$. Suppose that $\\alpha_1, \\alpha_2, \\ldots, \\alpha_n \\in [0, 10\\pi]$ are the $x$-coordinates of the points of intersection such that $\\alpha_1 < \\alpha_2 < \\cdots < \\alpha_n$.",
   "paper": "JEE Advanced 2026 — Paper 2",
   "answer": {
    "value": "11",
@@ -3009,7 +3027,7 @@
    "key_pdf": "https://jeeadv.ac.in/documents/p2_english.pdf",
    "extracted_at": "2026-10-16T06:09:53.722642+00:00"
   },
-  "parent_stem": "Question Stem for Q15-16: two curves C1 and C2 defined on x in [0, 10]; n is the total number of intersection points; alpha1 < alpha2 < ... < alpha_n are the x-coordinates of the intersections. (Exact curve definitions are in the page figure below.)",
+  "parent_stem": "Consider the curve $C_1$ given by $y = e^{-x}$ for $x \\in [0, 10\\pi]$, and the curve $C_2$ given by $y = e^{-x}(\\sin x + \\cos x)$ for $x \\in [0, 10\\pi]$. Let $n$ be the total number of points of intersection of the curves $C_1$ and $C_2$. Suppose that $\\alpha_1, \\alpha_2, \\ldots, \\alpha_n \\in [0, 10\\pi]$ are the $x$-coordinates of the points of intersection such that $\\alpha_1 < \\alpha_2 < \\cdots < \\alpha_n$.",
   "final_check": " [RE-SOLVE: first solver's stem/options were mangled from OCR; re-solved from true paper pages. Corrected answer 2.5 (was 0.93). TRUE paper (p.8): value is -(1/pi) ln(beta - 2e^{-pi/2}) where beta = area between C1=e^{-x}, C2=e^{-x}(sin x+cos x) on [alpha1, alpha4] (record had m]",
   "paper": "JEE Advanced 2026 — Paper 2",
   "answer": {

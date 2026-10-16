@@ -3095,10 +3095,10 @@
    "images/adv2026-p1-phy-s1-p13.png"
   ],
   "options": {
-   "A": "[plot figure]",
-   "B": "[plot figure]",
-   "C": "[plot figure]",
-   "D": "[plot figure]"
+   "A": "galactose unit with $\\ce{Cl}$ on the upper ring carbon (same side as $\\ce{CH2OH}$); fructose joined through the upper ring oxygen; $\\ce{CH2Cl}$ at the top and bottom of the fructose unit",
+   "B": "galactose unit with $\\ce{Cl}$ on the middle-left ring carbon (below the $\\ce{CH2OH}$-bearing carbon); same fructose linkage as (A)",
+   "C": "same galactose unit as (B); glycosidic oxygen joined through a $\\ce{CH2}$ bridge at the middle of the fructose unit; $\\ce{CH2Cl}$ at the lower-left and lower-right",
+   "D": "same galactose unit as (A); glycosidic oxygen joined lower (1-6 type linkage); $\\ce{CH2Cl}$ at the lower-left and lower-right of the fructose unit"
   },
   "marking": {
    "correct": 3,
@@ -3161,6 +3161,12 @@
    "match": true,
    "status": "verified",
    "attempts": 1
+  },
+  "option_images": {
+   "A": "images/adv2026-p1-phy-s1-q04-optA.png",
+   "B": "images/adv2026-p1-phy-s1-q04-optB.png",
+   "C": "images/adv2026-p1-phy-s1-q04-optC.png",
+   "D": "images/adv2026-p1-phy-s1-q04-optD.png"
   }
  },
  {
@@ -3897,7 +3903,7 @@
   },
   "qtype": "matrix_match",
   "number_in_subject": 13,
-  "stem": "List-I shows four configurations made of straight and semi-circular narrow tubes containing air. A sound wave of wavelength $\\lambda = 0.29\\ \\mathrm{m}$ enters these structures at the point $S$ and a sound detector is placed at $D$. Between the points $S$ and $D$, the sound travels only through the tubes. List-II contains the possible smallest values of $x$ (refer to the figures) for which the detector $D$ records maximum amplitude. Ignore effects of sharp corners. [Given $\\cos(15^\\circ) = 0.97$]\nChoose the option that best describes the match between the entries in List-I to those in List-II.\n\nList-I: (P), (Q), (R), (S) [tube configurations — figures not available]\nList-II: (1) $1.32\\ \\mathrm{m}$, (2) $1.19\\ \\mathrm{m}$, (3) $0.51\\ \\mathrm{m}$, (4) $0.29\\ \\mathrm{m}$, (5) $0.13\\ \\mathrm{m}$",
+  "stem": "List-I shows four configurations made of straight and semi-circular narrow tubes containing air. A sound wave of wavelength $\\lambda = 0.29\\ \\mathrm{m}$ enters these structures at the point $S$ and a sound detector is placed at $D$. Between the points $S$ and $D$, the sound travels only through the tubes. List-II contains the possible smallest values of $l$ (refer to the figures) for which the detector $D$ records maximum amplitude. Ignore effects of sharp corners. [Given $\\cos(15^\\circ) = 0.97$]\nChoose the option that best describes the match between the entries in List-I to those in List-II.\n\nList-I: (P) semicircular tube (radius $0.5l$) over a straight tube of length $l$; (Q) rectangular tube (height $0.5l$, length $l$) over a straight tube $l$; (R) rectangular tube with a diagonal dashed segment, left side marked $l$; (S) triangular tube ($45^\\circ$ at S, $105^\\circ$ apex) over a straight tube $l$\nList-II: (1) $1.32\\ \\mathrm{m}$, (2) $1.19\\ \\mathrm{m}$, (3) $0.51\\ \\mathrm{m}$, (4) $0.29\\ \\mathrm{m}$, (5) $0.13\\ \\mathrm{m}$",
   "stem_images": [
    "images/adv2026-p1-phy-s4-p21.png"
   ],
@@ -4065,7 +4071,7 @@
   },
   "qtype": "matrix_match",
   "number_in_subject": 15,
-  "stem": "List-I contains four conducting loops lying in the $xy$ plane, as shown in the figures. The loops are rotating about the $z$ axis passing through the point $O$ with time period $T$ in clockwise direction. The region $x > 0$ contains a uniform magnetic field $B$ in the $+z$ direction. List-II contains the qualitative variation of the induced current $i(t)$ for each of these loops.\nChoose the option which describes the correct match between the entries in List-I to those in List-II.\n\nList-I: (P), (Q), (R), (S) [loop shapes — figures not available]\nList-II: (1)–(5) [i(t) graphs — figures not available]",
+  "stem": "List-I contains four conducting loops lying in the $xy$ plane, as shown in the figures. The loops are rotating about the $z$ axis passing through the point $O$ with time period $T$ in clockwise direction. The region $x > 0$ contains a uniform magnetic field $B$ in the $+z$ direction. List-II contains the qualitative variation of the induced current $i(t)$ for each of these loops.\nChoose the option which describes the correct match between the entries in List-I to those in List-II.\n\nList-I: (P) semicircular loop left of the y-axis; (Q) 60$^\\circ$ double-sector loop left of the y-axis; (R) small 60$^\\circ$ sector loop in the second quadrant; (S) 60$^\\circ$ sector loop straddling into the $x > 0$ field region\nList-II: (1) positive then negative pulse around $T/2$, zero elsewhere; (2) two positive then two negative square pulses; (3) positive-then-negative step at $T/2$; (4) identically zero; (5) rising then falling ramp through $T/2$",
   "stem_images": [
    "images/adv2026-p1-phy-s4-p23.png"
   ],
@@ -4146,7 +4152,7 @@
   },
   "qtype": "matrix_match",
   "number_in_subject": 16,
-  "stem": "List-I shows four planar structures made of uniform solid rods each of mass $m$ and length $l$. In the List-II the possible moment of inertia of these structures about an axis $AA'$, which lies in the plane of the structures, are given. Choose the option that describes the correct match between the entries in List-I to those in List-II.\n\nList-I: (P), (Q), (R), (S) [rod structures — figures not available]\nList-II: (1)–(5) [values like $ml^2/4$, $ml^2/6$, $ml^2/12$, $ml^2/3$ — OCR-garbled, figures not available]",
+  "stem": "List-I shows four planar structures made of uniform solid rods each of mass $m$ and length $l$. In the List-II the possible moment of inertia of these structures about an axis $OCO'$, which lies in the plane of the structures, are given. Choose the option that describes the correct match between the entries in List-I to those in List-II.\n\nList-I: (P) L-shaped pair of rods (vertical CA, horizontal CB) with dashed axis $OO'$ through C at $45^\\circ$; (Q) triangular frame ABC with horizontal dashed axis $OO'$ through apex C ($60^\\circ$ marked); (R) square frame ABCD with vertical dashed diagonal axis $OO'$ through C and A; (S) V-shaped pair of rods from C symmetric about vertical dashed axis $OO'$ ($30^\\circ$ each side).\nList-II: (1) $\\frac{5}{4}ml^2$, (2) $\\frac{1}{6}ml^2$, (3) $\\frac{1}{12}ml^2$, (4) $\\frac{2}{3}ml^2$, (5) $\\frac{1}{3}ml^2$",
   "stem_images": [
    "images/adv2026-p1-phy-s4-p24.png"
   ],

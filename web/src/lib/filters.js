@@ -124,18 +124,15 @@ export function paperTitle(paper) {
   return bits.join(' · ');
 }
 
-/** True when a record is missing figures/passages it depends on (audit Cat 1-4). */
+/** True only when a record still contains placeholder/leftover extraction text.
+ * Presence of images alone is NOT incompleteness (re-audit: fully restored
+ * questions carry page figures). */
 const INCOMPLETE_RE = /not captured|\[figures? not available\]|\[plot figure\]|\[figure option/i;
 export function isIncomplete(q) {
   if (!q) return false;
   const opts = Object.values(q.options ?? {}).join('\n');
   const hay = `${q.stem ?? ''}\n${opts}`;
-  if (INCOMPLETE_RE.test(hay)) return true;
-  if (Array.isArray(q.stem_images) && q.stem_images.length > 0) return true;
-  // Paragraph-style stems with no shared setup captured yet (audit Cat 1:
-  // parent_stem is null on all 777 records).
-  if (q.qtype === 'stem_numerical' && (q.parent_stem == null || String(q.parent_stem).trim() === '')) return true;
-  return false;
+  return INCOMPLETE_RE.test(hay);
 }
 
 /** Resolve a stem_images entry to a fetchable URL under public/data. */
