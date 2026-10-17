@@ -1,0 +1,4067 @@
+[
+ {
+  "id": "adv2025-p1-mat-s1-q01",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 1,
+  "stem": "Let $\\mathbb{R}$ denote the set of all real numbers. Let $a_i,b_i\\in\\mathbb{R}$ for $i\\in\\{1,2,3\\}$. Define the functions $f,g,h:\\mathbb{R}\\to\\mathbb{R}$ by $f(x)=a_1+10x+a_2x^2+a_3x^3+x^4$, $g(x)=b_1+3x+b_2x^2+b_3x^3+x^4$, $h(x)=f(x+1)-g(x+2)$. If $f(x)\\neq g(x)$ for every $x\\in\\mathbb{R}$, then the coefficient of $x^3$ in $h(x)$ is",
+  "stem_images": [],
+  "options": {
+   "A": "$8$",
+   "B": "$2$",
+   "C": "$-4$",
+   "D": "$-6$"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "polynomials",
+    "real roots of odd degree polynomials"
+   ],
+   "formulas": [
+    "$(x+c)^4=x^4+4cx^3+\\cdots$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$f(x)-g(x)=(a_1-b_1)+7x+(a_2-b_2)x^2+(a_3-b_3)x^3$ is a polynomial of degree at most 3 with no real root."
+    },
+    {
+     "n": 2,
+     "text": "A cubic always has a real root, so $a_3=b_3$."
+    },
+    {
+     "n": 3,
+     "text": "Coefficient of $x^3$ in $f(x+1)$: from $x^4$ we get $4x^3$, from $a_3(x+1)^3$ we get $a_3x^3$, so $4+a_3$."
+    },
+    {
+     "n": 4,
+     "text": "Coefficient of $x^3$ in $g(x+2)$: $4\\cdot 2+b_3=8+b_3$."
+    },
+    {
+     "n": 5,
+     "text": "Difference: $(4+a_3)-(8+b_3)=-4+(a_3-b_3)=-4$."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting that the 7x term forces the cubic coefficient to vanish"
+   ],
+   "final_check": "With $a_3=b_3$ the coefficient is $-4$, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Quadratic Equations"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "1",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-mat-s1-q02",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 2,
+  "stem": "Three students $S_1,S_2,S_3$ are given a problem to solve. Consider the events: $U$: at least one of $S_1,S_2,S_3$ can solve the problem; $V$: $S_1$ can solve the problem, given that neither $S_2$ nor $S_3$ can solve the problem; $W$: $S_2$ can solve the problem and $S_3$ cannot solve the problem; $T$: $S_3$ can solve the problem. For any event $E$, let $P(E)$ denote the probability of $E$. If $P(U)=\\frac12$, $P(V)=\\frac1{10}$ and $P(W)=\\frac1{12}$, then $P(T)$ is equal to",
+  "stem_images": [],
+  "options": {
+   "A": "$\\dfrac{13}{36}$",
+   "B": "$\\dfrac13$",
+   "C": "$\\dfrac{19}{60}$",
+   "D": "$\\dfrac14$"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "independent events",
+    "conditional probability"
+   ],
+   "formulas": [
+    "$P(U)=1-\\prod(1-p_i)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Let the students solve independently with probabilities $p_1,p_2,p_3$. $P(V)=p_1=\\frac1{10}$."
+    },
+    {
+     "n": 2,
+     "text": "$P(U)=1-(1-p_1)(1-p_2)(1-p_3)=\\frac12$, so $(1-p_2)(1-p_3)=\\frac{1/2}{9/10}=\\frac59$."
+    },
+    {
+     "n": 3,
+     "text": "$P(W)=p_2(1-p_3)=\\frac1{12}$."
+    },
+    {
+     "n": 4,
+     "text": "Adding: $(1-p_2)(1-p_3)+p_2(1-p_3)=1-p_3=\\frac59+\\frac1{12}=\\frac{23}{36}$."
+    },
+    {
+     "n": 5,
+     "text": "So $p_3=\\frac{13}{36}$."
+    }
+   ],
+   "pitfalls": [
+    "Reading $P(V)$ as an unconditional probability"
+   ],
+   "final_check": "$p_3=1-\\frac{23}{36}=\\frac{13}{36}$, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Probability"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "2",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-mat-s1-q03",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 3,
+  "stem": "Let $\\mathbb{R}$ denote the set of all real numbers. Define $f:\\mathbb{R}\\to\\mathbb{R}$ by $f(x)=\\begin{cases}2-2x^2-x^2\\sin\\frac1x & x\\neq0\\\\ 2 & x=0\\end{cases}$. Then which one of the following statements is TRUE?",
+  "stem_images": [],
+  "options": {
+   "A": "The function $f$ is NOT differentiable at $x=0$",
+   "B": "There is a positive real number $\\delta$ such that $f$ is a decreasing function on the interval $(0,\\delta)$",
+   "C": "For any positive real number $\\delta$, the function $f$ is NOT an increasing function on the interval $(-\\delta,0)$",
+   "D": "$x=0$ is a point of local minima of $f$"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "differentiability at a point",
+    "monotonicity",
+    "oscillating derivative"
+   ],
+   "formulas": [
+    "$f'(0)=\\lim_{h\\to0}\\frac{f(h)-f(0)}{h}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\dfrac{f(h)-f(0)}{h}=-2h-h\\sin\\frac1h\\to0$, so $f'(0)=0$ and $f$ is differentiable at 0. (A) is false."
+    },
+    {
+     "n": 2,
+     "text": "For $x\\ne0$: $f'(x)=-4x-2x\\sin\\frac1x+\\cos\\frac1x$. As $x\\to0$ the first two terms go to $0$ while $\\cos\\frac1x$ keeps oscillating between $-1$ and $1$."
+    },
+    {
+     "n": 3,
+     "text": "So in every interval $(0,\\delta)$ and every interval $(-\\delta,0)$, $f'$ takes both positive and negative values. Hence $f$ is not monotonic on either side. (B) is false and (C) is true."
+    },
+    {
+     "n": 4,
+     "text": "$f(x)-2=-x^2(2+\\sin\\frac1x)<0$ for $x\\ne0$ since $2+\\sin\\frac1x\\ge1$. So $x=0$ is a local maximum, not a minimum. (D) is false."
+    }
+   ],
+   "pitfalls": [
+    "Assuming f' is continuous at 0 because f'(0) exists"
+   ],
+   "final_check": "Only (C) holds."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Limits, Continuity and Differentiability"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "3",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-mat-s1-q04",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 4,
+  "stem": "Consider the matrix $P=\\begin{pmatrix}2&0&0\\\\0&2&0\\\\0&0&3\\end{pmatrix}$. Let the transpose of a matrix $X$ be denoted by $X^T$. Then the number of $3\\times3$ invertible matrices $Q$ with integer entries, such that $Q^{-1}=Q^T$ and $PQ=QP$, is",
+  "stem_images": [],
+  "options": {
+   "A": "$32$",
+   "B": "$8$",
+   "C": "$16$",
+   "D": "$24$"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "orthogonal matrices",
+    "commuting matrices",
+    "counting"
+   ],
+   "formulas": [
+    "$Q^TQ=I$",
+    "$PQ=QP\\Rightarrow(p_i-p_j)q_{ij}=0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$Q^{-1}=Q^T$ means each row and column has unit length. With integer entries, every row has exactly one nonzero entry equal to $\\pm1$, so $Q$ is a signed permutation matrix."
+    },
+    {
+     "n": 2,
+     "text": "$PQ=QP$: entry $(i,j)$ gives $(p_i-p_j)q_{ij}=0$, so $q_{ij}=0$ whenever $p_i\\ne p_j$. Thus $q_{13}=q_{23}=q_{31}=q_{32}=0$."
+    },
+    {
+     "n": 3,
+     "text": "So $Q=\\begin{pmatrix}A&0\\\\0&\\pm1\\end{pmatrix}$ with $A$ a $2\\times2$ signed permutation matrix. There are $2!\\cdot2^2=8$ such $A$ and 2 choices for the last entry."
+    },
+    {
+     "n": 4,
+     "text": "Total $=8\\times2=16$."
+    }
+   ],
+   "pitfalls": [
+    "Counting all 48 signed permutation matrices without the commuting condition"
+   ],
+   "final_check": "$8\\times2=16$, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Matrices and Determinants"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "4",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-mat-s2-q05",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 12
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 5,
+  "stem": "Let $L_1$ be the line of intersection of the planes $2x+3y+z=4$ and $x+2y+z=5$. Let $L_2$ be the line passing through $P(2,-1,3)$ and parallel to $L_1$. Let $M$ be the plane $2x+y-2z=6$. Suppose $L_2$ meets $M$ at $Q$. Let $R$ be the foot of the perpendicular drawn from $P$ to $M$. Then which of the following statements is (are) TRUE?",
+  "stem_images": [],
+  "options": {
+   "A": "The length of the line segment $PQ$ is $9\\sqrt3$",
+   "B": "The length of the line segment $QR$ is $15$",
+   "C": "The area of $\\Delta PQR$ is $\\frac32\\sqrt{234}$",
+   "D": "The acute angle between the line segments $PQ$ and $PR$ is $\\cos^{-1}\\left(\\frac1{2\\sqrt3}\\right)$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "line of intersection of planes",
+    "foot of perpendicular",
+    "triangle area"
+   ],
+   "formulas": [
+    "direction $=n_1\\times n_2$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Direction of $L_1$: $(2,3,1)\\times(1,2,1)=(1,-1,1)$. $L_2$: $(2+t,-1-t,3+t)$."
+    },
+    {
+     "n": 2,
+     "text": "Put in $M$: $2(2+t)+(-1-t)-2(3+t)=6\\Rightarrow -3-t=6\\Rightarrow t=-9$, so $Q=(-7,8,-6)$ and $PQ=9\\sqrt3$. (A) true."
+    },
+    {
+     "n": 3,
+     "text": "Foot from $P$: value of $2x+y-2z-6$ at $P$ is $-9$, so $R=P+\\frac{9}{9}(2,1,-2)=(4,0,1)$ and $PR=3$."
+    },
+    {
+     "n": 4,
+     "text": "$QR^2=11^2+8^2+7^2=234$, so $QR=\\sqrt{234}\\ne15$. (B) false."
+    },
+    {
+     "n": 5,
+     "text": "$PR\\perp M$, so the triangle is right-angled at $R$: area $=\\frac12\\cdot3\\cdot\\sqrt{234}=\\frac32\\sqrt{234}$. (C) true."
+    },
+    {
+     "n": 6,
+     "text": "$\\cos\\angle QPR=\\frac{PR}{PQ}=\\frac{3}{9\\sqrt3}=\\frac1{3\\sqrt3}\\ne\\frac1{2\\sqrt3}$. (D) false."
+    }
+   ],
+   "pitfalls": [
+    "Using the wrong angle (at Q instead of at P) in the last option"
+   ],
+   "final_check": "Only (A) and (C) hold."
+  },
+  "taxonomy": {
+   "chapters": [
+    "3D Geometry"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "5",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "AC",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "AC",
+   "key_answer": "A, C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-mat-s2-q06",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 12
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 6,
+  "stem": "Let $\\mathbb{N}$ denote the set of natural numbers and $\\mathbb{Z}$ the set of integers. Consider $f:\\mathbb{N}\\to\\mathbb{Z}$ and $g:\\mathbb{Z}\\to\\mathbb{N}$ defined by $f(n)=\\begin{cases}(n+1)/2 & n\\text{ odd}\\\\ (4-n)/2 & n\\text{ even}\\end{cases}$ and $g(n)=\\begin{cases}3+2n & n\\ge0\\\\ -2n & n<0\\end{cases}$. Define $(g\\circ f)(n)=g(f(n))$ for all $n\\in\\mathbb{N}$ and $(f\\circ g)(n)=f(g(n))$ for all $n\\in\\mathbb{Z}$. Which of the following statements is (are) TRUE?",
+  "stem_images": [],
+  "options": {
+   "A": "$g\\circ f$ is NOT one-one and $g\\circ f$ is NOT onto",
+   "B": "$f\\circ g$ is NOT one-one but $f\\circ g$ is onto",
+   "C": "$g$ is one-one and $g$ is onto",
+   "D": "$f$ is NOT one-one but $f$ is onto"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "functions",
+    "one-one and onto",
+    "composition"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$f$: odd $n$ gives $1,2,3,\\dots$; even $n$ gives $n=2\\to1,\\ n=4\\to0,\\ n=6\\to-1,\\dots$. $f(1)=f(2)=1$, so $f$ is not one-one. Its range is all of $\\mathbb{Z}$, so $f$ is onto. (D) true."
+    },
+    {
+     "n": 2,
+     "text": "$g$: $n\\ge0$ gives $3,5,7,\\dots$; $n<0$ gives $2,4,6,\\dots$. One-one, but $1$ is never attained, so not onto. (C) false."
+    },
+    {
+     "n": 3,
+     "text": "$g\\circ f$: $f(1)=f(2)=1$ gives the same output, so not one-one. Its range is $g(\\mathbb{Z})=\\mathbb{N}\\setminus\\{1\\}$, so not onto. (A) true."
+    },
+    {
+     "n": 4,
+     "text": "$f\\circ g$: $g$ takes each integer $m\\ge2$ exactly once. $f$ restricted to $m\\ge2$ is one-one (odd $m\\ge3$ give values $\\ge2$, even $m\\ge2$ give values $\\le1$) and onto $\\mathbb{Z}$. So $f\\circ g$ is one-one and onto. (B) false."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting that 1 is not in the range of g"
+   ],
+   "final_check": "True statements: (A) and (D)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Sets, Relations and Functions"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "6",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "AD",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "AD",
+   "key_answer": "A, D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-mat-s2-q07",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 12
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 7,
+  "stem": "Let $z_1=1+2i$ and $z_2=3i$, where $i=\\sqrt{-1}$. Let $S=\\{(x,y)\\in\\mathbb{R}\\times\\mathbb{R}:|x+iy-z_1|=2|x+iy-z_2|\\}$. Then which of the following statements is (are) TRUE?",
+  "stem_images": [],
+  "options": {
+   "A": "$S$ is a circle with centre $\\left(-\\frac13,\\frac{10}3\\right)$",
+   "B": "$S$ is a circle with centre $\\left(\\frac13,\\frac83\\right)$",
+   "C": "$S$ is a circle with radius $\\frac{\\sqrt2}{3}$",
+   "D": "$S$ is a circle with radius $\\frac{2\\sqrt2}{3}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Apollonius circle",
+    "complex numbers and locus"
+   ],
+   "formulas": [
+    "$x^2+y^2+2gx+2fy+c=0$: centre $(-g,-f)$, $r^2=g^2+f^2-c$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$(x-1)^2+(y-2)^2=4\\left[x^2+(y-3)^2\\right]$."
+    },
+    {
+     "n": 2,
+     "text": "Expand: $x^2-2x+1+y^2-4y+4=4x^2+4y^2-24y+36$, so $3x^2+3y^2+2x-20y+31=0$."
+    },
+    {
+     "n": 3,
+     "text": "$x^2+y^2+\\frac23x-\\frac{20}3y+\\frac{31}3=0$: centre $\\left(-\\frac13,\\frac{10}3\\right)$."
+    },
+    {
+     "n": 4,
+     "text": "$r^2=\\frac19+\\frac{100}9-\\frac{31}3=\\frac{101-93}9=\\frac89$, so $r=\\frac{2\\sqrt2}3$."
+    }
+   ],
+   "pitfalls": [
+    "Sign error in the centre"
+   ],
+   "final_check": "Centre $(-\\frac13,\\frac{10}3)$, radius $\\frac{2\\sqrt2}3$: (A) and (D)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Complex Numbers"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "7",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "AD",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "AD",
+   "key_answer": "A, D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-mat-s3-q08",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 8,
+  "stem": "Let $\\mathcal{S}$ be the set of all relations $R$ on the set $\\{a,b,c,d,e,f\\}$ such that $R$ is reflexive and symmetric, and $R$ contains exactly $10$ elements. Then the number of elements in $\\mathcal{S}$ is ______.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "relations",
+    "reflexive and symmetric relations",
+    "combinations"
+   ],
+   "formulas": [
+    "$\\binom{n}{2}$ unordered pairs"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Reflexive: all 6 pairs $(x,x)$ are in $R$. That uses 6 of the 10 elements."
+    },
+    {
+     "n": 2,
+     "text": "The remaining 4 elements are off-diagonal pairs. By symmetry they come in pairs $(x,y),(y,x)$, so we choose 2 unordered pairs from $\\binom62=15$ pairs."
+    },
+    {
+     "n": 3,
+     "text": "$\\binom{15}{2}=105$."
+    }
+   ],
+   "pitfalls": [
+    "Counting ordered pairs instead of unordered pairs"
+   ],
+   "final_check": "$\\binom{15}{2}=105$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Sets, Relations and Functions"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "8",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "105",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "105",
+   "key_answer": "105",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-mat-s3-q09",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 9,
+  "stem": "For points $M,N$ in the $XY$-plane let $\\overrightarrow{MN}$ be the vector from $M$ to $N$. Let $P,Q,R$ be three distinct points in the $XY$-plane and $S$ a point inside $\\triangle PQR$ such that $\\overrightarrow{SP}+5\\overrightarrow{SQ}+6\\overrightarrow{SR}=\\vec0$. Let $E,F$ be the mid-points of $PR$ and $QR$ respectively. Then the value of $\\dfrac{\\text{length of }EF}{\\text{length of }ES}$ is ______.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "position vectors",
+    "midpoint theorem",
+    "weighted centroid"
+   ],
+   "formulas": [
+    "$\\sum w_i\\overrightarrow{SX_i}=\\vec0\\Rightarrow S=\\frac{\\sum w_iX_i}{\\sum w_i}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "From the condition, $S=\\dfrac{P+5Q+6R}{12}$ (position vectors)."
+    },
+    {
+     "n": 2,
+     "text": "$E=\\frac{P+R}2$, so $\\overrightarrow{ES}=S-E=\\dfrac{P+5Q+6R-6P-6R}{12}=\\dfrac{5(Q-P)}{12}$. Hence $ES=\\frac5{12}PQ$."
+    },
+    {
+     "n": 3,
+     "text": "$EF=\\frac12 PQ$ by the midpoint theorem."
+    },
+    {
+     "n": 4,
+     "text": "Ratio $=\\dfrac{1/2}{5/12}=\\dfrac65=1.20$."
+    }
+   ],
+   "pitfalls": [],
+   "final_check": "$6/5=1.20$ (the official key accepts 1.15 to 1.25)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Vectors"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "9",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "1.20",
+   "tolerance": 0.05,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "1.20",
+   "key_answer": "[1.15 to 1.25]",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-mat-s3-q10",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 10,
+  "stem": "Let $S$ be the set of all seven-digit numbers that can be formed using the digits $0,1$ and $2$. For example, $2210222$ is in $S$, but $0210222$ is NOT in $S$. Then the number of elements $x$ in $S$ such that at least one of the digits $0$ and $1$ appears exactly twice in $x$, is equal to ______.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "counting with restrictions",
+    "inclusion-exclusion"
+   ],
+   "formulas": [
+    "$|A\\cup B|=|A|+|B|-|A\\cap B|$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Let $A$: digit 0 appears exactly twice; $B$: digit 1 appears exactly twice. The first digit cannot be 0."
+    },
+    {
+     "n": 2,
+     "text": "$|A|$: choose the 2 positions of 0 among the last 6: $\\binom62=15$. The other 5 positions use $\\{1,2\\}$: $2^5=32$. So $|A|=480$."
+    },
+    {
+     "n": 3,
+     "text": "$|B|$: if the first digit is 1, the other 1 is among 6 positions ($6$ ways) and the remaining 5 positions use $\\{0,2\\}$: $6\\cdot32=192$. If the first digit is 2, the two 1s are among the last 6 ($15$ ways) and the other 4 positions use $\\{0,2\\}$: $15\\cdot16=240$. So $|B|=432$."
+    },
+    {
+     "n": 4,
+     "text": "$|A\\cap B|$: two 0s, two 1s, three 2s: $\\frac{7!}{2!2!3!}=210$ arrangements, minus those starting with 0: $\\frac{6!}{1!2!3!}=60$. So $150$."
+    },
+    {
+     "n": 5,
+     "text": "$|A\\cup B|=480+432-150=762$."
+    }
+   ],
+   "pitfalls": [
+    "Allowing 0 as the first digit"
+   ],
+   "final_check": "$480+432-150=762$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Permutations and Combinations"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "10",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "762",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "762",
+   "key_answer": "762",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-mat-s3-q11",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 11,
+  "stem": "Let $\\alpha$ and $\\beta$ be real numbers such that $\\displaystyle\\lim_{x\\to0}\\frac1{x^3}\\left(\\frac\\alpha2\\int_0^x\\frac1{1-t^2}\\,dt+\\beta x\\cos x\\right)=2$. Then the value of $\\alpha+\\beta$ is ______.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Maclaurin series",
+    "limits of indeterminate forms"
+   ],
+   "formulas": [
+    "$\\int\\frac{dt}{1-t^2}=t+\\frac{t^3}3+\\cdots$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Expand: $\\int_0^x\\frac{dt}{1-t^2}=x+\\frac{x^3}3+\\cdots$ and $x\\cos x=x-\\frac{x^3}2+\\cdots$."
+    },
+    {
+     "n": 2,
+     "text": "Bracket $=\\left(\\frac\\alpha2+\\beta\\right)x+\\left(\\frac\\alpha6-\\frac\\beta2\\right)x^3+\\cdots$."
+    },
+    {
+     "n": 3,
+     "text": "A finite limit needs $\\frac\\alpha2+\\beta=0$, so $\\beta=-\\frac\\alpha2$."
+    },
+    {
+     "n": 4,
+     "text": "Then the limit is $\\frac\\alpha6+\\frac\\alpha4=\\frac{5\\alpha}{12}=2$, so $\\alpha=\\frac{24}5$ and $\\beta=-\\frac{12}5$."
+    },
+    {
+     "n": 5,
+     "text": "$\\alpha+\\beta=\\frac{12}5=2.40$."
+    }
+   ],
+   "pitfalls": [
+    "Dropping the 1/2 in front of the integral"
+   ],
+   "final_check": "$\\alpha+\\beta=2.4$ (the official key accepts 2.35 to 2.45)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Limits, Continuity and Differentiability"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "11",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "2.40",
+   "tolerance": 0.05,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "2.40",
+   "key_answer": "[2.35 to 2.45]",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-mat-s3-q12",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 12,
+  "stem": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ be such that $f(x)>0$ for all $x$ and $f(x+y)=f(x)f(y)$ for all $x,y\\in\\mathbb{R}$. Let $a_1,a_2,\\dots,a_{50}$ be in an arithmetic progression. If $f(a_{31})=64f(a_{25})$ and $\\displaystyle\\sum_{i=1}^{50}f(a_i)=3\\left(2^{25}+1\\right)$, then the value of $\\displaystyle\\sum_{i=6}^{30}f(a_i)$ is ______.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "functional equation",
+    "geometric progression"
+   ],
+   "formulas": [
+    "$S_n=a\\frac{r^n-1}{r-1}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "With common difference $d$, $f(a_{i+1})=f(a_i)f(d)$, so $f(a_i)$ is a G.P. with ratio $r=f(d)>0$."
+    },
+    {
+     "n": 2,
+     "text": "$f(a_{31})=64f(a_{25})\\Rightarrow r^6=64\\Rightarrow r=2$."
+    },
+    {
+     "n": 3,
+     "text": "$\\sum_{1}^{50}f(a_i)=f(a_1)(2^{50}-1)=3(2^{25}+1)$, so $f(a_1)=\\dfrac{3}{2^{25}-1}$."
+    },
+    {
+     "n": 4,
+     "text": "$\\sum_{i=6}^{30}f(a_i)=f(a_6)\\,(2^{25}-1)$ with $f(a_6)=32f(a_1)$."
+    },
+    {
+     "n": 5,
+     "text": "So the sum is $32\\cdot3=96$."
+    }
+   ],
+   "pitfalls": [
+    "Counting 24 or 26 terms instead of 25 for i = 6 to 30"
+   ],
+   "final_check": "$32\\cdot\\frac{3}{2^{25}-1}\\cdot(2^{25}-1)=96$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Sequences and Series"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "12",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "96",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "96",
+   "key_answer": "96",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-mat-s3-q13",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 13,
+  "stem": "For all $x>0$ let $y_1,y_2,y_3$ satisfy $\\frac{dy_1}{dx}-(\\sin x)^2y_1=0,\\ y_1(1)=5$; $\\frac{dy_2}{dx}-(\\cos x)^2y_2=0,\\ y_2(1)=\\frac13$; $\\frac{dy_3}{dx}-\\left(\\frac{2-x^3}{x^3}\\right)y_3=0,\\ y_3(1)=\\frac3{5e}$. Then $\\displaystyle\\lim_{x\\to0^+}\\frac{y_1(x)y_2(x)y_3(x)+2x}{e^{3x}\\sin x}$ is equal to ______.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "linear first-order ODE",
+    "limits",
+    "exponential decay"
+   ],
+   "formulas": [
+    "$y'=py\\Rightarrow y=y(1)e^{\\int_1^xp}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Each equation is $y'=p(x)y$, so $y=y(1)\\exp\\int_1^xp$."
+    },
+    {
+     "n": 2,
+     "text": "Product $=5\\cdot\\frac13\\cdot\\frac{3}{5e}\\exp\\left(\\int_1^x\\left[\\sin^2t+\\cos^2t+\\frac2{t^3}-1\\right]dt\\right)$, and $5\\cdot\\frac13\\cdot\\frac3{5e}=\\frac1e$."
+    },
+    {
+     "n": 3,
+     "text": "The exponent is $\\int_1^x\\frac{2}{t^3}dt=1-\\frac1{x^2}$. So $y_1y_2y_3=e^{-1}e^{1-1/x^2}=e^{-1/x^2}$."
+    },
+    {
+     "n": 4,
+     "text": "As $x\\to0^+$, $e^{-1/x^2}\\to0$ faster than any power of $x$. The limit becomes $\\lim\\frac{2x}{e^{3x}\\sin x}=2$."
+    }
+   ],
+   "pitfalls": [
+    "Not noticing that the product kills the sin^2 and cos^2 terms"
+   ],
+   "final_check": "Limit $=2$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Differential Equations"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "13",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "2",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "2",
+   "key_answer": "2",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-mat-s4-q14",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 12
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 14,
+  "stem": "Consider the frequency distribution: Value $4,5,8,9,6,12,11$ with frequencies $5,f_1,f_2,2,1,1,3$. The sum of the frequencies is $19$ and the median is $6$. Let $\\alpha$ be the mean deviation about the mean, $\\beta$ the mean deviation about the median, and $\\sigma^2$ the variance. Match each entry in List-I to List-II.\\nList-I: (P) $7f_1+9f_2$ is equal to; (Q) $19\\alpha$ is equal to; (R) $19\\beta$ is equal to; (S) $19\\sigma^2$ is equal to.\\nList-II: (1) $146$; (2) $47$; (3) $48$; (4) $145$; (5) $55$.",
+  "stem_images": [],
+  "options": {
+   "A": "(P) → (5), (Q) → (3), (R) → (2), (S) → (4)",
+   "B": "(P) → (5), (Q) → (2), (R) → (3), (S) → (1)",
+   "C": "(P) → (5), (Q) → (3), (R) → (2), (S) → (1)",
+   "D": "(P) → (3), (Q) → (2), (R) → (5), (S) → (4)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "mean deviation",
+    "variance",
+    "median of frequency distribution"
+   ],
+   "formulas": [
+    "$\\sigma^2=\\frac{\\sum fx^2}{N}-\\bar x^2$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$5+f_1+f_2+2+1+1+3=19\\Rightarrow f_1+f_2=7$."
+    },
+    {
+     "n": 2,
+     "text": "Sorted: $4$ (5 times), $5$ ($f_1$ times), then $6$ once. The 10th value must be $6$, so $5+f_1<10\\le6+f_1$, giving $f_1=4$ and $f_2=3$. (P): $7\\cdot4+9\\cdot3=55$."
+    },
+    {
+     "n": 3,
+     "text": "$\\sum fx=20+20+24+18+6+12+33=133$, mean $=7$. $\\sum f|x-7|=15+8+3+4+1+5+12=48$, so $19\\alpha=48$."
+    },
+    {
+     "n": 4,
+     "text": "About the median $6$: $\\sum f|x-6|=10+4+6+6+0+6+15=47$, so $19\\beta=47$."
+    },
+    {
+     "n": 5,
+     "text": "$\\sum fx^2=80+100+192+162+36+144+363=1077$, so $19\\sigma^2=1077-19\\cdot49=146$."
+    }
+   ],
+   "pitfalls": [
+    "Taking the median position as 9.5 instead of the 10th term for N = 19"
+   ],
+   "final_check": "P→5, Q→3, R→2, S→1, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Statistics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "14",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-mat-s4-q15",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 12
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 15,
+  "stem": "For real $x$ let $[x]$ be the greatest integer $\\le x$, and let $n$ be a natural number. Match each entry in List-I to List-II.\\nList-I: (P) The minimum value of $n$ for which $f(x)=\\left[\\dfrac{10x^3-45x^2+60x+35}{n}\\right]$ is continuous on $[1,2]$ is; (Q) The minimum value of $n$ for which $g(x)=(2n^2-13n-15)(x^3+3x)$, $x\\in\\mathbb{R}$, is an increasing function on $\\mathbb{R}$ is; (R) The smallest natural number $n>5$ such that $x=3$ is a point of local minima of $h(x)=(x^2-9)^n(x^2+2x+3)$ is; (S) The number of $x_0\\in\\mathbb{R}$ at which $l(x)=\\sum_{k=0}^{4}\\left(\\sin|x-k|+\\cos\\left|x-k+\\tfrac12\\right|\\right)$ is NOT differentiable is.\\nList-II: (1) $8$; (2) $9$; (3) $5$; (4) $6$; (5) $10$.",
+  "stem_images": [],
+  "options": {
+   "A": "(P) → (1), (Q) → (3), (R) → (2), (S) → (5)",
+   "B": "(P) → (2), (Q) → (1), (R) → (4), (S) → (3)",
+   "C": "(P) → (5), (Q) → (1), (R) → (4), (S) → (3)",
+   "D": "(P) → (2), (Q) → (3), (R) → (1), (S) → (5)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "greatest integer function",
+    "monotonicity",
+    "local extrema",
+    "differentiability"
+   ],
+   "formulas": [
+    "$h(x)\\approx(x+3)^n(x-3)^n\\cdot\\text{positive}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(P) $u(x)=10x^3-45x^2+60x+35$ has $u'=30(x-1)(x-2)\\le0$ on $[1,2]$, so $u$ falls from $60$ to $55$. $[u/n]$ is continuous iff no integer lies in $[55/n,60/n]$. $n=8$: $[6.875,7.5]$ contains 7. $n=9$: $[6.11,6.67]$ contains none. So $n=9$ (2)."
+    },
+    {
+     "n": 2,
+     "text": "(Q) $x^3+3x$ is increasing, so we need $2n^2-13n-15\\ge0$, i.e. $n\\ge7.5$. Smallest natural $n=8$ (1)."
+    },
+    {
+     "n": 3,
+     "text": "(R) $x^2+2x+3>0$. Near $x=3$, $h$ behaves like $c(x-3)^n$ with $c>0$ for $x$ near 3 ($n$ even gives a minimum, $n$ odd changes sign). Smallest even $n>5$ is $6$ (4)."
+    },
+    {
+     "n": 4,
+     "text": "(S) $\\cos|u|=\\cos u$ is smooth. $\\sin|x-k|$ has a kink at $x=k$ for each $k=0,\\dots,4$ and no other term cancels it. So 5 points (3)."
+    }
+   ],
+   "pitfalls": [
+    "Treating a jump at an endpoint as continuous"
+   ],
+   "final_check": "P→2, Q→1, R→4, S→3, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Applications of Derivatives"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "15",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-mat-s4-q16",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "mathematics",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 12
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 16,
+  "stem": "Let $\\vec w=\\hat i+\\hat j-2\\hat k$, and $\\vec u,\\vec v$ be vectors with $\\vec u\\times\\vec v=\\vec w$ and $\\vec v\\times\\vec w=\\vec u$. Let $\\alpha,\\beta,\\gamma,t$ be real numbers with $\\vec u=\\alpha\\hat i+\\beta\\hat j+\\gamma\\hat k$, $-t\\alpha+\\beta+\\gamma=0$, $\\alpha-t\\beta+\\gamma=0$, $\\alpha+\\beta-t\\gamma=0$. Match each entry in List-I to List-II.\\nList-I: (P) $|\\vec v|^2$ is equal to; (Q) If $\\alpha=\\sqrt3$, then $\\gamma^2$ is equal to; (R) If $\\alpha=\\sqrt3$, then $(\\beta+\\gamma)^2$ is equal to; (S) If $\\alpha=\\sqrt2$, then $t+3$ is equal to.\\nList-II: (1) $0$; (2) $1$; (3) $2$; (4) $3$; (5) $5$.",
+  "stem_images": [],
+  "options": {
+   "A": "(P) → (2), (Q) → (1), (R) → (4), (S) → (5)",
+   "B": "(P) → (2), (Q) → (4), (R) → (3), (S) → (5)",
+   "C": "(P) → (2), (Q) → (1), (R) → (4), (S) → (3)",
+   "D": "(P) → (5), (Q) → (4), (R) → (1), (S) → (3)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "vector triple product",
+    "eigenvectors of the all-ones matrix",
+    "dot and cross product relations"
+   ],
+   "formulas": [
+    "$|\\vec a\\times\\vec b|=|\\vec a||\\vec b|$ when $\\vec a\\perp\\vec b$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "The system says $J\\vec u=(t+1)\\vec u$ where $J$ is the all-ones matrix. So either $t=2$ with $\\vec u\\parallel(1,1,1)$, or $t=-1$ with $\\alpha+\\beta+\\gamma=0$."
+    },
+    {
+     "n": 2,
+     "text": "$\\vec u=\\vec v\\times\\vec w$ and $\\vec w=\\vec u\\times\\vec v$ give $\\vec u\\perp\\vec v,\\vec w$ and $\\vec w\\perp\\vec v$. Hence $|\\vec w|=|\\vec u||\\vec v|$ and $|\\vec u|=|\\vec v||\\vec w|$. With $|\\vec w|^2=6$: $|\\vec u|^2=6|\\vec v|^2$ and $|\\vec u|^2|\\vec v|^2=6$, so $|\\vec v|^2=1$ and $|\\vec u|^2=6$. (P) → (2)."
+    },
+    {
+     "n": 3,
+     "text": "Also $\\vec u\\perp\\vec w$: $\\alpha+\\beta-2\\gamma=0$. With $t=-1$ this gives $\\gamma=0,\\ \\beta=-\\alpha$."
+    },
+    {
+     "n": 4,
+     "text": "(Q),(R): $\\alpha=\\sqrt3$. If $t=2$, $|\\vec u|^2=9\\ne6$, rejected. So $t=-1$: $\\vec u=(\\sqrt3,-\\sqrt3,0)$, $|\\vec u|^2=6$ ✓. $\\gamma^2=0$ (1), $(\\beta+\\gamma)^2=3$ (4)."
+    },
+    {
+     "n": 5,
+     "text": "(S): $\\alpha=\\sqrt2$. $t=-1$ would give $|\\vec u|^2=4\\ne6$. So $t=2$, $\\vec u=(\\sqrt2,\\sqrt2,\\sqrt2)$ with $|\\vec u|^2=6$ ✓. $t+3=5$ (5)."
+    }
+   ],
+   "pitfalls": [
+    "Not using the condition |u|^2 = 6 to choose between the two cases of t"
+   ],
+   "final_check": "P→2, Q→1, R→4, S→5, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Vectors"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "16",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-phy-s1-q01",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 1,
+  "stem": "[Figure: a ring of radius $R$ in a vertical plane. A disk of radius $r$ and mass $m$ rolls without slipping on the inside of the ring and rests at the bottom. A spring of constant $k$ lies along the ring periphery, with one end fixed on the ring and the other end attached to the centre of the disk.] The center of a disk of radius $r$ and mass $m$ is attached to a spring of spring constant $k$, inside a ring of radius $R>r$. The other end of the spring is attached on the periphery of the ring. Both are in the same vertical plane. The disk can only roll along the inside periphery of the ring, without slipping. The spring can only be stretched or compressed along the periphery of the ring, following Hooke's law. In equilibrium, the disk is at the bottom of the ring. For small displacement of the disk, the time period of oscillation of the centre of mass is $T=\\frac{2\\pi}{\\omega}$. The correct expression for $\\omega$ is ($g$ is the acceleration due to gravity):",
+  "stem_images": [
+   "images/adv2025-p1-phy-p11.png"
+  ],
+  "options": {
+   "A": "$\\sqrt{\\dfrac23\\left(\\dfrac g{R-r}+\\dfrac km\\right)}$",
+   "B": "$\\sqrt{\\dfrac{2g}{3(R-r)}+\\dfrac km}$",
+   "C": "$\\sqrt{\\dfrac16\\left(\\dfrac g{R-r}+\\dfrac km\\right)}$",
+   "D": "$\\sqrt{\\dfrac14\\left(\\dfrac g{R-r}+\\dfrac km\\right)}$"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "rolling without slipping",
+    "small oscillations",
+    "energy method"
+   ],
+   "formulas": [
+    "$KE=\\frac34mv^2$ for a disk rolling on a fixed surface",
+    "$\\omega^2=\\frac{k_{eff}}{m_{eff}}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Let the centre move through angle $\\theta$ about the ring centre. Its speed is $v=(R-r)\\dot\\theta$ and its arc displacement is $x=(R-r)\\theta$."
+    },
+    {
+     "n": 2,
+     "text": "Rolling inside a fixed ring without slipping: the disk's spin rate is $\\omega_d=v/r$ (relative to the contact point). Kinetic energy $=\\frac12mv^2+\\frac12\\cdot\\frac12mr^2\\left(\\frac vr\\right)^2=\\frac34mv^2$."
+    },
+    {
+     "n": 3,
+     "text": "Potential energy: gravity $\\approx\\frac12mg(R-r)\\theta^2$; spring $=\\frac12kx^2=\\frac12k(R-r)^2\\theta^2$."
+    },
+    {
+     "n": 4,
+     "text": "Energy conservation: $\\frac34m(R-r)^2\\dot\\theta^2+\\frac12\\left[mg(R-r)+k(R-r)^2\\right]\\theta^2=\\text{const}$."
+    },
+    {
+     "n": 5,
+     "text": "$\\omega^2=\\dfrac{mg(R-r)+k(R-r)^2}{\\frac32m(R-r)^2}=\\dfrac23\\left(\\dfrac g{R-r}+\\dfrac km\\right)$."
+    }
+   ],
+   "pitfalls": [
+    "Using the full moment of inertia of a ring path or forgetting the 3/4 factor"
+   ],
+   "final_check": "$\\omega=\\sqrt{\\frac23\\left(\\frac g{R-r}+\\frac km\\right)}$, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "SHM and Waves"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "1",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-phy-s1-q02",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 2,
+  "stem": "[Figure: a particle of mass $2m$ moving along a line collides with a particle of mass $m$ at rest. After the collision the heavier particle moves off at angle $\\theta$ above the original line and the lighter one at an angle below it.] In a scattering experiment, a particle of mass $2m$ collides with another particle of mass $m$, which is initially at rest. Assuming the collision to be perfectly elastic, the maximum angular deviation $\\theta$ of the heavier particle, as shown in the figure, in radians is:",
+  "stem_images": [
+   "images/adv2025-p1-phy-p11.png"
+  ],
+  "options": {
+   "A": "$\\pi$",
+   "B": "$\\tan^{-1}\\left(\\frac12\\right)$",
+   "C": "$\\frac\\pi3$",
+   "D": "$\\frac\\pi6$"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "elastic collisions in 2D",
+    "CM frame"
+   ],
+   "formulas": [
+    "$\\sin\\theta_{max}=m'/M$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "In an elastic collision of a mass $M$ with a stationary mass $m'<M$, the maximum deflection of $M$ satisfies $\\sin\\theta_{max}=\\dfrac{m'}{M}$."
+    },
+    {
+     "n": 2,
+     "text": "Derivation: in the CM frame the incoming particle's velocity rotates through angle $\\varphi$. Its lab velocity is $\\vec V_{cm}+\\vec u'$ with $V_{cm}=\\frac{M}{M+m'}u$ and $u'=\\frac{m'}{M+m'}u$. Since $u'<V_{cm}$, the tip of $\\vec u'$ lies on a circle that does not enclose the origin, and the maximum angle satisfies $\\sin\\theta_{max}=\\frac{u'}{V_{cm}}=\\frac{m'}{M}$."
+    },
+    {
+     "n": 3,
+     "text": "Here $M=2m,\\ m'=m$, so $\\sin\\theta_{max}=\\frac12$ and $\\theta_{max}=\\frac\\pi6$."
+    }
+   ],
+   "pitfalls": [
+    "Using $\tan^{-1}(1/2)$, which comes from a different geometry"
+   ],
+   "final_check": "$\\theta_{max}=\\pi/6$, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Work, Energy and Power"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "2",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-phy-s1-q03",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 3,
+  "stem": "[Figure: a square conducting loop hinged along the $X$-axis, initially in the $XZ$ plane, rotating clockwise about $X$ (as seen from $+X$) with angular speed $\\omega$; the field $\\vec B(t)=B_0\\cos\\omega t\\,\\hat k$ exists only in $y\\ge0$. Options are plots of induced emf $V$ against $t$: (A) a single lobe starting at a negative value, peaking near $\\pi/2\\omega$, returning to negative at $\\pi/\\omega$, then zero for $\\pi/\\omega<t<2\\pi/\\omega$, repeating; (B) one full sinusoid of period $2\\pi/\\omega$ starting at 0 going negative; (C) a single arch spanning $0$ to $2\\pi/\\omega$ starting at a negative value; (D) two oscillations in $0<t<\\pi/\\omega$ starting at 0, zero for $\\pi/\\omega<t<2\\pi/\\omega$, repeating.] A conducting square loop initially lies in the $XZ$ plane with its lower edge hinged along the $X$-axis. Only in the region $y\\ge0$ there is a time-dependent magnetic field along $Z$, $\\vec B(t)=B_0\\cos(\\omega t)\\hat k$, with zero field elsewhere. At $t=0$ the loop starts rotating with constant angular speed $\\omega$ about the $X$-axis in the clockwise direction as viewed from $+X$. Ignoring self-inductance and gravity, which plot correctly represents the induced emf $V$ as a function of time?",
+  "stem_images": [
+   "images/adv2025-p1-phy-p12.png"
+  ],
+  "options": {
+   "A": "Plot (A)",
+   "B": "Plot (B)",
+   "C": "Plot (C)",
+   "D": "Plot (D)"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Faraday's law",
+    "time-varying flux",
+    "rotating loop"
+   ],
+   "formulas": [
+    "$\\Phi=B\\,A\\,\\hat n\\cdot\\hat k$",
+    "$\\varepsilon=-d\\Phi/dt$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "For $0<\\omega t<\\pi$ the loop is in the region $y\\ge0$ and its area vector makes angle $(\\pi/2-\\omega t)$ with $\\hat k$. Flux $\\Phi=B_0A\\cos\\omega t\\,\\sin\\omega t=\\frac12B_0A\\sin2\\omega t$."
+    },
+    {
+     "n": 2,
+     "text": "emf $=-\\dfrac{d\\Phi}{dt}=-B_0A\\omega\\cos2\\omega t$. This starts at $-B_0A\\omega$, passes through zero at $\\omega t=\\pi/4$, peaks at $+B_0A\\omega$ at $\\omega t=\\pi/2$, and returns to $-B_0A\\omega$ at $\\omega t=\\pi$. That is exactly one cycle in $0<t<\\pi/\\omega$."
+    },
+    {
+     "n": 3,
+     "text": "For $\\pi<\\omega t<2\\pi$ the loop is in $y<0$ where $B=0$, so the flux and the emf are zero. The pattern repeats with period $2\\pi/\\omega$."
+    },
+    {
+     "n": 4,
+     "text": "So the plot has one lobe per half-turn and zero emf in the other half: plot (A). Plot (D) has two cycles per half-turn, which corresponds to $\\sin4\\omega t$, not $\\cos2\\omega t$."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting that the field is zero for y < 0, or the cos(wt) time dependence of B"
+   ],
+   "final_check": "Plot (A)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "EMI and AC"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "3",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-phy-s1-q04",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 4,
+  "stem": "[Figure: Fig. 1 shows a vernier caliper with the jaws closed. The main scale has 10 divisions per cm (1 mm each), and 10 vernier divisions span 7 main scale divisions; the zeros coincide. Fig. 2 shows the measurement of the tube diameter $D$: the vernier zero lies between the 1st and 2nd main-scale marks, and the 1st vernier division coincides with a main-scale mark.] Fig. 1 shows the configuration of main scale and Vernier scale before measurement. Fig. 2 shows the configuration corresponding to the measurement of diameter $D$ of a tube. The measured value of $D$ is:",
+  "stem_images": [
+   "images/adv2025-p1-phy-p12.png"
+  ],
+  "options": {
+   "A": "$0.12$ cm",
+   "B": "$0.11$ cm",
+   "C": "$0.13$ cm",
+   "D": "$0.14$ cm"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "vernier caliper",
+    "least count",
+    "zero error"
+   ],
+   "formulas": [
+    "$LC=1\\,MSD-1\\,VSD$",
+    "$\\text{reading}=MSR+n\\times LC$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "10 vernier divisions equal 7 main divisions (7 mm), so 1 VSD $=0.7$ mm. Least count $=1\\text{ MSD}-1\\text{ VSD}=1-0.7=0.3$ mm $=0.03$ cm."
+    },
+    {
+     "n": 2,
+     "text": "Fig. 1: zeros coincide, so zero error $=0$."
+    },
+    {
+     "n": 3,
+     "text": "Fig. 2: main scale reading $=1$ mm $=0.1$ cm (the vernier zero is just past the first mark). The 1st vernier division coincides, so vernier reading $=1\\times0.03=0.03$ cm."
+    },
+    {
+     "n": 4,
+     "text": "$D=0.10+0.03=0.13$ cm."
+    }
+   ],
+   "pitfalls": [
+    "Assuming the usual 9-in-10 vernier instead of reading the figure"
+   ],
+   "final_check": "$D=0.13$ cm, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Units and Measurements"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "4",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-phy-s2-q05",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 12
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 5,
+  "stem": "[Figure: a square loop of side $L$ in the $XY$ plane moving with velocity $v_0\\hat j$ toward the region $y\\ge0$, where $\\vec B=B_0\\hat k$.] A conducting square loop of side $L$, mass $M$ and resistance $R$ is moving in the $XY$ plane with its edges parallel to the $X$ and $Y$ axes. The region $y\\ge0$ has a uniform magnetic field $\\vec B=B_0\\hat k$ and the field is zero elsewhere. At $t=0$ the loop starts to enter the field with initial velocity $v_0\\hat j$. Considering $K=\\frac{B_0^2L^2}{RM}$ in appropriate units, ignoring self-inductance and gravity, which of the following is/are correct?",
+  "stem_images": [
+   "images/adv2025-p1-phy-p14.png"
+  ],
+  "options": {
+   "A": "If $v_0=1.5KL$, the loop will stop before it enters completely inside the region of magnetic field.",
+   "B": "When the complete loop is inside the region of magnetic field, the net force acting on the loop is zero.",
+   "C": "If $v_0=\\frac{KL}{10}$, the loop comes to rest at $t=\\left(\\frac1K\\right)\\ln\\left(\\frac52\\right)$.",
+   "D": "If $v_0=3KL$, the complete loop enters inside the region of magnetic field at time $t=\\left(\\frac1K\\right)\\ln\\left(\\frac32\\right)$."
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "motional emf",
+    "Lenz's law",
+    "exponential velocity decay"
+   ],
+   "formulas": [
+    "$F=\\frac{B^2L^2v}{R}$",
+    "$v=v_0e^{-Kt}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "While entering, emf $=B_0Lv$, current $=B_0Lv/R$, magnetic force on the leading edge $=B_0^2L^2v/R$ opposing motion. So $M\\dot v=-\\frac{B_0^2L^2}Rv\\Rightarrow\\dot v=-Kv$, $v=v_0e^{-Kt}$."
+    },
+    {
+     "n": 2,
+     "text": "Distance moved in the field: $x=\\frac{v_0}K(1-e^{-Kt})$. The loop is completely inside when $x=L$."
+    },
+    {
+     "n": 3,
+     "text": "(A) With $v_0=1.5KL$ the maximum distance is $v_0/K=1.5L>L$, so it enters completely. False."
+    },
+    {
+     "n": 4,
+     "text": "(B) Fully inside, the flux is constant, so there is no current and no net force. True."
+    },
+    {
+     "n": 5,
+     "text": "(C) The speed decays exponentially and never becomes exactly zero at a finite time. False."
+    },
+    {
+     "n": 6,
+     "text": "(D) $v_0=3KL$: $3L(1-e^{-Kt})=L\\Rightarrow e^{-Kt}=\\frac23\\Rightarrow t=\\frac1K\\ln\\frac32$. True."
+    }
+   ],
+   "pitfalls": [
+    "Treating the stopping time as finite"
+   ],
+   "final_check": "Only (B) and (D) are correct."
+  },
+  "taxonomy": {
+   "chapters": [
+    "EMI and AC"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "5",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "BD",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "BD",
+   "key_answer": "B, D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-phy-s2-q06",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 12
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 6,
+  "stem": "Length, breadth and thickness of a strip having a uniform cross section are measured to be $10.5$ cm, $0.05$ mm and $6.0\\ \\mu$m, respectively. Which of the following option(s) give(s) the volume of the strip in cm$^3$ with correct significant figures?",
+  "stem_images": [],
+  "options": {
+   "A": "$3.2\\times10^{-5}$",
+   "B": "$32.0\\times10^{-6}$",
+   "C": "$3.0\\times10^{-5}$",
+   "D": "$3\\times10^{-5}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "significant figures",
+    "unit conversion"
+   ],
+   "formulas": [
+    "product rounds to least number of significant figures"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Convert to cm: $L=10.5$ cm, $b=0.05\\ \\text{mm}=5\\times10^{-3}$ cm, $t=6.0\\ \\mu\\text{m}=6.0\\times10^{-4}$ cm."
+    },
+    {
+     "n": 2,
+     "text": "$V=10.5\\times5\\times10^{-3}\\times6.0\\times10^{-4}=3.15\\times10^{-5}\\ \\text{cm}^3$."
+    },
+    {
+     "n": 3,
+     "text": "Significant figures: $10.5$ has 3, $0.05$ has 1, $6.0$ has 2. A product keeps the fewest, which is 1."
+    },
+    {
+     "n": 4,
+     "text": "So $V=3\\times10^{-5}\\ \\text{cm}^3$."
+    }
+   ],
+   "pitfalls": [
+    "Counting the leading zeros of 0.05 as significant"
+   ],
+   "final_check": "Only $3\\times10^{-5}$ has the right number of significant figures."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Units and Measurements"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "6",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-phy-s2-q07",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 12
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 7,
+  "stem": "[Figure: wave generator $O$ drives string $S_1$ (linear density $\\mu$), joined at $P$ to $S_2$ ($4\\mu$), joined at $Q$ to $S_3$ ($16\\mu$), whose other end is fixed to a wall.] Three connected strings $S_1,S_2,S_3$ have uniform linear mass densities $\\mu$, $4\\mu$ and $16\\mu$ kg/m. $S_1,S_2$ join at $P$ and $S_2,S_3$ join at $Q$; the other end of $S_3$ is fixed to a wall. The wave generator $O$ at the free end of $S_1$ produces $y=y_0\\cos(\\omega t-kx)$ cm. Which of the following is/are correct?",
+  "stem_images": [
+   "images/adv2025-p1-phy-p15.png"
+  ],
+  "options": {
+   "A": "When the wave reflects from $P$ for the first time, the reflected wave is $y=\\alpha_1y_0\\cos(\\omega t+kx+\\pi)$ cm, $\\alpha_1>0$.",
+   "B": "When the wave transmits through $P$ for the first time, the transmitted wave is $y=\\alpha_2y_0\\cos(\\omega t-kx)$ cm, $\\alpha_2>0$.",
+   "C": "When the wave reflects from $Q$ for the first time, the reflected wave is $y=\\alpha_3y_0\\cos(\\omega t-kx+\\pi)$ cm, $\\alpha_3>0$.",
+   "D": "When the wave transmits through $Q$ for the first time, the transmitted wave is $y=\\alpha_4y_0\\cos(\\omega t-4kx)$ cm, $\\alpha_4>0$."
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "wave reflection and transmission",
+    "phase change at a denser medium",
+    "wave number in different media"
+   ],
+   "formulas": [
+    "$v=\\sqrt{T/\\mu}$",
+    "$r=\\frac{Z_1-Z_2}{Z_1+Z_2},\\ \\tau=\\frac{2Z_1}{Z_1+Z_2},\\ Z=\\sqrt{T\\mu}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Wave speed $v=\\sqrt{T/\\mu}$, so $v_1:v_2:v_3=1:\\frac12:\\frac14$. Frequency stays the same, so the wave numbers are $k,\\ 2k,\\ 4k$ in $S_1,S_2,S_3$."
+    },
+    {
+     "n": 2,
+     "text": "Reflection from a denser string (higher $\\mu$) gives a phase change of $\\pi$ and the reflected wave travels backwards: $r=\\frac{\\sqrt{\\mu_1}-\\sqrt{\\mu_2}}{\\sqrt{\\mu_1}+\\sqrt{\\mu_2}}=-\\frac13$. So at $P$ the reflected wave is $\\frac13y_0\\cos(\\omega t+kx+\\pi)$ in $S_1$. (A) true."
+    },
+    {
+     "n": 3,
+     "text": "Transmission coefficient $\\tau=\\frac{2\\sqrt{\\mu_1}}{\\sqrt{\\mu_1}+\\sqrt{\\mu_2}}=\\frac23>0$, but the transmitted wave in $S_2$ has wave number $2k$: $\\cos(\\omega t-2kx)$ (up to a phase constant), not $\\cos(\\omega t-kx)$. (B) false."
+    },
+    {
+     "n": 4,
+     "text": "At $Q$ the reflected wave stays in $S_2$ (wave number $2k$), travelling backwards: $\\cos(\\omega t+2kx+\\pi)$. (C) has $-kx$ and wave number $k$. False."
+    },
+    {
+     "n": 5,
+     "text": "At $Q$ the transmitted wave in $S_3$ has $\\tau=\\frac{2\\cdot2}{2+4}=\\frac23>0$ and wave number $4k$: $\\cos(\\omega t-4kx)$ up to a phase constant. (D) true."
+    }
+   ],
+   "pitfalls": [
+    "Keeping the same wave number in all strings"
+   ],
+   "final_check": "(A) and (D) are correct."
+  },
+  "taxonomy": {
+   "chapters": [
+    "SHM and Waves"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "7",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "AD",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "AD",
+   "key_answer": "A, D",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-phy-s3-q08",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 8,
+  "stem": "A person sitting inside an elevator performs a weighing experiment with an object of mass $50$ kg. The height $y$ (in m) of the elevator from the ground varies with time $t$ (in s) as $y=8\\left[1+\\sin\\left(\\frac{2\\pi t}{T}\\right)\\right]$, where $T=40\\pi$ s. Taking $g=10\\ \\text{m/s}^2$, the maximum variation of the object's weight (in N) as observed in the experiment is ______.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "apparent weight",
+    "SHM acceleration"
+   ],
+   "formulas": [
+    "$N=m(g+a)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Acceleration $a=\\ddot y=-8\\left(\\frac{2\\pi}T\\right)^2\\sin\\left(\\frac{2\\pi t}T\\right)$. With $T=40\\pi$, $\\frac{2\\pi}T=\\frac1{20}$, so $a_{max}=\\frac8{400}=0.02\\ \\text{m/s}^2$."
+    },
+    {
+     "n": 2,
+     "text": "Apparent weight $N=m(g+a)$, which ranges from $m(g-a_{max})$ to $m(g+a_{max})$."
+    },
+    {
+     "n": 3,
+     "text": "Maximum variation $=2ma_{max}=2\\times50\\times0.02=2$ N."
+    }
+   ],
+   "pitfalls": [
+    "Reporting m*a_max (1 N) instead of the full max-to-min spread"
+   ],
+   "final_check": "The weight swings between 499 N and 501 N, a variation of 2 N."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Kinematics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "8",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "2",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "2",
+   "key_answer": "2",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-phy-s3-q09",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 9,
+  "stem": "A cube of unit volume contains $35\\times10^7$ photons of frequency $10^{15}$ Hz. If the energy of all the photons is viewed as the average energy contained in electromagnetic waves within the same volume, then the amplitude of the magnetic field is $\\alpha\\times10^{-9}$ T. Taking $\\mu_0=4\\pi\\times10^{-7}$ Tm/A, $h=6\\times10^{-34}$ Js and $\\pi=\\frac{22}7$, the value of $\\alpha$ is ______.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "energy density of EM waves",
+    "photon energy"
+   ],
+   "formulas": [
+    "$u_{avg}=\\frac{B_0^2}{2\\mu_0}$",
+    "$E=hf$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Energy density $u=\\dfrac{N\\,hf}{V}=35\\times10^7\\times6\\times10^{-34}\\times10^{15}=2.1\\times10^{-10}\\ \\text{J/m}^3$."
+    },
+    {
+     "n": 2,
+     "text": "For an EM wave, the average energy density is $u=\\dfrac{B_0^2}{2\\mu_0}$ (electric and magnetic parts together)."
+    },
+    {
+     "n": 3,
+     "text": "$B_0^2=2\\mu_0u=2\\times\\frac{88}7\\times10^{-7}\\times2.1\\times10^{-10}=5.28\\times10^{-16}$."
+    },
+    {
+     "n": 4,
+     "text": "$B_0\\approx2.30\\times10^{-8}\\ \\text{T}=23\\times10^{-9}\\ \\text{T}$, so $\\alpha\\approx23$."
+    }
+   ],
+   "pitfalls": [
+    "Using B0^2/(4 mu0), which counts only the magnetic part"
+   ],
+   "final_check": "$\\alpha\\approx22.98\\approx23$ (the official key accepts 21 to 25)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electromagnetic Waves"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "9",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "23",
+   "tolerance": 2.0,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "23",
+   "key_answer": "[21 to 25]",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-phy-s3-q10",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 10,
+  "stem": "[Figure: Fig. 1 shows two parallel plates P and Q at temperatures $T_P>T_Q$ with power $W_0$ per unit area flowing from P to Q. Fig. 2 shows two more identical plates inserted between P and Q, with power $W_S$ per unit area flowing from P toward Q.] Two identical plates P and Q, radiating as perfect black bodies, are kept in vacuum at constant absolute temperatures $T_P$ and $T_Q$, with $T_Q<T_P$ (Fig. 1). The radiated power transferred per unit area from P to Q is $W_0$. Two more plates, identical to P and Q, are introduced between P and Q (Fig. 2). Heat transfer takes place only between adjacent plates. If the power transferred per unit area from P to Q in the steady state is $W_S$, then the ratio $\\frac{W_0}{W_S}$ is ______.",
+  "stem_images": [
+   "images/adv2025-p1-phy-p17.png"
+  ],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Stefan-Boltzmann law",
+    "radiation shields",
+    "steady state heat transfer"
+   ],
+   "formulas": [
+    "$W=\\sigma(T_1^4-T_2^4)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Fig. 1: $W_0=\\sigma\\left(T_P^4-T_Q^4\\right)$."
+    },
+    {
+     "n": 2,
+     "text": "Fig. 2: four plates in a row make three gaps. In steady state the same flux $W_S$ crosses every gap: $\\sigma(T_P^4-T_1^4)=\\sigma(T_1^4-T_2^4)=\\sigma(T_2^4-T_Q^4)=W_S$."
+    },
+    {
+     "n": 3,
+     "text": "Adding the three equations: $\\sigma(T_P^4-T_Q^4)=3W_S$, so $W_0=3W_S$."
+    }
+   ],
+   "pitfalls": [
+    "Counting two gaps instead of three"
+   ],
+   "final_check": "$W_0/W_S=3$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics and KTG"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "10",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "3",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "3",
+   "key_answer": "3",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-phy-s3-q11",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 11,
+  "stem": "[Figure: a solid glass sphere (refractive index $\\sqrt3$, radius $R$) with a spherical air cavity of radius $R/2$ whose surface touches the sphere at the point $O$ on its surface, separated there by a thin glass layer. A source $S$ inside the glass sends a ray toward the periphery; the ray is incident at angle $\\theta$ to the normal at the periphery.] A solid glass sphere of refractive index $n=\\sqrt3$ and radius $R$ contains a spherical air cavity of radius $\\frac R2$. A very thin glass layer is present at the point $O$ so that the air cavity (refractive index 1) remains inside the glass sphere. An unpolarized, unidirectional and monochromatic light source $S$ emits a light ray from a point inside the glass sphere towards the periphery. If the light is reflected from the point $O$ and is fully polarized, then the angle of incidence at the inner surface of the glass sphere is $\\theta$. The value of $\\sin\\theta$ is ______.",
+  "stem_images": [
+   "images/adv2025-p1-phy-p17.png"
+  ],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Brewster's angle",
+    "polarization by reflection",
+    "geometry of chords in a circle"
+   ],
+   "formulas": [
+    "$\\tan\\theta_B=n_2/n_1$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Reflected light is fully polarized when the angle of incidence equals Brewster's angle. At $O$ the ray travels in glass towards air: $\\tan\\theta_B=\\dfrac{n_{air}}{n_{glass}}=\\dfrac1{\\sqrt3}$, so $\\theta_B=30^\\circ$."
+    },
+    {
+     "n": 2,
+     "text": "The ray reaches $O$ after reflecting from the periphery. Joining the sphere centre to both reflection points gives an isosceles triangle (both sides are radii), so the angle of incidence at the periphery equals the angle of incidence at $O$."
+    },
+    {
+     "n": 3,
+     "text": "Hence $\\theta=30^\\circ$ and $\\sin\\theta=\\frac12$."
+    },
+    {
+     "n": 4,
+     "text": "Note: the official key accepts both 0.5 and 0.75. This solution derives 0.5 only; the 0.75 value comes from a different reading of the geometry that I did not independently derive."
+    }
+   ],
+   "pitfalls": [
+    "Using tan θ = n instead of 1/n for glass to air"
+   ],
+   "final_check": "$\\sin\\theta=0.5$ (official key: 0.5 or 0.75)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Wave Optics"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "11",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "0.50",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "0.50",
+   "key_answer": "0.5 OR 0.75",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-phy-s3-q12",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 12,
+  "stem": "A single slit diffraction experiment is performed to determine the slit width using $\\frac{bd}D=m\\lambda$, where $b$ is the slit width, $D$ the shortest distance between the slit and the screen, $d$ the distance between the $m^{th}$ diffraction maximum and the central maximum, and $\\lambda$ the wavelength. $D$ and $d$ are measured with scales of least count $1$ cm and $1$ mm, respectively. $\\lambda=600$ nm and $m=3$ are known precisely. The absolute error (in $\\mu$m) in the value of $b$ estimated using the diffraction maximum for $m=3$ with $d=5$ mm and $D=1$ m is ______.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "error propagation",
+    "single slit diffraction",
+    "least count"
+   ],
+   "formulas": [
+    "$\\frac{\\Delta b}{b}=\\frac{\\Delta D}D+\\frac{\\Delta d}d$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$b=\\dfrac{m\\lambda D}{d}=\\dfrac{3\\times600\\times10^{-9}\\times1}{5\\times10^{-3}}=3.6\\times10^{-4}$ m $=360\\ \\mu$m."
+    },
+    {
+     "n": 2,
+     "text": "Relative error: $\\dfrac{\\Delta b}b=\\dfrac{\\Delta D}D+\\dfrac{\\Delta d}d=\\dfrac{1\\text{ cm}}{100\\text{ cm}}+\\dfrac{1\\text{ mm}}{5\\text{ mm}}=0.01+0.2=0.21$."
+    },
+    {
+     "n": 3,
+     "text": "$\\Delta b=0.21\\times360=75.6\\ \\mu$m."
+    }
+   ],
+   "pitfalls": [
+    "Subtracting the relative errors instead of adding them"
+   ],
+   "final_check": "$\\Delta b=75.6\\ \\mu$m (the official key accepts 75 to 79, or 94 to 95)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Units and Measurements"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "12",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "75.60",
+   "tolerance": 0.5,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "75.60",
+   "key_answer": "[75 to 79] OR [94 to 95]",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-phy-s3-q13",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 13,
+  "stem": "Consider an electron in the $n=3$ orbit of a hydrogen-like atom with atomic number $Z$. At absolute temperature $T$, a neutron having thermal energy $k_BT$ has the same de Broglie wavelength as the electron. If $T=\\dfrac{Z^2h^2}{\\alpha\\pi^2a_0^2m_Nk_B}$ (where $h$ is Planck's constant, $k_B$ Boltzmann's constant, $m_N$ the neutron mass and $a_0$ the first Bohr radius), then the value of $\\alpha$ is ______.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "de Broglie wavelength",
+    "Bohr model"
+   ],
+   "formulas": [
+    "$\\lambda=h/p$",
+    "$r_n=n^2a_0/Z$",
+    "$2\\pi r_n=n\\lambda$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Bohr orbit: $2\\pi r_n=n\\lambda_e$ with $r_n=\\dfrac{n^2a_0}Z$, so $\\lambda_e=\\dfrac{2\\pi na_0}Z=\\dfrac{6\\pi a_0}Z$ for $n=3$."
+    },
+    {
+     "n": 2,
+     "text": "Neutron with kinetic energy $k_BT$: $\\lambda_N=\\dfrac h{\\sqrt{2m_Nk_BT}}$."
+    },
+    {
+     "n": 3,
+     "text": "Set $\\lambda_N=\\lambda_e$: $\\dfrac{h^2}{2m_Nk_BT}=\\dfrac{36\\pi^2a_0^2}{Z^2}$, so $T=\\dfrac{Z^2h^2}{72\\pi^2a_0^2m_Nk_B}$."
+    },
+    {
+     "n": 4,
+     "text": "Compare with the given form: $\\alpha=72$."
+    }
+   ],
+   "pitfalls": [
+    "Using thermal energy 3/2 kT instead of the given kT"
+   ],
+   "final_check": "$\\alpha=72$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Modern Physics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "13",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "72",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "72",
+   "key_answer": "72",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-phy-s4-q14",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 12
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 14,
+  "stem": "[Figure: four pairs of ideal point dipoles, each of moment $p$, fixed at $x=-r$ and $x=+r$ with $X$ at the midpoint (origin): (P) both dipoles along $+\\hat j$; (Q) left dipole along $+\\hat j$, right dipole along $-\\hat j$; (R) left dipole along $+\\hat j$, right dipole along $+\\hat i$; (S) both dipoles along $+\\hat i$.] List-I shows four configurations, each of a pair of ideal electric dipoles of moment magnitude $p$ at distance $2r$ apart along the $x$ direction. $X$ is the midpoint of the line joining the two dipoles. The possible resultant electric fields $\\vec E$ at $X$ are in List-II. Match List-I to List-II.\\nList-II: (1) $\\vec E=0$; (2) $\\vec E=-\\frac{p}{2\\pi\\epsilon_0r^3}\\hat j$; (3) $\\vec E=-\\frac p{4\\pi\\epsilon_0r^3}(\\hat i-\\hat j)$; (4) $\\vec E=\\frac p{4\\pi\\epsilon_0r^3}(2\\hat i-\\hat j)$; (5) $\\vec E=\\frac p{\\pi\\epsilon_0r^3}\\hat i$.",
+  "stem_images": [
+   "images/adv2025-p1-phy-p21.png"
+  ],
+  "options": {
+   "A": "P→3, Q→1, R→2, S→4",
+   "B": "P→4, Q→5, R→3, S→1",
+   "C": "P→2, Q→1, R→4, S→5",
+   "D": "P→2, Q→1, R→3, S→5"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "electric dipole field",
+    "superposition"
+   ],
+   "formulas": [
+    "$E_{axial}=\\frac{2p}{4\\pi\\epsilon_0r^3}$, $E_{eq}=-\\frac{p}{4\\pi\\epsilon_0r^3}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Let $E_0=\\dfrac p{4\\pi\\epsilon_0r^3}$. A point on the equatorial line of a dipole sees $\\vec E=-E_0\\hat p$. A point on the axial line sees $\\vec E=+2E_0\\hat p$."
+    },
+    {
+     "n": 2,
+     "text": "(P) $X$ is equatorial to both vertical dipoles: $-E_0\\hat j-E_0\\hat j=-2E_0\\hat j=-\\frac p{2\\pi\\epsilon_0r^3}\\hat j$. So (2)."
+    },
+    {
+     "n": 3,
+     "text": "(Q) The fields are $-E_0\\hat j$ and $+E_0\\hat j$, sum $0$. So (1)."
+    },
+    {
+     "n": 4,
+     "text": "(R) The left dipole ($\\hat j$) gives $-E_0\\hat j$ (equatorial). The right dipole ($\\hat i$) has $X$ on its axis: $+2E_0\\hat i$. Sum $=E_0(2\\hat i-\\hat j)$. So (4)."
+    },
+    {
+     "n": 5,
+     "text": "(S) $X$ is on the axis of both: $2E_0\\hat i+2E_0\\hat i=4E_0\\hat i=\\frac p{\\pi\\epsilon_0r^3}\\hat i$. So (5)."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting that the equatorial field is opposite to p"
+   ],
+   "final_check": "P→2, Q→1, R→4, S→5, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electrostatics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "14",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-phy-s4-q15",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 12
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 15,
+  "stem": "[Figure: an AC source $V(t)=300\\sin(400t)$ V driving a load $Z$. List-I loads: (P) a $30\\ \\Omega$ resistor; (Q) $30\\ \\Omega$ in series with $100$ mH; (R) $50\\ \\mu$F, $30\\ \\Omega$ and $25$ mH in series; (S) $50\\ \\mu$F, $60\\ \\Omega$ and $125$ mH in series. List-II plots $i(t)$ against $400t$ over $0$ to $2\\pi$: (1) amplitude 5 A, zero at $t=0$, rising (in phase); (2) amplitude about 6 A, positive at $t=0$ (about +5 A) and falling (leading); (3) amplitude 10 A, zero at $t=0$, rising (in phase); (4) amplitude 20 A, near the negative extreme at $t=0$; (5) amplitude about 6 A, negative at $t=0$ (about $-5$ A) and rising (lagging).] A circuit with an electrical load of impedance $Z$ is connected to an AC source $V(t)=300\\sin(400t)$ V. List-I shows options for the load; the possible currents $i(t)$ are in List-II. Match List-I to List-II.",
+  "stem_images": [
+   "images/adv2025-p1-phy-p22.png"
+  ],
+  "options": {
+   "A": "P→3, Q→5, R→2, S→1",
+   "B": "P→1, Q→5, R→2, S→3",
+   "C": "P→3, Q→4, R→2, S→1",
+   "D": "P→1, Q→4, R→2, S→5"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "LCR circuit",
+    "phase angle",
+    "resonance"
+   ],
+   "formulas": [
+    "$Z=\\sqrt{R^2+(X_L-X_C)^2}$",
+    "$\\tan\\phi=\\frac{X_L-X_C}R$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\omega=400$ rad/s. $X_L=\\omega L$, $X_C=\\dfrac1{\\omega C}$; with $C=50\\ \\mu$F, $X_C=\\dfrac1{400\\times50\\times10^{-6}}=50\\ \\Omega$."
+    },
+    {
+     "n": 2,
+     "text": "(P) $Z=30\\ \\Omega$, $I_0=300/30=10$ A, in phase. So (3)."
+    },
+    {
+     "n": 3,
+     "text": "(Q) $X_L=40\\ \\Omega$, $Z=\\sqrt{30^2+40^2}=50\\ \\Omega$, $I_0=6$ A, current lags by $\\tan^{-1}\\frac43\\approx53^\\circ$, so $i(0)=-6\\sin53^\\circ\\approx-4.8$ A. So (5)."
+    },
+    {
+     "n": 4,
+     "text": "(R) $X_L=10$, $X_C=50$, net $X=-40\\ \\Omega$, $Z=50\\ \\Omega$, $I_0=6$ A, current leads by $53^\\circ$, so $i(0)\\approx+4.8$ A. So (2)."
+    },
+    {
+     "n": 5,
+     "text": "(S) $X_L=50$, $X_C=50$: resonance, $Z=60\\ \\Omega$, $I_0=5$ A, in phase. So (1)."
+    }
+   ],
+   "pitfalls": [
+    "Mixing up lag and lead for inductive and capacitive loads"
+   ],
+   "final_check": "P→3, Q→5, R→2, S→1, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "EMI and AC"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "15",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-phy-s4-q16",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "physics",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 12
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 16,
+  "stem": "List-I shows functional dependencies of energy $E$ on the atomic number $Z$. List-II gives energies associated with certain phenomena. Match List-I to List-II.\\nList-I: (P) $E\\propto Z^2$; (Q) $E\\propto(Z-1)^2$; (R) $E\\propto Z(Z-1)$; (S) $E$ is practically independent of $Z$.\\nList-II: (1) energy of characteristic X-rays; (2) electrostatic part of the nuclear binding energy for stable nuclei with mass numbers in the range 30 to 170; (3) energy of continuous X-rays; (4) average nuclear binding energy per nucleon for stable nuclei with mass number in the range 30 to 170; (5) energy of radiation due to electronic transitions from hydrogen-like atoms.",
+  "stem_images": [],
+  "options": {
+   "A": "P→4, Q→3, R→1, S→2",
+   "B": "P→5, Q→2, R→1, S→4",
+   "C": "P→5, Q→1, R→2, S→4",
+   "D": "P→3, Q→2, R→1, S→5"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Bohr model",
+    "Moseley's law",
+    "nuclear binding energy"
+   ],
+   "formulas": [
+    "$\\sqrt\\nu=a(Z-b)$",
+    "$E_C\\propto\\frac{Z(Z-1)}{A^{1/3}}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(P) Hydrogen-like transition energies $E_n=-13.6\\,Z^2/n^2$ eV scale as $Z^2$. So (5)."
+    },
+    {
+     "n": 2,
+     "text": "(Q) Moseley's law for characteristic X-rays: $\\sqrt\\nu\\propto(Z-1)$ for $K_\\alpha$, so $E\\propto(Z-1)^2$. So (1)."
+    },
+    {
+     "n": 3,
+     "text": "(R) Coulomb repulsion energy of $Z$ protons in a nucleus $\\propto Z(Z-1)/A^{1/3}$. So (2)."
+    },
+    {
+     "n": 4,
+     "text": "(S) Binding energy per nucleon is roughly constant ($\\approx8$ MeV) for $30<A<170$. So (4)."
+    }
+   ],
+   "pitfalls": [
+    "Assigning continuous X-rays to a Z-dependent form; they depend on the accelerating voltage, not on Z"
+   ],
+   "final_check": "P→5, Q→1, R→2, S→4, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Modern Physics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "16",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-che-s1-q01",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 1,
+  "stem": "The heating of $\\ce{NH4NO2}$ at $60-70\\,^\\circ$C and $\\ce{NH4NO3}$ at $200-250\\,^\\circ$C is associated with the formation of nitrogen containing compounds X and Y, respectively. X and Y, respectively, are",
+  "stem_images": [],
+  "options": {
+   "A": "$\\ce{N2}$ and $\\ce{N2O}$",
+   "B": "$\\ce{NH3}$ and $\\ce{NO2}$",
+   "C": "$\\ce{NO}$ and $\\ce{N2O}$",
+   "D": "$\\ce{N2}$ and $\\ce{NH3}$"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "decomposition of ammonium salts",
+    "nitrogen compounds"
+   ],
+   "formulas": [
+    "$\\ce{NH4NO2 -> N2 + 2H2O}$",
+    "$\\ce{NH4NO3 -> N2O + 2H2O}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\ce{NH4NO2 ->[60-70 C] N2 + 2H2O}$, so $X=\\ce{N2}$."
+    },
+    {
+     "n": 2,
+     "text": "$\\ce{NH4NO3 ->[200-250 C] N2O + 2H2O}$, so $Y=\\ce{N2O}$."
+    }
+   ],
+   "pitfalls": [
+    "Confusing with the higher-temperature decomposition of NH4NO3 that gives N2, O2 and H2O"
+   ],
+   "final_check": "X is N2 and Y is N2O, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "p-Block Elements"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "1",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-che-s1-q02",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 2,
+  "stem": "The correct order of the wavelength maxima of the absorption band in the ultraviolet-visible region for the given complexes is",
+  "stem_images": [],
+  "options": {
+   "A": "$[\\ce{Co(CN)6}]^{3-}<[\\ce{Co(NH3)6}]^{3+}<[\\ce{Co(NH3)5(H2O)}]^{3+}<[\\ce{Co(NH3)5(Cl)}]^{2+}$",
+   "B": "$[\\ce{Co(NH3)5(Cl)}]^{2+}<[\\ce{Co(NH3)5(H2O)}]^{3+}<[\\ce{Co(NH3)6}]^{3+}<[\\ce{Co(CN)6}]^{3-}$",
+   "C": "$[\\ce{Co(CN)6}]^{3-}<[\\ce{Co(NH3)5(Cl)}]^{2+}<[\\ce{Co(NH3)5(H2O)}]^{3+}<[\\ce{Co(NH3)6}]^{3+}$",
+   "D": "$[\\ce{Co(NH3)6}]^{3+}<[\\ce{Co(CN)6}]^{3-}<[\\ce{Co(NH3)5(Cl)}]^{2+}<[\\ce{Co(NH3)5(H2O)}]^{3+}$"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "crystal field theory",
+    "spectrochemical series"
+   ],
+   "formulas": [
+    "$\\lambda=\\frac{hc}{\\Delta_o}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Absorption wavelength is $\\lambda=hc/\\Delta_o$, so a larger crystal-field splitting means a shorter wavelength."
+    },
+    {
+     "n": 2,
+     "text": "Spectrochemical series (ligand strength): $\\ce{CN-}>\\ce{NH3}>\\ce{H2O}>\\ce{Cl-}$."
+    },
+    {
+     "n": 3,
+     "text": "So $\\Delta_o$ decreases in the order $[\\ce{Co(CN)6}]^{3-}>[\\ce{Co(NH3)6}]^{3+}>[\\ce{Co(NH3)5(H2O)}]^{3+}>[\\ce{Co(NH3)5Cl}]^{2+}$, and $\\lambda_{max}$ increases in the same order."
+    }
+   ],
+   "pitfalls": [
+    "Reversing the order of Delta and wavelength"
+   ],
+   "final_check": "Option A lists increasing $\\lambda_{max}$."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Coordination Compounds"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "2",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-che-s1-q03",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 3,
+  "stem": "One of the products formed from the reaction of permanganate ion with iodide ion in neutral aqueous medium is",
+  "stem_images": [],
+  "options": {
+   "A": "$\\ce{I2}$",
+   "B": "$\\ce{IO3-}$",
+   "C": "$\\ce{IO4-}$",
+   "D": "$\\ce{IO2-}$"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "redox reactions of KMnO4",
+    "neutral medium"
+   ],
+   "formulas": [
+    "$\\ce{2MnO4- + I- + H2O -> 2MnO2 + IO3- + 2OH-}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "In neutral (or weakly alkaline) medium permanganate is reduced to $\\ce{MnO2}$ ($\\mathrm{Mn}^{+7}\\to\\mathrm{Mn}^{+4}$, 3 electrons)."
+    },
+    {
+     "n": 2,
+     "text": "Iodide is oxidised all the way to iodate: $\\ce{2MnO4- + I- + H2O -> 2MnO2 + IO3- + 2OH-}$."
+    },
+    {
+     "n": 3,
+     "text": "So $\\ce{IO3-}$ is one of the products."
+    }
+   ],
+   "pitfalls": [
+    "Choosing I2, which forms in acidic medium"
+   ],
+   "final_check": "$\\ce{IO3-}$, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Redox Reactions"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "3",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-che-s1-q04",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 1",
+   "max_marks": 12
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 4,
+  "stem": "[Figure: four hydrocarbons, each drawn with one marked hydrogen H. (A) a five-membered ring with two ring C=C bonds and an exocyclic =CH$_2$ (a fulvene), carrying an isopropyl group on the ring; H is on the isopropyl CH. (B) a fulvene (five-membered ring with two C=C bonds) whose exocyclic carbon is $=\\mathrm{C(CH_3)CH_2\\!-\\!H}$, with a methyl on the ring; H is on one methyl of the isopropylidene. (C) the same as (A) but with the isopropyl group on the ring carbon next to the exocyclic =CH$_2$; H is on the isopropyl CH. (D) a five-membered ring with one ring C=C, a ring CH$_2$, an exocyclic =CH$_2$ and an exocyclic $=\\mathrm{C(CH_3)CH_2\\!-\\!H}$; H is on the methyl of the exocyclic isopropylidene.] Consider the depicted hydrogen (H) in the hydrocarbons given below. The most acidic hydrogen (H) is",
+  "stem_images": [
+   "images/adv2025-p1-che-p24.png"
+  ],
+  "options": {
+   "A": "Structure (A)",
+   "B": "Structure (B)",
+   "C": "Structure (C)",
+   "D": "Structure (D)"
+  },
+  "marking": {
+   "correct": 3,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "aromaticity",
+    "acidity and conjugate base stability",
+    "fulvene"
+   ],
+   "formulas": [
+    "Hückel: $(4n+2)\\pi$ electrons"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Acidity depends on the stability of the conjugate base. The best case is a carbanion that becomes an aromatic cyclopentadienide ($6\\pi$ electrons in a planar five-membered ring)."
+    },
+    {
+     "n": 2,
+     "text": "In (B) the marked CH$_3$ is on the exocyclic carbon of a fulvene. Removing H$^+$ gives an allyl-type anion that pushes the electron pair into the ring: the ring becomes a cyclopentadienide anion (aromatic), with the exocyclic part as a vinyl substituent."
+    },
+    {
+     "n": 3,
+     "text": "In (A) and (C) the H on the isopropyl CH gives a carbanion conjugated to the fulvene, but this does not produce a fully aromatic ring with extended stabilisation as in (B); in (D) the ring contains an sp$^3$ carbon and the anion cannot make the ring aromatic."
+    },
+    {
+     "n": 4,
+     "text": "So (B) has the most acidic hydrogen."
+    }
+   ],
+   "pitfalls": [
+    "Looking only at the type of C-H bond instead of the stability of the anion"
+   ],
+   "final_check": "Deprotonation of (B) gives an aromatic cyclopentadienide, option B. The structures were read from the figure; the key also gives B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "GOC and Isomerism"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "4",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-che-s2-q05",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 12
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 5,
+  "stem": "Regarding the molecular orbital (MO) energy levels for homonuclear diatomic molecules, the INCORRECT statement(s) is(are)",
+  "stem_images": [],
+  "options": {
+   "A": "Bond order of $\\ce{Ne2}$ is zero.",
+   "B": "The highest occupied molecular orbital (HOMO) of $\\ce{F2}$ is $\\sigma$-type.",
+   "C": "Bond energy of $\\ce{O2+}$ is smaller than the bond energy of $\\ce{O2}$.",
+   "D": "Bond length of $\\ce{Li2}$ is larger than the bond length of $\\ce{B2}$."
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "molecular orbital theory",
+    "bond order"
+   ],
+   "formulas": [
+    "$BO=\\frac12(N_b-N_a)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(A) $\\ce{Ne2}$: 10 bonding and 10 antibonding valence electrons, bond order $0$. The statement is correct."
+    },
+    {
+     "n": 2,
+     "text": "(B) $\\ce{F2}$ ground state: $\\ldots(\\pi_{2p})^4(\\pi^*_{2p})^4$. The HOMO is $\\pi^*_{2p}$, which is $\\pi$-type, so the statement is incorrect."
+    },
+    {
+     "n": 3,
+     "text": "(C) $\\ce{O2}$ has bond order 2. $\\ce{O2+}$ loses an antibonding electron and has bond order 2.5, so its bond energy is larger, not smaller. The statement is incorrect."
+    },
+    {
+     "n": 4,
+     "text": "(D) $\\ce{Li2}$ ($\\approx267$ pm) has a longer bond than $\\ce{B2}$ ($\\approx159$ pm). The statement is correct."
+    }
+   ],
+   "pitfalls": [
+    "Treating the HOMO of F2 as a sigma orbital (that is true for N2 and lighter molecules)"
+   ],
+   "final_check": "The incorrect statements are (B) and (C)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Chemical Bonding"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "5",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "BC",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "BC",
+   "key_answer": "B, C",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-che-s2-q06",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 12
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 6,
+  "stem": "The pair(s) of diamagnetic ions is(are)",
+  "stem_images": [],
+  "options": {
+   "A": "$\\ce{La^{3+}}$, $\\ce{Ce^{4+}}$",
+   "B": "$\\ce{Yb^{2+}}$, $\\ce{Lu^{3+}}$",
+   "C": "$\\ce{La^{2+}}$, $\\ce{Ce^{3+}}$",
+   "D": "$\\ce{Yb^{3+}}$, $\\ce{Lu^{2+}}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "magnetic properties of lanthanoid ions",
+    "electronic configuration"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(A) $\\ce{La^{3+}}$: $[\\mathrm{Xe}]$; $\\ce{Ce^{4+}}$: $[\\mathrm{Xe}]$. Both have no unpaired electrons, so the pair is diamagnetic."
+    },
+    {
+     "n": 2,
+     "text": "(B) $\\ce{Yb^{2+}}$: $4f^{14}$; $\\ce{Lu^{3+}}$: $4f^{14}$. Both are diamagnetic."
+    },
+    {
+     "n": 3,
+     "text": "(C) $\\ce{La^{2+}}$: $5d^1$ and $\\ce{Ce^{3+}}$: $4f^1$ are paramagnetic."
+    },
+    {
+     "n": 4,
+     "text": "(D) $\\ce{Yb^{3+}}$: $4f^{13}$ is paramagnetic, and $\\ce{Lu^{2+}}$: $4f^{14}6s^1$ (or $5d^1$) is paramagnetic."
+    }
+   ],
+   "pitfalls": [
+    "Writing Ce as f^2 only"
+   ],
+   "final_check": "The pairs in (A) and (B)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "d- and f-Block Elements"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "6",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "AB",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "AB",
+   "key_answer": "A, B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-che-s2-q07",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 2",
+   "max_marks": 12
+  },
+  "qtype": "multi_correct",
+  "number_in_subject": 7,
+  "stem": "[Figure: the reaction sequence: cyclohexene reacts with HBr to give $\\mathbf P$ (bromocyclohexane). $\\mathbf P$ undergoes the Finkelstein reaction to give $\\mathbf Q$ (iodocyclohexane), and the Swarts reaction to give $\\mathbf R$ (fluorocyclohexane).] For the reaction sequence given below, the correct statement(s) is(are) (in the options, X is any atom other than carbon and hydrogen, and it is different in $\\mathbf P$, $\\mathbf Q$ and $\\mathbf R$)",
+  "stem_images": [
+   "images/adv2025-p1-che-p26.png"
+  ],
+  "options": {
+   "A": "C-X bond length in $\\mathbf P$, $\\mathbf Q$ and $\\mathbf R$ follows the order $\\mathbf Q>\\mathbf R>\\mathbf P$.",
+   "B": "C-X bond enthalpy in $\\mathbf P$, $\\mathbf Q$ and $\\mathbf R$ follows the order $\\mathbf R>\\mathbf P>\\mathbf Q$.",
+   "C": "Relative reactivity toward $\\mathrm{S_N2}$ reaction in $\\mathbf P$, $\\mathbf Q$ and $\\mathbf R$ follows the order $\\mathbf P>\\mathbf R>\\mathbf Q$.",
+   "D": "p$K_a$ value of the conjugate acids of the leaving groups in $\\mathbf P$, $\\mathbf Q$ and $\\mathbf R$ follows the order $\\mathbf R>\\mathbf Q>\\mathbf P$."
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -2,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "alkyl halides",
+    "Finkelstein and Swarts reactions",
+    "leaving group ability"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\mathbf P=$ cyclohexyl bromide (X = Br), $\\mathbf Q=$ cyclohexyl iodide (X = I, Finkelstein), $\\mathbf R=$ cyclohexyl fluoride (X = F, Swarts)."
+    },
+    {
+     "n": 2,
+     "text": "(A) Bond length $\\ce{C-I}>\\ce{C-Br}>\\ce{C-F}$, that is $Q>P>R$. The statement says $Q>R>P$, so it is false."
+    },
+    {
+     "n": 3,
+     "text": "(B) Bond enthalpy $\\ce{C-F}>\\ce{C-Br}>\\ce{C-I}$, that is $R>P>Q$. True."
+    },
+    {
+     "n": 4,
+     "text": "(C) $\\mathrm{S_N2}$ reactivity follows leaving-group ability, $\\ce{I-}>\\ce{Br-}>\\ce{F-}$, that is $Q>P>R$. The statement is false."
+    },
+    {
+     "n": 5,
+     "text": "(D) p$K_a$ of the conjugate acids: HF $\\approx3.2$, HBr $\\approx-9$, HI $\\approx-10$, so $R>P>Q$. The statement says $R>Q>P$, so it is false."
+    }
+   ],
+   "pitfalls": [
+    "Ranking C-X bond length by electronegativity instead of atomic size"
+   ],
+   "final_check": "Only (B) is correct."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Haloalkanes and Alcohols"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "7",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-che-s3-q08",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 8,
+  "stem": "In an electrochemical cell, dichromate ions in aqueous acidic medium are reduced to $\\ce{Cr^{3+}}$. The current (in amperes) that flows through the cell for $48.25$ minutes to produce $1$ mole of $\\ce{Cr^{3+}}$ is ______. Use: $1$ Faraday $=96500\\ \\mathrm{C\\,mol^{-1}}$.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Faraday's laws",
+    "electrolysis"
+   ],
+   "formulas": [
+    "$Q=nF$, $I=Q/t$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\ce{Cr2O7^{2-} + 14H+ + 6e- -> 2Cr^{3+} + 7H2O}$: 6 electrons give 2 mol $\\ce{Cr^{3+}}$, so 3 mol of electrons per mole of $\\ce{Cr^{3+}}$."
+    },
+    {
+     "n": 2,
+     "text": "Charge $Q=3\\times96500=289500$ C."
+    },
+    {
+     "n": 3,
+     "text": "$t=48.25\\times60=2895$ s, so $I=\\dfrac Qt=\\dfrac{289500}{2895}=100$ A."
+    }
+   ],
+   "pitfalls": [
+    "Using 6 electrons per mole of Cr3+"
+   ],
+   "final_check": "$I=100$ A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electrochemistry"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "8",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "100",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "100",
+   "key_answer": "100",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-che-s3-q09",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 9,
+  "stem": "At $25\\,^\\circ$C, the concentration of $\\ce{H+}$ ions in a $1.00\\times10^{-3}$ M aqueous solution of a weak monobasic acid having acid dissociation constant $K_a=4.00\\times10^{-11}$ is $X\\times10^{-7}$ M. The value of $X$ is ______. Use: $K_w=1.00\\times10^{-14}$ at $25\\,^\\circ$C.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "weak acid equilibrium",
+    "water autoionisation"
+   ],
+   "formulas": [
+    "$[\\ce{H+}]^2=K_ac+K_w$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "The acid is so weak that the water autoionisation matters. Charge balance: $[\\ce{H+}]=[\\ce{A-}]+[\\ce{OH-}]$."
+    },
+    {
+     "n": 2,
+     "text": "$[\\ce{A-}]=\\dfrac{K_a[\\ce{HA}]}{[\\ce{H+}]}\\approx\\dfrac{K_ac}{[\\ce{H+}]}$ and $[\\ce{OH-}]=\\dfrac{K_w}{[\\ce{H+}]}$ (HA barely dissociates)."
+    },
+    {
+     "n": 3,
+     "text": "So $[\\ce{H+}]^2=K_ac+K_w=4\\times10^{-14}+1\\times10^{-14}=5\\times10^{-14}$."
+    },
+    {
+     "n": 4,
+     "text": "$[\\ce{H+}]=\\sqrt5\\times10^{-7}=2.236\\times10^{-7}$ M, so $X\\approx2.24$."
+    }
+   ],
+   "pitfalls": [
+    "Ignoring Kw, which gives 2.0 instead of 2.24"
+   ],
+   "final_check": "$X\\approx2.24$ (the official key accepts 2.2 to 2.3)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Ionic Equilibrium"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "9",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "2.24",
+   "tolerance": 0.06,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "2.24",
+   "key_answer": "[2.2 to 2.3]",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-che-s3-q10",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 10,
+  "stem": "The molar volume ($V_m$) of a van der Waals gas can be calculated by expressing the van der Waals equation as a cubic equation in $V_m$. The ratio (in mol dm$^{-3}$) of the coefficient of $V_m^2$ to the coefficient of $V_m$ for a gas having van der Waals constants $a=6.0\\ \\mathrm{dm^6\\,atm\\,mol^{-2}}$ and $b=0.060\\ \\mathrm{dm^3\\,mol^{-1}}$ at $300$ K and $300$ atm is ______. Use $R=0.082\\ \\mathrm{dm^3\\,atm\\,mol^{-1}K^{-1}}$.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "van der Waals equation",
+    "cubic in molar volume"
+   ],
+   "formulas": [
+    "$PV_m^3-(Pb+RT)V_m^2+aV_m-ab=0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\left(P+\\frac a{V_m^2}\\right)(V_m-b)=RT$ expands to $PV_m^3-(Pb+RT)V_m^2+aV_m-ab=0$."
+    },
+    {
+     "n": 2,
+     "text": "Ratio of coefficient of $V_m^2$ to that of $V_m$: $-\\dfrac{Pb+RT}{a}$."
+    },
+    {
+     "n": 3,
+     "text": "$Pb=300\\times0.060=18$; $RT=0.082\\times300=24.6$; sum $=42.6$."
+    },
+    {
+     "n": 4,
+     "text": "Ratio $=-\\dfrac{42.6}{6.0}=-7.1$ mol dm$^{-3}$."
+    }
+   ],
+   "pitfalls": [
+    "Dropping the minus sign"
+   ],
+   "final_check": "Ratio $=-7.1$ (the official key accepts -7.2 to -7)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "States of Matter"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "10",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "-7.10",
+   "tolerance": 0.1,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "-7.10",
+   "key_answer": "[-7.2 to -7]",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-che-s3-q11",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 11,
+  "stem": "Considering ideal gas behavior, the expansion work done (in kJ) when $144$ g of water is electrolyzed completely under constant pressure at $300$ K is ______. Use $R=8.3\\ \\mathrm{J\\,K^{-1}mol^{-1}}$; atomic mass: H $=1$, O $=16$.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "work of expansion",
+    "ideal gas",
+    "electrolysis of water"
+   ],
+   "formulas": [
+    "$w=P\\Delta V=\\Delta n_gRT$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$144\\ \\text{g}\\ \\ce{H2O}=8$ mol. $\\ce{2H2O(l) -> 2H2(g) + O2(g)}$ gives $8$ mol $\\ce{H2}$ and $4$ mol $\\ce{O2}$: $\\Delta n_g=12$ mol (the liquid volume is negligible)."
+    },
+    {
+     "n": 2,
+     "text": "Expansion work $=P\\Delta V=\\Delta n_gRT=12\\times8.3\\times300=29880$ J $=29.88$ kJ done by the system."
+    }
+   ],
+   "pitfalls": [
+    "Counting only the H2 or using 8 mol of gas"
+   ],
+   "final_check": "$29.88$ kJ (the official key accepts $29.8$ to $29.95$, or the same range with a negative sign)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "11",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "29.88",
+   "tolerance": 0.07,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "29.88",
+   "key_answer": "[-29.95 to -29.8] OR [29.8 to 29.95]",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-che-s3-q12",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 12,
+  "stem": "The monomer (X) involved in the synthesis of Nylon 6,6 gives a positive carbylamine test. If $10$ moles of X are analyzed using the Dumas method, the amount (in grams) of nitrogen gas evolved is ______. Use atomic mass of N $=14$.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "polymers",
+    "Dumas method",
+    "carbylamine test"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Nylon 6,6 is made from hexamethylenediamine $\\ce{H2N(CH2)6NH2}$ and adipic acid. Only the diamine is a primary amine, so it gives the carbylamine test: X $=$ hexamethylenediamine."
+    },
+    {
+     "n": 2,
+     "text": "Each molecule has 2 N atoms, so 10 mol X gives 20 mol N atoms $=10$ mol $\\ce{N2}$."
+    },
+    {
+     "n": 3,
+     "text": "Mass of $\\ce{N2}=10\\times28=280$ g."
+    }
+   ],
+   "pitfalls": [
+    "Counting 1 N per molecule"
+   ],
+   "final_check": "$280$ g."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Biomolecules and Polymers"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "12",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "280",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "280",
+   "key_answer": "280",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-che-s3-q13",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 3",
+   "max_marks": 24
+  },
+  "qtype": "numerical",
+  "number_in_subject": 13,
+  "stem": "[Figure: reaction scheme starting from $\\mathbf X$ = 2-(2-bromophenyl)-1,3-dioxolane (the ethylene acetal of 2-bromobenzaldehyde). Step 1: (i) Na, dry ether; (ii) $\\ce{H3O+}$ gives $\\mathbf P$ (molar mass 210, yield 100%). Step 2: (i) NaOH, $\\Delta$; (ii) $\\ce{H3O+}$ gives $\\mathbf Q$ (50%). Step 3: (i) NaOH, CaO; (ii) $\\Delta$ gives $\\mathbf R$ (50%). Step 4: $\\ce{PBr3}$, $\\ce{(C2H5)2O}$ gives $\\mathbf T$ (50%). Step 5: $\\mathbf T$ with $\\mathbf R$ and NaH in $\\ce{(C2H5)2O}$ gives $\\mathbf S$ (50%).] The reaction sequence is carried out with $16$ moles of $\\mathbf X$. The yield of the major product in each step is given in parentheses. The amount (in grams) of $\\mathbf S$ produced is ______. Use atomic mass: H $=1$, C $=12$, O $=16$, Br $=80$.",
+  "stem_images": [
+   "images/adv2025-p1-che-p28.png"
+  ],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Wurtz-Fittig reaction",
+    "Cannizzaro reaction",
+    "decarboxylation",
+    "Williamson ether synthesis",
+    "yield calculations"
+   ],
+   "formulas": [
+    "$\\text{mass}=n\\times M\\times\\text{yield}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Step 1 (Wurtz-Fittig coupling, then acetal hydrolysis): $\\mathbf P=$ biphenyl-2,2'-dicarbaldehyde, $\\ce{C14H10O2}$, M $=210$ (matches). 16 mol X gives 8 mol P (100%)."
+    },
+    {
+     "n": 2,
+     "text": "Step 2: intramolecular Cannizzaro reaction with NaOH gives 2'-(hydroxymethyl)biphenyl-2-carboxylic acid ($\\mathbf Q$). At 50%: 4 mol."
+    },
+    {
+     "n": 3,
+     "text": "Step 3: NaOH/CaO then heat decarboxylates it: $\\mathbf R=$ (biphenyl-2-yl)methanol, $\\ce{C13H12O}$. At 50%: 2 mol."
+    },
+    {
+     "n": 4,
+     "text": "Step 4: $\\ce{PBr3}$ converts the alcohol to the bromide, $\\mathbf T=2$-(bromomethyl)biphenyl. 1 mol R is used per mole of T, so at 50% from 2 mol R we get 1 mol T."
+    },
+    {
+     "n": 5,
+     "text": "Step 5: Williamson ether synthesis, $\\mathbf T$ + the alkoxide of $\\mathbf R$: $\\mathbf S=\\ce{(biphenyl-2-yl-CH2)2O}$, $\\ce{C26H22O}$, M $=26\\times12+22+16=350$. At 50% from 1 mol T: 0.5 mol."
+    },
+    {
+     "n": 6,
+     "text": "Mass of $\\mathbf S=0.5\\times350=175$ g."
+    }
+   ],
+   "pitfalls": [
+    "Not applying the 50% yield at every step"
+   ],
+   "final_check": "$175$ g. The structures were read from the figure and the molar mass of P (210) was used as a check."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Carbonyl Compounds"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "13",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "175",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "175",
+   "key_answer": "175",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-che-s4-q14",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 12
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 14,
+  "stem": "The correct match of the group reagents in List-I for precipitating the metal ion given in List-II from solutions is\\nList-I: (P) Passing $\\ce{H2S}$ in the presence of $\\ce{NH4OH}$; (Q) $\\ce{(NH4)2CO3}$ in the presence of $\\ce{NH4OH}$; (R) $\\ce{NH4OH}$ in the presence of $\\ce{NH4Cl}$; (S) Passing $\\ce{H2S}$ in the presence of dilute HCl.\\nList-II: (1) $\\ce{Cu^{2+}}$; (2) $\\ce{Al^{3+}}$; (3) $\\ce{Mn^{2+}}$; (4) $\\ce{Ba^{2+}}$; (5) $\\ce{Mg^{2+}}$.",
+  "stem_images": [],
+  "options": {
+   "A": "P→3; Q→4; R→2; S→1",
+   "B": "P→4; Q→2; R→3; S→1",
+   "C": "P→3; Q→4; R→1; S→5",
+   "D": "P→5; Q→3; R→2; S→4"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "qualitative analysis",
+    "group reagents"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(P) $\\ce{H2S}$ in ammoniacal medium is the Group IV reagent (Co, Ni, Mn, Zn): $\\ce{Mn^{2+}}$ gives MnS. So (3)."
+    },
+    {
+     "n": 2,
+     "text": "(Q) $\\ce{(NH4)2CO3}$ with $\\ce{NH4OH}$ is the Group V reagent: $\\ce{Ba^{2+}}$ gives $\\ce{BaCO3}$. So (4)."
+    },
+    {
+     "n": 3,
+     "text": "(R) $\\ce{NH4OH}$ with $\\ce{NH4Cl}$ is the Group III reagent: $\\ce{Al^{3+}}$ gives $\\ce{Al(OH)3}$. So (2)."
+    },
+    {
+     "n": 4,
+     "text": "(S) $\\ce{H2S}$ with dilute HCl is the Group II reagent: $\\ce{Cu^{2+}}$ gives CuS. So (1)."
+    }
+   ],
+   "pitfalls": [
+    "Putting Mg2+ in Group III or IV"
+   ],
+   "final_check": "P→3, Q→4, R→2, S→1, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Salt Analysis"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "14",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-che-s4-q15",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 12
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 15,
+  "stem": "[Figure: List-II reaction schemes (each on the named starting material, the product of each is the reactant for a List-I reaction): (1) toluene with (i) $\\ce{CrO2Cl2/CS2}$, (ii) $\\ce{H3O+}$; (2) benzoic acid with (i) $\\ce{PCl5}$, (ii) $\\ce{NH3}$, (iii) $\\ce{P4O10}$, $\\Delta$; (3) nitrobenzene with (i) Fe, HCl, (ii) HCl, $\\ce{NaNO2}$ (273-278 K), $\\ce{H2O}$; (4) toluene with (i) $\\ce{Cl2}$/h$\\nu$, $\\ce{H2O}$, (ii) Tollens' reagent, (iii) $\\ce{SO2Cl2}$, (iv) $\\ce{NH3}$; (5) aniline with (i) $\\ce{(CH3CO)2O}$, pyridine, (ii) $\\ce{HNO3}$, $\\ce{H2SO4}$, 288 K, (iii) aq. NaOH.] The major products obtained from the reactions in List-II are the reactants for the named reactions in List-I. Match each entry in List-I with the appropriate entry in List-II.\\nList-I: (P) Stephen reaction; (Q) Sandmeyer reaction; (R) Hoffmann bromamide degradation reaction; (S) Cannizzaro reaction.",
+  "stem_images": [
+   "images/adv2025-p1-che-p30.png"
+  ],
+  "options": {
+   "A": "P→2; Q→4; R→1; S→3",
+   "B": "P→2; Q→3; R→4; S→1",
+   "C": "P→5; Q→3; R→4; S→2",
+   "D": "P→5; Q→4; R→2; S→1"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "named reactions",
+    "Stephen, Sandmeyer, Hoffmann, Cannizzaro"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(P) Stephen reaction converts a nitrile into an aldehyde. List-II (2): benzoic acid $\\to$ benzoyl chloride $\\to$ benzamide $\\to$ benzonitrile (with $\\ce{P4O10}$). So P→2."
+    },
+    {
+     "n": 2,
+     "text": "(Q) Sandmeyer reaction needs an aryl diazonium salt. List-II (3): nitrobenzene $\\to$ aniline $\\to$ benzenediazonium chloride. So Q→3."
+    },
+    {
+     "n": 3,
+     "text": "(R) Hoffmann bromamide degradation needs an amide. List-II (4): toluene $\\to$ benzaldehyde (Cl2/h$\\nu$, then hydrolysis) $\\to$ benzoic acid (Tollens) $\\to$ benzoyl chloride $\\to$ benzamide. So R→4."
+    },
+    {
+     "n": 4,
+     "text": "(S) Cannizzaro reaction needs an aldehyde with no $\\alpha$-hydrogen. List-II (1): the Etard reaction gives benzaldehyde. So S→1."
+    }
+   ],
+   "pitfalls": [
+    "Matching (5), which gives p-nitroaniline, to Sandmeyer"
+   ],
+   "final_check": "P→2, Q→3, R→4, S→1, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Amines"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "15",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "adv2025-p1-che-s4-q16",
+  "exam": "JEE Advanced",
+  "year": 2025,
+  "session": null,
+  "shift": null,
+  "subject": "chemistry",
+  "section": {
+   "name": "Section 4",
+   "max_marks": 12
+  },
+  "qtype": "matrix_match",
+  "number_in_subject": 16,
+  "stem": "[Figure: List-I compounds: (P) 4-hydroxyphenylglycine amide of glycine methyl ester, that is $\\ce{HO-C6H4-CH(NH2)-CO-NH-CH2-CO2Me}$; (Q) N-acetyl phenylglycyl-valine methyl ester, $\\ce{CH3CO-NH-CH(C6H5)-CO-NH-CH(CH(CH3)2)-CO2Me}$; (R) anilinium chloride, $\\ce{C6H5NH3+ Cl-}$; (S) mesitylhydrazine (2,4,6-trimethylphenylhydrazine), $\\ce{Mes-NHNH2}$.] Match the compounds in List-I with the observations in List-II.\\nList-II: (1) Reaction with phenyl diazonium salt gives a yellow dye; (2) Reaction with ninhydrin gives purple color and it also reacts with $\\ce{FeCl3}$ to give violet color; (3) Reaction with glucose will give the corresponding hydrazone; (4) Lassaigne extract of the compound treated with dilute HCl followed by addition of aqueous $\\ce{FeCl3}$ gives blood red color; (5) After complete hydrolysis, it will give the ninhydrin test and it DOES NOT give a positive phthalein dye test.",
+  "stem_images": [
+   "images/adv2025-p1-che-p31.png"
+  ],
+  "options": {
+   "A": "P→1; Q→5; R→4; S→2",
+   "B": "P→2; Q→5; R→1; S→3",
+   "C": "P→5; Q→2; R→1; S→4",
+   "D": "P→2; Q→1; R→5; S→3"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "amino acids and peptides tests",
+    "azo coupling",
+    "hydrazone formation"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(P) Has a free primary amine (ninhydrin: purple) and a phenol (neutral $\\ce{FeCl3}$: violet). So P→2."
+    },
+    {
+     "n": 2,
+     "text": "(Q) The amine is acetylated, so it gives no direct ninhydrin test. Complete hydrolysis releases phenylglycine and valine (ninhydrin positive) and acetic acid; there is no phenol or phthalic anhydride, so the phthalein test is negative. So Q→5."
+    },
+    {
+     "n": 3,
+     "text": "(R) Anilinium chloride is in equilibrium with aniline, which couples with a phenyl diazonium salt (at the para position) to give the yellow dye p-aminoazobenzene. So R→1."
+    },
+    {
+     "n": 4,
+     "text": "(S) An arylhydrazine condenses with the carbonyl group of glucose to give a hydrazone (and an osazone). So S→3. Also, the Lassaigne blood-red test (4) needs both N and S, which none of the compounds has."
+    }
+   ],
+   "pitfalls": [
+    "Giving the blood red Lassaigne test to a nitrogen-only compound"
+   ],
+   "final_check": "P→2, Q→5, R→1, S→3, option B. The structures were read from the figure."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Biomolecules and Polymers"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "16",
+   "paper_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "key_pdf": "https://jeeadv.ac.in/past_qps/2025_1_English.pdf",
+   "extracted_at": "2026-10-17T17:20:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "Paper 1",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "official_final_key"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ }
+]
