@@ -128,6 +128,16 @@
    "question_count": 48,
    "session": "Paper 1",
    "year": 2025
+  },
+  {
+   "exam": "JEE Advanced",
+   "file": "adv2025-p2.json",
+   "id": "adv2025-p2",
+   "note": "JEE Advanced 2025 — Paper 2 — 48 questions, solutions written from scratch and checked against the official IIT answer key; includes single/multi-correct and numerical; one question awarded to all",
+   "paper": "Paper 2",
+   "question_count": 48,
+   "session": "Paper 2",
+   "year": 2025
   }
  ]
 }
