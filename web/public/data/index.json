@@ -292,6 +292,17 @@
    "session": "Session 2",
    "shift": "2025-04-04 Shift 1",
    "year": 2025
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2025-0404-s2.json",
+   "id": "main2025-0404-s2",
+   "note": "75 questions, from the Smartachievers/Allen paper PDF (third-party; includes printed answers, so solves were not blind). All answers independently re-derived. Official NTA key not cross-checked for this shift. Other flags: Maths Q4/Q5/Q6/Q16 (printed typos or sign slips in the paper); Physics Q36 (printed solution typos), Q39 (assumes uniform velocity, not in stem), Q46 (paper also prints NTA 10; kept 0 from the stem units), Q50 (voltage taken as rms); Chemistry Q51/Q55/Q68 (follow printed reasoning), Q58 (option spelling), Q66 (key relies on printed X=5).",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "shift": "2025-04-04 Shift 2",
+   "year": 2025
   }
  ]
 }
