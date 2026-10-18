@@ -314,6 +314,17 @@
    "session": "Session 2",
    "shift": "2025-04-07 Shift 1",
    "year": 2025
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2025-0407-s2.json",
+   "id": "main2025-0407-s2",
+   "note": "75 questions, from the Smartachievers paper PDF (third-party; question-only, answers per its printed answer tables, which were not independently verified against NTA's official key; solves were blind). Flags: Physics Q14 (ambiguous wording), Physics Q18 (exact 16.5 vs option 16.4), Chemistry Q12 (list entry C inconsistent), Q13 (V2O5 classed amphoteric), Q19 (statement E debatable), Maths Q12, Q24, Q25 (numeric/exact-sum derivations).",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "shift": "2025-04-07 Shift 2",
+   "year": 2025
   }
  ]
 }
