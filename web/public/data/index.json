@@ -160,6 +160,17 @@
    "session": "Session 1",
    "year": 2025,
    "shift": "2025-01-22 Shift 2"
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2025-0123-s1.json",
+   "id": "main2025-0123-s1",
+   "note": "JEE Main 2025 Session 1, January 23 Shift 1. 75 questions. The 25 numerical questions are checked against the NTA final key by value, except Q46 which NTA dropped. The 50 MCQs are solved independently and agree with MathonGo's key (needs_review: NTA publishes option IDs only). 5 questions have flagged caveats beyond that (Q24, Q26, Q46, Q50, Q51); see the notes.",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 1",
+   "year": 2025,
+   "shift": "2025-01-23 Shift 1"
   }
  ]
 }
