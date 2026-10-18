@@ -158,7 +158,7 @@ export default function App() {
 
       <footer className="mx-auto max-w-5xl px-4 pb-8 pt-2 text-center text-xs text-slate-400 dark:text-slate-600">
         JEE Question Bank · Phase 1 pilot · {questions.length} question{questions.length === 1 ? '' : 's'} ·
-        solutions verified against official answer keys
+        solutions checked against published answer keys; see each solution's note for any open flags
       </footer>
     </div>
   );
