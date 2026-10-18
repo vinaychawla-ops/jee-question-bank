@@ -31,6 +31,10 @@ function BankView({ questions, filters, setFilters, bookmarkedIds, onToggleBookm
     [questions, filters, bookmarkedIds]
   );
   const titleOf = (q) => paperTitle(q._paper);
+  const PAGE = 50;
+  const [visible, setVisible] = useState(PAGE);
+  useEffect(() => setVisible(PAGE), [filters]);
+  const shown = filtered.slice(0, visible);
 
   return (
     <div className="space-y-3">
@@ -47,7 +51,7 @@ function BankView({ questions, filters, setFilters, bookmarkedIds, onToggleBookm
         </div>
       ) : (
         <div className="space-y-2.5">
-          {filtered.map((q) => (
+          {shown.map((q) => (
             <QuestionCard
               key={q.id}
               q={q}
@@ -57,6 +61,14 @@ function BankView({ questions, filters, setFilters, bookmarkedIds, onToggleBookm
               onOpen={onOpen}
             />
           ))}
+          {filtered.length > shown.length && (
+            <button
+              onClick={() => setVisible((v) => v + PAGE)}
+              className="w-full rounded-xl border border-slate-300 py-3 text-sm font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
+            >
+              Show more ({filtered.length - shown.length} remaining)
+            </button>
+          )}
         </div>
       )}
     </div>
