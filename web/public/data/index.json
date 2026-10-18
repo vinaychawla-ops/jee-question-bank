@@ -19,8 +19,8 @@
    "paper": "Paper 1",
    "question_count": 75,
    "session": "Session 2",
-   "shift": "2026-04-02 Shift 1",
-   "year": 2026
+   "year": 2026,
+   "shift": "2026-04-02 Shift 1"
   },
   {
    "exam": "JEE Main",
@@ -30,8 +30,8 @@
    "paper": "Paper 1",
    "question_count": 75,
    "session": "Session 2",
-   "shift": "2026-04-02 Shift 2",
-   "year": 2026
+   "year": 2026,
+   "shift": "2026-04-02 Shift 2"
   },
   {
    "exam": "JEE Main",
@@ -41,8 +41,8 @@
    "paper": "Paper 1",
    "question_count": 75,
    "session": "Session 2",
-   "shift": "2026-04-04 Shift 1",
-   "year": 2026
+   "year": 2026,
+   "shift": "2026-04-04 Shift 1"
   },
   {
    "exam": "JEE Main",
@@ -52,8 +52,8 @@
    "paper": "Paper 1",
    "question_count": 75,
    "session": "Session 2",
-   "shift": "2026-04-04 Shift 2",
-   "year": 2026
+   "year": 2026,
+   "shift": "2026-04-04 Shift 2"
   },
   {
    "exam": "JEE Main",
@@ -63,8 +63,8 @@
    "paper": "Paper 1",
    "question_count": 75,
    "session": "Session 2",
-   "shift": "2026-04-05 Shift 1",
-   "year": 2026
+   "year": 2026,
+   "shift": "2026-04-05 Shift 1"
   },
   {
    "exam": "JEE Main",
@@ -74,8 +74,8 @@
    "paper": "Paper 1",
    "question_count": 75,
    "session": "Session 2",
-   "shift": "2026-04-05 Shift 2",
-   "year": 2026
+   "year": 2026,
+   "shift": "2026-04-05 Shift 2"
   },
   {
    "exam": "JEE Main",
@@ -85,8 +85,8 @@
    "paper": "Paper 1",
    "question_count": 75,
    "session": "Session 2",
-   "shift": "2026-04-06 Shift 1",
-   "year": 2026
+   "year": 2026,
+   "shift": "2026-04-06 Shift 1"
   },
   {
    "exam": "JEE Main",
@@ -96,8 +96,8 @@
    "paper": "Paper 1",
    "question_count": 75,
    "session": "Session 2",
-   "shift": "2026-04-06 Shift 2",
-   "year": 2026
+   "year": 2026,
+   "shift": "2026-04-06 Shift 2"
   },
   {
    "exam": "JEE Advanced",
@@ -147,8 +147,8 @@
    "paper": "Paper 1",
    "question_count": 75,
    "session": "Session 1",
-   "shift": "2025-01-22 Shift 1",
-   "year": 2025
+   "year": 2025,
+   "shift": "2025-01-22 Shift 1"
   },
   {
    "exam": "JEE Main",
@@ -158,8 +158,8 @@
    "paper": "Paper 1",
    "question_count": 75,
    "session": "Session 1",
-   "shift": "2025-01-22 Shift 2",
-   "year": 2025
+   "year": 2025,
+   "shift": "2025-01-22 Shift 2"
   },
   {
    "exam": "JEE Main",
@@ -169,8 +169,8 @@
    "paper": "Paper 1",
    "question_count": 75,
    "session": "Session 1",
-   "shift": "2025-01-23 Shift 1",
-   "year": 2025
+   "year": 2025,
+   "shift": "2025-01-23 Shift 1"
   },
   {
    "exam": "JEE Main",
@@ -180,8 +180,8 @@
    "paper": "Paper 1",
    "question_count": 75,
    "session": "Session 1",
-   "shift": "2025-01-23 Shift 2",
-   "year": 2025
+   "year": 2025,
+   "shift": "2025-01-23 Shift 2"
   },
   {
    "exam": "JEE Main",
@@ -191,8 +191,8 @@
    "paper": "Paper 1",
    "question_count": 75,
    "session": "Session 1",
-   "shift": "2025-01-24 Shift 1",
-   "year": 2025
+   "year": 2025,
+   "shift": "2025-01-24 Shift 1"
   },
   {
    "exam": "JEE Main",
@@ -202,51 +202,95 @@
    "paper": "Paper 1",
    "question_count": 75,
    "session": "Session 1",
-   "shift": "2025-01-24 Shift 2",
-   "year": 2025
+   "year": 2025,
+   "shift": "2025-01-24 Shift 2"
   },
   {
    "exam": "JEE Main",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 1",
+   "year": 2025,
    "file": "main2025-0128-s1.json",
    "id": "main2025-0128-s1",
    "note": "JEE Main 2025 Session 1, January 28 Shift 1. 75 questions. The 25 numerical questions are checked against the NTA final key by value. The 50 MCQs were solved before reading MathonGo's key (needs_review: NTA publishes option IDs only); 49 agreed at first; Q51 was then changed from the solve (B) to the key answer (A) after review of other published keys, so all 50 now match MathonGo; Q19, Q39 and Q64 were first answered differently and corrected after the key was seen (each re-derived). Flagged caveats: Q1, Q7, Q19, Q39, Q49, Q50, Q51, Q54, Q61, Q64, Q65, Q68, Q74, Q75; see the notes.",
-   "paper": "Paper 1",
-   "question_count": 75,
-   "session": "Session 1",
-   "shift": "2025-01-28 Shift 1",
-   "year": 2025
+   "shift": "2025-01-28 Shift 1"
   },
   {
    "exam": "JEE Main",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 1",
+   "year": 2025,
    "file": "main2025-0128-s2.json",
    "id": "main2025-0128-s2",
    "note": "JEE Main 2025 Session 1, January 28 Shift 2. 75 questions. The 25 numerical questions are checked against the NTA final key by value. The 50 MCQs are solved independently and agree with MathonGo's key (needs_review: NTA publishes option IDs only), except Q65 and Q68 where the first solve disagreed; both were changed to the key answer (C and A) after review of other published keys, so all 50 now match MathonGo (Q70 to Q75 were solved after the key page was visible, each worked independently). Flagged caveats: Q4, Q26, Q29, Q31, Q32, Q39, Q45, Q53, Q57, Q58, Q63, Q65, Q68; see the notes.",
-   "paper": "Paper 1",
-   "question_count": 75,
-   "session": "Session 1",
-   "shift": "2025-01-28 Shift 2",
-   "year": 2025
+   "shift": "2025-01-28 Shift 2"
   },
   {
    "exam": "JEE Main",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 1",
+   "year": 2025,
    "file": "main2025-0129-s1.json",
    "id": "main2025-0129-s1",
    "note": "JEE Main 2025 Session 1, January 29 Shift 1. 75 questions. The 25 numerical questions are checked against the NTA final key by value. The 50 MCQs were solved before reading MathonGo's key (needs_review: NTA publishes option IDs only); 47 agreed at first, Q35 still disagrees (solver answer kept, flagged), and Q62 and Q70 were first answered differently and corrected after the key was seen (Q62 from a misread option, Q70 re-derived from CFSE). Flagged caveats: Q26, Q35, Q36, Q52 (heat value missing in source), Q55, Q60, Q62, Q67, Q70, Q74; see the notes.",
+   "shift": "2025-01-29 Shift 1"
+  },
+  {
+   "exam": "JEE Main",
    "paper": "Paper 1",
    "question_count": 75,
    "session": "Session 1",
-   "shift": "2025-01-29 Shift 1",
+   "year": 2025,
+   "file": "main2025-0129-s2.json",
+   "id": "main2025-0129-s2",
+   "note": "75 questions. 25 numericals matched to the NTA final key by value. 50 MCQs are needs_review (NTA publishes option IDs only); solved independently and then compared with the third-party MathonGo key: 48 agreed at first, Q6 and Q69 were revised after seeing the key. Flagged: Q6, Q35, Q36, Q42, Q56, Q69, Q72, Q73.",
+   "shift": "2025-01-29 Shift 2"
+  },
+  {
+   "exam": "JEE Main",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "year": 2025,
+   "file": "main2025-0402-s1.json",
+   "id": "main2025-0402-s1",
+   "shift": "2025-04-02 Shift 1",
+   "note": "75 questions, from the Smartachievers/Allen paper PDF (third-party; includes printed answers, so solves were not blind). All answers independently re-derived. Official NTA key not cross-checked for this shift. Q24 differs from the printed key (2477 kept over 4949, see note). Other flags: Q6, Q19, Q42, Q46, Q48, Q56, Q63, Q67."
+  },
+  {
+   "exam": "JEE Main",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "year": 2025,
+   "file": "main2025-0403-s1.json",
+   "id": "main2025-0403-s1",
+   "shift": "2025-04-03 Shift 1",
+   "note": "75 questions, from the Smartachievers/Allen paper PDF (third-party; includes printed answers, so solves were not blind). All answers independently re-derived. Official NTA key not cross-checked for this shift. Q53 differs from the printed key (catalyst does not change equilibrium composition; see note). Other flags: Q25, Q27, Q30, Q36, Q40, Q50, Q52, Q57, Q65, Q71."
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2025-0403-s2.json",
+   "id": "main2025-0403-s2",
+   "note": "75 questions, from the Smartachievers/Allen paper PDF (third-party; includes printed answers, so solves were not blind). All answers independently re-derived. Official NTA key not cross-checked for this shift. Q45 (physics) differs from my own solve but matches every published key (see note). Other flags: Q5, Q15, Q17, Q21, Q44, Q49, Q52, Q59, Q60, Q71.",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "shift": "2025-04-03 Shift 2",
    "year": 2025
   },
   {
    "exam": "JEE Main",
-   "file": "main2025-0129-s2.json",
-   "id": "main2025-0129-s2",
-   "note": "75 questions. 25 numericals matched to the NTA final key by value. 50 MCQs are needs_review (NTA publishes option IDs only); solved independently and then compared with the third-party MathonGo key: 48 agreed at first, Q6 and Q69 were revised after seeing the key. Flagged: Q6, Q35, Q36, Q42, Q56, Q69, Q72, Q73.",
+   "file": "main2025-0404-s1.json",
+   "id": "main2025-0404-s1",
+   "note": "75 questions, from the Smartachievers/Allen paper PDF (third-party; includes printed answers, so solves were not blind). All answers independently re-derived. Official NTA key not cross-checked for this shift. Q46 (physics) exact value is 3.5, stored as the printed integer key 4. Q74 (chemistry) has inconsistent initial data (printed: Allen bonus, NTA 25). Other flags: Q15, Q17, Q26, Q28, Q29, Q32, Q40, Q44, Q45, Q50, Q55, Q56, Q61, Q69.",
    "paper": "Paper 1",
    "question_count": 75,
-   "session": "Session 1",
-   "shift": "2025-01-29 Shift 2",
+   "session": "Session 2",
+   "shift": "2025-04-04 Shift 1",
    "year": 2025
   },
   {
