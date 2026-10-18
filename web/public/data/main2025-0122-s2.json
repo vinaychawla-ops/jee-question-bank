@@ -1,0 +1,5966 @@
+[
+ {
+  "id": "main2025-0122-s2-mat-a-q01",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 1,
+  "stem": "For a $3\\times3$ matrix $M$, let trace$(M)$ denote the sum of all the diagonal elements of $M$. Let $A$ be a $3\\times3$ matrix such that $|A|=\\dfrac12$ and trace$(A)=3$. If $B=\\operatorname{adj}(\\operatorname{adj}(2A))$, then the value of $|B|+\\operatorname{trace}(B)$ equals :",
+  "stem_images": [],
+  "options": {
+   "A": "56",
+   "B": "132",
+   "C": "174",
+   "D": "280"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Adjoint of adjoint"
+   ],
+   "formulas": [
+    "$\\operatorname{adj}(\\operatorname{adj}X)=|X|^{n-2}X$",
+    "$|kX|=k^n|X|$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "For an $n\\times n$ matrix $X$: $\\operatorname{adj}(\\operatorname{adj}X)=|X|^{n-2}X$. Here $n=3$, $X=2A$, $|2A|=2^3\\cdot\\tfrac12=4$."
+    },
+    {
+     "n": 2,
+     "text": "So $B=4\\cdot 2A=8A$."
+    },
+    {
+     "n": 3,
+     "text": "$|B|=8^3|A|=512\\cdot\\tfrac12=256$ and trace$(B)=8\\cdot3=24$."
+    },
+    {
+     "n": 4,
+     "text": "$|B|+\\operatorname{trace}(B)=256+24=280$."
+    }
+   ],
+   "pitfalls": [
+    "Using $|2A|=2|A|$."
+   ],
+   "final_check": "$280$, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Matrices and Determinants"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q1",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q02",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 2,
+  "stem": "In a group of 3 girls and 4 boys, there are two boys $B_1$ and $B_2$. The number of ways, in which these girls and boys can stand in a queue such that all the girls stand together, all the boys stand together, but $B_1$ and $B_2$ are not adjacent to each other, is :",
+  "stem_images": [],
+  "options": {
+   "A": "96",
+   "B": "144",
+   "C": "120",
+   "D": "72"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Arrangements with restrictions"
+   ],
+   "formulas": [
+    "Complement counting"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Treat girls as one block and boys as one block: $2!$ orders of the blocks, $3!=6$ orders of the girls."
+    },
+    {
+     "n": 2,
+     "text": "Boys: $4!=24$ arrangements in total. Those with $B_1,B_2$ adjacent: $3!\\cdot2!=12$. So $24-12=12$ arrangements with them not adjacent."
+    },
+    {
+     "n": 3,
+     "text": "Total $=2\\times6\\times12=144$."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting the order of the two blocks."
+   ],
+   "final_check": "$144$, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Permutations and Combinations"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q2",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q03",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 3,
+  "stem": "Let $\\alpha,\\beta,\\gamma$ and $\\delta$ be the coefficients of $x^7,x^5,x^3$ and $x$ respectively in the expansion of $\\left(x+\\sqrt{x^3-1}\\right)^5+\\left(x-\\sqrt{x^3-1}\\right)^5,\\ x>1$. If $u$ and $v$ satisfy the equations $\\alpha u+\\beta v=18$, $\\gamma u+\\delta v=20$, then $u+v$ equals :",
+  "stem_images": [],
+  "options": {
+   "A": "5",
+   "B": "3",
+   "C": "4",
+   "D": "8"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Binomial expansion",
+    "Linear system"
+   ],
+   "formulas": [
+    "$(a+b)^n+(a-b)^n=2\\sum\\binom n{2k}a^{n-2k}b^{2k}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "The sum keeps only even powers of $\\sqrt{x^3-1}$: $2\\left[x^5+\\binom52x^3(x^3-1)+\\binom54x(x^3-1)^2\\right]$."
+    },
+    {
+     "n": 2,
+     "text": "$=2\\left[x^5+10x^6-10x^3+5x^7-10x^4+5x\\right]=10x^7+20x^6+2x^5-20x^4-20x^3+10x$."
+    },
+    {
+     "n": 3,
+     "text": "So $\\alpha=10,\\ \\beta=2,\\ \\gamma=-20,\\ \\delta=10$. Equations: $10u+2v=18$, $-20u+10v=20$."
+    },
+    {
+     "n": 4,
+     "text": "From the first, $v=9-5u$. Then $-20u+90-50u=20$, so $u=1$, $v=4$. $u+v=5$."
+    }
+   ],
+   "pitfalls": [
+    "Reading off the wrong coefficients, since $x^6$ and $x^4$ terms are also present."
+   ],
+   "final_check": "$5$, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Binomial Theorem"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q3",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q04",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 4,
+  "stem": "Let a line pass through two distinct points $P(-2,-1,3)$ and $Q$, and be parallel to the vector $3\\hat i+2\\hat j+2\\hat k$. If the distance of the point $Q$ from the point $R(1,3,3)$ is 5, then the square of the area of $\\triangle PQR$ is equal to :",
+  "stem_images": [],
+  "options": {
+   "A": "148",
+   "B": "136",
+   "C": "144",
+   "D": "140"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Parametric line",
+    "Area using cross product"
+   ],
+   "formulas": [
+    "Area $=\\tfrac12|\\vec a\\times\\vec b|$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$Q=P+t(3,2,2)=(-2+3t,\\,-1+2t,\\,3+2t)$. $Q-R=(3t-3,\\,2t-4,\\,2t)$."
+    },
+    {
+     "n": 2,
+     "text": "$|QR|^2=9(t-1)^2+(2t-4)^2+4t^2=17t^2-34t+25=25$, so $t=0$ or $t=2$. $Q\\ne P$, so $t=2$."
+    },
+    {
+     "n": 3,
+     "text": "$\\vec{PQ}=(6,4,4)$, $\\vec{PR}=(3,4,0)$. $\\vec{PQ}\\times\\vec{PR}=(-16,12,12)$, with squared magnitude $544$."
+    },
+    {
+     "n": 4,
+     "text": "$(\\text{Area})^2=\\dfrac{544}{4}=136$."
+    }
+   ],
+   "pitfalls": [
+    "Keeping the root $t=0$, which gives $Q=P$."
+   ],
+   "final_check": "$136$, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "3D Geometry"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q4",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q05",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 5,
+  "stem": "If $A$ and $B$ are two events such that $P(A\\cap B)=0.1$, and $P(A\\mid B)$ and $P(B\\mid A)$ are the roots of the equation $12x^2-7x+1=0$, then the value of $\\dfrac{P(\\bar A\\cup\\bar B)}{P(\\bar A\\cap\\bar B)}$ is :",
+  "stem_images": [],
+  "options": {
+   "A": "$\\dfrac43$",
+   "B": "$\\dfrac74$",
+   "C": "$\\dfrac53$",
+   "D": "$\\dfrac94$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Conditional probability",
+    "De Morgan's laws"
+   ],
+   "formulas": [
+    "$P(A|B)=P(A\\cap B)/P(B)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Roots of $12x^2-7x+1=0$ are $\\tfrac13$ and $\\tfrac14$. $P(A|B)=\\dfrac{0.1}{P(B)}$ and $P(B|A)=\\dfrac{0.1}{P(A)}$, so $\\{P(A),P(B)\\}=\\{0.3,0.4\\}$."
+    },
+    {
+     "n": 2,
+     "text": "$P(A\\cup B)=0.3+0.4-0.1=0.6$, so $P(\\bar A\\cap\\bar B)=0.4$."
+    },
+    {
+     "n": 3,
+     "text": "$P(\\bar A\\cup\\bar B)=1-P(A\\cap B)=0.9$."
+    },
+    {
+     "n": 4,
+     "text": "Ratio $=0.9/0.4=\\dfrac94$."
+    }
+   ],
+   "pitfalls": [
+    "Using $P(A|B)=P(B|A)$."
+   ],
+   "final_check": "$9/4$, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Probability"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q5",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q06",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 6,
+  "stem": "If $\\displaystyle\\int e^x\\left(\\dfrac{x\\sin^{-1}x}{\\sqrt{1-x^2}}+\\dfrac{\\sin^{-1}x}{(1-x^2)^{3/2}}+\\dfrac{x}{1-x^2}\\right)dx=g(x)+C$, where $C$ is the constant of integration, then $g\\left(\\tfrac12\\right)$ equals :",
+  "stem_images": [],
+  "options": {
+   "A": "$\\dfrac\\pi4\\sqrt{\\dfrac e3}$",
+   "B": "$\\dfrac\\pi6\\sqrt{\\dfrac e3}$",
+   "C": "$\\dfrac\\pi4\\sqrt{\\dfrac e2}$",
+   "D": "$\\dfrac\\pi6\\sqrt{\\dfrac e2}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "$\\int e^x(f+f')\\,dx$"
+   ],
+   "formulas": [
+    "$\\int e^x(f(x)+f'(x))dx=e^xf(x)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Let $h(x)=\\dfrac{x\\sin^{-1}x}{\\sqrt{1-x^2}}$. Then $h'(x)=\\dfrac{\\sin^{-1}x}{\\sqrt{1-x^2}}+\\dfrac{x}{1-x^2}+\\dfrac{x^2\\sin^{-1}x}{(1-x^2)^{3/2}}=\\dfrac{\\sin^{-1}x}{(1-x^2)^{3/2}}+\\dfrac{x}{1-x^2}$."
+    },
+    {
+     "n": 2,
+     "text": "So the integrand is $e^x\\left(h+h'\\right)$ and the integral is $e^xh(x)$, i.e. $g(x)=\\dfrac{e^x\\,x\\sin^{-1}x}{\\sqrt{1-x^2}}$."
+    },
+    {
+     "n": 3,
+     "text": "$g(\\tfrac12)=\\sqrt e\\cdot\\dfrac{\\tfrac12\\cdot\\tfrac\\pi6}{\\sqrt3/2}=\\dfrac{\\pi\\sqrt e}{6\\sqrt3}=\\dfrac\\pi6\\sqrt{\\dfrac e3}$."
+    }
+   ],
+   "pitfalls": [
+    "Not spotting that the first two terms plus the third are $h+h'$."
+   ],
+   "final_check": "$\\frac{\\pi}{6}\\sqrt{e/3}$, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Indefinite Integration"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q6",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q07",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 7,
+  "stem": "The area of the region enclosed by the curves $y=x^2-4x+4$ and $y^2=16-8x$ is :",
+  "stem_images": [],
+  "options": {
+   "A": "$\\dfrac83$",
+   "B": "$\\dfrac43$",
+   "C": "8",
+   "D": "5"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Area between a parabola pair"
+   ],
+   "formulas": [
+    "Area $=\\int(x_R-x_L)\\,dy$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Put $t=x-2$: $y=t^2$ and $y^2=-8t$, so $t^4=-8t$, giving $t=0$ or $t=-2$. The curves meet at $(2,0)$ and $(0,4)$."
+    },
+    {
+     "n": 2,
+     "text": "Integrate in $y$ for $0\\le y\\le4$. Left curve: $x=2-\\sqrt y$ (from $y=(x-2)^2$, $x\\le2$). Right curve: $x=\\dfrac{16-y^2}{8}=2-\\dfrac{y^2}8$."
+    },
+    {
+     "n": 3,
+     "text": "Area $=\\int_0^4\\left(\\sqrt y-\\dfrac{y^2}8\\right)dy=\\dfrac23\\cdot8-\\dfrac{64}{24}=\\dfrac{16}3-\\dfrac83=\\dfrac83$."
+    }
+   ],
+   "pitfalls": [
+    "Taking the other branch of the first parabola."
+   ],
+   "final_check": "$8/3$, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Definite Integration and Area"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q7",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q08",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 8,
+  "stem": "Let $f(x)=\\displaystyle\\int_0^{x^2}\\dfrac{t^2-8t+15}{e^t}\\,dt,\\ x\\in\\mathbb R$. Then the numbers of local maximum and local minimum points of $f$, respectively, are :",
+  "stem_images": [],
+  "options": {
+   "A": "2 and 3",
+   "B": "2 and 2",
+   "C": "3 and 2",
+   "D": "1 and 3"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Leibniz rule",
+    "Sign scheme for extrema"
+   ],
+   "formulas": [
+    "$\\dfrac{d}{dx}\\int_0^{g(x)}h\\,dt=h(g)g'$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$f'(x)=2x\\cdot\\dfrac{x^4-8x^2+15}{e^{x^2}}=\\dfrac{2x(x^2-3)(x^2-5)}{e^{x^2}}$."
+    },
+    {
+     "n": 2,
+     "text": "Zeros of $f'$: $x=-\\sqrt5,-\\sqrt3,0,\\sqrt3,\\sqrt5$. For large positive $x$, $f'>0$, and the sign alternates across each simple zero."
+    },
+    {
+     "n": 3,
+     "text": "Signs from left to right: $-,+,-,+,-,+$. So $f'$ changes $-\\to+$ at $-\\sqrt5,0,\\sqrt5$ (3 minima) and $+\\to-$ at $-\\sqrt3,\\sqrt3$ (2 maxima)."
+    }
+   ],
+   "pitfalls": [
+    "Missing the factor $2x$, which gives a minimum at $x=0$."
+   ],
+   "final_check": "2 maxima and 3 minima, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Applications of Derivatives"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q8",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q09",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 9,
+  "stem": "Let $P(4,4\\sqrt3)$ be a point on the parabola $y^2=4ax$ and $PQ$ be a focal chord of the parabola. If $M$ and $N$ are the foot of perpendiculars drawn from $P$ and $Q$ respectively on the directrix of the parabola, then the area of the quadrilateral $PQMN$ is equal to :",
+  "stem_images": [],
+  "options": {
+   "A": "$17\\sqrt3$",
+   "B": "$\\dfrac{263\\sqrt3}8$",
+   "C": "$\\dfrac{34\\sqrt3}3$",
+   "D": "$\\dfrac{343\\sqrt3}8$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Focal chord parameters",
+    "Trapezium area"
+   ],
+   "formulas": [
+    "Focal chord: $tt'=-1$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$48=4a\\cdot4$ gives $a=3$. Parameter of $P$: $2at=4\\sqrt3$, so $t=\\tfrac2{\\sqrt3}$. For a focal chord the other end has $t'=-\\tfrac1t=-\\tfrac{\\sqrt3}2$."
+    },
+    {
+     "n": 2,
+     "text": "$Q=(at'^2,2at')=\\left(\\tfrac94,-3\\sqrt3\\right)$. Directrix $x=-3$, so $M=(-3,4\\sqrt3)$ and $N=(-3,-3\\sqrt3)$."
+    },
+    {
+     "n": 3,
+     "text": "$PQMN$ is a trapezium with parallel sides $PM=4+3=7$ and $QN=\\tfrac94+3=\\tfrac{21}4$, and height $MN=7\\sqrt3$."
+    },
+    {
+     "n": 4,
+     "text": "Area $=\\tfrac12\\left(7+\\tfrac{21}4\\right)7\\sqrt3=\\dfrac{343\\sqrt3}8$."
+    }
+   ],
+   "pitfalls": [
+    "Using the wrong directrix."
+   ],
+   "final_check": "$343\\sqrt3/8$, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Parabola, Ellipse and Hyperbola"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q9",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q10",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 10,
+  "stem": "Let $\\vec a$ and $\\vec b$ be two unit vectors such that the angle between them is $\\dfrac\\pi3$. If $\\lambda\\vec a+2\\vec b$ and $3\\vec a-\\lambda\\vec b$ are perpendicular to each other, then the number of values of $\\lambda$ in $[-1,3]$ is :",
+  "stem_images": [],
+  "options": {
+   "A": "2",
+   "B": "1",
+   "C": "0",
+   "D": "3"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Dot product"
+   ],
+   "formulas": [
+    "$\\vec u\\perp\\vec v\\Rightarrow\\vec u\\cdot\\vec v=0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\vec a\\cdot\\vec b=\\tfrac12$. Set $(\\lambda\\vec a+2\\vec b)\\cdot(3\\vec a-\\lambda\\vec b)=0$."
+    },
+    {
+     "n": 2,
+     "text": "$3\\lambda-\\dfrac{\\lambda^2}2+3-2\\lambda=0$, i.e. $\\lambda^2-2\\lambda-6=0$."
+    },
+    {
+     "n": 3,
+     "text": "$\\lambda=1\\pm\\sqrt7\\approx3.65$ or $-1.65$. Neither lies in $[-1,3]$, so the number of values is $0$."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting to check the interval."
+   ],
+   "final_check": "0, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Vectors"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q10",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q11",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 11,
+  "stem": "If $\\displaystyle\\lim_{x\\to\\infty}\\left(\\left(\\dfrac e{1-e}\\right)\\left(\\dfrac1e-\\dfrac x{1+x}\\right)\\right)^x=\\alpha$, then the value of $\\dfrac{\\log_e\\alpha}{1+\\log_e\\alpha}$ equals :",
+  "stem_images": [],
+  "options": {
+   "A": "$e^{-1}$",
+   "B": "$e^2$",
+   "C": "$e^{-2}$",
+   "D": "e"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "$1^\\infty$ form"
+   ],
+   "formulas": [
+    "$\\lim(1+u)^{1/u}=e$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\dfrac1e-\\dfrac x{1+x}=\\dfrac1e-1+\\dfrac1{1+x}=\\dfrac{1-e}e+\\dfrac1{1+x}$."
+    },
+    {
+     "n": 2,
+     "text": "The base becomes $1+\\dfrac{e}{1-e}\\cdot\\dfrac1{1+x}$, a $1^\\infty$ form. So $\\ln\\alpha=\\lim x\\cdot\\dfrac{e}{(1-e)(1+x)}=\\dfrac e{1-e}$."
+    },
+    {
+     "n": 3,
+     "text": "$\\dfrac{\\ln\\alpha}{1+\\ln\\alpha}=\\dfrac{e/(1-e)}{1/(1-e)}=e$."
+    }
+   ],
+   "pitfalls": [
+    "Treating the base as $\\neq1$ in the limit."
+   ],
+   "final_check": "$e$, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Limits, Continuity and Differentiability"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q11",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q12",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 12,
+  "stem": "Let $A=\\{1,2,3,4\\}$ and $B=\\{1,4,9,16\\}$. Then the number of many-one functions $f:A\\to B$ such that $1\\in f(A)$ is equal to :",
+  "stem_images": [],
+  "options": {
+   "A": "151",
+   "B": "139",
+   "C": "163",
+   "D": "127"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Counting functions",
+    "Many-one functions"
+   ],
+   "formulas": [
+    "Many-one $=$ total $-$ one-one"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Functions with $1$ in the range: $4^4-3^4=256-81=175$."
+    },
+    {
+     "n": 2,
+     "text": "One-one functions (bijections) all contain $1$ in the range: $4!=24$."
+    },
+    {
+     "n": 3,
+     "text": "Many-one with $1$ in the range: $175-24=151$."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting to remove the bijections."
+   ],
+   "final_check": "151, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Sets, Relations and Functions"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q12",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q13",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 13,
+  "stem": "Suppose that the number of terms in an A.P. is $2k,\\ k\\in N$. If the sum of all odd terms of the A.P. is 40, the sum of all even terms is 55 and the last term of the A.P. exceeds the first term by 27, then $k$ is equal to :",
+  "stem_images": [],
+  "options": {
+   "A": "6",
+   "B": "5",
+   "C": "8",
+   "D": "4"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Arithmetic progression"
+   ],
+   "formulas": [
+    "$a_n=a+(n-1)d$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Each even-position term exceeds the preceding odd-position term by $d$, so (even sum) $-$ (odd sum) $=kd=15$."
+    },
+    {
+     "n": 2,
+     "text": "Last $-$ first $=(2k-1)d=27$."
+    },
+    {
+     "n": 3,
+     "text": "Dividing: $\\dfrac{2k-1}{k}=\\dfrac{27}{15}$, so $30k-15=27k$, giving $k=5$ (and $d=3$)."
+    }
+   ],
+   "pitfalls": [
+    "Using $(2k)d$ instead of $(2k-1)d$."
+   ],
+   "final_check": "$k=5$, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Sequences and Series"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q13",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q14",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 14,
+  "stem": "The perpendicular distance of the line $\\dfrac{x-1}2=\\dfrac{y+2}{-1}=\\dfrac{z+3}2$ from the point $P(2,-10,1)$ is :",
+  "stem_images": [],
+  "options": {
+   "A": "6",
+   "B": "$5\\sqrt2$",
+   "C": "$4\\sqrt3$",
+   "D": "$3\\sqrt5$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Distance from a point to a line"
+   ],
+   "formulas": [
+    "$d=\\dfrac{|\\vec{AP}\\times\\vec d|}{|\\vec d|}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "A point on the line: $A(1,-2,-3)$; direction $\\vec d=(2,-1,2)$, $|\\vec d|=3$. $\\vec{AP}=(1,-8,4)$."
+    },
+    {
+     "n": 2,
+     "text": "$\\vec{AP}\\times\\vec d=(-16+4,\\ 8-2,\\ -1+16)=(-12,6,15)$, with magnitude $\\sqrt{144+36+225}=\\sqrt{405}=9\\sqrt5$."
+    },
+    {
+     "n": 3,
+     "text": "Distance $=\\dfrac{9\\sqrt5}{3}=3\\sqrt5$."
+    }
+   ],
+   "pitfalls": [
+    "Arithmetic slip in the cross product."
+   ],
+   "final_check": "$3\\sqrt5$, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "3D Geometry"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q14",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q15",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 15,
+  "stem": "If the system of linear equations\n$x+y+2z=6$\n$2x+3y+az=a+1$\n$-x-3y+bz=2b$\nwhere $a,b\\in\\mathbb R$, has infinitely many solutions, then $7a+3b$ is equal to :",
+  "stem_images": [],
+  "options": {
+   "A": "16",
+   "B": "12",
+   "C": "22",
+   "D": "9"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Consistency of linear systems"
+   ],
+   "formulas": [
+    "Infinitely many solutions: $\\Delta=0$ and system consistent"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Row reduce: $R_2-2R_1:\\ y+(a-4)z=a-11$. $R_3+R_1:\\ -2y+(b+2)z=2b+6$."
+    },
+    {
+     "n": 2,
+     "text": "$R_3+2R_2$: $(2a+b-6)z=2a+2b-16$."
+    },
+    {
+     "n": 3,
+     "text": "Infinitely many solutions need both $2a+b-6=0$ and $2a+2b-16=0$. Subtracting gives $b=10$, then $a=-2$."
+    },
+    {
+     "n": 4,
+     "text": "$7a+3b=-14+30=16$."
+    }
+   ],
+   "pitfalls": [
+    "Using only $\\Delta=0$ and not checking consistency."
+   ],
+   "final_check": "16, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Matrices and Determinants"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q15",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q16",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 16,
+  "stem": "If $x=f(y)$ is the solution of the differential equation $(1+y^2)+\\left(x-2e^{\\tan^{-1}y}\\right)\\dfrac{dy}{dx}=0,\\ y\\in\\left(-\\dfrac\\pi2,\\dfrac\\pi2\\right)$ with $f(0)=1$, then $f\\left(\\dfrac1{\\sqrt3}\\right)$ is equal to :",
+  "stem_images": [],
+  "options": {
+   "A": "$e^{\\pi/12}$",
+   "B": "$e^{\\pi/4}$",
+   "C": "$e^{\\pi/3}$",
+   "D": "$e^{\\pi/6}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Linear DE in $x$"
+   ],
+   "formulas": [
+    "IF $=e^{\\int P\\,dy}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Rewrite as $\\dfrac{dx}{dy}+\\dfrac x{1+y^2}=\\dfrac{2e^{\\tan^{-1}y}}{1+y^2}$. Integrating factor $=e^{\\tan^{-1}y}$."
+    },
+    {
+     "n": 2,
+     "text": "$\\dfrac d{dy}\\left(xe^{\\tan^{-1}y}\\right)=\\dfrac{2e^{2\\tan^{-1}y}}{1+y^2}$, so $xe^{\\tan^{-1}y}=e^{2\\tan^{-1}y}+C$."
+    },
+    {
+     "n": 3,
+     "text": "$f(0)=1\\Rightarrow C=0$, so $x=e^{\\tan^{-1}y}$. At $y=\\tfrac1{\\sqrt3}$, $\\tan^{-1}y=\\tfrac\\pi6$, giving $e^{\\pi/6}$."
+    }
+   ],
+   "pitfalls": [
+    "Treating the equation as linear in $y$."
+   ],
+   "final_check": "$e^{\\pi/6}$, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Differential Equations"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q16",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q17",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 17,
+  "stem": "Let $\\alpha_\\theta$ and $\\beta_\\theta$ be the distinct roots of $2x^2+(\\cos\\theta)x-1=0,\\ \\theta\\in(0,2\\pi)$. If $m$ and $M$ are the minimum and the maximum values of $\\alpha_\\theta^4+\\beta_\\theta^4$, then $16(M+m)$ equals :",
+  "stem_images": [],
+  "options": {
+   "A": "24",
+   "B": "25",
+   "C": "17",
+   "D": "27"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Symmetric functions of roots"
+   ],
+   "formulas": [
+    "$\\alpha^2+\\beta^2=s^2-2p$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Sum $s=-\\tfrac{\\cos\\theta}2$, product $p=-\\tfrac12$. $\\alpha^4+\\beta^4=(s^2-2p)^2-2p^2=\\left(\\dfrac{\\cos^2\\theta}4+1\\right)^2-\\dfrac12$."
+    },
+    {
+     "n": 2,
+     "text": "This is increasing in $\\cos^2\\theta\\in[0,1]$. Minimum at $\\cos^2\\theta=0$: $m=1-\\tfrac12=\\tfrac12$. Maximum at $\\cos^2\\theta=1$: $M=\\tfrac{25}{16}-\\tfrac12=\\tfrac{17}{16}$."
+    },
+    {
+     "n": 3,
+     "text": "$16(M+m)=17+8=25$."
+    }
+   ],
+   "pitfalls": [
+    "Using the open range for $\\cos^2\\theta$; both ends are attained inside $(0,2\\pi)$."
+   ],
+   "final_check": "25, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Quadratic Equations"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q17",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q18",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 18,
+  "stem": "The sum of all values of $\\theta\\in[0,2\\pi]$ satisfying $2\\sin^2\\theta=\\cos2\\theta$ and $2\\cos^2\\theta=3\\sin\\theta$ is",
+  "stem_images": [],
+  "options": {
+   "A": "$4\\pi$",
+   "B": "$\\dfrac{5\\pi}6$",
+   "C": "$\\pi$",
+   "D": "$\\dfrac\\pi2$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Common solutions"
+   ],
+   "formulas": [
+    "$\\cos2\\theta=1-2\\sin^2\\theta$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$2\\sin^2\\theta=1-2\\sin^2\\theta\\Rightarrow\\sin^2\\theta=\\tfrac14$, so $\\sin\\theta=\\pm\\tfrac12$."
+    },
+    {
+     "n": 2,
+     "text": "$2\\cos^2\\theta=3\\sin\\theta\\Rightarrow2\\sin^2\\theta+3\\sin\\theta-2=0\\Rightarrow\\sin\\theta=\\tfrac12$ (the root $-2$ is impossible)."
+    },
+    {
+     "n": 3,
+     "text": "$\\theta=\\tfrac\\pi6,\\tfrac{5\\pi}6$ satisfy both. Sum $=\\pi$."
+    }
+   ],
+   "pitfalls": [
+    "Keeping $\\sin\\theta=-1/2$, which fails the second equation."
+   ],
+   "final_check": "$\\pi$, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Trigonometry"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q18",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q19",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 19,
+  "stem": "Let the curve $z(1+i)+\\bar z(1-i)=4,\\ z\\in\\mathbb C$, divide the region $|z-3|\\le1$ into two parts of areas $\\alpha$ and $\\beta$. Then $|\\alpha-\\beta|$ equals :",
+  "stem_images": [],
+  "options": {
+   "A": "$1+\\dfrac\\pi2$",
+   "B": "$1+\\dfrac\\pi3$",
+   "C": "$1+\\dfrac\\pi6$",
+   "D": "$1+\\dfrac\\pi4$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Locus",
+    "Circular segment area"
+   ],
+   "formulas": [
+    "Segment area $=\\tfrac12r^2(\\theta-\\sin\\theta)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "With $z=x+iy$: $2\\,\\mathrm{Re}\\left[(x+iy)(1+i)\\right]=2(x-y)=4$, so the curve is the line $x-y=2$."
+    },
+    {
+     "n": 2,
+     "text": "The region is a unit disc centred at $(3,0)$. Distance of the centre from the line: $\\dfrac{|3-2|}{\\sqrt2}=\\dfrac1{\\sqrt2}$, so the chord subtends $\\theta=\\dfrac\\pi2$ at the centre."
+    },
+    {
+     "n": 3,
+     "text": "Smaller segment $=\\dfrac12\\left(\\dfrac\\pi2-1\\right)$. $|\\alpha-\\beta|=\\pi-2\\cdot\\dfrac12\\left(\\dfrac\\pi2-1\\right)=\\dfrac\\pi2+1$."
+    }
+   ],
+   "pitfalls": [
+    "Using the wrong central angle."
+   ],
+   "final_check": "$1+\\pi/2$, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Complex Numbers"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q19",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-a-q20",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 20,
+  "stem": "Let $E:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1,\\ a>b$ and $H:\\dfrac{x^2}{A^2}-\\dfrac{y^2}{B^2}=1$. Let the distance between the foci of $E$ and the foci of $H$ be $2\\sqrt3$. If $a-A=2$, and the ratio of the eccentricities of $E$ and $H$ is $\\dfrac13$, then the sum of the lengths of their latus rectums is equal to :",
+  "stem_images": [],
+  "options": {
+   "A": "10",
+   "B": "9",
+   "C": "8",
+   "D": "7"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Confocal conics"
+   ],
+   "formulas": [
+    "$LR_E=2b^2/a$, $LR_H=2B^2/A$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "The two conics have the same foci, $(\\pm\\sqrt3,0)$, so $ae=\\sqrt3$ and $Ae_H=\\sqrt3$."
+    },
+    {
+     "n": 2,
+     "text": "$\\dfrac{e_E}{e_H}=\\dfrac Aa=\\dfrac13$, so $a=3A$. With $a-A=2$: $A=1$, $a=3$."
+    },
+    {
+     "n": 3,
+     "text": "$e_E=\\dfrac{\\sqrt3}3$, $b^2=9\\left(1-\\tfrac13\\right)=6$. $e_H=\\sqrt3$, $B^2=1\\cdot(3-1)=2$."
+    },
+    {
+     "n": 4,
+     "text": "Latus rectums: $\\dfrac{2b^2}a=4$ and $\\dfrac{2B^2}A=4$. Sum $=8$."
+    }
+   ],
+   "pitfalls": [
+    "Reading the foci-distance statement as foci of $E$ being $2\\sqrt3$ apart from foci of $H$."
+   ],
+   "final_check": "8, option C (reading the foci condition as confocal conics)."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Parabola, Ellipse and Hyperbola",
+    "Parabola, Ellipse and Hyperbola"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q20",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party). Question wording is ambiguous about what the distance $2\\sqrt3$ refers to. Solved as confocal conics ($ae=\\sqrt3$ for both); this reproduces the key value 8."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-b-q21",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 21,
+  "stem": "If $\\displaystyle\\sum_{r=1}^{30}\\dfrac{r^2\\left({}^{30}C_r\\right)^2}{{}^{30}C_{r-1}}=\\alpha\\times2^{29}$, then $\\alpha$ is equal to ______",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Binomial identities"
+   ],
+   "formulas": [
+    "$r\\binom nr=n\\binom{n-1}{r-1}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\dfrac{{}^{30}C_r}{{}^{30}C_{r-1}}=\\dfrac{31-r}r$, so each term is $r(31-r)\\,{}^{30}C_r=r(30-r)\\,{}^{30}C_r+r\\,{}^{30}C_r$."
+    },
+    {
+     "n": 2,
+     "text": "$r\\,{}^{30}C_r=30\\,{}^{29}C_{r-1}$ and $r(30-r){}^{30}C_r=30\\cdot29\\,{}^{28}C_{r-1}$."
+    },
+    {
+     "n": 3,
+     "text": "$\\sum r(30-r){}^{30}C_r=870\\cdot2^{28}$ and $\\sum r\\,{}^{30}C_r=30\\cdot2^{29}$."
+    },
+    {
+     "n": 4,
+     "text": "Total $=435\\cdot2^{29}+30\\cdot2^{29}=465\\cdot2^{29}$, so $\\alpha=465$."
+    }
+   ],
+   "pitfalls": [
+    "Dropping the $r$ factor from $r^2$."
+   ],
+   "final_check": "465, matches the official NTA final key."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Binomial Theorem"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q21",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "465",
+   "tolerance": null,
+   "source": "official_final_key (numeric answer matched to question by value)"
+  },
+  "verification": {
+   "solver_answer": "465",
+   "key_answer": "465",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-b-q22",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 22,
+  "stem": "Let $A=\\{1,2,3\\}$. The number of relations on $A$, containing $(1,2)$ and $(2,3)$, which are reflexive and transitive but not symmetric, is ______ .",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Reflexive, transitive relations"
+   ],
+   "formulas": [
+    "Transitivity closure"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Reflexive, transitive and containing $(1,2),(2,3)$ forces $(1,3)$. Base relation: the three diagonal pairs plus $(1,2),(2,3),(1,3)$."
+    },
+    {
+     "n": 2,
+     "text": "Optional extra pairs: $(2,1),(3,2),(3,1)$. Adding $(3,1)$ forces $(3,2)$ and $(2,1)$ by transitivity, giving the full relation (symmetric). Adding both $(2,1),(3,2)$ forces $(3,1)$, also the full relation."
+    },
+    {
+     "n": 3,
+     "text": "Valid non-symmetric relations: base, base $+(2,1)$, base $+(3,2)$. Count $=3$."
+    }
+   ],
+   "pitfalls": [
+    "Counting the full relation, which is symmetric."
+   ],
+   "final_check": "3, matches the official NTA final key."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Sets, Relations and Functions"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q22",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "3",
+   "tolerance": null,
+   "source": "official_final_key (numeric answer matched to question by value)"
+  },
+  "verification": {
+   "solver_answer": "3",
+   "key_answer": "3",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-b-q23",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 23,
+  "stem": "Let $A(6,8)$, $B(10\\cos\\alpha,-10\\sin\\alpha)$ and $C(-10\\sin\\alpha,10\\cos\\alpha)$ be the vertices of a triangle. If $L(a,9)$ and $G(h,k)$ be its orthocenter and centroid respectively, then $(5a-3h+6k+100\\sin2\\alpha)$ is equal to ______ .",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Euler line",
+    "Orthocentre"
+   ],
+   "formulas": [
+    "$H=A+B+C$ when circumcentre is the origin"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$|OA|=|OB|=|OC|=10$, so the circumcentre is $O(0,0)$ and the orthocentre is $L=A+B+C=(6+10\\cos\\alpha-10\\sin\\alpha,\\ 8-10\\sin\\alpha+10\\cos\\alpha)$."
+    },
+    {
+     "n": 2,
+     "text": "The $y$-coordinate is $9$, so $10(\\cos\\alpha-\\sin\\alpha)=1$. Then $a=6+1=7$."
+    },
+    {
+     "n": 3,
+     "text": "Centroid $G=\\dfrac L3$, so $h=\\tfrac73$, $k=3$."
+    },
+    {
+     "n": 4,
+     "text": "$(\\cos\\alpha-\\sin\\alpha)^2=0.01\\Rightarrow\\sin2\\alpha=0.99$. Value $=35-7+18+99=145$."
+    }
+   ],
+   "pitfalls": [
+    "Not noticing the circumcentre is the origin."
+   ],
+   "final_check": "145, matches the official NTA final key."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Straight Lines"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q23",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "145",
+   "tolerance": null,
+   "source": "official_final_key (numeric answer matched to question by value)"
+  },
+  "verification": {
+   "solver_answer": "145",
+   "key_answer": "145",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-b-q24",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 24,
+  "stem": "Let $y=f(x)$ be the solution of the differential equation $\\dfrac{dy}{dx}+\\dfrac{xy}{x^2-1}=\\dfrac{x^6+4x}{\\sqrt{1-x^2}},\\ -1<x<1$ such that $f(0)=0$. If $6\\displaystyle\\int_{-1/2}^{1/2}f(x)\\,dx=2\\pi-\\alpha$ then $\\alpha^2$ is equal to ______ .",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Linear DE",
+    "Odd and even functions"
+   ],
+   "formulas": [
+    "$\\int_{-a}^af=0$ for odd $f$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Integrating factor $=e^{\\int\\frac{x}{x^2-1}dx}=\\sqrt{1-x^2}$. Then $\\dfrac d{dx}\\left(y\\sqrt{1-x^2}\\right)=x^6+4x$."
+    },
+    {
+     "n": 2,
+     "text": "$y\\sqrt{1-x^2}=\\dfrac{x^7}7+2x^2+C$ with $C=0$ from $f(0)=0$."
+    },
+    {
+     "n": 3,
+     "text": "Over the symmetric interval the odd term $\\dfrac{x^7}{7\\sqrt{1-x^2}}$ vanishes. $\\int_{-1/2}^{1/2}\\dfrac{2x^2}{\\sqrt{1-x^2}}dx=4\\int_0^{\\pi/6}\\sin^2\\theta\\,d\\theta=\\dfrac\\pi3-\\dfrac{\\sqrt3}2$."
+    },
+    {
+     "n": 4,
+     "text": "$6\\times$ this $=2\\pi-3\\sqrt3$, so $\\alpha=3\\sqrt3$ and $\\alpha^2=27$."
+    }
+   ],
+   "pitfalls": [
+    "Sign errors with $x^2-1$ in the integrating factor."
+   ],
+   "final_check": "27, matches the official NTA final key."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Differential Equations",
+    "Definite Integration and Area"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q24",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "27",
+   "tolerance": null,
+   "source": "official_final_key (numeric answer matched to question by value)"
+  },
+  "verification": {
+   "solver_answer": "27",
+   "key_answer": "27",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2025-0122-s2-mat-b-q25",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 25,
+  "stem": "Let the distance between two parallel lines be 5 units and a point $P$ lie between the lines at a unit distance from one of them. An equilateral triangle $PQR$ is formed such that $Q$ lies on one of the parallel lines, while $R$ lies on the other. Then $(QR)^2$ is equal to ______ .",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Rotation",
+    "Equilateral triangle"
+   ],
+   "formulas": [
+    "Rotation by $60^\\circ$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Take the lines $y=0$ and $y=5$ and $P=(0,1)$, with $Q=(q,0)$ and $R$ on $y=5$."
+    },
+    {
+     "n": 2,
+     "text": "$R$ is $Q$ rotated $60^\\circ$ about $P$. $Q-P=(q,-1)$ rotates to a vector with $y$-component $\\tfrac{\\sqrt3}2q-\\tfrac12$. Setting $5-1=4$ gives $\\tfrac{\\sqrt3}2q=\\tfrac92$, so $q=3\\sqrt3$."
+    },
+    {
+     "n": 3,
+     "text": "$(QR)^2=(PQ)^2=q^2+1=27+1=28$."
+    }
+   ],
+   "pitfalls": [
+    "Placing $P$ at the wrong distance from the lines."
+   ],
+   "final_check": "28, matches the official NTA final key."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Straight Lines"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q25",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "28",
+   "tolerance": null,
+   "source": "official_final_key (numeric answer matched to question by value)"
+  },
+  "verification": {
+   "solver_answer": "28",
+   "key_answer": "28",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q01",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 1,
+  "stem": "The circuit shown in the figure has two AND gates and two NOT gates feeding a gate G, with output Y. Inputs $A$ and $B$; the required truth table is:\n\n| A | B | Y |\n|---|---|---|\n| 0 | 0 | 1 |\n| 0 | 1 | 1 |\n| 1 | 0 | 0 |\n| 1 | 1 | 1 |\n\nTo obtain the given truth table, the following logic gate should be placed at G:",
+  "stem_images": [
+   "images/main2025-0122-s2-q26.png"
+  ],
+  "options": {
+   "A": "OR Gate",
+   "B": "AND Gate",
+   "C": "NOR Gate",
+   "D": "NAND Gate"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Logic gates",
+    "Truth tables"
+   ],
+   "formulas": [
+    "$\\mathrm{NOR}(x,x)=\\bar x$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Reading the figure: $B$ passes through a NOT gate into each AND gate. The top AND receives $A$ and $\\bar B$; the bottom AND receives $\\bar B$ and $A$. Both AND outputs are $A\\bar B$."
+    },
+    {
+     "n": 2,
+     "text": "$A\\bar B=1$ only for $(A,B)=(1,0)$, so both inputs of G are $1$ there and $0$ otherwise."
+    },
+    {
+     "n": 3,
+     "text": "The required output is $Y=\\overline{A\\bar B}$: $0$ for $(1,0)$ and $1$ for the other three rows. A gate with two equal inputs $x$ that outputs $\\bar x$ is NOR (or NAND)."
+    },
+    {
+     "n": 4,
+     "text": "Both NOR and NAND reproduce the table for the circuit as printed, so the figure alone does not single out one option. The third-party key marks NOR (option C), which is the stored answer."
+    }
+   ],
+   "pitfalls": [
+    "Not noticing the two AND gates carry the same signal."
+   ],
+   "final_check": "NOR, option C (per key). NAND would also fit the printed circuit."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Semiconductors"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q26",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party). AMBIGUOUS AS PRINTED: both inputs of G carry the same signal, so NOR and NAND both give the stated truth table. Stored answer is the third-party key (NOR); not distinguishable from the question itself."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q02",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 2,
+  "stem": "A small rigid spherical ball of mass $M$ is dropped in a long vertical tube containing glycerine. The velocity of the ball becomes constant after some time. If the density of glycerine is half of the density of the ball, then the viscous force acting on the ball will be (consider $g$ as acceleration due to gravity)",
+  "stem_images": [],
+  "options": {
+   "A": "$2Mg$",
+   "B": "$Mg$",
+   "C": "$\\tfrac32Mg$",
+   "D": "$\\dfrac{Mg}2$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Terminal velocity",
+    "Buoyancy"
+   ],
+   "formulas": [
+    "$F_v=mg-F_b$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "At constant (terminal) velocity: weight $=$ buoyancy $+$ viscous force."
+    },
+    {
+     "n": 2,
+     "text": "Buoyancy $=\\dfrac{\\rho_g}{\\rho_b}Mg=\\dfrac{Mg}2$."
+    },
+    {
+     "n": 3,
+     "text": "Viscous force $=Mg-\\dfrac{Mg}2=\\dfrac{Mg}2$."
+    }
+   ],
+   "pitfalls": [
+    "Ignoring buoyancy."
+   ],
+   "final_check": "$Mg/2$, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Fluids and Properties of Matter"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q27",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q03",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 3,
+  "stem": "The torque due to the force $(2\\hat i+\\hat j+2\\hat k)$ about the origin, acting on a particle whose position vector is $(\\hat i+\\hat j+\\hat k)$, would be",
+  "stem_images": [],
+  "options": {
+   "A": "$\\hat i-\\hat k$",
+   "B": "$\\hat i+\\hat k$",
+   "C": "$\\hat j+\\hat k$",
+   "D": "$\\hat i-\\hat j+\\hat k$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Torque"
+   ],
+   "formulas": [
+    "$\\vec\\tau=\\vec r\\times\\vec F$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\vec\\tau=\\vec r\\times\\vec F=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\1&1&1\\\\2&1&2\\end{vmatrix}$."
+    },
+    {
+     "n": 2,
+     "text": "$=\\hat i(2-1)-\\hat j(2-2)+\\hat k(1-2)=\\hat i-\\hat k$."
+    }
+   ],
+   "pitfalls": [
+    "Reversing the order of the cross product."
+   ],
+   "final_check": "$\\hat i-\\hat k$, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Rotational Mechanics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q28",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q04",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 4,
+  "stem": "A symmetric thin biconvex lens is cut into four equal parts by two planes $AB$ and $CD$ as shown in figure. If the power of original lens is 4 D then the power of a part of the divided lens is",
+  "stem_images": [
+   "images/main2025-0122-s2-q29.png"
+  ],
+  "options": {
+   "A": "D",
+   "B": "8D",
+   "C": "2D",
+   "D": "4D"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Lens cut along and across the axis"
+   ],
+   "formulas": [
+    "$P=(\\mu-1)\\left(\\dfrac1{R_1}-\\dfrac1{R_2}\\right)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Plane $AB$ contains the principal axis. Cutting along it leaves the focal length unchanged: each half has power $4$ D."
+    },
+    {
+     "n": 2,
+     "text": "Plane $CD$ is the plane of the lens, perpendicular to the axis. It splits the lens into two plano-convex halves, each with one curved surface. Each surface contributes half the power, so the power halves."
+    },
+    {
+     "n": 3,
+     "text": "Power of each of the four parts $=\\dfrac42=2$ D."
+    }
+   ],
+   "pitfalls": [
+    "Treating a cut across the axis like a cut along it."
+   ],
+   "final_check": "2 D, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Ray Optics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q29",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q05",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 5,
+  "stem": "For a short dipole placed at origin $O$, the dipole moment $P$ is along $x$-axis, as shown in the figure. If the electric potential and electric field at A are $V_0$ and $E_0$, respectively, then the correct combination of the electric potential and electric field, respectively, at point $B$ on the $y$-axis is given by",
+  "stem_images": [
+   "images/main2025-0122-s2-q30.png"
+  ],
+  "options": {
+   "A": "$V_0$ and $\\dfrac{E_0}4$",
+   "B": "zero and $\\dfrac{E_0}{16}$",
+   "C": "zero and $\\dfrac{E_0}8$",
+   "D": "$\\dfrac{V_0}2$ and $\\dfrac{E_0}{16}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Electric dipole"
+   ],
+   "formulas": [
+    "Axial: $E=2kp/r^3$; equatorial: $E=kp/r^3$, $V=0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "A is on the axis at distance $r$: $V_0=\\dfrac{kp}{r^2}$, $E_0=\\dfrac{2kp}{r^3}$."
+    },
+    {
+     "n": 2,
+     "text": "B is on the equatorial line at distance $2r$: $V=0$ and $E=\\dfrac{kp}{(2r)^3}=\\dfrac{kp}{8r^3}=\\dfrac{E_0}{16}$."
+    }
+   ],
+   "pitfalls": [
+    "Using the axial formula at B."
+   ],
+   "final_check": "Zero and $E_0/16$, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electrostatics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q30",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q06",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 6,
+  "stem": "A transparent film of refractive index, 2.0 is coated on a glass slab of refractive index, 1.45. What is the minimum thickness of transparent film to be coated for the maximum transmission of Green light of wavelength 550 nm ? [Assume that the light is incident nearly perpendicular to the glass surface.]",
+  "stem_images": [],
+  "options": {
+   "A": "137.5 nm",
+   "B": "275 nm",
+   "C": "94.8 nm",
+   "D": "68.7 nm"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Thin film interference",
+    "Anti-reflection coating"
+   ],
+   "formulas": [
+    "$2nt=m\\lambda$ for destructive reflection with one $\\pi$ shift"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Reflection at air-film (low to high index) gives a phase change of $\\pi$; at film-glass ($2.0\\to1.45$) there is none."
+    },
+    {
+     "n": 2,
+     "text": "Maximum transmission means minimum reflection: the two reflected rays cancel, so the path difference is a whole number of wavelengths: $2nt=m\\lambda$."
+    },
+    {
+     "n": 3,
+     "text": "Minimum thickness ($m=1$): $t=\\dfrac{\\lambda}{2n}=\\dfrac{550}{4}=137.5$ nm."
+    }
+   ],
+   "pitfalls": [
+    "Using $2nt=(m+\\tfrac12)\\lambda$."
+   ],
+   "final_check": "137.5 nm, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Wave Optics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q31",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q07",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 7,
+  "stem": "Given are statements for certain thermodynamic variables, (A) Internal energy, volume ($V$) and mass ($M$) are extensive variables. (B) Pressure ($P$), temperature ($T$) and density ($\\rho$) are intensive variables. (C) Volume ($V$), temperature ($T$) and density ($\\rho$) are intensive variables. (D) Mass ($M$), temperature ($T$) and internal energy are extensive variables. Choose the correct answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "(B) and (C) Only",
+   "B": "(C) and (D) Only",
+   "C": "(D) and (A) Only",
+   "D": "(A) and (B) Only"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Intensive and extensive properties"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Extensive (depend on amount): internal energy, volume, mass. Intensive: pressure, temperature, density."
+    },
+    {
+     "n": 2,
+     "text": "(A) correct. (B) correct. (C) wrong, since $V$ is extensive. (D) wrong, since $T$ is intensive."
+    },
+    {
+     "n": 3,
+     "text": "Correct statements: (A) and (B)."
+    }
+   ],
+   "pitfalls": [
+    "Calling volume intensive."
+   ],
+   "final_check": "(A) and (B), option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q32",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q08",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 8,
+  "stem": "An electron projected perpendicular to a uniform magnetic field $B$ moves in a circle. If Bohr's quantization is applicable, then the radius of the electronic orbit in the first excited state is :",
+  "stem_images": [],
+  "options": {
+   "A": "$\\sqrt{\\dfrac h{\\pi eB}}$",
+   "B": "$\\sqrt{\\dfrac{2h}{\\pi eB}}$",
+   "C": "$\\sqrt{\\dfrac h{2\\pi eB}}$",
+   "D": "$\\sqrt{\\dfrac{4h}{\\pi eB}}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Bohr quantization in a magnetic field"
+   ],
+   "formulas": [
+    "$mvr=nh/2\\pi$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Circular motion in the field: $mv=eBr$."
+    },
+    {
+     "n": 2,
+     "text": "Bohr quantization: $mvr=\\dfrac{nh}{2\\pi}$, so $eBr^2=\\dfrac{nh}{2\\pi}$ and $r=\\sqrt{\\dfrac{nh}{2\\pi eB}}$."
+    },
+    {
+     "n": 3,
+     "text": "First excited state: $n=2$, so $r=\\sqrt{\\dfrac h{\\pi eB}}$."
+    }
+   ],
+   "pitfalls": [
+    "Using $n=1$ for the first excited state."
+   ],
+   "final_check": "$\\sqrt{h/(\\pi eB)}$, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Magnetism",
+    "Modern Physics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q33",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q09",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 9,
+  "stem": "Given below are two statements. One is labelled as Assertion (A) and the other is labelled as Reason (R).\nAssertion (A) : In Young's double slit experiment, the fringes produced by red light are closer as compared to those produced by blue light.\nReason (R): The fringe width is directly proportional to the wavelength of light.\nIn the light of the above statements, choose the correct answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+   "B": "(A) is true but (R) is false",
+   "C": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+   "D": "(A) is false but (R) is true"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Fringe width"
+   ],
+   "formulas": [
+    "$\\beta=\\lambda D/d$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Fringe width $\\beta=\\dfrac{\\lambda D}{d}\\propto\\lambda$, so (R) is true."
+    },
+    {
+     "n": 2,
+     "text": "Red light has a longer wavelength than blue, so its fringes are wider, not closer. (A) is false."
+    }
+   ],
+   "pitfalls": [
+    "Assuming red has the smaller fringe width."
+   ],
+   "final_check": "(A) false, (R) true, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Wave Optics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q34",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q10",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 10,
+  "stem": "A rectangular metallic loop is moving out of a uniform magnetic field region to a field free region with a constant speed. When the loop is partially inside the magnetic field, the plot of magnitude of induced emf ($\\varepsilon$) with time ($t$) is given by",
+  "stem_images": [],
+  "options": {
+   "A": "Graph (1): emf rises linearly with time from zero",
+   "B": "Graph (2): emf decreases with time, like a decaying curve",
+   "C": "Graph (3): emf increases with time along a rising curve",
+   "D": "Graph (4): emf stays constant with time"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Motional emf"
+   ],
+   "formulas": [
+    "$\\varepsilon=B\\ell v$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "While the loop is partially in the field, the flux changes at the rate $\\dfrac{d\\Phi}{dt}=B\\ell v$, with $\\ell$ the width of the loop and $v$ constant."
+    },
+    {
+     "n": 2,
+     "text": "So $|\\varepsilon|=B\\ell v$ is constant: a horizontal line."
+    }
+   ],
+   "pitfalls": [
+    "Assuming emf grows with the exposed area."
+   ],
+   "final_check": "Constant emf, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "EMI and AC"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q35",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  },
+  "option_images": {
+   "A": "images/main2025-0122-s2-q35-optA.png",
+   "B": "images/main2025-0122-s2-q35-optB.png",
+   "C": "images/main2025-0122-s2-q35-optC.png",
+   "D": "images/main2025-0122-s2-q35-optD.png"
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q11",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 11,
+  "stem": "A ball of mass 100 g is projected with velocity $20\\ \\mathrm{m/s}$ at $60^\\circ$ with horizontal. The decrease in kinetic energy of the ball during the motion from point of projection to highest point is",
+  "stem_images": [],
+  "options": {
+   "A": "5 J",
+   "B": "15 J",
+   "C": "20 J",
+   "D": "zero"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Projectile motion",
+    "Kinetic energy"
+   ],
+   "formulas": [
+    "$KE=\\tfrac12mv^2$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Initial KE $=\\tfrac12(0.1)(20)^2=20$ J."
+    },
+    {
+     "n": 2,
+     "text": "At the highest point only the horizontal component remains: $v=20\\cos60^\\circ=10$ m/s, KE $=\\tfrac12(0.1)(100)=5$ J."
+    },
+    {
+     "n": 3,
+     "text": "Decrease $=20-5=15$ J."
+    }
+   ],
+   "pitfalls": [
+    "Using the full speed at the top."
+   ],
+   "final_check": "15 J, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Kinematics",
+    "Work Energy Power"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q36",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q12",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 12,
+  "stem": "A body of mass 100 g is moving in circular path of radius 2 m on vertical plane. The velocity of the body at point $A$ is $10\\ \\mathrm{m/s}$. The ratio of its kinetic energies at point $B$ and $C$ is : (Take acceleration due to gravity as $10\\ \\mathrm{m/s^2}$)",
+  "stem_images": [
+   "images/main2025-0122-s2-q37.png"
+  ],
+  "options": {
+   "A": "$\\dfrac{2+\\sqrt2}{3}$",
+   "B": "$\\dfrac{2+\\sqrt3}{3}$",
+   "C": "$\\dfrac{3+\\sqrt3}{2}$",
+   "D": "$\\dfrac{3-\\sqrt2}{2}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Vertical circular motion",
+    "Energy conservation"
+   ],
+   "formulas": [
+    "$KE=KE_A-mgh$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "In the figure $A$ is the lowest point, $\\angle AOB=30^\\circ$ and $\\angle BOC=90^\\circ$, so $C$ is $120^\\circ$ from $A$."
+    },
+    {
+     "n": 2,
+     "text": "Heights above $A$: $h_B=R(1-\\cos30^\\circ)=2-\\sqrt3$ and $h_C=R(1-\\cos120^\\circ)=3$ (m)."
+    },
+    {
+     "n": 3,
+     "text": "$KE_A=\\tfrac12(0.1)(100)=5$ J. $KE_B=5-0.1\\cdot10(2-\\sqrt3)=3+\\sqrt3$ J and $KE_C=5-3=2$ J."
+    },
+    {
+     "n": 4,
+     "text": "Ratio $=\\dfrac{3+\\sqrt3}2$."
+    }
+   ],
+   "pitfalls": [
+    "Measuring the angles from the wrong reference."
+   ],
+   "final_check": "$(3+\\sqrt3)/2$, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Kinematics",
+    "Work Energy Power"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q37",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q13",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 13,
+  "stem": "Given below are two statements. One is labelled as Assertion (A) and the other is labelled as Reason (R).\nAssertion (A) : A simple pendulum is taken to a planet of mass and radius, 4 times and 2 times, respectively, than the Earth. The time period of the pendulum remains same on earth and the planet.\nReason (R): The mass of the pendulum remains unchanged at Earth and the other planet.\nIn the light of the above statements, choose the correct answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "(A) is false but (R) is true",
+   "B": "(A) is true but (R) is false",
+   "C": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+   "D": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Pendulum period",
+    "Acceleration due to gravity"
+   ],
+   "formulas": [
+    "$g=GM/R^2$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$g'=\\dfrac{G(4M)}{(2R)^2}=\\dfrac{GM}{R^2}=g$, so $T=2\\pi\\sqrt{L/g}$ is unchanged. (A) is true."
+    },
+    {
+     "n": 2,
+     "text": "(R) is true, but the period does not depend on the mass of the bob, so (R) does not explain (A)."
+    }
+   ],
+   "pitfalls": [
+    "Taking (R) as the reason."
+   ],
+   "final_check": "Both true, (R) not the explanation, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Gravitation",
+    "SHM and Waves"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q38",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q14",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 14,
+  "stem": "A series LCR circuit is connected to an alternating source of emf $E$. The current amplitude at resonant frequency is $I_0$. If the value of resistance $R$ becomes twice of its initial value then amplitude of current at resonance will be",
+  "stem_images": [],
+  "options": {
+   "A": "$2I_0$",
+   "B": "$I_0$",
+   "C": "$\\dfrac{I_0}2$",
+   "D": "$\\dfrac{I_0}{\\sqrt2}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Resonance in LCR"
+   ],
+   "formulas": [
+    "$I=E/R$ at resonance"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "At resonance the impedance is $R$, so $I_0=\\dfrac ER$."
+    },
+    {
+     "n": 2,
+     "text": "With $2R$: $I=\\dfrac E{2R}=\\dfrac{I_0}2$."
+    }
+   ],
+   "pitfalls": [
+    "Using $\\sqrt2$."
+   ],
+   "final_check": "$I_0/2$, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "EMI and AC"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q39",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q15",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 15,
+  "stem": "Which one of the following is the correct dimensional formula for the capacitance in F ? M, L, T and C stand for unit of mass, length, time and charge,",
+  "stem_images": [],
+  "options": {
+   "A": "$[F]=[C^2M^{-1}L^{-2}T^2]$",
+   "B": "$[F]=[C^2M^{-2}L^2T^2]$",
+   "C": "$[F]=[CM^{-2}L^{-2}T^2]$",
+   "D": "$[F]=[CM^{-1}L^{-2}T^2]$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Dimensions of capacitance"
+   ],
+   "formulas": [
+    "$U=Q^2/2C$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$C=\\dfrac{Q^2}{2U}$ with energy $U=[ML^2T^{-2}]$."
+    },
+    {
+     "n": 2,
+     "text": "$[F]=\\dfrac{C^2}{ML^2T^{-2}}=[C^2M^{-1}L^{-2}T^2]$."
+    }
+   ],
+   "pitfalls": [
+    "Using charge to the first power."
+   ],
+   "final_check": "$[C^2M^{-1}L^{-2}T^2]$, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Units and Dimensions"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q40",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q16",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 16,
+  "stem": "A tube of length $L$ is shown in the figure. The radius of cross section at the point (1) is 2 cm and at the point (2) is 1 cm, respectively. If the velocity of water entering at point (1) is $2\\ \\mathrm{m/s}$, then velocity of water leaving the point (2) will be",
+  "stem_images": [
+   "images/main2025-0122-s2-q41.png"
+  ],
+  "options": {
+   "A": "$4\\ \\mathrm{m/s}$",
+   "B": "$2\\ \\mathrm{m/s}$",
+   "C": "$6\\ \\mathrm{m/s}$",
+   "D": "$8\\ \\mathrm{m/s}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Equation of continuity"
+   ],
+   "formulas": [
+    "$A_1v_1=A_2v_2$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Continuity: $A_1v_1=A_2v_2$, so $v_2=v_1\\left(\\dfrac{r_1}{r_2}\\right)^2=2\\times4=8$ m/s."
+    }
+   ],
+   "pitfalls": [
+    "Using radius ratio instead of area ratio."
+   ],
+   "final_check": "8 m/s, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Fluids and Properties of Matter"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q41",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q17",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 17,
+  "stem": "A light source of wavelength $\\lambda$ illuminates a metal surface and electrons are ejected with maximum kinetic energy of 2 eV. If the same surface is illuminated by a light source of wavelength $\\dfrac\\lambda2$, then the maximum kinetic energy of ejected electrons will be (The work function of metal is 1 eV)",
+  "stem_images": [],
+  "options": {
+   "A": "3 eV",
+   "B": "2 eV",
+   "C": "6 eV",
+   "D": "5 eV"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Photoelectric effect"
+   ],
+   "formulas": [
+    "$K=h\\nu-\\phi$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\dfrac{hc}\\lambda=K+\\phi=2+1=3$ eV."
+    },
+    {
+     "n": 2,
+     "text": "At $\\lambda/2$ the photon energy doubles to $6$ eV, so $K'=6-1=5$ eV."
+    }
+   ],
+   "pitfalls": [
+    "Doubling the kinetic energy instead of the photon energy."
+   ],
+   "final_check": "5 eV, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Dual Nature"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q42",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q18",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 18,
+  "stem": "The maximum percentage error in the measurement of density of a wire is [Given, mass of wire $=(0.60\\pm0.003)$ g, radius of wire $=(0.50\\pm0.01)$ cm, length of wire $=(10.00\\pm0.05)$ cm]",
+  "stem_images": [],
+  "options": {
+   "A": "8",
+   "B": "5",
+   "C": "4",
+   "D": "7"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Error analysis"
+   ],
+   "formulas": [
+    "$\\Delta\\rho/\\rho=\\Delta m/m+2\\Delta r/r+\\Delta\\ell/\\ell$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\rho=\\dfrac m{\\pi r^2\\ell}$, so $\\dfrac{\\Delta\\rho}\\rho=\\dfrac{\\Delta m}m+2\\dfrac{\\Delta r}r+\\dfrac{\\Delta\\ell}\\ell$."
+    },
+    {
+     "n": 2,
+     "text": "$=0.5\\%+2\\times2\\%+0.5\\%=5\\%$."
+    }
+   ],
+   "pitfalls": [
+    "Not doubling the radius error."
+   ],
+   "final_check": "5%, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Experimental Skills"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q43",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q19",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 19,
+  "stem": "For a diatomic gas, if $\\gamma_1=\\left(\\dfrac{C_p}{C_v}\\right)$ for rigid molecules and $\\gamma_2=\\left(\\dfrac{C_p}{C_v}\\right)$ for another diatomic molecules, but also having vibrational modes. Then, which one of the following options is correct ? ($C_p$ and $C_v$ are specific heats of the gas at constant pressure and volume)",
+  "stem_images": [],
+  "options": {
+   "A": "$\\gamma_2=\\gamma_1$",
+   "B": "$2\\gamma_2=\\gamma_1$",
+   "C": "$\\gamma_2<\\gamma_1$",
+   "D": "$\\gamma_2>\\gamma_1$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Degrees of freedom"
+   ],
+   "formulas": [
+    "$\\gamma=1+2/f$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\gamma=1+\\dfrac2f$. Rigid diatomic: $f=5$, $\\gamma_1=\\dfrac75$."
+    },
+    {
+     "n": 2,
+     "text": "With vibration: $f=7$, $\\gamma_2=\\dfrac97$. Since $\\dfrac97<\\dfrac75$, $\\gamma_2<\\gamma_1$."
+    }
+   ],
+   "pitfalls": [
+    "Counting vibration as one degree of freedom."
+   ],
+   "final_check": "$\\gamma_2<\\gamma_1$, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics and KTG"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q44",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-a-q20",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 20,
+  "stem": "A force $\\vec F=2\\hat i+b\\hat j+\\hat k$ is applied on a particle and it undergoes a displacement $\\hat i-2\\hat j-\\hat k$. What will be the value of $b$, if work done on the particle is zero.",
+  "stem_images": [],
+  "options": {
+   "A": "0",
+   "B": "$\\dfrac12$",
+   "C": "2",
+   "D": "$\\dfrac13$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Work as a dot product"
+   ],
+   "formulas": [
+    "$W=\\vec F\\cdot\\vec d$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$W=\\vec F\\cdot\\vec d=2-2b-1=1-2b=0$, so $b=\\dfrac12$."
+    }
+   ],
+   "pitfalls": [
+    "Sign slip on the $\\hat j$ term."
+   ],
+   "final_check": "$b=1/2$, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Work Energy Power",
+    "Vectors"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q45",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-b-q21",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 21,
+  "stem": "A proton is moving undeflected in a region of crossed electric and magnetic fields at a constant speed of $2\\times10^5\\ \\mathrm{ms^{-1}}$. When the electric field is switched off, the proton moves along a circular path of radius 2 cm. The magnitude of electric field is $x\\times10^4\\ \\mathrm{N/C}$. The value of $x$ is _______ Take the mass of the proton $=1.6\\times10^{-27}$ kg.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Velocity selector"
+   ],
+   "formulas": [
+    "$E=vB$",
+    "$r=mv/eB$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Undeflected: $eE=evB$, so $E=vB$."
+    },
+    {
+     "n": 2,
+     "text": "Circular path with $E$ off: $r=\\dfrac{mv}{eB}$, so $B=\\dfrac{mv}{er}=\\dfrac{1.6\\times10^{-27}\\times2\\times10^5}{1.6\\times10^{-19}\\times0.02}=0.1$ T."
+    },
+    {
+     "n": 3,
+     "text": "$E=vB=2\\times10^5\\times0.1=2\\times10^4$ N/C, so $x=2$."
+    }
+   ],
+   "pitfalls": [
+    "Using the wrong radius unit."
+   ],
+   "final_check": "2, matches the official NTA final key."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Magnetism"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q46",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "2",
+   "tolerance": null,
+   "source": "official_final_key (numeric answer matched to question by value)"
+  },
+  "verification": {
+   "solver_answer": "2",
+   "key_answer": "2",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-b-q22",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 22,
+  "stem": "The net current flowing in the given circuit is _______ A.",
+  "stem_images": [
+   "images/main2025-0122-s2-q47.png"
+  ],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Steady state with a capacitor",
+    "Series and parallel resistors"
+   ],
+   "formulas": [
+    "$R_\\parallel=\\dfrac{R_1R_2}{R_1+R_2}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "In steady state the capacitor branch (2.5 $\\Omega$ and 1 $\\mu$F) carries no current, so everything to its right is inactive."
+    },
+    {
+     "n": 2,
+     "text": "The 4 $\\Omega$ diagonal runs from the top-left node to the bottom wire, directly across the 2 V source: $I_1=\\dfrac24=0.5$ A."
+    },
+    {
+     "n": 3,
+     "text": "The other branch: 2 $\\Omega$ in series with (3 $\\Omega$ $\\parallel$ 6 $\\Omega$) $=2+2=4\\ \\Omega$, so $I_2=0.5$ A."
+    },
+    {
+     "n": 4,
+     "text": "Net current from the source $=0.5+0.5=1$ A."
+    }
+   ],
+   "pitfalls": [
+    "Including the capacitor branch."
+   ],
+   "final_check": "1 A, matches the official NTA final key."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Current Electricity",
+    "Electrostatics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q47",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "1",
+   "tolerance": null,
+   "source": "official_final_key (numeric answer matched to question by value)"
+  },
+  "verification": {
+   "solver_answer": "1",
+   "key_answer": "1",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-b-q23",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 23,
+  "stem": "A parallel plate capacitor of area $A=16\\ \\mathrm{cm^2}$ and separation between the plates 10 cm, is charged by a DC current. Consider a hypothetical plane surface of area $A_0=3.2\\ \\mathrm{cm^2}$ inside the capacitor and parallel to the plates. At an instant, the current through the circuit is 6 A. At the same instant the displacement current through $A_0$ is _______ mA.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Displacement current"
+   ],
+   "formulas": [
+    "$I_d=\\varepsilon_0\\dfrac{d\\Phi_E}{dt}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Displacement current equals the conduction current through the full plate area, spread uniformly over $A$."
+    },
+    {
+     "n": 2,
+     "text": "$I_d=I\\cdot\\dfrac{A_0}{A}=6\\times\\dfrac{3.2}{16}=1.2$ A $=1200$ mA."
+    }
+   ],
+   "pitfalls": [
+    "Giving the answer in A."
+   ],
+   "final_check": "1200 mA, matches the official NTA final key."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electromagnetic Waves",
+    "Electrostatics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q48",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "1200",
+   "tolerance": null,
+   "source": "official_final_key (numeric answer matched to question by value)"
+  },
+  "verification": {
+   "solver_answer": "1200",
+   "key_answer": "1200",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-b-q24",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 24,
+  "stem": "A tube of length 1 m is filled completely with an ideal liquid of mass $2M$, and closed at both ends. The tube is rotated uniformly in horizontal plane about one of its ends. If the force exerted by the liquid at the other end is $F$ then angular velocity of the tube is $\\sqrt{\\dfrac F{\\alpha M}}$ in SI unit. The value of $\\alpha$ is __________ .",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Centripetal force on a rotating liquid column"
+   ],
+   "formulas": [
+    "$F=\\int\\omega^2r\\,dm$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Mass per unit length $=2M/1$. The liquid element $dr$ at distance $r$ needs a centripetal force $\\omega^2r\\,dm$."
+    },
+    {
+     "n": 2,
+     "text": "Force at the far end $F=\\int_0^12M\\omega^2r\\,dr=M\\omega^2$."
+    },
+    {
+     "n": 3,
+     "text": "$\\omega=\\sqrt{\\dfrac FM}$, so $\\alpha=1$."
+    }
+   ],
+   "pitfalls": [
+    "Using the full mass at the end instead of integrating."
+   ],
+   "final_check": "1, matches the official NTA final key."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Rotational Mechanics",
+    "Fluids and Properties of Matter"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q49",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "1",
+   "tolerance": null,
+   "source": "official_final_key (numeric answer matched to question by value)"
+  },
+  "verification": {
+   "solver_answer": "1",
+   "key_answer": "1",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2025-0122-s2-phy-b-q25",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 25,
+  "stem": "Two long parallel wires $X$ and $Y$, separated by a distance of 6 cm, carry currents of 5 A and 4 A, respectively, in opposite directions as shown in the figure. Magnitude of the resultant magnetic field at point $P$ at a distance of 4 cm from wire $Y$ is $x\\times10^{-5}$ T. The value of $x$ is _________. Take permeability of free space as $\\mu_0=4\\pi\\times10^{-7}$ SI units.",
+  "stem_images": [
+   "images/main2025-0122-s2-q50.png"
+  ],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Field of a long straight wire",
+    "Superposition"
+   ],
+   "formulas": [
+    "$B=\\mu_0I/2\\pi d$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$P$ is on the far side of $Y$, $4$ cm from $Y$ and $10$ cm from $X$. The fields of the two opposite currents point in opposite directions at $P$."
+    },
+    {
+     "n": 2,
+     "text": "$B_X=\\dfrac{\\mu_0\\cdot5}{2\\pi(0.10)}=1\\times10^{-5}$ T and $B_Y=\\dfrac{\\mu_0\\cdot4}{2\\pi(0.04)}=2\\times10^{-5}$ T."
+    },
+    {
+     "n": 3,
+     "text": "Net $=2\\times10^{-5}-1\\times10^{-5}=1\\times10^{-5}$ T, so $x=1$."
+    }
+   ],
+   "pitfalls": [
+    "Adding the fields instead of subtracting."
+   ],
+   "final_check": "1, matches the official NTA final key."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Magnetism"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q50",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "1",
+   "tolerance": null,
+   "source": "official_final_key (numeric answer matched to question by value)"
+  },
+  "verification": {
+   "solver_answer": "1",
+   "key_answer": "1",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q01",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 1,
+  "stem": "Given below are two statements : Statement (I) : Nitrogen, sulphur, halogen and phosphorus present in an organic compound are detected by Lassaigne's Test. Statement (II) : The elements present in the compound are converted from covalent form into ionic form by fusing the compound with Magnesium in Lassaigne's test. In the light of the above statements, choose the correct answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "Statement I is false but Statement II is true",
+   "B": "Both Statement I and Statement II are true",
+   "C": "Both Statement I and Statement II are false",
+   "D": "Statement I is true but Statement II is false"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Lassaigne's test"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Statement I: the sodium fusion extract detects N, S, halogens and P, so it is true."
+    },
+    {
+     "n": 2,
+     "text": "Statement II: the compound is fused with sodium metal, not magnesium, to convert the elements to ionic form (NaCN, Na$_2$S, NaX). So II is false."
+    }
+   ],
+   "pitfalls": [
+    "Thinking the fusion is done with Mg."
+   ],
+   "final_check": "I true, II false, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Salt Analysis"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q51",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q02",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 2,
+  "stem": "Density of 3 M NaCl solution is $1.25\\ \\mathrm{g/mL}$. The molality of the solution is :",
+  "stem_images": [],
+  "options": {
+   "A": "1.79 m",
+   "B": "2.79 m",
+   "C": "2 m",
+   "D": "3 m"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Molarity to molality"
+   ],
+   "formulas": [
+    "$m=\\dfrac{n}{\\text{kg solvent}}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Take 1 L of solution: mass $=1250$ g; NaCl $=3\\times58.5=175.5$ g."
+    },
+    {
+     "n": 2,
+     "text": "Solvent $=1250-175.5=1074.5$ g $=1.0745$ kg."
+    },
+    {
+     "n": 3,
+     "text": "Molality $=\\dfrac3{1.0745}=2.79$ m."
+    }
+   ],
+   "pitfalls": [
+    "Using solution mass as solvent mass."
+   ],
+   "final_check": "2.79 m, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Solutions"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q52",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q03",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 3,
+  "stem": "The correct order of the following complexes in terms of their crystal field stabilization energies is :",
+  "stem_images": [],
+  "options": {
+   "A": "$[\\mathrm{Co(NH_3)_4}]^{2+}<[\\mathrm{Co(NH_3)_6}]^{2+}<[\\mathrm{Co(en)_3}]^{3+}<[\\mathrm{Co(NH_3)_6}]^{3+}$",
+   "B": "$[\\mathrm{Co(NH_3)_6}]^{2+}<[\\mathrm{Co(NH_3)_6}]^{3+}<[\\mathrm{Co(NH_3)_4}]^{2+}<[\\mathrm{Co(en)_3}]^{3+}$",
+   "C": "$[\\mathrm{Co(en)_3}]^{3+}<[\\mathrm{Co(NH_3)_6}]^{3+}<[\\mathrm{Co(NH_3)_6}]^{2+}<[\\mathrm{Co(NH_3)_4}]^{2+}$",
+   "D": "$[\\mathrm{Co(NH_3)_4}]^{2+}<[\\mathrm{Co(NH_3)_6}]^{2+}<[\\mathrm{Co(NH_3)_6}]^{3+}<[\\mathrm{Co(en)_3}]^{3+}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Crystal field theory"
+   ],
+   "formulas": [
+    "$\\mathrm{CFSE}$ for $t_{2g}^x e_g^y$: $(-0.4x+0.6y)\\Delta_o$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$[\\ce{Co(NH3)4}]^{2+}$ is tetrahedral d$^7$: CFSE $=-0.6\\Delta_t=-0.27\\Delta_o$ (smallest)."
+    },
+    {
+     "n": 2,
+     "text": "$[\\ce{Co(NH3)6}]^{2+}$ is high-spin octahedral d$^7$: CFSE $=-0.8\\Delta_o$."
+    },
+    {
+     "n": 3,
+     "text": "Co$^{3+}$ complexes are low-spin d$^6$ with CFSE $=-2.4\\Delta_o$ (the $\\Delta_o$ itself is larger than for Co$^{2+}$); en is a stronger field ligand than NH$_3$, so $[\\ce{Co(en)3}]^{3+}$ is largest."
+    },
+    {
+     "n": 4,
+     "text": "Order: $[\\ce{Co(NH3)4}]^{2+}<[\\ce{Co(NH3)6}]^{2+}<[\\ce{Co(NH3)6}]^{3+}<[\\ce{Co(en)3}]^{3+}$."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting that tetrahedral $\\Delta_t=\\tfrac49\\Delta_o$."
+   ],
+   "final_check": "Option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Coordination Compounds"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q53",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q04",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 4,
+  "stem": "Given below are two statements : Statement (I) : Corrosion is an electrochemical phenomenon in which pure metal acts as an anode and impure metal as a cathode. Statement (II) : The rate of corrosion is more in alkaline medium than in acidic medium. In the light of the above statements, choose the correct answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "Both Statement I and Statement II are true",
+   "B": "Statement I is false but Statement II is true",
+   "C": "Statement I is true but Statement II is false",
+   "D": "Both Statement I and Statement II are false"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Corrosion"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Statement I: in the electrochemical picture of corrosion the pure (more active) metal is the anode and the impure part is the cathode. As worded, it is the standard textbook statement, so true."
+    },
+    {
+     "n": 2,
+     "text": "Statement II: acidic medium supplies H$^+$ and speeds corrosion, so the rate is higher in acidic medium than in alkaline medium. II is false."
+    }
+   ],
+   "pitfalls": [
+    "Reversing the pH effect."
+   ],
+   "final_check": "I true, II false, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electrochemistry"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q54",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q05",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 5,
+  "stem": "Consider the given figure and choose the correct option :",
+  "stem_images": [
+   "images/main2025-0122-s2-q55.png"
+  ],
+  "options": {
+   "A": "Activation energy of both forward and backward reaction is $E_1+E_2$ and reactant is more stable than product.",
+   "B": "Activation energy of forward reaction is $E_1+E_2$ and product is less stable than reactant.",
+   "C": "Activation energy of backward reaction is $E_1$ and product is more stable than reactant.",
+   "D": "Activation energy of forward reaction is $E_1+E_2$ and product is more stable than reactant."
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Energy profile diagram"
+   ],
+   "formulas": [
+    "$E_{a,f}-E_{a,b}=\\Delta H$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "In the figure the product level lies above the reactant level; $E_2$ is the gap between reactant and product, and $E_1$ is the gap from the product level to the activated complex."
+    },
+    {
+     "n": 2,
+     "text": "Forward activation energy $=E_1+E_2$; backward activation energy $=E_1$."
+    },
+    {
+     "n": 3,
+     "text": "The product is at higher energy, so it is less stable than the reactant (endothermic). Option (2)."
+    }
+   ],
+   "pitfalls": [
+    "Reading $E_2$ as a depth below the reactant."
+   ],
+   "final_check": "Option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Chemical Kinetics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q55",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q06",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 6,
+  "stem": "The maximum number of RBr producing 2-methylbutane by the above sequence of reactions (i) Mg, dry ether, (ii) $\\mathrm{H_2O}$ is _______ (Consider the structural isomers only)",
+  "stem_images": [
+   "images/main2025-0122-s2-q56.png"
+  ],
+  "options": {
+   "A": "5",
+   "B": "4",
+   "C": "3",
+   "D": "1"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Grignard reagent",
+    "Structural isomers"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "RBr $\\to$ RMgBr $\\to$ RH. The R group must have the carbon skeleton of 2-methylbutane with Br at any one distinct position."
+    },
+    {
+     "n": 2,
+     "text": "Distinct monobromo derivatives of 2-methylbutane: 1-bromo-2-methylbutane, 2-bromo-2-methylbutane, 2-bromo-3-methylbutane, 1-bromo-3-methylbutane. That is 4."
+    }
+   ],
+   "pitfalls": [
+    "Counting stereoisomers or the same compound twice."
+   ],
+   "final_check": "4, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Haloalkanes and Alcohols"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q56",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q07",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 7,
+  "stem": "The species which does not undergo disproportionation reaction is :",
+  "stem_images": [],
+  "options": {
+   "A": "$\\mathrm{ClO_3^-}$",
+   "B": "$\\mathrm{ClO^-}$",
+   "C": "$\\mathrm{ClO_2^-}$",
+   "D": "$\\mathrm{ClO_4^-}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Disproportionation"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Disproportionation needs the element to be in an intermediate oxidation state. In $\\ce{ClO4-}$ Cl is $+7$, the highest, so it cannot be oxidised further and cannot disproportionate."
+    },
+    {
+     "n": 2,
+     "text": "$\\ce{ClO-}$ ($+1$), $\\ce{ClO2-}$ ($+3$) and $\\ce{ClO3-}$ ($+5$) all disproportionate."
+    }
+   ],
+   "pitfalls": [],
+   "final_check": "$\\ce{ClO4-}$, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Redox Reactions",
+    "p-Block Elements"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q57",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q08",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 8,
+  "stem": "The molar solubility(s) of zirconium phosphate with molecular formula $\\left(\\mathrm{Zr^{4+}}\\right)_3\\left(\\mathrm{PO_4^{3-}}\\right)_4$ is given by relation :",
+  "stem_images": [],
+  "options": {
+   "A": "$\\left(\\dfrac{K_{sp}}{9612}\\right)^{1/3}$",
+   "B": "$\\left(\\dfrac{K_{sp}}{6912}\\right)^{1/7}$",
+   "C": "$\\left(\\dfrac{K_{sp}}{8435}\\right)^{1/7}$",
+   "D": "$\\left(\\dfrac{K_{sp}}{5348}\\right)^{1/6}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Solubility product"
+   ],
+   "formulas": [
+    "$K_{sp}=(3s)^3(4s)^4$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Dissolution gives $3s$ of $\\ce{Zr^4+}$ and $4s$ of $\\ce{PO4^3-}$."
+    },
+    {
+     "n": 2,
+     "text": "$K_{sp}=(3s)^3(4s)^4=27\\cdot256\\,s^7=6912\\,s^7$, so $s=\\left(\\dfrac{K_{sp}}{6912}\\right)^{1/7}$."
+    }
+   ],
+   "pitfalls": [
+    "Arithmetic in $27\\times256$."
+   ],
+   "final_check": "Option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Chemical Equilibrium"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q58",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q09",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 9,
+  "stem": "Identify the homoleptic complex(es) that is/are low spin. (A) $[\\mathrm{Fe(CN)_5NO}]^{2-}$ (B) $[\\mathrm{CoF_6}]^{3-}$ (C) $[\\mathrm{Fe(CN)_6}]^{4-}$ (D) $[\\mathrm{Co(NH_3)_6}]^{3+}$ (E) $[\\mathrm{Cr(H_2O)_6}]^{2+}$. Choose the correct answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "(C) only",
+   "B": "(C) and (D) only",
+   "C": "(A) and (C) only",
+   "D": "(B) and (E) only"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Spin state",
+    "Homoleptic complexes"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(A) is heteroleptic (CN and NO). (B) $\\ce{F-}$ is a weak-field ligand: high spin. (E) Cr$^{2+}$ d$^4$ with water: high spin."
+    },
+    {
+     "n": 2,
+     "text": "(C) Fe$^{2+}$ d$^6$ with $\\ce{CN-}$ and (D) Co$^{3+}$ d$^6$ with $\\ce{NH3}$ are low spin and homoleptic."
+    }
+   ],
+   "pitfalls": [
+    "Including the heteroleptic nitroprusside ion."
+   ],
+   "final_check": "(C) and (D), option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Coordination Compounds"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q59",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q10",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 10,
+  "stem": "Match List - I with List - II.\n\nList - I (Partial Derivatives): (A) $\\left(\\dfrac{\\partial G}{\\partial T}\\right)_P$, (B) $\\left(\\dfrac{\\partial H}{\\partial T}\\right)_P$, (C) $\\left(\\dfrac{\\partial G}{\\partial P}\\right)_T$, (D) $\\left(\\dfrac{\\partial U}{\\partial T}\\right)_V$\n\nList - II (Thermodynamic Quantity): (I) $C_p$, (II) $-S$, (III) $C_v$, (IV) $V$\n\nChoose the correct answer from the options given below :",
+  "stem_images": [
+   "images/main2025-0122-s2-q60.png"
+  ],
+  "options": {
+   "A": "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+   "B": "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+   "C": "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+   "D": "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Thermodynamic derivatives"
+   ],
+   "formulas": [
+    "$dG=VdP-SdT$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$dG=VdP-SdT$, so $\\left(\\dfrac{\\partial G}{\\partial T}\\right)_P=-S$ and $\\left(\\dfrac{\\partial G}{\\partial P}\\right)_T=V$."
+    },
+    {
+     "n": 2,
+     "text": "$\\left(\\dfrac{\\partial H}{\\partial T}\\right)_P=C_p$ and $\\left(\\dfrac{\\partial U}{\\partial T}\\right)_V=C_v$."
+    },
+    {
+     "n": 3,
+     "text": "A-II, B-I, C-IV, D-III."
+    }
+   ],
+   "pitfalls": [],
+   "final_check": "Option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q60",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q11",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 11,
+  "stem": "Identify the number of structure/s from the following which can be correlated to D-glyceraldehyde.",
+  "stem_images": [
+   "images/main2025-0122-s2-q61.png"
+  ],
+  "options": {
+   "A": "four",
+   "B": "one",
+   "C": "two",
+   "D": "three"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "D/L configuration"
+   ],
+   "formulas": [
+    "Rotate Fischer projections only by $180^\\circ$ in plane"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "A Fischer structure is D if the OH on the stereocentre farthest from CHO is on the right. The terminal OH (end of the chain) is part of a CH$_2$OH group and not a stereocentre."
+    },
+    {
+     "n": 2,
+     "text": "(A): both stereocentres have OH on the right, so D. (B): the last stereocentre has OH on the right, so D."
+    },
+    {
+     "n": 3,
+     "text": "(C): the last stereocentre has OH on the left, so L. (D): CHO is at the bottom; rotating by $180^\\circ$ in the plane puts CHO on top and the farthest stereocentre's OH on the right, so D."
+    },
+    {
+     "n": 4,
+     "text": "Three structures: (A), (B) and (D)."
+    }
+   ],
+   "pitfalls": [
+    "Counting the terminal OH as a stereocentre."
+   ],
+   "final_check": "Three, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Biomolecules and Polymers"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q61",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party). My first read counted the terminal OH of each chain as a stereocentre and gave four; after checking the figure (the end OH is a CH2OH group) the count is three, matching the third-party key."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q12",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 12,
+  "stem": "Given below are two statements : Statement (I) : A spectral line will be observed for a $2p_x\\to2p_y$ transition. Statement (II) : $2P_x$ and $2p_y$ are degenerate orbitals. In the light of the above statements, choose the correct answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "Both Statement I and Statement II are true",
+   "B": "Statement I is false but Statement II is true",
+   "C": "Both Statement I and Statement II are false",
+   "D": "Statement I is true but Statement II is false"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Degenerate orbitals"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$2p_x$ and $2p_y$ have the same energy (degenerate), so a transition between them releases or absorbs no energy and gives no spectral line. I false, II true."
+    }
+   ],
+   "pitfalls": [],
+   "final_check": "Option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Atomic Structure"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q62",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q13",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 13,
+  "stem": "Given below are two statements : Statement (I) : An element in the extreme left of the periodic table forms acidic oxides. Statement (II) : Acid is formed during the reaction between water and oxide of a reactive element present in the extreme right of the periodic table. In the light of the above statements, choose the correct answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "Statement I is true but Statement II is false",
+   "B": "Both Statement I and Statement II are true",
+   "C": "Both Statement I and Statement II are false",
+   "D": "Statement I is false but Statement II is true"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Nature of oxides"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Elements on the extreme left (alkali metals) form basic oxides, so I is false."
+    },
+    {
+     "n": 2,
+     "text": "Oxides of reactive non-metals on the extreme right (e.g. $\\ce{Cl2O7}$, $\\ce{Cl2O}$) react with water to give acids, so II is true."
+    }
+   ],
+   "pitfalls": [],
+   "final_check": "Option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Periodic Table"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q63",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q14",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 14,
+  "stem": "Toluene (excess) is treated with (i) $\\mathrm{CrO_2Cl_2}$, $\\mathrm{CS_2}$ (ii) $\\mathrm{H_3O^+}$ (iii) $\\mathrm{NaHSO_3}$, followed by filtration giving Residue (A). Residue (A) + HCl (dil) $\\to$ Compound (B). Structure of residue (A) and compound (B) formed respectively is :",
+  "stem_images": [
+   "images/main2025-0122-s2-q64.png"
+  ],
+  "options": {
+   "A": "[A] benzaldehyde, [B] sodium benzoate",
+   "B": "[A] benzaldehyde, [B] benzoic acid",
+   "C": "[A] $\\mathrm{C_6H_5CH(OCrOHCl_2)_2}$, [B] benzaldehyde",
+   "D": "[A] sodium salt of the benzaldehyde bisulfite adduct $\\mathrm{C_6H_5CH(OH)SO_3Na}$, [B] benzaldehyde"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Etard reaction",
+    "Bisulfite adduct"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(i) Etard reaction: toluene with $\\ce{CrO2Cl2}$ in $\\ce{CS2}$ gives the chromium complex, and (ii) $\\ce{H3O+}$ hydrolyses it to benzaldehyde."
+    },
+    {
+     "n": 2,
+     "text": "(iii) Benzaldehyde with $\\ce{NaHSO3}$ forms the solid bisulfite addition product $\\ce{C6H5CH(OH)SO3Na}$, which is filtered off as Residue (A)."
+    },
+    {
+     "n": 3,
+     "text": "Dilute HCl decomposes the adduct and regenerates benzaldehyde (B)."
+    }
+   ],
+   "pitfalls": [
+    "Stopping at the Etard complex and ignoring step (iii)."
+   ],
+   "final_check": "A = bisulfite adduct, B = benzaldehyde, option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Carbonyl Compounds",
+    "Hydrocarbons"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q64",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party). My first read took Residue (A) to be the Etard chromium complex (option 3), ignoring that NaHSO3 is step (iii) before filtration; corrected to the bisulfite adduct after the key comparison, and the chemistry supports it."
+  },
+  "option_images": {
+   "A": "images/main2025-0122-s2-q64-optA.png",
+   "B": "images/main2025-0122-s2-q64-optB.png",
+   "C": "images/main2025-0122-s2-q64-optC.png",
+   "D": "images/main2025-0122-s2-q64-optD.png"
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q15",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 15,
+  "stem": "The alkane from below having two secondary hydrogens is :",
+  "stem_images": [],
+  "options": {
+   "A": "4-Ethyl-3,4-dimethyloctane",
+   "B": "2,2,3,3-Tetramethylpentane",
+   "C": "2,2,4,5-Tetramethylheptane",
+   "D": "2,2,4,4-Tetramethylhexane"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Classification of hydrogens"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Count the $\\ce{CH2}$ groups (each has two secondary H). 2,2,3,3-Tetramethylpentane, $\\ce{(CH3)3C-C(CH3)2-CH2CH3}$, has exactly one $\\ce{CH2}$: two secondary H."
+    },
+    {
+     "n": 2,
+     "text": "2,2,4,5-Tetramethylheptane and 2,2,4,4-tetramethylhexane each have two $\\ce{CH2}$ groups (four secondary H); 4-ethyl-3,4-dimethyloctane has several."
+    }
+   ],
+   "pitfalls": [
+    "Counting carbons rather than hydrogens."
+   ],
+   "final_check": "2,2,3,3-Tetramethylpentane, option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "GOC and Isomerism",
+    "Hydrocarbons"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q65",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q16",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 16,
+  "stem": "When sec-butylcyclohexane reacts with bromine in the presence of sunlight, the major product is :",
+  "stem_images": [],
+  "options": {
+   "A": "1-bromo-1-(butan-2-yl)cyclohexane (Br on the ring carbon that carries the sec-butyl group)",
+   "B": "1-(butan-2-yl)-2-bromocyclohexane (Br on a ring carbon next to the substituted carbon)",
+   "C": "2-bromo-2-cyclohexylbutane (Br on the tertiary side-chain carbon attached to the ring)",
+   "D": "2-bromo-3-cyclohexylbutane (Br on the terminal carbon of the side chain, secondary)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Free radical halogenation",
+    "Selectivity"
+   ],
+   "formulas": [
+    "Radical stability: $3^\\circ>2^\\circ>1^\\circ$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Free-radical bromination is highly selective for the most stable radical, i.e. a tertiary C-H."
+    },
+    {
+     "n": 2,
+     "text": "Two tertiary C-H sites exist: the ring carbon bearing the sec-butyl group (option 1) and the side-chain carbon attached to the ring (option 3). Options 2 and 4 are secondary."
+    },
+    {
+     "n": 3,
+     "text": "The third-party key picks the side-chain tertiary carbon, option 3. I could not decide between the two tertiary sites from first principles, so this answer is not independently established."
+    }
+   ],
+   "pitfalls": [
+    "Picking a secondary site."
+   ],
+   "final_check": "Option C, taken from the third-party key."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Hydrocarbons",
+    "GOC and Isomerism"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q66",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party). NOT independently resolved: two tertiary C-H sites (ring carbon and side-chain carbon) both fit; stored answer is the third-party key (option 3). Needs the official NTA answer."
+  },
+  "option_images": {
+   "A": "images/main2025-0122-s2-q66-optA.png",
+   "B": "images/main2025-0122-s2-q66-optB.png",
+   "C": "images/main2025-0122-s2-q66-optC.png",
+   "D": "images/main2025-0122-s2-q66-optD.png"
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q17",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 17,
+  "stem": "The most stable carbocation from the following is :",
+  "stem_images": [],
+  "options": {
+   "A": "Benzyl cation $\\mathrm{C_6H_5CH_2^+}$",
+   "B": "3-Methoxybenzyl cation (OMe meta)",
+   "C": "4-Methoxybenzyl cation (OMe para)",
+   "D": "4-Methylbenzyl cation (CH$_3$ para)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Carbocation stability",
+    "Resonance"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "A para-OMe group donates by $+M$ resonance directly into the benzylic cation, giving an extra oxonium resonance form: the strongest stabilisation."
+    },
+    {
+     "n": 2,
+     "text": "Meta-OMe cannot conjugate and acts by $-I$ (destabilising). The para-methyl group stabilises only by hyperconjugation/$+I$, and the plain benzyl cation by resonance with the ring alone."
+    }
+   ],
+   "pitfalls": [
+    "Choosing the meta-methoxy isomer."
+   ],
+   "final_check": "4-Methoxybenzyl cation, option C."
+  },
+  "taxonomy": {
+   "chapters": [
+    "GOC and Isomerism"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q67",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  },
+  "option_images": {
+   "A": "images/main2025-0122-s2-q67-optA.png",
+   "B": "images/main2025-0122-s2-q67-optB.png",
+   "C": "images/main2025-0122-s2-q67-optC.png",
+   "D": "images/main2025-0122-s2-q67-optD.png"
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q18",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 18,
+  "stem": "Match the Compounds (List - I) with the appropriate Catalyst/Reagents (List - II) for their reduction into corresponding amines.\n\nList - I: (A) $\\mathrm{R-CO-NH_2}$ (amide), (B) nitrobenzene-type nitro compound, (C) $\\mathrm{R-C\\equiv N}$, (D) N-alkylphthalimide.\n\nList - II: (I) NaOH (aqueous), (II) $\\mathrm{H_2/Ni}$, (III) $\\mathrm{LiAlH_4}$, $\\mathrm{H_2O}$, (IV) Sn, HCl\n\nChoose the correct answer from the options given below :",
+  "stem_images": [
+   "images/main2025-0122-s2-q68.png"
+  ],
+  "options": {
+   "A": "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+   "B": "(A)-(III), (B)-(II), (C)-(IV), (D)-(I)",
+   "C": "(A)-(II), (B)-(IV), (C)-(III), (D)-(I)",
+   "D": "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Reduction to amines",
+    "Gabriel synthesis"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(A) Amide $\\to$ amine: $\\ce{LiAlH4}$, $\\ce{H2O}$ (III). (B) Nitro $\\to$ amine: Sn/HCl (IV). (C) Nitrile $\\to$ primary amine: $\\ce{H2/Ni}$ (II)."
+    },
+    {
+     "n": 2,
+     "text": "(D) N-alkylphthalimide $\\to$ primary amine ($\\ce{R-NH2}$): hydrolysis with aqueous NaOH (I) (Gabriel synthesis)."
+    },
+    {
+     "n": 3,
+     "text": "A-III, B-IV, C-II, D-I."
+    }
+   ],
+   "pitfalls": [
+    "Using $\\ce{H2/Ni}$ for the amide."
+   ],
+   "final_check": "Option D."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Amines"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q68",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q19",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 19,
+  "stem": "Arrange the following compounds in increasing order of their dipole moment : $\\mathrm{HBr},\\ \\mathrm{H_2S},\\ \\mathrm{NF_3}$ and $\\mathrm{CHCl_3}$",
+  "stem_images": [],
+  "options": {
+   "A": "$\\mathrm{H_2S<HBr<NF_3<CHCl_3}$",
+   "B": "$\\mathrm{NF_3<HBr<H_2S<CHCl_3}$",
+   "C": "$\\mathrm{HBr<H_2S<NF_3<CHCl_3}$",
+   "D": "$\\mathrm{CHCl_3<NF_3<HBr<H_2S}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Dipole moment"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Dipole moments (D): $\\ce{NF3}\\approx0.24$ (the lone-pair dipole opposes the N-F dipoles), $\\ce{HBr}\\approx0.79$, $\\ce{H2S}\\approx0.97$, $\\ce{CHCl3}\\approx1.04$."
+    },
+    {
+     "n": 2,
+     "text": "Increasing order: $\\ce{NF3<HBr<H2S<CHCl3}$."
+    }
+   ],
+   "pitfalls": [
+    "Ignoring the lone pair in NF$_3$."
+   ],
+   "final_check": "Option B."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Chemical Bonding"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q69",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-a-q20",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 20,
+  "stem": "The maximum covalency of a non-metallic group 15 element 'E' with weakest $\\mathrm{E-E}$ bond is :",
+  "stem_images": [],
+  "options": {
+   "A": "4",
+   "B": "6",
+   "C": "3",
+   "D": "5"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Covalency of nitrogen"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Among group 15 non-metals the weakest E-E single bond is N-N (small size, lone-pair repulsion)."
+    },
+    {
+     "n": 2,
+     "text": "Nitrogen has no d-orbitals, so its maximum covalency is 4 (e.g. $\\ce{NH4+}$)."
+    }
+   ],
+   "pitfalls": [
+    "Giving 5 as for phosphorus."
+   ],
+   "final_check": "4, option A."
+  },
+  "taxonomy": {
+   "chapters": [
+    "p-Block Elements",
+    "Chemical Bonding"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q70",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party MathonGo key; official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-b-q21",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 21,
+  "stem": "The compound with molecular formula $\\mathrm{C_6H_6}$, which gives only one monobromo derivative and takes up four moles of hydrogen per mole for complete hydrogenation has _______ $\\pi$ electrons.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Degree of unsaturation"
+   ],
+   "formulas": [
+    "DoU $=\\dfrac{2C+2-H}2$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\ce{C6H6}$ has 4 degrees of unsaturation. Taking up four moles of $\\ce{H2}$ for complete hydrogenation (to $\\ce{C6H14}$) means all four are $\\pi$ bonds, with no ring."
+    },
+    {
+     "n": 2,
+     "text": "Four $\\pi$ bonds contain $4\\times2=8$ $\\pi$ electrons. (Benzene, which absorbs three moles of $\\ce{H2}$, does not fit.)"
+    }
+   ],
+   "pitfalls": [
+    "Answering 6 as for benzene."
+   ],
+   "final_check": "8, matches the official NTA final key."
+  },
+  "taxonomy": {
+   "chapters": [
+    "GOC and Isomerism",
+    "Hydrocarbons"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q71",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "8",
+   "tolerance": null,
+   "source": "official_final_key (numeric answer matched to question by value)"
+  },
+  "verification": {
+   "solver_answer": "8",
+   "key_answer": "8",
+   "match": true,
+   "status": "verified",
+   "attempts": 1,
+   "note": "The printed stem ends 'has ________ = electrons.' (the symbol before 'electrons' is garbled in the MathonGo PDF). I transcribed it as 'pi electrons', which is the reading that fits the official numeric 8."
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-b-q22",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 22,
+  "stem": "20 mL of 2 M NaOH solution is added to 400 mL of 0.5 M NaOH solution. The final concentration of the solution is _______ $\\times10^{-2}$ M. (Nearest integer)",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Mixing solutions"
+   ],
+   "formulas": [
+    "$M=\\dfrac{\\sum n}{V_{total}}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Moles $=0.020\\times2+0.400\\times0.5=0.04+0.20=0.24$ mol; volume $=0.420$ L."
+    },
+    {
+     "n": 2,
+     "text": "$M=\\dfrac{0.24}{0.42}=0.5714=57.14\\times10^{-2}$, nearest integer $57$."
+    }
+   ],
+   "pitfalls": [],
+   "final_check": "57, matches the official NTA final key."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Mole Concept",
+    "Solutions"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q72",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "57",
+   "tolerance": null,
+   "source": "official_final_key (numeric answer matched to question by value)"
+  },
+  "verification": {
+   "solver_answer": "57",
+   "key_answer": "57",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-b-q23",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 23,
+  "stem": "Consider the following cases of standard enthalpy of reaction ($\\Delta H^\\circ_r$ in kJ mol$^{-1}$)\n$\\mathrm{C_2H_6(g)+\\tfrac72O_2(g)\\to2CO_2(g)+3H_2O(l)}$  $\\Delta H_1^\\circ=-1550$\n$\\mathrm{C(graphite)+O_2(g)\\to CO_2(g)}$  $\\Delta H_2^\\circ=-393.5$\n$\\mathrm{H_2(g)+\\tfrac12O_2(g)\\to H_2O(l)}$  $\\Delta H_3^\\circ=-286$\nThe magnitude of $\\Delta H^\\circ_{f\\,\\mathrm{C_2H_6(g)}}$ is _______ kJ mol$^{-1}$ (Nearest integer).",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Hess's law"
+   ],
+   "formulas": [
+    "$\\Delta H_f=\\sum\\Delta H_{c}(\\text{reactants})-\\Delta H_c(\\text{product})$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Formation: $2\\,\\mathrm{C}+3\\,\\mathrm{H_2}\\to\\ce{C2H6}$ $=2\\Delta H_2+3\\Delta H_3-\\Delta H_1$."
+    },
+    {
+     "n": 2,
+     "text": "$=2(-393.5)+3(-286)-(-1550)=-787-858+1550=-95$ kJ/mol. Magnitude $95$."
+    }
+   ],
+   "pitfalls": [],
+   "final_check": "95, matches the official NTA final key."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q73",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "95",
+   "tolerance": null,
+   "source": "official_final_key (numeric answer matched to question by value)"
+  },
+  "verification": {
+   "solver_answer": "95",
+   "key_answer": "95",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-b-q24",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 24,
+  "stem": "Niobium (Nb) and ruthenium (Ru) have \"$x$\" and \"$y$\" number of electrons in their respective 4d orbitals. The value of $x+y$ is _______ .",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Anomalous electronic configurations"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Nb: $[\\mathrm{Kr}]\\,4d^4\\,5s^1$, so $x=4$. Ru: $[\\mathrm{Kr}]\\,4d^7\\,5s^1$, so $y=7$."
+    },
+    {
+     "n": 2,
+     "text": "$x+y=11$."
+    }
+   ],
+   "pitfalls": [
+    "Using the Aufbau configuration."
+   ],
+   "final_check": "11, matches the official NTA final key."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Periodic Table",
+    "d and f Block"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q74",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "11",
+   "tolerance": null,
+   "source": "official_final_key (numeric answer matched to question by value)"
+  },
+  "verification": {
+   "solver_answer": "11",
+   "key_answer": "11",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ },
+ {
+  "id": "main2025-0122-s2-che-b-q25",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 1",
+  "shift": "2025-01-22 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 25,
+  "stem": "The complex of $\\mathrm{Ni^{2+}}$ ion and dimethyl glyoxime contains ________ number of Hydrogen (H) atoms.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Nickel dimethylglyoximate"
+   ],
+   "formulas": [],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Dimethylglyoxime is $\\ce{CH3-C(=NOH)-C(=NOH)-CH3}$, $\\ce{C4H8N2O2}$ with 8 H."
+    },
+    {
+     "n": 2,
+     "text": "$\\ce{Ni(dmgH)2}$ contains two ligands, each having lost one H (the O-H$\\cdots$O bridges are formed from the remaining OH). $2\\times7=14$ H."
+    }
+   ],
+   "pitfalls": [
+    "Counting 16 H."
+   ],
+   "final_check": "14, matches the official NTA final key."
+  },
+  "taxonomy": {
+   "chapters": [
+    "Coordination Compounds"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "MathonGo Q75",
+   "paper_pdf": "https://links.mathongo.com/rFDq",
+   "key_pdf": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/02/2025021053.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2",
+  "answer": {
+   "value": "14",
+   "tolerance": null,
+   "source": "official_final_key (numeric answer matched to question by value)"
+  },
+  "verification": {
+   "solver_answer": "14",
+   "key_answer": "14",
+   "match": true,
+   "status": "verified",
+   "attempts": 1
+  }
+ }
+]

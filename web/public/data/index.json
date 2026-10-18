@@ -149,6 +149,17 @@
    "session": "Session 1",
    "year": 2025,
    "shift": "2025-01-22 Shift 1"
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2025-0122-s2.json",
+   "id": "main2025-0122-s2",
+   "note": "JEE Main 2025 Session 1 — 2025-01-22 Shift 2 — 75 questions from the third-party MathonGo paper PDF (not an NTA file). Numeric answers (15) match the official NTA final key; the 60 MCQ answers are my own independent solves, agree with MathonGo's key, and are NOT verified against the official NTA key (needs_review). 4 questions flagged (Q26 physics gate figure ambiguous, Q61 and Q64 chemistry first-read corrected after key, Q66 chemistry unresolved), plus Q71 stem symbol garbled in source.",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 1",
+   "year": 2025,
+   "shift": "2025-01-22 Shift 2"
   }
  ]
 }
