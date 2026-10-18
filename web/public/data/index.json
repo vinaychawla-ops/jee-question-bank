@@ -182,6 +182,28 @@
    "session": "Session 1",
    "year": 2025,
    "shift": "2025-01-23 Shift 2"
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2025-0124-s1.json",
+   "id": "main2025-0124-s1",
+   "note": "JEE Main 2025 Session 1, January 24 Shift 1. 75 questions. The 25 numerical questions are checked against the NTA final key by value. The 50 MCQs are solved independently and agree with MathonGo's key (needs_review: NTA publishes option IDs only). Flagged caveats: Q22, Q23, Q25 (garbled or ambiguous source text), Q36, Q51, Q52, Q54, Q66, Q74; see the notes.",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 1",
+   "year": 2025,
+   "shift": "2025-01-24 Shift 1"
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2025-0124-s2.json",
+   "id": "main2025-0124-s2",
+   "note": "JEE Main 2025 Session 1, January 24 Shift 2. 75 questions. The 25 numerical questions are checked against the NTA final key by value. The 50 MCQs are solved independently and agree with MathonGo's key (needs_review: NTA publishes option IDs only). Flagged caveats: Q28, Q35, Q38 (source prints no question sentence, so it is reconstructed from the figure), Q43 (answer follows the coherent-beams reading, see the notes), Q58, Q61 (source drops an exponent), Q65, Q66; see the notes.",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 1",
+   "year": 2025,
+   "shift": "2025-01-24 Shift 2"
   }
  ]
 }
