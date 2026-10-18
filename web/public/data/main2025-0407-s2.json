@@ -1,0 +1,5834 @@
+[
+ {
+  "id": "main2025-0407-s2-mat-a-q01",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 1,
+  "stem": "Consider the lines $L_1:x-1=y-2=z$ and $L_2:x-2=y=z-1$. Let the feet of the perpendiculars from the point $P(5,1,-3)$ on the lines $L_1$ and $L_2$ be $Q$ and $R$ respectively. If the area of the triangle PQR is A, then $4A^2$ is equal to:",
+  "stem_images": [],
+  "options": {
+   "A": "143",
+   "B": "151",
+   "C": "147",
+   "D": "139"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Foot of perpendicular and area"
+   ],
+   "formulas": [
+    "$A=\\frac12|\\vec{PQ}\\times\\vec{PR}|$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Both lines have direction $(1,1,1)$. $L_1$: $(1+t,2+t,t)$; $L_2$: $(2+s,s,1+s)$."
+    },
+    {
+     "n": 2,
+     "text": "Foot on $L_1$: $(P-Q)\\cdot(1,1,1)=0\\Rightarrow(4-t)+(-1-t)+(-3-t)=0\\Rightarrow t=0$, so $Q=(1,2,0)$. Foot on $L_2$: $(3-s)+(1-s)+(-4-s)=0\\Rightarrow s=0$, so $R=(2,0,1)$."
+    },
+    {
+     "n": 3,
+     "text": "$\\vec{PQ}=(-4,1,3)$, $\\vec{PR}=(-3,-1,4)$, cross product $(7,7,7)$. (components: $1\\cdot4-3\\cdot(-1)=7$, $3\\cdot(-3)-(-4)\\cdot4=7$, $(-4)(-1)-1\\cdot(-3)=7$). $A=\\frac12\\sqrt{147}$, so $4A^2=147$."
+    }
+   ],
+   "pitfalls": [
+    "Arithmetic slips in the cross product."
+   ],
+   "final_check": "147"
+  },
+  "taxonomy": {
+   "chapters": [
+    "3D Geometry"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q1",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q02",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 2,
+  "stem": "Let the system of equations $x+5y-z=1$, $4x+3y-3z=7$, $24x+y+\\lambda z=\\mu$, $\\lambda,\\mu\\in\\mathbb R$, have infinitely many solutions. Then the number of solutions of this system, if x, y, z are integers and satisfy $7\\le x+y+z\\le77$, is :",
+  "stem_images": [],
+  "options": {
+   "A": "3",
+   "B": "5",
+   "C": "6",
+   "D": "4"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Infinite solutions with integer constraint"
+   ],
+   "formulas": [
+    "$\\Delta=0$ and consistency"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\Delta=0$ gives $\\lambda=-17$; consistency gives $\\mu=45$."
+    },
+    {
+     "n": 2,
+     "text": "From the first two equations: $x=\\frac{12z+32}{17}$, $y=\\frac{z-3}{17}$, so $x+y+z=\\frac{30z+29}{17}$."
+    },
+    {
+     "n": 3,
+     "text": "Integers need $z\\equiv3\\pmod{17}$: $z=17k+3$, giving $x=12k+4$, $y=k$, $x+y+z=30k+7$. The condition $7\\le30k+7\\le77$ gives $k=0,1,2$."
+    },
+    {
+     "n": 4,
+     "text": "So there are 3 solutions."
+    }
+   ],
+   "pitfalls": [
+    "Missing the third family value."
+   ],
+   "final_check": "3"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Matrices and Determinants"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q2",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q03",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 3,
+  "stem": "Let the length of a latus rectum of an ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$ be 10. If its eccentricity is the minimum value of the function $f(t)=t^2+t+\\frac{11}{12}$, $t\\in\\mathbb R$, then $a^2+b^2$ is equal to :",
+  "stem_images": [],
+  "options": {
+   "A": "126",
+   "B": "115",
+   "C": "125",
+   "D": "120"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Latus rectum and eccentricity"
+   ],
+   "formulas": [
+    "$LR=\\frac{2b^2}a$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$f_{min}=\\frac{11}{12}-\\frac14=\\frac23$, so $e=\\frac23$."
+    },
+    {
+     "n": 2,
+     "text": "$b^2=a^2(1-e^2)=\\frac59a^2$. Latus rectum $\\frac{2b^2}a=\\frac{10a}9=10\\Rightarrow a=9$."
+    },
+    {
+     "n": 3,
+     "text": "$a^2=81$, $b^2=45$, so $a^2+b^2=126$."
+    }
+   ],
+   "pitfalls": [
+    "Using the wrong $e$."
+   ],
+   "final_check": "126"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Parabola, Ellipse and Hyperbola"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q3",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q04",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 4,
+  "stem": "Let $\\vec a$ and $\\vec b$ be the vectors of the same magnitude such that $\\frac{|\\vec a+\\vec b|+|\\vec a-\\vec b|}{|\\vec a+\\vec b|-|\\vec a-\\vec b|}=\\sqrt2+1$. Then $\\frac{|\\vec a+\\vec b|^2}{|\\vec a|^2}$ is :",
+  "stem_images": [],
+  "options": {
+   "A": "$2+4\\sqrt2$",
+   "B": "$4+2\\sqrt2$",
+   "C": "$2+\\sqrt2$",
+   "D": "$1+\\sqrt2$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Sum and difference of equal-magnitude vectors"
+   ],
+   "formulas": [
+    "$|\\vec a\\pm\\vec b|^2=2\\pm2\\cos\\theta$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "With $|\\vec a|=|\\vec b|=1$ and angle $\\theta$: $|\\vec a+\\vec b|=2\\cos\\frac\\theta2$, $|\\vec a-\\vec b|=2\\sin\\frac\\theta2$."
+    },
+    {
+     "n": 2,
+     "text": "$\\frac{\\cos+\\sin}{\\cos-\\sin}=\\tan\\left(\\frac\\pi4+\\frac\\theta2\\right)=\\sqrt2+1=\\tan\\frac{3\\pi}8$, so $\\theta=\\frac\\pi4$."
+    },
+    {
+     "n": 3,
+     "text": "$|\\vec a+\\vec b|^2=2+2\\cos\\frac\\pi4=2+\\sqrt2$."
+    }
+   ],
+   "pitfalls": [
+    "Using $\\tan$ of the wrong angle."
+   ],
+   "final_check": "$2+\\sqrt2$"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Vectors"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q4",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q05",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 5,
+  "stem": "If the equation of the line passing through the point $\\left(0,-\\frac12,0\\right)$ and perpendicular to the lines $\\vec r=\\lambda(\\hat i+a\\hat j+b\\hat k)$ and $\\vec r=(\\hat i-\\hat j-6\\hat k)+\\mu(-b\\hat i+a\\hat j+5\\hat k)$ is $\\frac{x-1}{-2}=\\frac{y+4}d=\\frac{z-c}{-4}$, then $a+b+c+d$ is equal to :",
+  "stem_images": [],
+  "options": {
+   "A": "14",
+   "B": "13",
+   "C": "10",
+   "D": "12"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Line perpendicular to two lines"
+   ],
+   "formulas": [
+    "$\\vec d\\cdot\\vec d_1=0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "The direction $(-2,d,-4)$ is perpendicular to both: $-2+ad-4b=0$ and $2b+ad-20=0$, giving $b=3$, $ad=14$."
+    },
+    {
+     "n": 2,
+     "text": "The point $\\left(0,-\\frac12,0\\right)$ is on the line: $\\frac{0-1}{-2}=\\frac12$, so $\\frac{-\\frac12+4}d=\\frac12\\Rightarrow d=7$, $a=2$, and $\\frac{0-c}{-4}=\\frac12\\Rightarrow c=2$."
+    },
+    {
+     "n": 3,
+     "text": "$a+b+c+d=2+3+2+7=14$."
+    }
+   ],
+   "pitfalls": [
+    "Using the wrong point parameter."
+   ],
+   "final_check": "14"
+  },
+  "taxonomy": {
+   "chapters": [
+    "3D Geometry"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q5",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q06",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 6,
+  "stem": "Let $A=\\{(\\alpha,\\beta)\\in\\mathbb R\\times\\mathbb R:|\\alpha-1|\\le4$ and $|\\beta-5|\\le6\\}$ and $B=\\{(\\alpha,\\beta)\\in\\mathbb R\\times\\mathbb R:16(\\alpha-2)^2+9(\\beta-6)^2\\le144\\}$. Then",
+  "stem_images": [],
+  "options": {
+   "A": "$A\\cup B=\\{(x,y):-4\\le x\\le4,-1\\le y\\le11\\}$",
+   "B": "$B\\subset A$",
+   "C": "neither $A\\subset B$ nor $B\\subset A$",
+   "D": "$A\\subset B$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Region containment"
+   ],
+   "formulas": [
+    "Bounding box of an ellipse"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$A$ is the rectangle $-3\\le\\alpha\\le5$, $-1\\le\\beta\\le11$."
+    },
+    {
+     "n": 2,
+     "text": "$B$ is the ellipse $\\frac{(\\alpha-2)^2}9+\\frac{(\\beta-6)^2}{16}\\le1$, with $\\alpha\\in[-1,5]$ and $\\beta\\in[2,10]$, which lies inside the rectangle."
+    },
+    {
+     "n": 3,
+     "text": "So $B\\subset A$."
+    }
+   ],
+   "pitfalls": [
+    "Confusing ellipse axes."
+   ],
+   "final_check": "B ⊂ A"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Sets, Relations and Functions"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q6",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q07",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 7,
+  "stem": "Let $a_n$ be the $n^{th}$ term of an A.P. If $S_n=a_1+a_2+\\ldots+a_n=700$, $a_6=7$ and $S_7=7$, then $a_n$ is equal to:",
+  "stem_images": [],
+  "options": {
+   "A": "64",
+   "B": "70",
+   "C": "56",
+   "D": "65"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "AP sums"
+   ],
+   "formulas": [
+    "$S_n=\\frac n2[2a+(n-1)d]$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$a_6=a+5d=7$ and $S_7=7(a+3d)=7\\Rightarrow a+3d=1$. So $d=3$, $a=-8$."
+    },
+    {
+     "n": 2,
+     "text": "$S_n=\\frac n2(-16+3(n-1))=700\\Rightarrow3n^2-19n-1400=0\\Rightarrow n=25$ (positive root)."
+    },
+    {
+     "n": 3,
+     "text": "$a_{25}=-8+24\\cdot3=64$."
+    }
+   ],
+   "pitfalls": [
+    "Taking the negative root."
+   ],
+   "final_check": "64"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Sequences and Series"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q7",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q08",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 8,
+  "stem": "If the range of the function $f(x)=\\frac{5-x}{x^2-3x+2}$, $x\\ne1,2$, is $(-\\infty,\\alpha]\\cup[\\beta,\\infty)$, then $\\alpha^2+\\beta^2$ is equal to:",
+  "stem_images": [],
+  "options": {
+   "A": "192",
+   "B": "190",
+   "C": "194",
+   "D": "188"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Range via discriminant"
+   ],
+   "formulas": [
+    "$D\\ge0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$y(x^2-3x+2)=5-x\\Rightarrow yx^2+(1-3y)x+(2y-5)=0$. For real $x$: $(1-3y)^2-4y(2y-5)\\ge0$."
+    },
+    {
+     "n": 2,
+     "text": "$y^2+14y+1\\ge0$, so $y\\le-7-4\\sqrt3$ or $y\\ge-7+4\\sqrt3$."
+    },
+    {
+     "n": 3,
+     "text": "$\\alpha^2+\\beta^2=(7+4\\sqrt3)^2+(7-4\\sqrt3)^2=2(49+48)=194$."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting to exclude values at $x=1,2$ (they do not affect the range here)."
+   ],
+   "final_check": "194"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Sets, Relations and Functions"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q8",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q09",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 9,
+  "stem": "If the sum of the second, fourth and sixth terms of a G.P. of positive terms is 21 and the sum of its eighth, tenth and twelfth terms is 15309, then the sum of its first nine terms is :",
+  "stem_images": [],
+  "options": {
+   "A": "755",
+   "B": "757",
+   "C": "760",
+   "D": "750"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "GP ratio"
+   ],
+   "formulas": [
+    "$S_n=\\frac{a(r^n-1)}{r-1}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$ar(1+r^2+r^4)=21$ and $ar^7(1+r^2+r^4)=15309$. Dividing: $r^6=729$, so $r=3$."
+    },
+    {
+     "n": 2,
+     "text": "$a\\cdot3\\cdot91=21\\Rightarrow a=\\frac1{13}$."
+    },
+    {
+     "n": 3,
+     "text": "$S_9=\\frac1{13}\\cdot\\frac{3^9-1}{2}=\\frac{19682}{26}=757$."
+    }
+   ],
+   "pitfalls": [
+    "Using $r=-3$."
+   ],
+   "final_check": "757"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Sequences and Series"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q9",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q10",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 10,
+  "stem": "If the area of the region $\\{(x,y):1+x^2\\le y\\le\\min\\{x+7,11-3x\\}\\}$ is A, then 3A is equal to",
+  "stem_images": [],
+  "options": {
+   "A": "46",
+   "B": "47",
+   "C": "49",
+   "D": "50"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Area under a piecewise bound"
+   ],
+   "formulas": [
+    "$A=\\int(y_{top}-y_{bottom})dx$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$x+7=11-3x$ at $x=1$. $1+x^2=x+7$ at $x=-2$, and $1+x^2=11-3x$ at $x=2$."
+    },
+    {
+     "n": 2,
+     "text": "$A=\\int_{-2}^{1}(6+x-x^2)dx+\\int_1^2(10-3x-x^2)dx=\\frac{27}2+\\frac{19}6=\\frac{50}3$."
+    },
+    {
+     "n": 3,
+     "text": "$3A=50$."
+    }
+   ],
+   "pitfalls": [
+    "Wrong switch point."
+   ],
+   "final_check": "50"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Definite Integration and Area"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q10",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q11",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 11,
+  "stem": "If the locus of $z\\in\\mathbb C$, such that $Re\\left(\\frac{z-1}{2z+i}\\right)+Re\\left(\\frac{\\bar z-1}{2\\bar z-i}\\right)=2$, is a circle of radius r and center $(a,b)$, then $\\frac{15ab}{r^2}$ is equal to :",
+  "stem_images": [],
+  "options": {
+   "A": "24",
+   "B": "18",
+   "C": "16",
+   "D": "12"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Locus of a complex number"
+   ],
+   "formulas": [
+    "$Re(w)+Re(\\bar w)=2Re(w)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "The two terms are conjugates, so the sum is $2Re\\left(\\frac{z-1}{2z+i}\\right)=2$. With $z=x+iy$ this gives $-4x^2-4x-4y^2-6y-2=0$ (symbolic expansion)."
+    },
+    {
+     "n": 2,
+     "text": "$x^2+x+y^2+\\frac32y+\\frac12=0$: centre $\\left(-\\frac12,-\\frac34\\right)$, $r^2=\\frac14+\\frac9{16}-\\frac12=\\frac5{16}$."
+    },
+    {
+     "n": 3,
+     "text": "$\\frac{15ab}{r^2}=\\frac{15\\cdot\\frac38}{\\frac5{16}}=18$."
+    }
+   ],
+   "pitfalls": [
+    "Sign error in the centre."
+   ],
+   "final_check": "18"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Complex Numbers"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q11",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q12",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 12,
+  "stem": "The number of solutions of the equation $\\cos2\\theta\\cos\\frac\\theta2+\\cos\\frac{5\\theta}2=2\\cos^3\\frac{5\\theta}2$ in $\\left[-\\frac\\pi2,\\frac\\pi2\\right]$ is :",
+  "stem_images": [],
+  "options": {
+   "A": "5",
+   "B": "7",
+   "C": "9",
+   "D": "6"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Counting trigonometric solutions"
+   ],
+   "formulas": [
+    "Product-to-sum identities"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Numerically scanning $f(\\theta)=\\cos2\\theta\\cos\\frac\\theta2+\\cos\\frac{5\\theta}2-2\\cos^3\\frac{5\\theta}2$ on $\\left[-\\frac\\pi2,\\frac\\pi2\\right]$ finds sign changes at $\\theta=\\pm0.698,\\pm1.047,\\pm1.396$ (that is $\\pm\\frac{2\\pi}{9},\\pm\\frac\\pi3,\\pm\\frac{4\\pi}9$), plus the touching root $\\theta=0$."
+    },
+    {
+     "n": 2,
+     "text": "Total 7 solutions."
+    }
+   ],
+   "pitfalls": [
+    "Missing $\\theta=0$ (a double root)."
+   ],
+   "final_check": "7"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Trigonometry"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q12",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party). Solved by numerical root scan plus checking the roots; no short closed-form derivation was written."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q13",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 13,
+  "stem": "If the orthocenter of the triangle formed by the lines $y=x+1$, $y=4x-8$ and $y=mx+c$ is at $(3,-1)$, then $m-c$ is :",
+  "stem_images": [],
+  "options": {
+   "A": "-1",
+   "B": "4",
+   "C": "0",
+   "D": "2"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Orthocentre"
+   ],
+   "formulas": [
+    "Altitudes are perpendicular to opposite sides"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$y=x+1$ and $y=4x-8$ meet at $(3,4)$. The altitude from $(3,4)$ passes through $(3,-1)$, so it is $x=3$, hence the third line is horizontal: $m=0$, $y=c$."
+    },
+    {
+     "n": 2,
+     "text": "The third line meets $y=x+1$ at $(c-1,c)$. The altitude from there is perpendicular to $y=4x-8$ (slope $-\\frac14$) through $(3,-1)$: $\\frac{c+1}{c-4}=-\\frac14\\Rightarrow c=0$."
+    },
+    {
+     "n": 3,
+     "text": "$m-c=0$."
+    }
+   ],
+   "pitfalls": [
+    "Using the wrong vertex."
+   ],
+   "final_check": "0"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Straight Lines"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q13",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q14",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 14,
+  "stem": "The number of real roots of the equation $x|x-2|+3|x-3|+1=0$ is :",
+  "stem_images": [],
+  "options": {
+   "A": "3",
+   "B": "2",
+   "C": "1",
+   "D": "4"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Equations with modulus"
+   ],
+   "formulas": [
+    "Split at the critical points"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "For $x\\ge3$: $x(x-2)+3(x-3)+1=x^2+x-8=0$ gives $x=\\frac{-1\\pm\\sqrt{33}}{2}$, neither $\\ge3$."
+    },
+    {
+     "n": 2,
+     "text": "For $2\\le x<3$: $x^2-2x+9-3x+1=x^2-5x+10=0$ has $D<0$."
+    },
+    {
+     "n": 3,
+     "text": "For $x<2$: $-x^2+2x+9-3x+1=-x^2-x+10=0\\Rightarrow x=\\frac{-1\\pm\\sqrt{41}}{2}$; only $\\frac{-1-\\sqrt{41}}2\\approx-3.7<2$ qualifies, while $\\frac{-1+\\sqrt{41}}2\\approx2.7$ does not."
+    },
+    {
+     "n": 4,
+     "text": "Exactly 1 real root."
+    }
+   ],
+   "pitfalls": [
+    "Accepting roots outside the interval."
+   ],
+   "final_check": "1"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Quadratic Equations"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q14",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q15",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 15,
+  "stem": "Let $y=y(x)$ be the solution of the differential equation $(x^2+1)y'-2xy=(x^4+2x^2+1)\\cos x$, $y(0)=1$. Then $\\int_{-3}^{3}y(x)dx$ is :",
+  "stem_images": [],
+  "options": {
+   "A": "24",
+   "B": "30",
+   "C": "18",
+   "D": "36"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Exact derivative form"
+   ],
+   "formulas": [
+    "$\\frac{d}{dx}\\frac y{x^2+1}=\\frac{(x^2+1)y'-2xy}{(x^2+1)^2}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Divide by $(x^2+1)^2$: $\\frac{d}{dx}\\left(\\frac{y}{x^2+1}\\right)=\\cos x$, so $\\frac y{x^2+1}=\\sin x+C$. $y(0)=1\\Rightarrow C=1$."
+    },
+    {
+     "n": 2,
+     "text": "$y=(x^2+1)(\\sin x+1)$. The odd part $(x^2+1)\\sin x$ integrates to 0 over $[-3,3]$."
+    },
+    {
+     "n": 3,
+     "text": "$\\int_{-3}^3(x^2+1)dx=2\\left(9+3\\right)=24$."
+    }
+   ],
+   "pitfalls": [
+    "Dropping the symmetry argument."
+   ],
+   "final_check": "24"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Differential Equations"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q15",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q16",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 16,
+  "stem": "Let p be the number of all triangles that can be formed by joining the vertices of a regular polygon P of n sides and q be the number of all quadrilaterals that can be formed by joining the vertices of P. If $p+q=126$, then the eccentricity of the ellipse $\\frac{x^2}{16}+\\frac{y^2}n=1$ is :",
+  "stem_images": [],
+  "options": {
+   "A": "$\\frac{\\sqrt7}4$",
+   "B": "$\\frac12$",
+   "C": "$\\frac1{\\sqrt2}$",
+   "D": "$\\frac34$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Combinations and ellipse eccentricity"
+   ],
+   "formulas": [
+    "$\\binom n3+\\binom n4=\\binom{n+1}4$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\binom n3+\\binom n4=\\binom{n+1}4=126\\Rightarrow n+1=9$, so $n=8$."
+    },
+    {
+     "n": 2,
+     "text": "Ellipse $\\frac{x^2}{16}+\\frac{y^2}8=1$: $e=\\sqrt{1-\\frac8{16}}=\\frac1{\\sqrt2}$."
+    }
+   ],
+   "pitfalls": [
+    "Using the wrong axis for $e$."
+   ],
+   "final_check": "$\\frac1{\\sqrt2}$"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Permutations and Combinations"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q16",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q17",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 17,
+  "stem": "Let $f:\\mathbb R\\to\\mathbb R$ be a polynomial function of degree four having extreme values at $x=4$ and $x=5$. If $\\lim_{x\\to0}\\frac{f(x)}{x^2}=5$, then $f(2)$ is equal to :",
+  "stem_images": [],
+  "options": {
+   "A": "10",
+   "B": "8",
+   "C": "12",
+   "D": "14"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Polynomial from conditions"
+   ],
+   "formulas": [
+    "$f'(x)=4ax(x-4)(x-5)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "The limit forces $f(0)=0$, $f'(0)=0$, and the $x^2$ coefficient 5: $f=ax^4+bx^3+5x^2$."
+    },
+    {
+     "n": 2,
+     "text": "$f'(x)=4ax^3+3bx^2+10x$ with roots 4 and 5: $f'(x)=4ax(x-4)(x-5)$ expands to $4ax^3-36ax^2+80ax$. Matching the $10x$ term: $80a=10\\Rightarrow a=\\frac18$, and then $3b=-36a\\Rightarrow b=-\\frac32$."
+    },
+    {
+     "n": 3,
+     "text": "$f(2)=\\frac{16}8-\\frac{3\\cdot8}{2}+20=2-12+20=10$."
+    }
+   ],
+   "pitfalls": [
+    "Using only one critical point."
+   ],
+   "final_check": "10"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Applications of Derivatives"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q17",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q18",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 18,
+  "stem": "Let a random variable X take values 0,1,2,3 with $P(X=0)=P(X=1)=p$, $P(X=2)=P(X=3)$ and $E(X^2)=2E(X)$. Then the value of $8p-1$ is:",
+  "stem_images": [],
+  "options": {
+   "A": "0",
+   "B": "2",
+   "C": "3",
+   "D": "1"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Mean and second moment"
+   ],
+   "formulas": [
+    "$E(X^2)=\\sum x^2P$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Let $P(X=2)=P(X=3)=q$; $2p+2q=1$, $q=\\frac12-p$."
+    },
+    {
+     "n": 2,
+     "text": "$E(X)=p+5q$, $E(X^2)=p+13q$. $p+13q=2p+10q\\Rightarrow3q=p$."
+    },
+    {
+     "n": 3,
+     "text": "$p=\\frac38$, so $8p-1=2$."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting $\\sum P=1$."
+   ],
+   "final_check": "2"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Probability"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q18",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q19",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 19,
+  "stem": "A bag contains 19 unbiased coins and one coin with head on both sides. One coin drawn at random is tossed and head turns up. If the probability that the drawn coin was unbiased, is $\\frac mn$, $\\gcd(m,n)=1$, then $n^2-m^2$ is equal to :",
+  "stem_images": [],
+  "options": {
+   "A": "72",
+   "B": "64",
+   "C": "60",
+   "D": "80"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Bayes' theorem"
+   ],
+   "formulas": [
+    "$P(A|E)=\\frac{P(E|A)P(A)}{P(E)}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$P=\\frac{\\frac{19}{20}\\cdot\\frac12}{\\frac{19}{20}\\cdot\\frac12+\\frac1{20}\\cdot1}=\\frac{19}{21}$."
+    },
+    {
+     "n": 2,
+     "text": "$n^2-m^2=441-361=80$."
+    }
+   ],
+   "pitfalls": [
+    "Using $\\frac{19}{20}$ as the answer."
+   ],
+   "final_check": "80"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Probability"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q19",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-a-q20",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 20,
+  "stem": "Let $e_1$ and $e_2$ be the eccentricities of the ellipse $\\frac{x^2}{b^2}+\\frac{y^2}{25}=1$ and the hyperbola $\\frac{x^2}{16}-\\frac{y^2}{b^2}=1$, respectively. If $b<5$ and $e_1e_2=1$, then the eccentricity of the ellipse having its axes along the coordinate axes and passing through all four foci (two of the ellipse and two of the hyperbola) is :",
+  "stem_images": [],
+  "options": {
+   "A": "$\\frac{\\sqrt7}4$",
+   "B": "$\\frac45$",
+   "C": "$\\frac{\\sqrt3}2$",
+   "D": "$\\frac35$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Conics with shared foci"
+   ],
+   "formulas": [
+    "$e=\\sqrt{1\\mp\\frac{b^2}{a^2}}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$e_1^2=1-\\frac{b^2}{25}$, $e_2^2=1+\\frac{b^2}{16}$. $e_1e_2=1\\Rightarrow\\left(1-\\frac{b^2}{25}\\right)\\left(1+\\frac{b^2}{16}\\right)=1\\Rightarrow b^2=9$."
+    },
+    {
+     "n": 2,
+     "text": "Ellipse foci $(0,\\pm4)$ ($c^2=25-9$); hyperbola foci $(\\pm5,0)$ ($c^2=16+9$)."
+    },
+    {
+     "n": 3,
+     "text": "The ellipse through $(\\pm5,0)$ and $(0,\\pm4)$ is $\\frac{x^2}{25}+\\frac{y^2}{16}=1$, with $e=\\sqrt{1-\\frac{16}{25}}=\\frac35$."
+    }
+   ],
+   "pitfalls": [
+    "Mixing which focus lies on which axis."
+   ],
+   "final_check": "$\\frac35$"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Parabola, Ellipse and Hyperbola"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q20",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-b-q21",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 21,
+  "stem": "For $t>-1$, let $\\alpha_t$ and $\\beta_t$ be the roots of the equation $\\left((t+2)^{1/7}-1\\right)x^2+\\left((t+2)^{1/6}-1\\right)x+\\left((t+2)^{1/21}-1\\right)=0$. If $\\lim_{t\\to-1^+}\\alpha_t=a$ and $\\lim_{t\\to-1^+}\\beta_t=b$, then $72(a+b)^2$ is equal to ______.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Limits of roots"
+   ],
+   "formulas": [
+    "$u^{1/k}-1\\sim\\frac{u-1}k$ near $u=1$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "As $t\\to-1^+$, $(t+2)\\to1$ and $(t+2)^{1/k}-1\\sim\\frac{t+1}k$."
+    },
+    {
+     "n": 2,
+     "text": "Dividing by $t+1$: $\\frac{x^2}7+\\frac x6+\\frac1{21}=0$, i.e. $6x^2+7x+2=0$, roots $-\\frac12,-\\frac23$."
+    },
+    {
+     "n": 3,
+     "text": "$a+b=-\\frac76$, so $72\\cdot\\frac{49}{36}=98$."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting to divide by $t+1$."
+   ],
+   "final_check": "98"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Limits, Continuity and Differentiability"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q21",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "98",
+   "tolerance": null,
+   "source": "solver_verified; matches the answer printed in the third-party Smartachievers/Allen paper (official NTA key not checked)"
+  },
+  "verification": {
+   "solver_answer": "98",
+   "key_answer": "98",
+   "match": true,
+   "status": "verified",
+   "attempts": 1,
+   "note": "Independently solved; matches the third-party Smartachievers/Allen printed answer (official NTA key not cross-checked)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-b-q22",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 22,
+  "stem": "Let the lengths of the transverse and conjugate axes of a hyperbola in standard form be 2a and 2b, respectively, and one focus and the corresponding directrix of this hyperbola be (-5, 0) and $5x+9=0$, respectively. If the product of the focal distances of a point $(\\alpha,2\\sqrt5)$ on the hyperbola is p, then 4p is equal to ______.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Focal distances of a hyperbola"
+   ],
+   "formulas": [
+    "$PF_1\\cdot PF_2=e^2x^2-a^2$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$ae=5$ and $\\frac ae=\\frac95$, so $a^2=9$, $e=\\frac53$, $b^2=a^2(e^2-1)=16$."
+    },
+    {
+     "n": 2,
+     "text": "On the hyperbola $\\frac{\\alpha^2}9-\\frac{20}{16}=1\\Rightarrow\\alpha^2=\\frac{81}4$."
+    },
+    {
+     "n": 3,
+     "text": "Product of focal distances $=(e|\\alpha|-a)(e|\\alpha|+a)=e^2\\alpha^2-a^2=\\frac{25}9\\cdot\\frac{81}4-9=\\frac{189}4$, so $4p=189$."
+    }
+   ],
+   "pitfalls": [
+    "Using the wrong $b^2$."
+   ],
+   "final_check": "189"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Parabola, Ellipse and Hyperbola"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q22",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "189",
+   "tolerance": null,
+   "source": "solver_verified; matches the answer printed in the third-party Smartachievers/Allen paper (official NTA key not checked)"
+  },
+  "verification": {
+   "solver_answer": "189",
+   "key_answer": "189",
+   "match": true,
+   "status": "verified",
+   "attempts": 1,
+   "note": "Independently solved; matches the third-party Smartachievers/Allen printed answer (official NTA key not cross-checked)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-b-q23",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 23,
+  "stem": "If the function $f(x)=\\frac{\\tan(\\tan x)-\\sin(\\sin x)}{\\tan x-\\sin x}$ is continuous at $x=0$, then $f(0)$ is equal to ______.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Series expansions"
+   ],
+   "formulas": [
+    "$\\tan u\\approx u+\\frac{u^3}3$, $\\sin u\\approx u-\\frac{u^3}6$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Near 0: $\\tan(\\tan x)\\approx\\tan x+\\frac{\\tan^3x}3$ and $\\sin(\\sin x)\\approx\\sin x-\\frac{\\sin^3x}6$."
+    },
+    {
+     "n": 2,
+     "text": "Numerator $\\approx(\\tan x-\\sin x)+\\frac{x^3}3+\\frac{x^3}6=(\\tan x-\\sin x)+\\frac{x^3}2$, and $\\tan x-\\sin x\\approx\\frac{x^3}2$."
+    },
+    {
+     "n": 3,
+     "text": "So the ratio $\\to\\frac{x^3/2+x^3/2}{x^3/2}=2$."
+    }
+   ],
+   "pitfalls": [
+    "Using only first-order terms."
+   ],
+   "final_check": "2"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Limits, Continuity and Differentiability"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q23",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "2",
+   "tolerance": null,
+   "source": "solver_verified; matches the answer printed in the third-party Smartachievers/Allen paper (official NTA key not checked)"
+  },
+  "verification": {
+   "solver_answer": "2",
+   "key_answer": "2",
+   "match": true,
+   "status": "verified",
+   "attempts": 1,
+   "note": "Independently solved; matches the third-party Smartachievers/Allen printed answer (official NTA key not cross-checked)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-b-q24",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 24,
+  "stem": "The sum of the series $2\\times1\\times{}^{20}C_4-3\\times2\\times{}^{20}C_5+4\\times3\\times{}^{20}C_6-5\\times4\\times{}^{20}C_7+\\ldots+18\\times17\\times{}^{20}C_{20}$, is equal to ______.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Binomial series with alternating signs"
+   ],
+   "formulas": [
+    "$\\sum(-1)^kk(k-1)\\binom nk$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "The general term is $(-1)^{k+1}(k+1)k\\binom{20}{k+3}$ for $k=1,\\ldots,17$. Evaluating the sum exactly over all 17 terms gives 34."
+    },
+    {
+     "n": 2,
+     "text": "The sum is a second-derivative binomial identity in disguise; the exact term-by-term sum confirms 34."
+    }
+   ],
+   "pitfalls": [
+    "Sign pattern."
+   ],
+   "final_check": "34"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Binomial Theorem"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q24",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "34",
+   "tolerance": null,
+   "source": "solver_verified; matches the answer printed in the third-party Smartachievers/Allen paper (official NTA key not checked)"
+  },
+  "verification": {
+   "solver_answer": "34",
+   "key_answer": "34",
+   "match": true,
+   "status": "verified",
+   "attempts": 1,
+   "note": "Evaluated by exact summation of the 17 terms rather than a written closed-form derivation."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-mat-b-q25",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "mathematics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 25,
+  "stem": "If $\\int\\left(\\frac1x+\\frac1{x^3}\\right)\\left(\\sqrt[23]{3x^{-24}+x^{-26}}\\right)dx=-\\frac\\alpha{3(\\alpha+1)}\\left(3x^\\beta+x^\\gamma\\right)^{\\frac{\\alpha+1}\\alpha}+C$, $x>0$, $(\\alpha,\\beta,\\gamma\\in\\mathbb Z)$, where C is the constant of integration, then $\\alpha+\\beta+\\gamma$ is equal to ______.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Substitution and matching"
+   ],
+   "formulas": [
+    "$\\int u^{1/\\alpha}du$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Write $3x^{-24}+x^{-26}=x^{-26}(3x^2+1)$ and note $\\left(\\frac1x+\\frac1{x^3}\\right)$: with $u=3x^{-1}+x^{-3}$, $du=-3\\left(\\frac1{x^2}+\\frac1{x^4}\\right)dx$, the integrand reduces to a power of $u$."
+    },
+    {
+     "n": 2,
+     "text": "Matching the form gives $\\alpha=23$, $\\beta=-1$, $\\gamma=-3$, so the antiderivative is $-\\frac{23}{72}(3x^{-1}+x^{-3})^{24/23}$ (confirmed by differentiating numerically at several points)."
+    },
+    {
+     "n": 3,
+     "text": "$\\alpha+\\beta+\\gamma=23-1-3=19$."
+    }
+   ],
+   "pitfalls": [
+    "Wrong exponent matching."
+   ],
+   "final_check": "19"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Indefinite Integration"
+   ],
+   "difficulty": "hard"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q25",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "19",
+   "tolerance": null,
+   "source": "solver_verified; matches the answer printed in the third-party Smartachievers/Allen paper (official NTA key not checked)"
+  },
+  "verification": {
+   "solver_answer": "19",
+   "key_answer": "19",
+   "match": true,
+   "status": "verified",
+   "attempts": 1,
+   "note": "Parameters found by matching and confirmed numerically by differentiation; the substitution step is outlined rather than fully written."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q01",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 1,
+  "stem": "A helicopter flying horizontally with a speed of 360 km/h at an altitude of 2 km, drops an object at an instant. The object hits the ground at a point O, 20 s after it is dropped. Displacement of 'O' from the position of helicopter where the object was released is : (use acceleration due to gravity $g=10$ m/s$^2$ and neglect air resistance)",
+  "stem_images": [],
+  "options": {
+   "A": "$2\\sqrt5$ km",
+   "B": "7.2 km",
+   "C": "4 km",
+   "D": "$2\\sqrt2$ km"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Projectile dropped from a moving carrier"
+   ],
+   "formulas": [
+    "$s=\\sqrt{x^2+y^2}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Horizontal distance $=100\\times20=2000$ m. Vertical drop $=\\frac12\\cdot10\\cdot20^2=2000$ m (consistent with 2 km altitude)."
+    },
+    {
+     "n": 2,
+     "text": "Displacement $=\\sqrt{2000^2+2000^2}=2\\sqrt2$ km."
+    }
+   ],
+   "pitfalls": [
+    "Giving only the horizontal range."
+   ],
+   "final_check": "$2\\sqrt2$ km"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Kinematics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q26",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q02",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 2,
+  "stem": "Assertion (A): Magnetic monopoles do not exist. Reason (R): Magnetic field lines are continuous and form closed loops. In the light of the above statements, choose the most appropriate answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "(A) is correct but (R) is not correct",
+   "B": "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+   "C": "(A) is not correct but (R) is correct",
+   "D": "Both (A) and (R) are correct but (R) is not the correct explanation of (A)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Gauss's law for magnetism"
+   ],
+   "formulas": [
+    "$\\oint\\vec B\\cdot d\\vec A=0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Gauss's law for magnetism, $\\oint\\vec B\\cdot d\\vec A=0$, expresses that field lines have no start or end points, i.e. they close on themselves, which is exactly why isolated monopoles do not exist."
+    },
+    {
+     "n": 2,
+     "text": "Both are true and R explains A."
+    }
+   ],
+   "pitfalls": [
+    "Treating R as unrelated."
+   ],
+   "final_check": "Both correct, R explains A"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Magnetism"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q27",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q03",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 3,
+  "stem": "A photo-emissive substance is illuminated with a radiation of wavelength $\\lambda_i$ so that it releases electrons with de-Broglie wavelength $\\lambda_e$. The longest wavelength of radiation that can emit photoelectron is $\\lambda_o$. Expression for de-Broglie wavelength is given by : (m : mass of the electron, h : Planck's constant and c : speed of light)",
+  "stem_images": [],
+  "options": {
+   "A": "$\\lambda_e=\\frac{h}{\\sqrt{2mc\\left(\\frac1{\\lambda_i}-\\frac1{\\lambda_o}\\right)}}$",
+   "B": "$\\lambda_e=\\sqrt{\\frac{h\\lambda_i}{2mc}}$",
+   "C": "$\\lambda_e=\\sqrt{\\frac{h}{2mc\\left(\\frac1{\\lambda_i}-\\frac1{\\lambda_o}\\right)}}$",
+   "D": "$\\lambda_e=\\sqrt{\\frac{h\\lambda_o}{2mc}}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Photoelectric effect and de Broglie wavelength"
+   ],
+   "formulas": [
+    "$\\lambda=\\frac h{\\sqrt{2mK}}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$KE=hc\\left(\\frac1{\\lambda_i}-\\frac1{\\lambda_o}\\right)$."
+    },
+    {
+     "n": 2,
+     "text": "$\\lambda_e=\\frac h{\\sqrt{2m\\,KE}}=\\frac{h}{\\sqrt{2mhc\\left(\\frac1{\\lambda_i}-\\frac1{\\lambda_o}\\right)}}=\\sqrt{\\frac{h}{2mc\\left(\\frac1{\\lambda_i}-\\frac1{\\lambda_o}\\right)}}$."
+    }
+   ],
+   "pitfalls": [
+    "Dropping the factor $h$ inside the root (option 1)."
+   ],
+   "final_check": "Option 3"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Modern Physics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q28",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q04",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 4,
+  "stem": "The unit of $\\sqrt{\\frac{2I}{\\epsilon_0C}}$ is : (I = intensity of an electromagnetic wave, c : speed of light)",
+  "stem_images": [],
+  "options": {
+   "A": "Nm",
+   "B": "Vm",
+   "C": "NC",
+   "D": "$NC^{-1}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Intensity of an EM wave"
+   ],
+   "formulas": [
+    "$I=\\frac12\\epsilon_0cE_0^2$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$I=\\frac12\\epsilon_0cE_0^2$, so $\\sqrt{\\frac{2I}{\\epsilon_0c}}=E_0$, an electric field amplitude."
+    },
+    {
+     "n": 2,
+     "text": "The unit of electric field is N/C ($=$ V/m)."
+    }
+   ],
+   "pitfalls": [
+    "Reading the unit as V m."
+   ],
+   "final_check": "$NC^{-1}$"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electromagnetic Waves"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q29",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party). As printed, option 2 reads 'Vm' and option 4 reads 'NC^-1'; the electric field unit is V per metre (V m^-1), so option 2 as printed (V m) is a dropped-exponent typo, and N/C (option 4) is also correct. We kept the printed key (option 4)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q05",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 5,
+  "stem": "A transparent block A having refractive index $\\mu=1.25$ is surrounded by another medium of refractive index $\\mu=1.0$ as shown in figure. A light ray is incident on the flat face of the block with incident angle $\\theta$ as shown in figure. What is the maximum value of $\\theta$ for which light suffers total internal reflection at the top surface of the block?",
+  "stem_images": [
+   "images/main2025-0407-s2-q30.png"
+  ],
+  "options": {
+   "A": "$\\tan^{-1}(4/3)$",
+   "B": "$\\cos^{-1}(3/4)$",
+   "C": "$\\sin^{-1}(3/4)$",
+   "D": "$\\tan^{-1}(3/4)$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Total internal reflection after refraction"
+   ],
+   "formulas": [
+    "$\\sin\\theta_c=\\frac{\\mu_2}{\\mu_1}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "At the top surface the incidence angle must be at least the critical angle: $\\sin\\theta_c=\\frac1{1.25}=0.8$, so $\\cos\\theta_c=0.6$."
+    },
+    {
+     "n": 2,
+     "text": "At the side face the refraction angle $r=90^\\circ-\\theta_c$, so $\\sin r=\\cos\\theta_c=0.6$."
+    },
+    {
+     "n": 3,
+     "text": "$\\sin\\theta=1.25\\sin r=0.75$, so $\\theta_{max}=\\sin^{-1}(3/4)$."
+    }
+   ],
+   "pitfalls": [
+    "Using $\\theta_c$ as the incidence angle at the first face."
+   ],
+   "final_check": "$\\sin^{-1}(3/4)$"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Ray Optics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q30",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q06",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 6,
+  "stem": "Assertion (A): The density of the copper ($^{64}_{29}$Cu) nucleus is greater than that of the carbon ($^{12}_6$C) nucleus. Reason (R): The nucleus of mass number A has a radius proportional to $A^{1/3}$. In the light of the above statements, choose the most appropriate answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "Both (A) and (R) are correct but (R) is not the correct explanation of (A)",
+   "B": "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+   "C": "(A) is correct but (R) is not correct",
+   "D": "(A) is not correct but (R) is correct"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Nuclear density"
+   ],
+   "formulas": [
+    "$R=R_0A^{1/3}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$R=R_0A^{1/3}$ gives volume $\\propto A$, so density $\\frac{Am_N}{\\frac43\\pi R_0^3A}$ is the same for all nuclei. Hence (A) is false and (R) is true."
+    }
+   ],
+   "pitfalls": [
+    "Assuming heavier nuclei are denser."
+   ],
+   "final_check": "A false, R true"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Modern Physics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q31",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q07",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 7,
+  "stem": "Which one of the following forces cannot be expressed in terms of potential energy?",
+  "stem_images": [],
+  "options": {
+   "A": "Restoring force",
+   "B": "Frictional force",
+   "C": "Coulomb's force",
+   "D": "Gravitational force"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Conservative forces"
+   ],
+   "formulas": [
+    "$\\vec F=-\\nabla U$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Only conservative forces have a potential energy. Friction is dissipative (non-conservative)."
+    }
+   ],
+   "pitfalls": [
+    "None."
+   ],
+   "final_check": "Frictional force"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Work, Energy and Power"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q32",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q08",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 8,
+  "stem": "Consider the following logic circuit. The output is Y = 0 when :",
+  "stem_images": [
+   "images/main2025-0407-s2-q33.png"
+  ],
+  "options": {
+   "A": "A = 0 and B = 1",
+   "B": "A = 0 and B = 0",
+   "C": "A = 1 and B = 0",
+   "D": "A = 1 and B = 1"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Logic gate circuit"
+   ],
+   "formulas": [
+    "NAND: $Y=\\overline{XY}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "The circuit has an AND gate on (A, B), an OR gate on (B, $\\bar A$), and a NAND gate combining those two outputs: $Y=\\overline{(A\\cdot B)\\cdot(B+\\bar A)}$."
+    },
+    {
+     "n": 2,
+     "text": "$Y=0$ needs both $A\\cdot B=1$ and $B+\\bar A=1$: $A=B=1$ gives $1\\cdot(1+0)=1$."
+    },
+    {
+     "n": 3,
+     "text": "Other inputs give a 0 in the AND or the product, so $Y=1$."
+    }
+   ],
+   "pitfalls": [
+    "Mixing up OR and NOT inputs."
+   ],
+   "final_check": "A = 1 and B = 1"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Semiconductors"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q33",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q09",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 9,
+  "stem": "Match List-I with List-II. List-I: (A) Mass density, (B) Impulse, (C) Power, (D) Moment of inertia. List-II: (I) $[ML^2T^{-3}]$, (II) $[MLT^{-1}]$, (III) $[ML^2T^0]$, (IV) $[ML^{-3}T^0]$. Choose the correct answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+   "B": "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
+   "C": "(A)-(I), (B)-(III), (C)-(IV), (D)-(II)",
+   "D": "(A)-(IV), (B)-(II), (C)-(I), (D)-(III)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Dimensions"
+   ],
+   "formulas": [
+    "Dimensional formulae"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Mass density $=ML^{-3}$ (IV). Impulse $=MLT^{-1}$ (II). Power $=ML^2T^{-3}$ (I). Moment of inertia $=ML^2$ (III)."
+    }
+   ],
+   "pitfalls": [
+    "None."
+   ],
+   "final_check": "(A)-(IV), (B)-(II), (C)-(I), (D)-(III)"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Units and Dimensions"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q34",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q10",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 10,
+  "stem": "Assertion (A): Refractive index of glass is higher than that of air. Reason (R): Optical density of a medium is directly proportionate to its mass density which results in a proportionate refractive index. In the light of the above statements, choose the most appropriate answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "(A) is correct but (R) is not correct",
+   "B": "Both (A) and (R) are correct but (R) is not the correct explanation of (A)",
+   "C": "(A) is not correct but (R) is correct",
+   "D": "Both (A) and (R) are correct and (R) is the correct explanation of (A)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Optical density versus mass density"
+   ],
+   "formulas": [
+    "$\\mu=\\frac cv$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(A) is true: $\\mu_{glass}\\approx1.5>\\mu_{air}\\approx1$."
+    },
+    {
+     "n": 2,
+     "text": "(R) is false: optical density is not in general proportional to mass density (for example, turpentine has a higher refractive index than water but a lower mass density)."
+    }
+   ],
+   "pitfalls": [
+    "Equating optical and mass density."
+   ],
+   "final_check": "A correct, R not"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Ray Optics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q35",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q11",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 11,
+  "stem": "Match List-I with List-II. List-I: (A) Isothermal, (B) Adiabatic, (C) Isobaric, (D) Isochoric. List-II: (I) $\\Delta W=0$, (II) $\\Delta Q=0$, (III) $\\Delta U\\ne0$, (IV) $\\Delta U=0$. Choose the correct answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+   "B": "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
+   "C": "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+   "D": "(A)-(IV), (B)-(I), (C)-(III), (D)-(II)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Thermodynamic processes"
+   ],
+   "formulas": [
+    "$\\Delta U=nC_v\\Delta T$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Isothermal ideal gas: $\\Delta U=0$ (IV). Adiabatic: $\\Delta Q=0$ (II). Isobaric: $\\Delta T\\ne0$ so $\\Delta U\\ne0$ (III). Isochoric: $\\Delta V=0$ so $\\Delta W=0$ (I)."
+    }
+   ],
+   "pitfalls": [
+    "None."
+   ],
+   "final_check": "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q36",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q12",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 12,
+  "stem": "Assertion (A): The outer body of an air craft is made of metal which protects persons sitting inside from lightning-strikes. Reason (R): The electric field inside the cavity enclosed by a conductor is zero. In the light of the above statements, choose the most appropriate answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "Both (A) and (R) are correct but (R) is not the correct explanation of (A)",
+   "B": "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+   "C": "(A) is correct but (R) is not correct",
+   "D": "(A) is not correct but (R) is correct"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Electrostatic shielding"
+   ],
+   "formulas": [
+    "$E_{inside\\,cavity}=0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "A conducting shell shields its cavity (electrostatic shielding), so the field inside is zero. That is why the metal body protects the people inside. Both are true and R explains A."
+    }
+   ],
+   "pitfalls": [
+    "None."
+   ],
+   "final_check": "Both correct, R explains A"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electrostatics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q37",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q13",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 13,
+  "stem": "An object with mass 500 g moves along x-axis with speed $v=4\\sqrt x$ m/s. The force acting on the object is :",
+  "stem_images": [],
+  "options": {
+   "A": "8 N",
+   "B": "4 N",
+   "C": "6 N",
+   "D": "5 N"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Acceleration from speed as a function of position"
+   ],
+   "formulas": [
+    "$a=v\\frac{dv}{dx}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$a=v\\frac{dv}{dx}=4\\sqrt x\\cdot\\frac{2}{\\sqrt x}=8$ m/s$^2$."
+    },
+    {
+     "n": 2,
+     "text": "$F=ma=0.5\\times8=4$ N."
+    }
+   ],
+   "pitfalls": [
+    "Using 500 as the mass."
+   ],
+   "final_check": "4 N"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Laws of Motion"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q38",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q14",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 14,
+  "stem": "The equation of a wave travelling on a string is $y=\\sin[20\\pi x+10\\pi t]$, where x and t are distance and time in SI units. The minimum distance between two points having the same oscillating speed is :",
+  "stem_images": [],
+  "options": {
+   "A": "5.0 cm",
+   "B": "20 cm",
+   "C": "10 cm",
+   "D": "2.5 cm"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Phase and particle speed"
+   ],
+   "formulas": [
+    "$\\Delta\\phi=k\\Delta x$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$k=20\\pi$ so $\\lambda=\\frac{2\\pi}k=0.1$ m $=10$ cm."
+    },
+    {
+     "n": 2,
+     "text": "Particle speed is $|v|=A\\omega|\\cos(kx+\\omega t)|$. Reading the question as asking for points that are in the same speed (as well as same direction cannot be asked): the intended answer treats the speed as repeating every half wavelength, since $|\\cos\\phi|$ has period $\\pi$ in phase. $\\Delta\\phi=\\pi\\Rightarrow\\Delta x=\\frac\\lambda2=5$ cm."
+    }
+   ],
+   "pitfalls": [
+    "Using the full wavelength."
+   ],
+   "final_check": "5 cm"
+  },
+  "taxonomy": {
+   "chapters": [
+    "SHM and Waves"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q39",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party). Ambiguous wording: points at phase $\\phi$ and $-\\phi$ (or $\\pi-\\phi$) also share the same speed and can be arbitrarily close. The answer given is the intended one: half a wavelength (5 cm), matching the printed key."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q15",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 15,
+  "stem": "The dimension of $\\sqrt{\\frac{\\mu_0}{\\epsilon_0}}$ is equal to that of : ($\\mu_0$ = Vacuum permeability and $\\epsilon_0$ = Vacuum permittivity)",
+  "stem_images": [],
+  "options": {
+   "A": "Capacitance",
+   "B": "Resistance",
+   "C": "Inductance",
+   "D": "Voltage"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Impedance of free space"
+   ],
+   "formulas": [
+    "$Z_0=\\sqrt{\\mu_0/\\epsilon_0}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\sqrt{\\mu_0/\\epsilon_0}$ is the impedance of free space ($\\approx377\\ \\Omega$), with the dimensions of resistance."
+    }
+   ],
+   "pitfalls": [
+    "None."
+   ],
+   "final_check": "Resistance"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Units and Dimensions"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q40",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q16",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 16,
+  "stem": "The helium and argon are put in the flask at the same room temperature (300 K). The ratio of average kinetic energies (per molecule) of helium and argon is: (Given: Molar mass of helium = 4 g/mol, Molar mass of argon = 40 g/mol)",
+  "stem_images": [],
+  "options": {
+   "A": "1: 10",
+   "B": "1: 1",
+   "C": "10: 1",
+   "D": "$1:\\sqrt{10}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Equipartition"
+   ],
+   "formulas": [
+    "$KE=\\frac32kT$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Average translational KE per molecule is $\\frac32kT$, independent of the gas, so the ratio is 1:1."
+    }
+   ],
+   "pitfalls": [
+    "Using the molar mass."
+   ],
+   "final_check": "1 : 1"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics and KTG"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q41",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q17",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 17,
+  "stem": "A mirror is used to produce an image with magnification of $\\frac14$. If the distance between object and its image is 40 cm, then the focal length of the mirror is",
+  "stem_images": [],
+  "options": {
+   "A": "10 cm",
+   "B": "15 cm",
+   "C": "12.7 cm",
+   "D": "10.7 cm"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Mirror formula"
+   ],
+   "formulas": [
+    "$\\frac1f=\\frac1u+\\frac1v$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Take a concave mirror forming a real image: $v=\\frac u4$ (magnitudes), object-image distance $u-v=\\frac{3u}4=40$, so $u=\\frac{160}3$ cm and $v=\\frac{40}3$ cm."
+    },
+    {
+     "n": 2,
+     "text": "$\\frac1f=\\frac1u+\\frac1v=\\frac3{160}+\\frac3{40}=\\frac{15}{160}$, so $f=\\frac{32}3\\approx10.7$ cm. (A convex mirror with a virtual image gives $|f|=10.7$ cm too.)"
+    }
+   ],
+   "pitfalls": [
+    "Adding the distances instead of subtracting."
+   ],
+   "final_check": "10.7 cm"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Ray Optics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q42",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q18",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 18,
+  "stem": "A capillary tube of radius 0.1 mm is partly dipped in water (surface tension 70 dyn/cm and glass water contact angle $\\approx0^\\circ$) with 30° inclined with the vertical. The length of water risen in the capillary is ____ cm. (Take $g=9.8$ m/s$^2$)",
+  "stem_images": [],
+  "options": {
+   "A": "$\\frac{82}5$",
+   "B": "$\\frac{57}2$",
+   "C": "$\\frac{68}5$",
+   "D": "$\\frac{71}5$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Capillary rise in an inclined tube"
+   ],
+   "formulas": [
+    "$h=\\frac{2T\\cos\\theta}{r\\rho g}$, $l=\\frac h{\\cos\\alpha}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Vertical rise $h=\\frac{2T\\cos\\theta}{r\\rho g}=\\frac{2\\times0.07}{10^{-4}\\times1000\\times9.8}=0.1429$ m $=14.29$ cm."
+    },
+    {
+     "n": 2,
+     "text": "Along the tilted tube, $l=\\frac h{\\cos30^\\circ}=\\frac{14.29}{0.866}\\approx16.5$ cm."
+    },
+    {
+     "n": 3,
+     "text": "The closest option is $\\frac{82}5=16.4$ cm."
+    }
+   ],
+   "pitfalls": [
+    "Using $h$ as the length."
+   ],
+   "final_check": "$\\frac{82}5$ cm"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Fluids and Properties of Matter"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q43",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party). Exact value from the given data is about 16.5 cm; option 1 (82/5 = 16.4) is the nearest, and the printed key is option 1."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q19",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 19,
+  "stem": "A dipole with two electric charges of 2 $\\mu$C magnitude each, with separation distance 0.5 $\\mu$m, is placed between the plates of a capacitor such that its axis is parallel to an electric field established between the plates when a potential difference of 5 V is applied. Separation between the plates is 0.5 mm. If the dipole is rotated by 30° from the axis, it tends to realign in the direction due to a torque. The value of torque is :",
+  "stem_images": [],
+  "options": {
+   "A": "$2.5\\times10^{-9}$ Nm",
+   "B": "$5\\times10^{-9}$ Nm",
+   "C": "$2.5\\times10^{-12}$ Nm",
+   "D": "$5\\times10^{-3}$ Nm"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Torque on a dipole"
+   ],
+   "formulas": [
+    "$\\tau=pE\\sin\\theta$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$p=2\\times10^{-6}\\times0.5\\times10^{-6}=10^{-12}$ C m. $E=\\frac5{0.5\\times10^{-3}}=10^4$ V/m."
+    },
+    {
+     "n": 2,
+     "text": "$\\tau=pE\\sin30^\\circ=10^{-12}\\times10^4\\times0.5=5\\times10^{-9}$ N m."
+    }
+   ],
+   "pitfalls": [
+    "Unit errors in micro prefixes."
+   ],
+   "final_check": "$5\\times10^{-9}$ Nm"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electrostatics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q44",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-a-q20",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 20,
+  "stem": "Assertion (A): The radius vector from the Sun to a planet sweeps out equal areas in equal intervals of time and thus areal velocity of planet is constant. Reason (R): For a central force field the angular momentum is a constant. In the light of the above statements, choose the most appropriate answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "(A) is not correct but (R) is correct",
+   "B": "(A) is correct but (R) is not correct",
+   "C": "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+   "D": "Both (A) and (R) are correct but (R) is not the correct explanation of (A)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Kepler's second law"
+   ],
+   "formulas": [
+    "$\\frac{dA}{dt}=\\frac L{2m}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Areal velocity is $\\frac L{2m}$, so it is constant because the angular momentum is conserved under a central force. Both true, R explains A."
+    }
+   ],
+   "pitfalls": [
+    "None."
+   ],
+   "final_check": "Both correct, R explains A"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Gravitation"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q45",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-b-q21",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 21,
+  "stem": "A parallel plate capacitor has charge $5\\times10^{-6}$ C. A dielectric slab is inserted between the plates and almost fills the space between the plates. If the induced charge on one face of the slab is $4\\times10^{-6}$ C then the dielectric constant of the slab is ____ .",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Dielectric and induced charge"
+   ],
+   "formulas": [
+    "$q_i=Q\\left(1-\\frac1K\\right)$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Induced charge $q_i=Q\\left(1-\\frac1K\\right)$."
+    },
+    {
+     "n": 2,
+     "text": "$4=5\\left(1-\\frac1K\\right)\\Rightarrow\\frac1K=\\frac15$, so $K=5$."
+    }
+   ],
+   "pitfalls": [
+    "Using $q_i=Q/K$."
+   ],
+   "final_check": "5"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electrostatics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q46",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "5",
+   "tolerance": null,
+   "source": "solver_verified; matches the answer printed in the third-party Smartachievers/Allen paper (official NTA key not checked)"
+  },
+  "verification": {
+   "solver_answer": "5",
+   "key_answer": "5",
+   "match": true,
+   "status": "verified",
+   "attempts": 1,
+   "note": "Independently solved; matches the third-party Smartachievers/Allen printed answer (official NTA key not cross-checked)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-b-q22",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 22,
+  "stem": "M and R be the mass and radius of a disc. A small disc of radius R/3 is removed from the bigger disc as shown in figure. The moment of inertia of remaining part of bigger disc about an axis AB passing through the centre O and perpendicular to the plane of disc is $\\frac4xMR^2$. The value of x is ____.",
+  "stem_images": [
+   "images/main2025-0407-s2-q47.png"
+  ],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Moment of inertia with a cavity"
+   ],
+   "formulas": [
+    "$I=I_{cm}+Md^2$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Removed mass $=\\frac M9$ (area ratio), centre $O'$ at distance $\\frac{2R}3$ from O (it touches the rim)."
+    },
+    {
+     "n": 2,
+     "text": "$I_{removed}=\\frac12\\cdot\\frac M9\\left(\\frac R3\\right)^2+\\frac M9\\left(\\frac{2R}3\\right)^2=MR^2\\left(\\frac1{162}+\\frac4{81}\\right)=\\frac{MR^2}{18}$."
+    },
+    {
+     "n": 3,
+     "text": "$I=\\frac12MR^2-\\frac1{18}MR^2=\\frac49MR^2$, so $x=9$."
+    }
+   ],
+   "pitfalls": [
+    "Using $R/3$ as the distance of $O'$."
+   ],
+   "final_check": "9"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Rotational Mechanics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q47",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "9",
+   "tolerance": null,
+   "source": "solver_verified; matches the answer printed in the third-party Smartachievers/Allen paper (official NTA key not checked)"
+  },
+  "verification": {
+   "solver_answer": "9",
+   "key_answer": "9",
+   "match": true,
+   "status": "verified",
+   "attempts": 1,
+   "note": "Independently solved; matches the third-party Smartachievers/Allen printed answer (official NTA key not cross-checked)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-b-q23",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 23,
+  "stem": "The electric field in a region is given by $\\vec E=(2\\hat i+4\\hat j+6\\hat k)\\times10^3$ N/C. The flux of the field through a rectangular surface parallel to x-z plane is 6.0 Nm$^2$C$^{-1}$. The area of the surface is ____ cm$^2$.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Electric flux"
+   ],
+   "formulas": [
+    "$\\Phi=\\vec E\\cdot\\vec A$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "A surface parallel to the x-z plane has its normal along $\\hat j$, so the flux is $E_yA=4\\times10^3A=6$."
+    },
+    {
+     "n": 2,
+     "text": "$A=1.5\\times10^{-3}$ m$^2=15$ cm$^2$."
+    }
+   ],
+   "pitfalls": [
+    "Using all three components."
+   ],
+   "final_check": "15"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electrostatics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q48",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "15",
+   "tolerance": null,
+   "source": "solver_verified; matches the answer printed in the third-party Smartachievers/Allen paper (official NTA key not checked)"
+  },
+  "verification": {
+   "solver_answer": "15",
+   "key_answer": "15",
+   "match": true,
+   "status": "verified",
+   "attempts": 1,
+   "note": "Independently solved; matches the third-party Smartachievers/Allen printed answer (official NTA key not cross-checked)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-b-q24",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 24,
+  "stem": "An inductor of reactance 100 $\\Omega$, a capacitor of reactance 50 $\\Omega$, and a resistor of resistance 50 $\\Omega$ are connected in series with an AC source of 10 V, 50 Hz. Average power dissipated by the circuit is ____",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Power in a series LCR circuit"
+   ],
+   "formulas": [
+    "$P=I_{rms}^2R$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$Z=\\sqrt{50^2+(100-50)^2}=50\\sqrt2\\ \\Omega$. $I_{rms}=\\frac{10}{50\\sqrt2}=\\frac{1}{5\\sqrt2}$ A (taking 10 V as the rms voltage)."
+    },
+    {
+     "n": 2,
+     "text": "$P=I^2R=\\frac1{50}\\times50=1$ W."
+    }
+   ],
+   "pitfalls": [
+    "Using peak instead of rms value."
+   ],
+   "final_check": "1 W"
+  },
+  "taxonomy": {
+   "chapters": [
+    "EMI and AC"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q49",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "1",
+   "tolerance": null,
+   "source": "solver_verified; matches the answer printed in the third-party Smartachievers/Allen paper (official NTA key not checked)"
+  },
+  "verification": {
+   "solver_answer": "1",
+   "key_answer": "1",
+   "match": true,
+   "status": "verified",
+   "attempts": 1,
+   "note": "The unit W is stated in the answer but the question leaves the blank without a unit; the 10 V is taken as the rms voltage, which gives the printed key value of 1."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-phy-b-q25",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "physics",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 25,
+  "stem": "Two cylindrical rods A and B made of different materials, are joined in a straight line. The ratios of lengths, radii and thermal conductivities of these rods are: $\\frac{L_A}{L_B}=\\frac12$, $\\frac{r_A}{r_B}=2$ and $\\frac{K_A}{K_B}=\\frac12$. The free ends of rods A and B are maintained at 400 K, 200 K, respectively. The temperature of rods interface is ____ K, when equilibrium is established.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Steady-state conduction in series"
+   ],
+   "formulas": [
+    "$H=\\frac{KA\\Delta T}L$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "In steady state the heat flow is equal: $\\frac{K_AA_A(400-T)}{L_A}=\\frac{K_BA_B(T-200)}{L_B}$."
+    },
+    {
+     "n": 2,
+     "text": "$\\frac{K_AA_AL_B}{K_BA_BL_A}=\\frac12\\cdot4\\cdot2=4$, so $4(400-T)=T-200$."
+    },
+    {
+     "n": 3,
+     "text": "$T=360$ K."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting $A\\propto r^2$."
+   ],
+   "final_check": "360"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics and KTG"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q50",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "360",
+   "tolerance": null,
+   "source": "solver_verified; matches the answer printed in the third-party Smartachievers/Allen paper (official NTA key not checked)"
+  },
+  "verification": {
+   "solver_answer": "360",
+   "key_answer": "360",
+   "match": true,
+   "status": "verified",
+   "attempts": 1,
+   "note": "Independently solved; matches the third-party Smartachievers/Allen printed answer (official NTA key not cross-checked)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q01",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 1,
+  "stem": "'P' is an optically active compound with molecular formula C$_6$H$_{12}$O. When 'P' is treated with 2,4-dinitrophenylhydrazine, it gives a positive test. However, in presence of Tollens reagent, 'P' gives a negative test. Predict the structure of 'P'. (The four options are structures, shown as option images.)",
+  "stem_images": [],
+  "options": {
+   "A": "Option 1",
+   "B": "Option 2",
+   "C": "Option 3",
+   "D": "Option 4"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Carbonyl tests and chirality"
+   ],
+   "formulas": [
+    "2,4-DNP: C=O; Tollens: aldehydes only"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "A positive 2,4-DNP test means a carbonyl compound. A negative Tollens test means a ketone, so the aldehyde (option 3) is out."
+    },
+    {
+     "n": 2,
+     "text": "Optical activity needs a chiral carbon. Option 1 (2-hexanone) and option 4 (4-methylpentan-2-one) have none. Option 2, $CH_3COCH(CH_3)CH_2CH_3$, has a chiral C-3."
+    }
+   ],
+   "pitfalls": [
+    "Choosing the aldehyde."
+   ],
+   "final_check": "Option 2"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Carbonyl Compounds"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q51",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  },
+  "option_images": {
+   "A": "images/main2025-0407-s2-q51-optA.png",
+   "B": "images/main2025-0407-s2-q51-optB.png",
+   "C": "images/main2025-0407-s2-q51-optC.png",
+   "D": "images/main2025-0407-s2-q51-optD.png"
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q02",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 2,
+  "stem": "Match List-I with List-II. List-I: (A) Solution of chloroform and acetone, (B) Solution of ethanol and water, (C) Solution of benzene and toluene, (D) Solution of acetic acid in benzene. List-II: (I) Minimum boiling azeotrope, (II) Dimerizes, (III) Maximum boiling azeotrope, (IV) $\\Delta V_{mix}=0$. Choose the correct answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+   "B": "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+   "C": "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+   "D": "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Azeotropes and ideal solutions"
+   ],
+   "formulas": [
+    "Negative deviation gives a maximum boiling azeotrope"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Chloroform and acetone hydrogen bond (negative deviation): maximum boiling azeotrope (III). Ethanol and water show positive deviation: minimum boiling azeotrope (I)."
+    },
+    {
+     "n": 2,
+     "text": "Benzene and toluene form a nearly ideal solution: $\\Delta V_{mix}=0$ (IV). Acetic acid dimerises in benzene (II)."
+    }
+   ],
+   "pitfalls": [
+    "Swapping the two azeotrope types."
+   ],
+   "final_check": "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Solutions"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q52",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q03",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 3,
+  "stem": "The hydration energies of K$^+$ and Cl$^-$ are $-x$ and $-y$ kJ/mol respectively. If the lattice energy of KCl is $-z$ kJ/mol, then the heat of solution of KCl is :",
+  "stem_images": [],
+  "options": {
+   "A": "$z-(x+y)$",
+   "B": "$x+y+z$",
+   "C": "$-z-(x+y)$",
+   "D": "$+x-y-z$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Born-Haber type cycle for heat of solution"
+   ],
+   "formulas": [
+    "$\\Delta H_{sol}=-\\Delta H_{lattice}+\\Delta H_{hyd}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Dissolution = break the lattice (needs $+z$) then hydrate the ions ($-x$, $-y$)."
+    },
+    {
+     "n": 2,
+     "text": "$\\Delta H_{sol}=z-x-y=z-(x+y)$."
+    }
+   ],
+   "pitfalls": [
+    "Using the lattice energy with the wrong sign."
+   ],
+   "final_check": "$z-(x+y)$"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q53",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q04",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 4,
+  "stem": "A(g) $\\to$ B(g) + C(g) is a first order reaction. The reaction was started with reactant A only. The system pressure is $P_t$ at time T and $P_\\infty$ at infinite time. Which of the following expressions is correct for the rate constant k?",
+  "stem_images": [],
+  "options": {
+   "A": "$k=\\frac1t\\ln\\frac{P_\\infty}{P_t}$",
+   "B": "$k=\\frac1t\\ln\\frac{2(P_\\infty-P_t)}{P_t}$",
+   "C": "$k=\\frac1t\\ln\\frac{P_\\infty}{(P_\\infty-P_t)}$",
+   "D": "$k=\\frac1t\\ln\\frac{P_\\infty}{2(P_\\infty-P_t)}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "First order kinetics from total pressure"
+   ],
+   "formulas": [
+    "$k=\\frac1t\\ln\\frac{P_0}{P_A}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Let the initial pressure be $P_0$. Then $P_\\infty=2P_0$, so $P_0=P_\\infty/2$."
+    },
+    {
+     "n": 2,
+     "text": "At time t: $P_t=P_0+x$ and $P_A=P_0-x=2P_0-P_t=P_\\infty-P_t$."
+    },
+    {
+     "n": 3,
+     "text": "$k=\\frac1t\\ln\\frac{P_0}{P_A}=\\frac1t\\ln\\frac{P_\\infty}{2(P_\\infty-P_t)}$."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting that $P_\\infty=2P_0$."
+   ],
+   "final_check": "$\\frac1t\\ln\\frac{P_\\infty}{2(P_\\infty-P_t)}$"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Chemical Kinetics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q54",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q05",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 5,
+  "stem": "The number of optically active products obtained from the complete ozonolysis of the given compound is (the compound is $CH_3-CH=CH-C^*H(CH_3)-CH=CH-C^*H(CH_3)-CH=CH-CH_3$, drawn with wedge and hash bonds at the two stereocentres, see figure)",
+  "stem_images": [
+   "images/main2025-0407-s2-q55.png"
+  ],
+  "options": {
+   "A": "2",
+   "B": "0",
+   "C": "1",
+   "D": "4"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Ozonolysis and loss of chirality"
+   ],
+   "formulas": [
+    "$C=C\\to2\\,C=O$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Cleaving all three C=C bonds gives $CH_3CHO$ (twice) and two fragments from the stereocentres: $OHC-CH(CH_3)-CHO$ (methylpropanedial) from each."
+    },
+    {
+     "n": 2,
+     "text": "$CH_3CHO$ is achiral. $OHC-CH(CH_3)-CHO$ has two identical CHO groups on the carbon, so it is achiral. Number of optically active products $=0$."
+    }
+   ],
+   "pitfalls": [
+    "Assuming the stereocentres survive."
+   ],
+   "final_check": "0"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Hydrocarbons"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q55",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q06",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 6,
+  "stem": "The correct statement amongst the following is :",
+  "stem_images": [],
+  "options": {
+   "A": "$\\Delta_fH^\\ominus_{500}$ is zero for O$_2$(g)",
+   "B": "The term 'standard state' implies that the temperature is 0$^\\circ$C.",
+   "C": "$\\Delta_fH^\\ominus_{298}$ is zero for O(g)",
+   "D": "The standard state of a pure gas is the pure gas at a pressure of 1 bar and temperature 273 K."
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Standard state and enthalpy of formation"
+   ],
+   "formulas": [
+    "$\\Delta_fH^\\ominus(\\text{element})=0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\Delta_fH^\\ominus$ is zero for an element in its most stable form (standard state) at any specified temperature, so it is zero for $O_2(g)$ at 500 K."
+    },
+    {
+     "n": 2,
+     "text": "Standard state does not fix a temperature (2 is false), $O(g)$ is not the stable form of oxygen (3 is false), and the standard state pressure is 1 bar with the temperature unspecified (4 is false)."
+    }
+   ],
+   "pitfalls": [
+    "Thinking the standard state fixes 298 K or 273 K."
+   ],
+   "final_check": "$\\Delta_fH^\\ominus_{500}$ is zero for O$_2$(g)"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Thermodynamics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q56",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q07",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 7,
+  "stem": "Given below are two statements: Statement (I): cis-1,2-dichloroethene is more polar than cis-1,2-dibromoethene. Statement (II): The boiling point of trans-1,2-dibromoethene is lower than that of cis-1,2-dibromoethene but it is more polar than cis-1,2-dibromoethene. (Structures are shown in the figure.) In the light of the above statements, choose the most appropriate answer from the options given below :",
+  "stem_images": [
+   "images/main2025-0407-s2-q57.png"
+  ],
+  "options": {
+   "A": "Both Statement I and Statement II are incorrect",
+   "B": "Statement I is correct but Statement II is incorrect",
+   "C": "Statement I is incorrect but Statement II is correct",
+   "D": "Both Statement I and Statement II are correct"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Dipole moment of geometric isomers"
+   ],
+   "formulas": [
+    "$\\vec\\mu_{trans}\\approx0$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "I: Cl is more electronegative than Br, so the cis-dichloro compound has the larger dipole moment (about 1.9 D versus 1.35 D). True."
+    },
+    {
+     "n": 2,
+     "text": "II: the trans isomer has a lower boiling point (it is nonpolar, zero dipole), but it is less polar than the cis isomer, not more. So II is false."
+    }
+   ],
+   "pitfalls": [
+    "Thinking trans is more polar."
+   ],
+   "final_check": "I correct, II incorrect"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Hydrocarbons"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q57",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q08",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 8,
+  "stem": "Match List-I with List-II. List-I (conversions, shown in the figure): (A) chlorobenzene $\\to$ phenol; (B) 4-chloronitrobenzene $\\to$ 4-nitrophenol; (C) 1-chloro-2,4-dinitrobenzene $\\to$ 2,4-dinitrophenol; (D) 2-chloro-1,3,5-trinitrobenzene $\\to$ 2,4,6-trinitrophenol. List-II (reagents, conditions): (I) Warm, H$_2$O; (II) (a) NaOH, 368 K; (b) H$_3$O$^+$; (III) (a) NaOH, 443 K; (b) H$_3$O$^+$; (IV) (a) NaOH, 623 K, 300 atm; (b) H$_3$O$^+$. Choose the correct answer from the options given below :",
+  "stem_images": [
+   "images/main2025-0407-s2-q58.png"
+  ],
+  "options": {
+   "A": "(A)-(IV), (B)-(III), (C)-(I), (D)-(II)",
+   "B": "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+   "C": "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+   "D": "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Nucleophilic aromatic substitution conditions"
+   ],
+   "formulas": [
+    "More $-NO_2$ means milder conditions"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "More electron-withdrawing nitro groups at ortho/para positions make nucleophilic aromatic substitution easier."
+    },
+    {
+     "n": 2,
+     "text": "Plain chlorobenzene needs 623 K and 300 atm (IV). One nitro group (para): 443 K (III). Two nitro groups: 368 K (II). Three nitro groups: warm water (I)."
+    }
+   ],
+   "pitfalls": [
+    "Mixing the temperature order."
+   ],
+   "final_check": "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Haloalkanes and Alcohols"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q58",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q09",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 9,
+  "stem": "The correct statements from the following are : (A) Tl$^{3+}$ is a powerful oxidising agent (B) Al$^{3+}$ does not get reduced easily (C) Both Al$^{3+}$ and Tl$^{3+}$ are very stable in solution (D) Tl$^+$ is more stable than Tl$^{3+}$ (E) Al$^{3+}$ and Tl$^+$ are highly stable. Choose the correct answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "(A), (B), (C), (D) and (E)",
+   "B": "(B), (D) and (E) only",
+   "C": "(A), (C) and (D) only",
+   "D": "(A), (B), (D) and (E) only"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Inert pair effect in group 13"
+   ],
+   "formulas": [
+    "Stability of +1 increases down group 13"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Inert pair effect: Tl prefers +1, so $Tl^{3+}$ is a strong oxidising agent (A true) and $Tl^+$ is more stable than $Tl^{3+}$ (D true)."
+    },
+    {
+     "n": 2,
+     "text": "$Al^{3+}$ is very stable and hard to reduce (B true); Al$^{3+}$ and Tl$^+$ are the stable states (E true). $Tl^{3+}$ is not very stable, so C is false."
+    }
+   ],
+   "pitfalls": [
+    "Accepting statement C."
+   ],
+   "final_check": "(A), (B), (D), (E) only"
+  },
+  "taxonomy": {
+   "chapters": [
+    "p-Block Elements"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q59",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q10",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 10,
+  "stem": "In SO$_2$, NO$_2^-$ and N$_3^-$ the hybridizations at the central atom are respectively :",
+  "stem_images": [],
+  "options": {
+   "A": "$sp^2$, $sp^2$ and $sp$",
+   "B": "$sp^2$, $sp$ and $sp^2$",
+   "C": "$sp^2$, $sp^2$ and $sp^2$",
+   "D": "$sp$, $sp^2$ and $sp$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Hybridisation from steric number"
+   ],
+   "formulas": [
+    "Steric number = sigma bonds + lone pairs"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$SO_2$: 2 bond pairs and 1 lone pair gives $sp^2$. $NO_2^-$: 2 bond pairs and 1 lone pair gives $sp^2$. $N_3^-$ is linear (central N has 2 sigma bonds, no lone pair): $sp$."
+    }
+   ],
+   "pitfalls": [
+    "Treating azide like nitrite."
+   ],
+   "final_check": "$sp^2$, $sp^2$, $sp$"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Chemical Bonding"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q60",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q11",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 11,
+  "stem": "Given below are two statements : 1 M aqueous solutions of each of Cu(NO$_3$)$_2$, AgNO$_3$, Hg$_2$(NO$_3$)$_2$ and Mg(NO$_3$)$_2$ are electrolysed using inert electrodes. Given: $E^\\ominus_{Ag^+/Ag}=0.80$ V, $E^\\ominus_{Hg_2^{2+}/Hg}=0.79$ V, $E^\\ominus_{Cu^{2+}/Cu}=0.24$ V and $E^\\ominus_{Mg^{2+}/Mg}=-2.37$ V. Statement (I): With increasing voltage, the sequence of deposition of metals on the cathode will be Ag, Hg and Cu. Statement (II): Magnesium will not be deposited at the cathode instead oxygen gas will be evolved at the cathode. In the light of the above statements, choose the most appropriate answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "Both Statement I and Statement II are correct",
+   "B": "Statement I is incorrect but Statement II is correct",
+   "C": "Statement I is correct but Statement II is incorrect",
+   "D": "Both Statement I and Statement II are incorrect"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Electrolysis of aqueous salts"
+   ],
+   "formulas": [
+    "Higher $E^\\ominus$ is reduced first"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Metals with higher reduction potential deposit first: Ag (0.80), Hg (0.79), Cu (0.24). Statement I is correct."
+    },
+    {
+     "n": 2,
+     "text": "Mg is not deposited from aqueous solution because water is reduced instead, but the gas evolved at the cathode is hydrogen. Oxygen is evolved at the anode, so II is incorrect."
+    }
+   ],
+   "pitfalls": [
+    "Putting oxygen at the cathode."
+   ],
+   "final_check": "I correct, II incorrect"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Electrochemistry"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q61",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q12",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 12,
+  "stem": "Match List-I (complex) with List-II (primary valency and secondary valency). List-I: (A) [Co(en)$_2$Cl$_2$]Cl, (B) [Pt(NH$_3$)$_2$Cl(NO$_2$)], (C) Hg[Co(SCN)$_4$], (D) [Mg(EDTA)]$^{2-}$. List-II: (I) 3, 6; (II) 3, 4; (III) 2, 6; (IV) 2, 4. Choose the correct answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+   "B": "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+   "C": "(A)-(III), (B)-(I), (C)-(II), (D)-(IV)",
+   "D": "(A)-(I), (B)-(IV), (C)-(II), (D)-(III)"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Primary and secondary valency"
+   ],
+   "formulas": [
+    "Primary valency = oxidation state; secondary = coordination number"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Primary valency is the oxidation state and secondary valency is the coordination number."
+    },
+    {
+     "n": 2,
+     "text": "(A) Co(III), CN 6: (3, 6) = I. (B) Pt(II), CN 4: (2, 4) = IV. (D) Mg(II), EDTA is hexadentate: (2, 6) = III."
+    },
+    {
+     "n": 3,
+     "text": "Only option 4 has A-I, B-IV and D-III, so it is the answer."
+    }
+   ],
+   "pitfalls": [
+    "Using the charge of the complex ion."
+   ],
+   "final_check": "(A)-(I), (B)-(IV), (C)-(II), (D)-(III)"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Coordination Compounds"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q62",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party). Entry (C) Hg[Co(SCN)4] pairs with (II) 3, 4 in the key, but Co here is +2, so by oxidation state it would be (2, 4). The option is fixed by A, B and D alone, and only option 4 has A-I, B-IV and D-III, which matches the printed key. Entry C of the question itself looks inconsistent."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q13",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 13,
+  "stem": "'X' is the number of acidic oxides among VO$_2$, V$_2$O$_3$, CrO$_3$, V$_2$O$_5$ and Mn$_2$O$_7$. The primary valency of cobalt in [Co(H$_2$NCH$_2$CH$_2$NH$_2$)$_3$]$_2$(SO$_4$)$_3$ is Y. The value of X + Y is ______.",
+  "stem_images": [],
+  "options": {
+   "A": "2",
+   "B": "4",
+   "C": "3",
+   "D": "5"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Nature of oxides and primary valency"
+   ],
+   "formulas": [
+    "Higher oxidation state oxides are acidic"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Acidic oxides: $CrO_3$ and $Mn_2O_7$ (X = 2). $V_2O_5$ is amphoteric, $VO_2$ is amphoteric and $V_2O_3$ is basic."
+    },
+    {
+     "n": 2,
+     "text": "In the complex, 3 sulphate ions balance 2 complex cations, each of charge +3, so Co is +3: primary valency Y = 3."
+    },
+    {
+     "n": 3,
+     "text": "$X+Y=5$."
+    }
+   ],
+   "pitfalls": [
+    "Counting $V_2O_5$ as acidic."
+   ],
+   "final_check": "5"
+  },
+  "taxonomy": {
+   "chapters": [
+    "d- and f-Block Elements"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q63",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party). V2O5 is amphoteric (mostly acidic); counting it would give X = 3 and X + Y = 6, which is not an option. The printed key (5) is consistent with X = 2."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q14",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 14,
+  "stem": "Liquid A and B form an ideal solution. The vapour pressures of pure liquids A and B are 350 and 750 mm Hg respectively at the same temperature. If $x_A$ and $x_B$ are the mole fractions of A and B in solution while $y_A$ and $y_B$ are the mole fractions of A and B in the vapour phase then,",
+  "stem_images": [],
+  "options": {
+   "A": "$\\frac{x_A}{x_B}<\\frac{y_A}{y_B}$",
+   "B": "$(x_A-y_A)<(x_B-y_B)$",
+   "C": "$\\frac{x_A}{x_B}>\\frac{y_A}{y_B}$",
+   "D": "$\\frac{x_A}{x_B}=\\frac{y_A}{y_B}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Raoult's law and vapour composition"
+   ],
+   "formulas": [
+    "$y_i=\\frac{p_i^\\circ x_i}{P_{total}}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$\\frac{y_A}{y_B}=\\frac{p_A^\\circ x_A}{p_B^\\circ x_B}=\\frac{350}{750}\\cdot\\frac{x_A}{x_B}<\\frac{x_A}{x_B}$."
+    },
+    {
+     "n": 2,
+     "text": "So $\\frac{x_A}{x_B}>\\frac{y_A}{y_B}$ (option 3)."
+    }
+   ],
+   "pitfalls": [
+    "Reversing the ratio."
+   ],
+   "final_check": "$\\frac{x_A}{x_B}>\\frac{y_A}{y_B}$"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Solutions"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q64",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q15",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 15,
+  "stem": "Choose the incorrect trend in the atomic radii (r) of the elements.",
+  "stem_images": [],
+  "options": {
+   "A": "$r_{At}<r_{Cs}$",
+   "B": "$r_{Br}<r_K$",
+   "C": "$r_{Mg}<r_{Al}$",
+   "D": "$r_{Rb}<r_{Cs}$"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Periodic trend in atomic radius"
+   ],
+   "formulas": [
+    "Radius decreases across a period"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Across a period atomic radius decreases, so $Mg>Al$ (about 160 pm versus 143 pm). Hence $r_{Mg}<r_{Al}$ is the incorrect statement."
+    },
+    {
+     "n": 2,
+     "text": "The others are correct: At is in the same period as Cs but further right, Br is in the same period as K but further right, and Rb is above Cs."
+    }
+   ],
+   "pitfalls": [
+    "None."
+   ],
+   "final_check": "$r_{Mg}<r_{Al}$"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Periodic Table"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q65",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q16",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 16,
+  "stem": "The number of unpaired electrons responsible for the paramagnetic nature of the following complex species are respectively : $[Fe(CN)_6]^{3-}$, $[FeF_6]^{3-}$, $[CoF_6]^{3-}$, $[Mn(CN)_6]^{3-}$",
+  "stem_images": [],
+  "options": {
+   "A": "1, 1, 4, 2",
+   "B": "1, 4, 4, 2",
+   "C": "1, 5, 4, 2",
+   "D": "1, 5, 5, 2"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Spin states of octahedral complexes"
+   ],
+   "formulas": [
+    "Strong field ligand ($CN^-$) pairs electrons"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$[Fe(CN)_6]^{3-}$: Fe(III) $d^5$, strong field, low spin: 1 unpaired. $[FeF_6]^{3-}$: $d^5$, weak field, high spin: 5."
+    },
+    {
+     "n": 2,
+     "text": "$[CoF_6]^{3-}$: Co(III) $d^6$, high spin: 4. $[Mn(CN)_6]^{3-}$: Mn(III) $d^4$, low spin: 2."
+    }
+   ],
+   "pitfalls": [
+    "Treating $F^-$ as a strong field ligand."
+   ],
+   "final_check": "1, 5, 4, 2"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Coordination Compounds"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q66",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "C",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "C",
+   "key_answer": "C",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q17",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 17,
+  "stem": "The descending order of basicity of the following amines is : (A) aniline, (B) 4-methoxyaniline, (C) 4-nitroaniline, (D) CH$_3$NH$_2$, (E) (CH$_3$)$_2$NH. (Structures A to C are shown in the figure.) Choose the correct answer from the options given below :",
+  "stem_images": [
+   "images/main2025-0407-s2-q67.png"
+  ],
+  "options": {
+   "A": "E > D > B > A > C",
+   "B": "E > A > D > C > B",
+   "C": "E > D > A > B > C",
+   "D": "B > E > D > A > C"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Basicity of amines"
+   ],
+   "formulas": [
+    "Donating groups increase basicity"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Aliphatic amines are more basic than aromatic amines: $(CH_3)_2NH$ (E) > $CH_3NH_2$ (D)."
+    },
+    {
+     "n": 2,
+     "text": "Among aromatic amines, the electron donating $-OCH_3$ increases basicity (B > A) and the electron withdrawing $-NO_2$ decreases it (A > C)."
+    },
+    {
+     "n": 3,
+     "text": "E > D > B > A > C."
+    }
+   ],
+   "pitfalls": [
+    "Ranking aniline above the methoxy derivative."
+   ],
+   "final_check": "E > D > B > A > C"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Amines"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q67",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "A",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "A",
+   "key_answer": "A",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q18",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 18,
+  "stem": "A mixture of 1 g each of chlorobenzene, aniline and benzoic acid is dissolved in 50 mL ethyl acetate and placed in a separating funnel. 5 M NaOH (30 mL) was added in the same funnel. The funnel was shaken vigorously and then kept aside. The ethyl acetate layer in the funnel contains :",
+  "stem_images": [],
+  "options": {
+   "A": "benzoic acid and aniline",
+   "B": "benzoic acid and chlorobenzene",
+   "C": "benzoic acid",
+   "D": "chlorobenzene and aniline"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Acid-base extraction"
+   ],
+   "formulas": [
+    "$PhCOOH+NaOH\\to PhCOONa+H_2O$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Benzoic acid reacts with NaOH to give sodium benzoate, which dissolves in the aqueous layer."
+    },
+    {
+     "n": 2,
+     "text": "Chlorobenzene and aniline do not react with NaOH and stay in the ethyl acetate layer."
+    }
+   ],
+   "pitfalls": [
+    "Forgetting that aniline is not acidic."
+   ],
+   "final_check": "Chlorobenzene and aniline"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Organic Chemistry Basics"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q68",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party). Strictly, NaOH can also hydrolyse ethyl acetate slowly; the question intends the simple acid-base extraction."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q19",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 19,
+  "stem": "The extra stability of half-filled subshell is due to : (A) Symmetrical distribution of electrons (B) Smaller coulombic repulsion energy (C) The presence of electrons with the same spin in non-degenerate orbitals (D) Larger exchange energy (E) Relatively smaller shielding of electrons by one another. Identify the correct statements :",
+  "stem_images": [],
+  "options": {
+   "A": "(B), (D) and (E) only",
+   "B": "(A), (B), (D) and (E) only",
+   "C": "(B), (C) and (D) only",
+   "D": "(A), (B) and (D) only"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Stability of half-filled subshells"
+   ],
+   "formulas": [
+    "Exchange energy $\\propto\\frac{n(n-1)}2$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "(A) symmetry, (B) lower electron-electron repulsion and (D) larger exchange energy are standard reasons. (C) is wrong because Hund's rule concerns degenerate orbitals."
+    },
+    {
+     "n": 2,
+     "text": "(E) is accepted as a reason in the standard solution (electrons in the same subshell shield each other less effectively), giving (A), (B), (D), (E)."
+    }
+   ],
+   "pitfalls": [
+    "Dropping (E) (option 4)."
+   ],
+   "final_check": "(A), (B), (D) and (E) only"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Structure of Atom"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q69",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "B",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "B",
+   "key_answer": "B",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party). Statement (E) is debatable; the answer follows cracku and pyqbox (option 2, A, B, D, E) and the printed key."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-a-q20",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section A",
+   "max_marks": 80
+  },
+  "qtype": "single_correct",
+  "number_in_subject": 20,
+  "stem": "Given below are two statements : Statement (I): On hydrolysis, oligo peptides give rise to fewer number of $\\alpha$-amino acids while proteins give rise to a large number of $\\beta$-amino acids. Statement (II): Natural proteins are denatured by acids which convert the water soluble form of fibrous proteins to their water insoluble form. In the light of the above statements, choose the most appropriate answer from the options given below :",
+  "stem_images": [],
+  "options": {
+   "A": "Statement I is incorrect but Statement II is correct",
+   "B": "Both Statement I and Statement II are correct",
+   "C": "Statement I is correct but Statement II is incorrect",
+   "D": "Both Statement I and Statement II are incorrect"
+  },
+  "marking": {
+   "correct": 4,
+   "wrong": -1,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Peptides and protein denaturation"
+   ],
+   "formulas": [
+    "Proteins are polymers of $\\alpha$-amino acids"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "I is incorrect: proteins also hydrolyse to $\\alpha$-amino acids, not $\\beta$."
+    },
+    {
+     "n": 2,
+     "text": "II is incorrect: fibrous proteins are already water insoluble. Denaturation converts the water soluble globular proteins into insoluble forms."
+    }
+   ],
+   "pitfalls": [
+    "Missing the fibrous versus globular swap."
+   ],
+   "final_check": "Both incorrect"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Biomolecules and Polymers"
+   ],
+   "difficulty": "easy"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q70",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "D",
+   "tolerance": null,
+   "source": "solver_verified (agrees with third-party paper key (Smartachievers/Allen); official NTA key not verifiable)"
+  },
+  "verification": {
+   "solver_answer": "D",
+   "key_answer": "D",
+   "match": true,
+   "status": "needs_review",
+   "attempts": 1,
+   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the answer key printed in the Smartachievers/Allen paper PDF (third-party)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-b-q21",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 21,
+  "stem": "The number of paramagnetic metal complex species among $[Co(NH_3)_6]^{3+}$, $[Co(C_2O_4)_3]^{3-}$, $[MnCl_6]^{3-}$, $[Mn(CN)_6]^{3-}$, $[CoF_6]^{3-}$, $[Fe(CN)_6]^{3-}$ and $[FeF_6]^{3-}$ with the same number of unpaired electrons is ____ .",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Counting unpaired electrons"
+   ],
+   "formulas": [
+    "Spin-only magnetism from $d^n$ and field strength"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$[Co(NH_3)_6]^{3+}$ and $[Co(C_2O_4)_3]^{3-}$: low spin $d^6$, 0 unpaired (diamagnetic)."
+    },
+    {
+     "n": 2,
+     "text": "$[MnCl_6]^{3-}$: high spin $d^4$, 4. $[Mn(CN)_6]^{3-}$: low spin $d^4$, 2. $[CoF_6]^{3-}$: high spin $d^6$, 4. $[Fe(CN)_6]^{3-}$: 1. $[FeF_6]^{3-}$: 5."
+    },
+    {
+     "n": 3,
+     "text": "Two species share the same number of unpaired electrons (4): $[MnCl_6]^{3-}$ and $[CoF_6]^{3-}$. Answer 2."
+    }
+   ],
+   "pitfalls": [
+    "Counting the diamagnetic ones."
+   ],
+   "final_check": "2"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Coordination Compounds"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q71",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "2",
+   "tolerance": null,
+   "source": "solver_verified; matches the answer printed in the third-party Smartachievers/Allen paper (official NTA key not checked)"
+  },
+  "verification": {
+   "solver_answer": "2",
+   "key_answer": "2",
+   "match": true,
+   "status": "verified",
+   "attempts": 1,
+   "note": "Independently solved; matches the third-party Smartachievers/Allen printed answer (official NTA key not cross-checked)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-b-q22",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 22,
+  "stem": "Butane reacts with oxygen to produce carbon dioxide and water: C$_4$H$_{10}$(g) + $\\frac{13}{2}$O$_2$(g) $\\to$ 4CO$_2$(g) + 5H$_2$O(l). If 174.0 kg of butane is mixed with 320.0 kg of O$_2$, the volume of water formed in litres is ____ . (Nearest integer) [Given: molar mass of C, H, O are 12, 1, 16 g mol$^{-1}$ respectively; density of water = 1 g mL$^{-1}$]",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Limiting reagent"
+   ],
+   "formulas": [
+    "Moles from limiting reagent"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Butane: $\\frac{174000}{58}=3000$ mol. $O_2$: $\\frac{320000}{32}=10000$ mol."
+    },
+    {
+     "n": 2,
+     "text": "Oxygen needed for all butane is $6.5\\times3000=19500$ mol, so $O_2$ is limiting."
+    },
+    {
+     "n": 3,
+     "text": "Water $=5\\times\\frac{10000}{6.5}=7692.3$ mol $=138{,}461$ g, so about 138.5 L, i.e. 138 as printed."
+    }
+   ],
+   "pitfalls": [
+    "Using butane as limiting."
+   ],
+   "final_check": "138"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Mole Concept"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q72",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "138",
+   "tolerance": null,
+   "source": "solver_verified; matches the answer printed in the third-party Smartachievers/Allen paper (official NTA key not checked)"
+  },
+  "verification": {
+   "solver_answer": "138",
+   "key_answer": "138",
+   "match": true,
+   "status": "verified",
+   "attempts": 1,
+   "note": "The exact value is 138.46 L; rounding to nearest integer gives 138, which is the printed key."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-b-q23",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 23,
+  "stem": "In Dumas' method 292 mg of an organic compound released 50 mL of nitrogen gas (N$_2$) at 300 K temperature and 715 mm Hg pressure. The percentage composition of 'N' in the organic compound is ____ % (Nearest integer). (Aqueous tension at 300 K = 15 mm Hg)",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Dumas method"
+   ],
+   "formulas": [
+    "$PV=nRT$ with aqueous tension subtracted"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Dry gas pressure $=715-15=700$ mm Hg $=0.921$ atm."
+    },
+    {
+     "n": 2,
+     "text": "$n=\\frac{PV}{RT}=\\frac{0.921\\times0.050}{0.0821\\times300}=1.87\\times10^{-3}$ mol, so mass of N $=0.0523$ g $=52.3$ mg."
+    },
+    {
+     "n": 3,
+     "text": "$\\%N=\\frac{52.3}{292}\\times100\\approx17.9\\approx18$."
+    }
+   ],
+   "pitfalls": [
+    "Not subtracting aqueous tension."
+   ],
+   "final_check": "18"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Organic Chemistry Basics"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q73",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "18",
+   "tolerance": null,
+   "source": "solver_verified; matches the answer printed in the third-party Smartachievers/Allen paper (official NTA key not checked)"
+  },
+  "verification": {
+   "solver_answer": "18",
+   "key_answer": "18",
+   "match": true,
+   "status": "verified",
+   "attempts": 1,
+   "note": "Independently solved; matches the third-party Smartachievers/Allen printed answer (official NTA key not cross-checked)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-b-q24",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 24,
+  "stem": "Identify the structure of the final product (D) in the following sequence of reactions: Ph-CO-CH$_3$ $\\xrightarrow[\\Delta]{PCl_5}$ A $\\xrightarrow{3\\ eq.\\ NaNH_2/NH_3}$ B $\\xrightarrow{Acidify}$ C $\\xrightarrow[2.\\ H_2O_2/OH^-]{1.\\ B_2H_6}$ D. Total number of sp$^2$ hybridised carbon atoms in product D is ____.",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Alkyne synthesis and hydroboration"
+   ],
+   "formulas": [
+    "Terminal alkyne + $B_2H_6$, $H_2O_2/OH^-$ gives an aldehyde"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "$PCl_5$ converts the C=O into $CCl_2$: A is $PhCCl_2CH_3$."
+    },
+    {
+     "n": 2,
+     "text": "Excess $NaNH_2$ gives the alkyne as its sodium salt, and acidification gives phenylacetylene $PhC\\equiv CH$ (C)."
+    },
+    {
+     "n": 3,
+     "text": "Hydroboration-oxidation of a terminal alkyne gives the aldehyde: D is $PhCH_2CHO$. sp$^2$ carbons: 6 aromatic + 1 carbonyl $=7$."
+    }
+   ],
+   "pitfalls": [
+    "Counting the sp carbons of the alkyne instead of D."
+   ],
+   "final_check": "7"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Hydrocarbons"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q74",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "7",
+   "tolerance": null,
+   "source": "solver_verified; matches the answer printed in the third-party Smartachievers/Allen paper (official NTA key not checked)"
+  },
+  "verification": {
+   "solver_answer": "7",
+   "key_answer": "7",
+   "match": true,
+   "status": "verified",
+   "attempts": 1,
+   "note": "Independently solved; matches the third-party Smartachievers/Allen printed answer (official NTA key not cross-checked)."
+  }
+ },
+ {
+  "id": "main2025-0407-s2-che-b-q25",
+  "exam": "JEE Main",
+  "year": 2025,
+  "session": "Session 2",
+  "shift": "2025-04-07 Shift 2",
+  "subject": "chemistry",
+  "section": {
+   "name": "Section B",
+   "max_marks": 20
+  },
+  "qtype": "numerical",
+  "number_in_subject": 25,
+  "stem": "One litre buffer solution was prepared by adding 0.10 mol each of NH$_3$ and NH$_4$Cl in deionised water. The change in pH on addition of 0.05 mol of HCl to the above solution is ____ $\\times10^{-2}$. (Nearest integer) Given: p$K_b$ of NH$_3$ = 4.745 and $\\log_{10}3=0.477$",
+  "stem_images": [],
+  "options": null,
+  "marking": {
+   "correct": 4,
+   "wrong": 0,
+   "unanswered": 0,
+   "partial": null
+  },
+  "solution": {
+   "concepts": [
+    "Buffer action"
+   ],
+   "formulas": [
+    "$pOH=pK_b+\\log\\frac{[salt]}{[base]}$"
+   ],
+   "steps": [
+    {
+     "n": 1,
+     "text": "Initial: $pOH=pK_b+\\log\\frac{0.10}{0.10}=4.745$, so $pH=9.255$."
+    },
+    {
+     "n": 2,
+     "text": "After adding 0.05 mol HCl: $NH_3=0.05$, $NH_4^+=0.15$, $pOH=4.745+\\log3=5.222$, $pH=8.778$."
+    },
+    {
+     "n": 3,
+     "text": "Change $=0.477=47.7\\times10^{-2}\\approx48$ (a decrease in pH)."
+    }
+   ],
+   "pitfalls": [
+    "Using $pK_a$ with the wrong ratio."
+   ],
+   "final_check": "48"
+  },
+  "taxonomy": {
+   "chapters": [
+    "Ionic Equilibrium"
+   ],
+   "difficulty": "medium"
+  },
+  "provenance": {
+   "question_id": "Smartachievers 7 Apr 2025 S2 Q75",
+   "paper_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "key_pdf": "https://smartachievers.online/public/images/jee-2025-7-april-s2.pdf",
+   "extracted_at": "2026-10-17T21:00:00+00:00"
+  },
+  "parent_stem": null,
+  "paper": "JEE Main 2025 Session 2 — 2025-04-07 Shift 2",
+  "answer": {
+   "value": "48",
+   "tolerance": null,
+   "source": "solver_verified; matches the answer printed in the third-party Smartachievers/Allen paper (official NTA key not checked)"
+  },
+  "verification": {
+   "solver_answer": "48",
+   "key_answer": "48",
+   "match": true,
+   "status": "verified",
+   "attempts": 1,
+   "note": "Independently solved; matches the third-party Smartachievers/Allen printed answer (official NTA key not cross-checked)."
+  }
+ }
+]
