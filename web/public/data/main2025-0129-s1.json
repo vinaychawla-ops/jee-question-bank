@@ -2750,7 +2750,7 @@
    "pitfalls": [
     "Inverting the ratio of indices."
    ],
-   "final_check": "$\\sin^{-1}\\frac13$, option B."
+   "final_check": "$\\sin^{-1}\\frac13$, option B. Note on sources: MathonGo, getmarks and cracku give option C, sin^-1(-5/6), by algebra that drops the sign (not a valid critical angle). esaral and collegepipe show a variant of the paper with n1 in the options; esaral labels its answer (4), sin^-1(1/(3 n1)), and collegepipe says option 1. The stored answer B is the physically valid value; the official NTA answer could not be confirmed."
   },
   "taxonomy": {
    "chapters": [
