@@ -1888,7 +1888,7 @@
    "match": false,
    "status": "needs_review",
    "attempts": 1,
-   "note": "NTA's published answer is 4949 (integer ratios only: 18/9880=9/4940). The question does not restrict the ratio to integers, so the correct count is 28 and m+n=2477 (this is also Allen's answer). Sources split: Smartachievers (NTA), pyqbox and Getmarks give 4949; Allen, examplayground and exambro give 2477. Kept 2477 as the mathematically correct value; NTA's 4949 is noted here."
+   "note": "The key printed in the third-party papers is 4949 (the official NTA key was not checked; integer ratios only: 18/9880=9/4940). The question does not restrict the ratio to integers, so the correct count is 28 and m+n=2477 (this is also Allen's answer). Sources split: Smartachievers, pyqbox and Getmarks give 4949; Allen, examplayground and exambro give 2477. Kept 2477 as the mathematically correct value; 4949 is noted here."
   }
  },
  {
