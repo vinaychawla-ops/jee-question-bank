@@ -325,6 +325,17 @@
    "session": "Session 2",
    "shift": "2025-04-07 Shift 2",
    "year": 2025
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2025-0408-s2.json",
+   "id": "main2025-0408-s2",
+   "note": "75 questions, from the Smartachievers paper PDF (the file is named 8-april-s1, but its questions are the 8 April 2025 Shift 2 / evening paper per lumineet, pracbee, examside and Allen). Third-party source, question-only. Solves were NOT fully blind (the paper's printed key was seen first). The printed key was wrong for Physics Q4 and Chemistry Q16 (paper Q41); we use Allen and pracbee. Chemistry Q21 (paper Q46) was missing its bond-energy data, taken from Allen. Other flags: Physics Q5 (duplicate option), Physics Q25 (rod weight not stated), Chemistry Q15 (statement B ambiguous), Maths Q21 (bounded region reading).",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "shift": "2025-04-08 Shift 2",
+   "year": 2025
   }
  ]
 }
