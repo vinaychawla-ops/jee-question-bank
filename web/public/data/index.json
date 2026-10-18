@@ -281,6 +281,17 @@
    "session": "Session 2",
    "shift": "2025-04-03 Shift 2",
    "year": 2025
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2025-0404-s1.json",
+   "id": "main2025-0404-s1",
+   "note": "75 questions, from the Smartachievers/Allen paper PDF (third-party; includes printed answers, so solves were not blind). All answers independently re-derived. Official NTA key not cross-checked for this shift. Q46 (physics) exact value is 3.5, stored as the printed integer key 4. Q74 (chemistry) has inconsistent initial data (printed: Allen bonus, NTA 25). Other flags: Q15, Q17, Q26, Q28, Q29, Q32, Q40, Q44, Q45, Q50, Q55, Q56, Q61, Q69.",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "shift": "2025-04-04 Shift 1",
+   "year": 2025
   }
  ]
 }
