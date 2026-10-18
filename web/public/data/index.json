@@ -303,6 +303,17 @@
    "session": "Session 2",
    "shift": "2025-04-04 Shift 2",
    "year": 2025
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2025-0407-s1.json",
+   "id": "main2025-0407-s1",
+   "note": "75 questions, from the Smartachievers paper PDF (third-party; question-only, answers per its printed NTA ANSWERS table, which was not independently verified against NTA's official key; solves were blind). Flags: Maths Q21 (our 6 differs from printed 5; cracku, examside, sarthaks, exambro give 6); Physics Q15 (printed options garbled, Z=3 restored as option C, printed key not followed).",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "shift": "2025-04-07 Shift 1",
+   "year": 2025
   }
  ]
 }
