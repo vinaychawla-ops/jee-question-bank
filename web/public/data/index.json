@@ -248,6 +248,17 @@
    "id": "main2025-0129-s2",
    "note": "75 questions. 25 numericals matched to the NTA final key by value. 50 MCQs are needs_review (NTA publishes option IDs only); solved independently and then compared with the third-party MathonGo key: 48 agreed at first, Q6 and Q69 were revised after seeing the key. Flagged: Q6, Q35, Q36, Q42, Q56, Q69, Q72, Q73.",
    "shift": "2025-01-29 Shift 2"
+  },
+  {
+   "exam": "JEE Main",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "year": 2025,
+   "file": "main2025-0402-s2.json",
+   "id": "main2025-0402-s2",
+   "note": "75 questions. Maths and Physics Q1-50 from the Smartachievers paper PDF (Allen-format, with printed answers and solutions); the Chemistry section is missing from that PDF, so Chemistry Q51-75 comes from Allen's published 2 Apr evening chemistry solution PDF (third-party). Solves were NOT blind: printed answers were visible, and every answer was re-derived and agrees with the printed key. Official NTA key not checked. Flags: Maths Q4 stem prints a set as {1..10}; Chemistry Q9 (paper Q59) reaction A is read as stopping at the amide; Chemistry Q21 (paper Q71) graph does not fix the order, first order assumed, Allen calls it a bonus; Chemistry Q24 exact value 24.69.",
+   "shift": "2025-04-02 Shift 2"
   }
  ]
 }
