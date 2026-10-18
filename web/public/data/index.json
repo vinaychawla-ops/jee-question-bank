@@ -248,6 +248,17 @@
    "id": "main2025-0129-s2",
    "note": "75 questions. 25 numericals matched to the NTA final key by value. 50 MCQs are needs_review (NTA publishes option IDs only); solved independently and then compared with the third-party MathonGo key: 48 agreed at first, Q6 and Q69 were revised after seeing the key. Flagged: Q6, Q35, Q36, Q42, Q56, Q69, Q72, Q73.",
    "shift": "2025-01-29 Shift 2"
+  },
+  {
+   "exam": "JEE Main",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "year": 2025,
+   "file": "main2025-0402-s1.json",
+   "id": "main2025-0402-s1",
+   "shift": "2025-04-02 Shift 1",
+   "note": "75 questions, from the Smartachievers/Allen paper PDF (third-party; includes printed answers, so solves were not blind). All answers independently re-derived. Official NTA key not cross-checked for this shift. Q24 differs from the printed key (2477 kept over 4949, see note). Other flags: Q6, Q19, Q42, Q46, Q48, Q56, Q63, Q67."
   }
  ]
 }
