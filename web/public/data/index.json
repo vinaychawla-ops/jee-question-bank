@@ -336,6 +336,17 @@
    "session": "Session 2",
    "shift": "2025-04-08 Shift 2",
    "year": 2025
+  },
+  {
+   "exam": "JEE Main",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "year": 2025,
+   "file": "main2025-0402-s2.json",
+   "id": "main2025-0402-s2",
+   "note": "75 questions. Maths and Physics Q1-50 from the Smartachievers paper PDF (Allen-format, with printed answers and solutions); the Chemistry section is missing from that PDF, so Chemistry Q51-75 comes from Allen's published 2 Apr evening chemistry solution PDF (third-party). Solves were NOT blind: printed answers were visible, and every answer was re-derived and agrees with the printed key. Official NTA key not checked. Flags: Maths Q4 stem prints a set as {1..10}; Chemistry Q9 (paper Q59) reaction A is read as stopping at the amide; Chemistry Q21 (paper Q71) graph does not fix the order, first order assumed, Allen calls it a bonus; Chemistry Q24 exact value 24.69.",
+   "shift": "2025-04-02 Shift 2"
   }
  ]
 }
