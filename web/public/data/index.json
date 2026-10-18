@@ -138,6 +138,17 @@
    "question_count": 48,
    "session": "Paper 2",
    "year": 2025
+  },
+  {
+   "exam": "JEE Main",
+   "file": "main2025-0122-s1.json",
+   "id": "main2025-0122-s1",
+   "note": "JEE Main 2025 Session 1 — 2025-01-22 Shift 1 — 75 questions from the third-party MathonGo paper PDF (not an NTA file). Numeric answers (15) match the official NTA final key; the 60 MCQ answers are my own independent solves, agree with MathonGo's key, and are NOT verified against the official NTA key (needs_review). 3 questions flagged (Q15, Q22, Q67).",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 1",
+   "year": 2025,
+   "shift": "2025-01-22 Shift 1"
   }
  ]
 }
