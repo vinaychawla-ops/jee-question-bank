@@ -204,6 +204,28 @@
    "session": "Session 1",
    "year": 2025,
    "shift": "2025-01-24 Shift 2"
+  },
+  {
+   "exam": "JEE Main",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 1",
+   "year": 2025,
+   "file": "main2025-0128-s1.json",
+   "id": "main2025-0128-s1",
+   "note": "JEE Main 2025 Session 1, January 28 Shift 1. 75 questions. The 25 numerical questions are checked against the NTA final key by value. The 50 MCQs were solved before reading MathonGo's key (needs_review: NTA publishes option IDs only); 49 agree, Q51 does not, and Q19, Q39 and Q64 were first answered differently and corrected after the key was seen (each re-derived). Flagged caveats: Q1, Q7, Q19, Q39, Q49, Q50, Q51, Q54, Q61, Q64, Q65, Q68, Q74, Q75; see the notes.",
+   "shift": "2025-01-28 Shift 1"
+  },
+  {
+   "exam": "JEE Main",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 1",
+   "year": 2025,
+   "file": "main2025-0128-s2.json",
+   "id": "main2025-0128-s2",
+   "note": "JEE Main 2025 Session 1, January 28 Shift 2. 75 questions. The 25 numerical questions are checked against the NTA final key by value. The 50 MCQs are solved independently and agree with MathonGo's key (needs_review: NTA publishes option IDs only), except Q65 and Q68 where the solve disagrees with the MathonGo key (Q70 to Q75 were solved after the key page was visible, each worked independently). Flagged caveats: Q4, Q26, Q29, Q31, Q32, Q39, Q45, Q53, Q57, Q58, Q63, Q65, Q68; see the notes.",
+   "shift": "2025-01-28 Shift 2"
   }
  ]
 }
