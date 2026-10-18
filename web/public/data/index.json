@@ -259,6 +259,17 @@
    "id": "main2025-0402-s1",
    "shift": "2025-04-02 Shift 1",
    "note": "75 questions, from the Smartachievers/Allen paper PDF (third-party; includes printed answers, so solves were not blind). All answers independently re-derived. Official NTA key not cross-checked for this shift. Q24 differs from the printed key (2477 kept over 4949, see note). Other flags: Q6, Q19, Q42, Q46, Q48, Q56, Q63, Q67."
+  },
+  {
+   "exam": "JEE Main",
+   "paper": "Paper 1",
+   "question_count": 75,
+   "session": "Session 2",
+   "year": 2025,
+   "file": "main2025-0403-s1.json",
+   "id": "main2025-0403-s1",
+   "shift": "2025-04-03 Shift 1",
+   "note": "75 questions, from the Smartachievers/Allen paper PDF (third-party; includes printed answers, so solves were not blind). All answers independently re-derived. Official NTA key not cross-checked for this shift. Q53 differs from the printed key (catalyst does not change equilibrium composition; see note). Other flags: Q25, Q27, Q30, Q36, Q40, Q50, Q52, Q57, Q65, Q71."
   }
  ]
 }
