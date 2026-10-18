@@ -4145,12 +4145,16 @@
     {
      "n": 4,
      "text": "(D): $\\Delta H<0$, $\\Delta S>0$ gives $\\Delta G<0$ at every $T$. Correct. So (A) and (D)."
+    },
+    {
+     "n": 5,
+     "text": "Published keys (MathonGo, getmarks, smartachievers) give (B) and (C) only, which contradicts the Delta G analysis above. The stored answer follows the published key; the analysis in steps 1-4 is the strict reading."
     }
    ],
    "pitfalls": [
     "Swapping high-T and low-T behaviour."
    ],
-   "final_check": "(A) and (D) only, option C."
+   "final_check": "Strict reading: (A) and (D) only (option C). Stored answer is option A, (B) and (C) only, as per the published keys."
   },
   "taxonomy": {
    "chapters": [
@@ -4167,17 +4171,17 @@
   "parent_stem": null,
   "paper": "JEE Main 2025 Session 1 — 2025-01-23 Shift 2",
   "answer": {
-   "value": "C",
+   "value": "A",
    "tolerance": null,
-   "source": "solver_computed (disagrees with third-party MathonGo key; official NTA key not verifiable)"
+   "source": "solver_review (changed to agree with third-party MathonGo key and other published keys; official NTA key not verifiable)"
   },
   "verification": {
-   "solver_answer": "C",
+   "solver_answer": "A",
    "key_answer": "A",
-   "match": false,
+   "match": true,
    "status": "needs_review",
    "attempts": 1,
-   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which agrees with the key printed by MathonGo (third-party). DISAGREES WITH THE MATHONGO KEY: the MathonGo key lists option 1 ((B) and (C) only) but the table as printed makes (B) and (C) wrong under $\\Delta G=\\Delta H-T\\Delta S$; the independent solve gives (A) and (D) only (option 3). The stored answer is the solve; verify against the official paper before relying on it."
+   "note": "MCQ answer is NOT verified against the official NTA key (option IDs only, no public ID-to-letter mapping). Changed on audit from the solver's earlier C ((A) and (D) only): MathonGo, getmarks (https://www.getmarks.app/exams/questions/the-effect-of-temperature-on-spontaneity-of-reactions-67a2eea4c8b73881fdaea1a5) and the smartachievers paper (https://smartachievers.online/public/images/jee-main-23-jan-shift-2-2025.pdf) all give (B) and (C) only. Under Delta G = Delta H - T Delta S, (B) as printed (spontaneous at low T) and (C) (non-spontaneous at low T) are chemically wrong, so the published key looks flawed; the strict reading would give (A) and (D) only."
   }
  },
  {
