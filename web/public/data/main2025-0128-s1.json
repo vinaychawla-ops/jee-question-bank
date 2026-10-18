@@ -3928,7 +3928,7 @@
    "pitfalls": [
     "Missing the word 'concentrated'."
    ],
-   "final_check": "Both false: option B."
+   "final_check": "Statement I is false (no free CHO). Statement II is treated as true by the published keys (acid hydrolysis of starch gives glucose; the keys overlook the word 'concentrated'). Answer: option A as per the key. Strict textbook reading (dilute acid only) would give B."
   },
   "taxonomy": {
    "chapters": [
@@ -3945,17 +3945,17 @@
   "parent_stem": null,
   "paper": "JEE Main 2025 Session 1 — 2025-01-28 Shift 1",
   "answer": {
-   "value": "B",
+   "value": "A",
    "tolerance": null,
-   "source": "solver_answer (DISAGREES with third-party MathonGo key; official NTA key not verifiable)"
+   "source": "solver_review (changed to agree with third-party MathonGo key and majority of published keys; official NTA key not verifiable)"
   },
   "verification": {
-   "solver_answer": "B",
+   "solver_answer": "A",
    "key_answer": "A",
-   "match": false,
+   "match": true,
    "status": "needs_review",
    "attempts": 1,
-   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which DISAGREES with the key printed by MathonGo (third-party). Statement II hinges on the word 'concentrated' (textbook says dilute H2SO4)."
+   "note": "MCQ answer is NOT verified against the official NTA key (option IDs only, no public ID-to-letter mapping). Changed from the solver's earlier B after review: MathonGo, pyqbox and getmarks all give A (Statement I false, Statement II true), and A is the most likely official answer. Strictly, 'concentrated' H2SO4 is not the textbook reagent (dilute acid), so the original B reading is defensible; the key treats Statement II as true."
   }
  },
  {

@@ -5047,7 +5047,7 @@
    "pitfalls": [
     "Treating Meyer's plot as against atomic number."
    ],
-   "final_check": "Both false: option A."
+   "final_check": "Statement I is false: the Law of Octaves arranged elements by atomic weight. Statement II is taken as true as per the key (Meyer's periodic curves of physical properties, read loosely). Answer: option C as per the key. Strict reading of 'atomic numbers' in II would give A."
   },
   "taxonomy": {
    "chapters": [
@@ -5064,17 +5064,17 @@
   "parent_stem": null,
   "paper": "JEE Main 2025 Session 1 — 2025-01-28 Shift 2",
   "answer": {
-   "value": "A",
+   "value": "C",
    "tolerance": null,
-   "source": "solver_answer (DISAGREES with third-party MathonGo key; official NTA key not verifiable)"
+   "source": "solver_review (changed to agree with third-party MathonGo key and majority of published keys; official NTA key not verifiable)"
   },
   "verification": {
-   "solver_answer": "A",
+   "solver_answer": "C",
    "key_answer": "C",
-   "match": false,
+   "match": true,
    "status": "needs_review",
    "attempts": 1,
-   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which DISAGREES with the key printed by MathonGo (third-party). MathonGo's key marks Statement II as true (option 3). The statement as printed says atomic numbers, which Meyer did not use (he used atomic weights); the solver answer is kept."
+   "note": "MCQ answer is NOT verified against the official NTA key (option IDs only, no public ID-to-letter mapping). Changed from the solver's earlier A after review: MathonGo and cracku give C (Statement I false, Statement II true), and C is the most likely official answer. Statement II is read loosely: Meyer plotted properties against atomic weight, not atomic number, so a strict reading would give A."
   }
  },
  {
@@ -5278,7 +5278,7 @@
    "pitfalls": [
     "Counting ammonium sulphide."
    ],
-   "final_check": "(D) and (E): option B."
+   "final_check": "As2S3 and As2S5 are yellow. (NH4)2S is treated as yellow by the published keys (the commonly sold ammonium sulphide solution is yellow due to polysulphide). PbS and CuS are black. Answer: option A as per the key. Pure (NH4)2S is colourless, which would give B."
   },
   "taxonomy": {
    "chapters": [
@@ -5295,17 +5295,17 @@
   "parent_stem": null,
   "paper": "JEE Main 2025 Session 1 — 2025-01-28 Shift 2",
   "answer": {
-   "value": "B",
+   "value": "A",
    "tolerance": null,
-   "source": "solver_answer (DISAGREES with third-party MathonGo key; official NTA key not verifiable)"
+   "source": "solver_review (changed to agree with third-party MathonGo key and majority of published keys; official NTA key not verifiable)"
   },
   "verification": {
-   "solver_answer": "B",
+   "solver_answer": "A",
    "key_answer": "A",
-   "match": false,
+   "match": true,
    "status": "needs_review",
    "attempts": 1,
-   "note": "MCQ answer is NOT verified against the official NTA key: NTA publishes the correct option only as an internal option ID and no official 2025 paper maps IDs to letters. The answer here is the independent solve, which DISAGREES with the key printed by MathonGo (third-party). MathonGo's key is option 1 (it includes (NH4)2S, which is yellow in the commonly sold solution). The solver answer treats pure (NH4)2S as colourless and is kept; this is a borderline question."
+   "note": "MCQ answer is NOT verified against the official NTA key (option IDs only, no public ID-to-letter mapping). Changed from the solver's earlier B after review: MathonGo, pyqbox, cracku and sarthaks give A ((A), (D), (E)); A is the most likely official answer. The key counts (NH4)2S as yellow (the commercial solution is yellow); pure (NH4)2S is colourless, so B is defensible."
   }
  },
  {
